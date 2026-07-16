@@ -42,3 +42,5 @@
 - Đã hoàn tất vá lỗi regex và đóng gói PNG: 8 liên kết giao diện đang bật đều phản hồi HTTP 200 và cho phép CORS; không còn chuỗi `\n` bị hiển thị nguyên văn.
 - Đã đối chiếu tên World Info nhúng với `extensions.world`: khớp chính xác, có 1.050 entry. SillyTavern yêu cầu người dùng xác nhận “Import Card Lore” trước khi lưu/liên kết lorebook lần đầu.
 - Regex “Hệ thống đặc tính (chưa xong)” vẫn bị tắt đúng như bản gốc; URL gốc của chức năng chưa hoàn thiện này cũng trả về 404 nên không ảnh hưởng lúc chơi.
+- Đã giải mã trực tiếp hai PNG và đối chiếu logic World Info: 1.050 ID cùng thứ tự; toàn bộ cấu hình kích hoạt ngoài phần văn bản khớp tuyệt đối. `extensions.world` luôn khớp `character_book.name` ở cả hai bản.
+- Không có keyword Trung nào bị mất. Bản Việt có thêm 3.735 keyword Việt trên 909 entry và 53 secondary keyword Việt để kích hoạt bằng tiếng Việt; đây là mở rộng có chủ đích, không phải lệch hay mất logic gốc.
