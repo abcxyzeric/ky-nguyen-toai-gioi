@@ -19,6 +19,7 @@
 - Đã dịch sạch Hán toàn bộ `external_links/*/index.vi.html`.
 - Đã vá lại ba tiêu đề hiển thị bị dính chữ: `kenshi_option`, `kenshi_status`, `kenshi_dice`.
 - Đã xác nhận lại số chữ Hán còn sót trong các `index.vi.html` là 0.
+- Đã đóng gói lại `11_vi.json` vào PNG mới: `card28dich/11_vi.png`.
 - Đang rà lại metadata/hỗ trợ để chuẩn bị đóng gói và đối chiếu cuối.
 
 ## Quy trình
