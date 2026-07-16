@@ -20,7 +20,10 @@
 - Đã vá lại ba tiêu đề hiển thị bị dính chữ: `kenshi_option`, `kenshi_status`, `kenshi_dice`.
 - Đã xác nhận lại số chữ Hán còn sót trong các `index.vi.html` là 0.
 - Đã đóng gói lại `11_vi.json` vào PNG mới: `card28dich/11_vi.png`.
-- Đang rà lại metadata/hỗ trợ để chuẩn bị đóng gói và đối chiếu cuối.
+- Đã sửa metadata PNG sang chuẩn SillyTavern: `tEXt`/`chara` chứa JSON UTF-8 mã Base64.
+- Đã chuẩn hóa `comment` rỗng/trùng của World Info mà không thay đổi `keys` hay nội dung entry.
+- Đã sửa toàn bộ chuỗi thay thế của regex dẫn ngoài để dùng xuống dòng thật, thay vì ký tự `\n` hiển thị ra chat.
+- Liên kết chính dùng `raw.githubusercontent.com` như bản gốc; các liên kết dự phòng dùng jsDelivr và đều trỏ tới repo Việt hóa.
 
 ## Quy trình
 1. Dựng bảng biến trong `biencard.md`.
@@ -36,7 +39,6 @@
 - Mọi lần nén ngữ cảnh phải đọc lại `plan.md` và `biencard.md`.
 
 ## Việc đang làm tiếp theo
-- Rà lại `11_vi.json` và các báo cáo đối chiếu để chốt danh sách entry lệch cần dịch lại.
-- Đối chiếu regex/scripts còn cần ghim vào `dist/kenshi_*` và chuẩn bị đẩy repo `abcxyzeric/kenshi-viet-hoa`.
-- Rà lại toàn bộ: CJK ngoài keyword, mojibake, biến, tag, regex, link ngoài.
-- ?? chu?n h?a to?n b? `comment` tr?ng/r?ng trong `character_book` ?? tr?nh l?ch lookup `getwi`.
+- Đã hoàn tất vá lỗi regex và đóng gói PNG: 8 liên kết giao diện đang bật đều phản hồi HTTP 200 và cho phép CORS; không còn chuỗi `\n` bị hiển thị nguyên văn.
+- Đã đối chiếu tên World Info nhúng với `extensions.world`: khớp chính xác, có 1.050 entry. SillyTavern yêu cầu người dùng xác nhận “Import Card Lore” trước khi lưu/liên kết lorebook lần đầu.
+- Regex “Hệ thống đặc tính (chưa xong)” vẫn bị tắt đúng như bản gốc; URL gốc của chức năng chưa hoàn thiện này cũng trả về 404 nên không ảnh hưởng lúc chơi.
