@@ -39,3 +39,4 @@
 - Rà lại `11_vi.json` và các báo cáo đối chiếu để chốt danh sách entry lệch cần dịch lại.
 - Đối chiếu regex/scripts còn cần ghim vào `dist/kenshi_*` và chuẩn bị đẩy repo `abcxyzeric/kenshi-viet-hoa`.
 - Rà lại toàn bộ: CJK ngoài keyword, mojibake, biến, tag, regex, link ngoài.
+- ?? chu?n h?a to?n b? `comment` tr?ng/r?ng trong `character_book` ?? tr?nh l?ch lookup `getwi`.
