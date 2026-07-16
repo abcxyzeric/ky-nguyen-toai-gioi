@@ -124,3 +124,4 @@ TUYỆT ĐỐI KHÔNG ĐƯỢC PHÉP rút gọn, thu gọn hay viết gọn bấ
 - Các file HTML/script ngoài đã dịch cần giữ đồng bộ giữa `card28/card28dich/external_links/kenshi_*/index.vi.html` và `dist/kenshi_*/index.html`.
 - Các bảng HTML không dùng font CJK hoặc font trang trí thiếu dấu làm font chính cho tiếng Việt. Font đã chuẩn hóa về nhóm `Noto Serif`, `Noto Sans`, `Segoe UI`, `Georgia`, `Times New Roman`.
 - Riêng `kenshi_fight` có nhiều text hiển thị/prompt tổng kết nằm trong bundle minified; khi sửa phải thay chuỗi hiển thị, không đổi property nội bộ như `traumaParts.tráití` nếu chưa cập nhật toàn bộ logic đọc/ghi biến.
+- `kenshi_opening` phải giữ đúng ranh giới mảng `}]` trước mục `history`; không được thêm dấu `}` vào đoạn chuyển giữa `stutter_notice` và `history`, vì sẽ làm toàn bộ module UI lỗi cú pháp và không render.
