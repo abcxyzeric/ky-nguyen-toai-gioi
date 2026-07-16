@@ -122,3 +122,5 @@ TUYỆT ĐỐI KHÔNG ĐƯỢC PHÉP rút gọn, thu gọn hay viết gọn bấ
 - URL UI đang hoạt động dùng `https://testingcf.jsdelivr.net/gh/abcxyzeric/kenshi-viet-hoa@main/dist/...`; không dịch/thay 2 URL thư viện runtime `mvu_zod.js` và `MagVarUpdate bundle.js`.
 - URL regex disabled `Hệ thống đặc tính (chưa xong)` dùng `https://testingcf.jsdelivr.net/gh/abcxyzeric/kenshi-viet-hoa@main/dist/kenshi_trait_system/index.html`; module này giữ trạng thái chưa hoàn thiện/an toàn, không tự viết lại logic gameplay.
 - Các file HTML/script ngoài đã dịch cần giữ đồng bộ giữa `card28/card28dich/external_links/kenshi_*/index.vi.html` và `dist/kenshi_*/index.html`.
+- Các bảng HTML không dùng font CJK hoặc font trang trí thiếu dấu làm font chính cho tiếng Việt. Font đã chuẩn hóa về nhóm `Noto Serif`, `Noto Sans`, `Segoe UI`, `Georgia`, `Times New Roman`.
+- Riêng `kenshi_fight` có nhiều text hiển thị/prompt tổng kết nằm trong bundle minified; khi sửa phải thay chuỗi hiển thị, không đổi property nội bộ như `traumaParts.tráití` nếu chưa cập nhật toàn bộ logic đọc/ghi biến.
