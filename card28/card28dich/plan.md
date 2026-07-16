@@ -39,6 +39,7 @@
 - Mọi lần nén ngữ cảnh phải đọc lại `plan.md` và `biencard.md`.
 
 ## Việc đang làm tiếp theo
+- Đã viết lại khối mở đầu `kenshi_opening` sang tiếng Việt dễ đọc, sửa các nhãn hero / tutorial / nút điều hướng và đồng bộ sang `dist/kenshi_opening/index.html`.
 - Đã hoàn tất vá lỗi regex và đóng gói PNG: 8 liên kết giao diện đang bật đều phản hồi HTTP 200 và cho phép CORS; không còn chuỗi `\n` bị hiển thị nguyên văn.
 - Đã đối chiếu tên World Info nhúng với `extensions.world`: khớp chính xác, có 1.050 entry. SillyTavern yêu cầu người dùng xác nhận “Import Card Lore” trước khi lưu/liên kết lorebook lần đầu.
 - Regex “Hệ thống đặc tính (chưa xong)” vẫn bị tắt đúng như bản gốc; URL gốc của chức năng chưa hoàn thiện này cũng trả về 404 nên không ảnh hưởng lúc chơi.
