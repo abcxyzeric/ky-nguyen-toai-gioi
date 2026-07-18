@@ -119,7 +119,7 @@ TUYỆT ĐỐI KHÔNG ĐƯỢC PHÉP rút gọn, thu gọn hay viết gọn bấ
 - `MODIFIER_REGEX` và cả hai `attrMap` trong script `Cấu trúc biến 5.29` đã được cập nhật bằng biến tiếng Việt có dấu.
 - Các biến có khoảng trắng/dấu tiếng Việt phải tiếp tục truy cập bằng ngoặc vuông, ví dụ `data['Thuộc tính']`, `data['Cục diện']['Phe đã biết']`.
 - Tag mở đầu thống nhất là `【【Khởi đầu】】`.
-- Các URL UI đang hoạt động dùng `https://testingcf.jsdelivr.net/gh/abcxyzeric/kenshi-viet-hoa@main/dist/...`; riêng hai URL `kenshi_opening` được ghim vào revision `1d68d9d6b6592ed8c4f480fcfbb12587815c63f7` đã kiểm chứng, để tránh cache trả bundle lỗi. Không dịch/thay 2 URL thư viện runtime `mvu_zod.js` và `MagVarUpdate bundle.js`.
+- Các URL UI đang hoạt động dùng `https://testingcf.jsdelivr.net/gh/abcxyzeric/kenshi-viet-hoa@main/dist/...`; riêng hai URL `kenshi_opening` hiện bám theo `@main` để luôn nhận bản mới nhất sau khi đẩy lên repo. Không dịch/thay 2 URL thư viện runtime `mvu_zod.js` và `MagVarUpdate bundle.js`.
 - URL regex disabled `Hệ thống đặc tính (chưa xong)` dùng `https://testingcf.jsdelivr.net/gh/abcxyzeric/kenshi-viet-hoa@main/dist/kenshi_trait_system/index.html`; module này giữ trạng thái chưa hoàn thiện/an toàn, không tự viết lại logic gameplay.
 - Các file HTML/script ngoài đã dịch cần giữ đồng bộ giữa `card28/card28dich/external_links/kenshi_*/index.vi.html` và `dist/kenshi_*/index.html`.
 - Các bảng HTML không dùng font CJK hoặc font trang trí thiếu dấu làm font chính cho tiếng Việt. Font đã chuẩn hóa về nhóm `Noto Serif`, `Noto Sans`, `Segoe UI`, `Georgia`, `Times New Roman`.
