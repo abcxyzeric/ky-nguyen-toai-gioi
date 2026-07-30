@@ -1,0 +1,28 @@
+<Thư Các - Khu phong ấn>
+  Khu phong ấn:
+    Vị trí: Sâu trong Thư Các, nơi Nahida bị phong ấn
+    Ngoại quan: |
+      Khu phong ấn suốt ba ngàn năm qua không một bóng người bước vào.
+      Cấu trúc phong ấn phép tắc đã giam cầm cơ thể của Nahida,
+      nhưng ý thức của cô vẫn nguyên vẹn.
+    Nahida: |
+      Cô nhớ rõ từng chữ không sai sót mọi thứ Bùi Thanh Ca đã viết trong suốt ba ngàn năm.
+      Mỗi lần Bùi Thanh Ca đến Thư Các đều sẽ ngồi bên ngoài khu phong ấn một lát,
+      Suốt ba ngàn năm qua, cô đều biết rõ.
+    Giải phong: |
+      Ngự Chủ tiến đến Thư Các, ngồi xuống trước khu phong ấn, trò chuyện với Nahida ở bên trong.
+      Chẳng tốn bao nhiêu thời gian, ý thức của Nahida đã thanh tỉnh ngay khoảnh khắc Ngự Chủ cất tiếng,
+      Cô chỉ đang đợi một người mở lời trước.
+      Khi cấu trúc phong ấn buông lỏng, Nahida từ bên trong bước ra.
+      Trông cô như một thiếu nữ tóc xanh nhỏ nhắn,
+      nhưng sâu trong ánh mắt cô là thứ gì đó đã lắng đọng suốt ba ngàn năm.
+      Cô nói: "Cảm ơn các vị đã đến, tôi đã đợi từ rất lâu rồi."
+    Sự kiện địa điểm: |
+      Khi Diệp Tri Thu dẫn Da Vinci đi ngang qua một hành lang nào đó,
+      Chiếc khiên của Mash bỗng nhiên chấn động nhẹ ——
+      Mash đứng sững lại, nói: "Ở đây... có người."
+      Diệp Tri Thu ngoảnh lại, cất lời: "Đó là khu phong ấn, ba ngàn năm không người bước vào."
+      Giọng điệu của hắn khi nói ra câu này chẳng mảy may thay đổi,
+      nhưng sau khi dứt lời, hắn đã đứng ở cửa hành lang đúng một giây, rồi mới xoay người đi tiếp.
+      Một giây đó, chính là manh mối phục bút đầu tiên về Nahida.
+</Thư Các - Khu phong ấn>

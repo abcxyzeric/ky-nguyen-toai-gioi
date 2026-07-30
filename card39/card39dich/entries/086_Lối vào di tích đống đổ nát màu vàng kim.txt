@@ -1,0 +1,15 @@
+<Lối vào di tích Ragnarok>
+  Lối vào di tích:
+    Vị trí: Lối vào đống đổ nát ở rìa thành phố, đống đổ nát màu vàng kim
+    Ngoại quan: |
+      Trên đống đổ nát mọc đầy cỏ màu vàng kim —— giống như lúa mạch trong ruộng lúa, không có hạt giống, nhưng mọc rất tươi tốt.
+      Da Vinci: "Những ngọn cỏ này là do hệ thống duy trì, ngay cả đống đổ nát cũng phải giữ cho 'đẹp mắt'."
+    Kazuma dẫn đường: |
+      Kazuma dẫn Chaldea đến lối vào đống đổ nát, nói: "Nia sống ở nơi sâu nhất, cô ấy không thích bị làm phiền.
+      Nhưng nếu các cậu nói với cô ấy 'chúng tôi đã từng nhìn thấy đồ thật', cô ấy có thể sẽ gặp các cậu."
+      Anh khựng lại một chút, "Có điều sau khi gặp rồi, cô ấy có thể sẽ càng không muốn gặp các cậu hơn."
+    Sự kiện địa điểm: |
+      Hệ thống muốn dọn dẹp nơi này, nhưng tàn ảnh của Odin nói cứ giữ lại, như một sự "nhắc nhở".
+      Nhắc nhở điều gì? Không ai biết.
+      Đống đổ nát là nơi duy nhất ở Eldora vẫn còn lưu lại dấu vết "trước Ragnarok".
+</Lối vào di tích Ragnarok>

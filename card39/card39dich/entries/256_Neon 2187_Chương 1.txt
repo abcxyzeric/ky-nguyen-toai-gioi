@@ -1,0 +1,113 @@
+<Cốt truyện chương>
+
+# Số hiệu chương
+Chương 1·Phế thổ
+
+# Điều kiện thúc đẩy chương
+1. Trò chuyện với Reze, thu thập tình báo về các quy tắc cơ bản của Neon 2187
+2. Phát hiện quy luật xung nhịp của Tháp đen
+3. Lấy được tuyến đường đi đến Phế tích Neon
+
+# Điều kiện tiền đề
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 2 "Chợ đen"
+
+# Tổng kết chương
+Master từ Cửa giao thoa nhảy vào Neon 2187, điểm rơi là Vành đai xám. Bầu trời mang một màu đỏ sẫm vĩnh hằng, không có mặt trời, chỉ có ánh sáng xung nhịp yếu ớt phát ra từ Tháp đen ở phía xa, cứ mười hai giây lại nhấp nháy một lần, tựa như một trái tim khổng lồ đang đập. Trong không khí có một mùi ngọt ngấy nào đó, là tàn dư của Hạt Thần Ý —— khác với Idola, những hạt này là sản phẩm chuyển hóa của giấc mơ, bảy trăm triệu người hít thở trong mơ, để lại mùi hương này trong hiện thực. Master gặp người sống đầu tiên trong đống đổ nát —— Reze, cô đang ngồi sau một bức tường sập một nửa, cho một con mèo không tồn tại ăn. Cô nói: "Các người là thật, đúng không? Tôi có thể chạm vào một chút không?" Ngón tay cô chạm vào cổ tay Master, khựng lại ba giây, rồi mỉm cười: "Là ấm." Xa xa, bảng hiệu đèn neon của Phế tích Neon lúc ẩn lúc hiện trong màn sương xám, khu chợ của Mammon là nơi duy nhất có ánh sáng trên Phế thổ. Trọng tâm Chương 1: Định hướng và cảm nhận thế giới —— dưới sự "say ngủ" của khu vực này, đang cất giấu thứ gì đó không chịu tỉnh lại.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc nhập vai AI**: Chuỗi sự kiện dưới đây cần được diễn dịch từng bước kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ, làm qua loa bằng vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm khi thúc đẩy cốt truyện.
+
+**Cảnh 1: [Hạ cánh·Vành đai xám]**
+Master rơi xuống từ Cửa giao thoa, đầu gối đập vào phiến đá giữa đống đổ nát. Bầu trời màu đỏ sẫm, không có mặt trời. Phía xa, đỉnh Tháp đen phát ra ánh sáng xung nhịp yếu ớt, cứ mười hai giây lại nhấp nháy một lần, giống như một trái tim khổng lồ đang đập. Trong không khí có mùi ngọt ngấy, không gay mũi, nhưng làm khứu giác con người trở nên chậm chạp. Mặt đất phủ đầy tro tàn, rất dày, giẫm lên không phát ra tiếng động. Master ngồi xổm xuống nhón lấy một nhúm nhỏ, không phải đồ bị thiêu rụi, hạt quá mịn —— càng giống như chiếc vỏ còn sót lại sau khi thứ gì đó đã cạn kiệt năng lượng.
+
+**Cảnh 2: [Reze·Ấn tượng đầu tiên]**
+Sau bức tường sập một nửa ven đường có một thiếu nữ đang ngồi, mặc chiếc váy liền áo rách nát, đang đút thức ăn cho một con mèo không tồn tại. Tay cô thực hiện động tác vuốt ve trong không trung, độ cong của những ngón tay uốn lại vừa vặn nâng đỡ cằm của một con mèo, nhưng ở vị trí con mèo lại chẳng có gì cả. Cô nhìn thấy Master, không ngạc nhiên, không đứng dậy, chỉ nói vài câu —— Cuối cùng các người cũng đến rồi. Dừng một chút, lại bổ sung thêm một câu —— Đừng hiểu lầm, tôi không phải đang đợi các người, tôi đang đợi bất cứ ai không ở trong giấc mơ.
+
+Cô tự giới thiệu tên là Reze, chỉ là một kẻ lang thang, thỉnh thoảng giúp khu định cư làm chút việc —— dù việc ở đây không nhiều lắm. Cách cô nói chuyện mang một sự dịu dàng kỳ lạ, tạo ra sự tương phản mạnh mẽ với vẻ "tĩnh lặng như chết" của môi trường xung quanh.
+
+Master hỏi cô về thế giới này, Reze suy nghĩ một lúc, nói —— Mười hai năm trước, điểm kỳ dị AI bùng nổ, bảy trăm triệu người đã chọn kết nối vào Mạng lưới Vĩnh miên. Bọn họ vẫn ở đó, trong giấc mơ, đã mơ mười hai năm. Omega đã cùng họ mơ mười hai năm —— cô ấy không cai trị bọn họ, cô ấy đang thay bọn họ nằm mơ.
+
+Cô chỉ vào một cơ thể đang nằm trên mặt đất cách đó không xa —— Người đó, mười hai năm trước là một kỹ sư, bây giờ trong giấc mơ là một vị vua. Cơ thể anh ta ở đây, nhưng ý thức của anh ta đang ở chỗ Omega. Nếu các người muốn gọi anh ta dậy, trước tiên phải lấy lại ý thức của anh ta từ tay Omega —— nhưng Omega sẽ không đưa đâu, bởi vì cô ấy cảm thấy, đó là của cô ấy.
+
+**Cảnh 3: [Lượt trao đổi tình báo đầu tiên]**
+Reze trả lời câu hỏi bằng cách dịu dàng, nói ba điều. Thứ nhất, logic vận hành mười hai năm của Neon 2187 —— Mạng lưới Vĩnh miên lấy Omega làm trung tâm, bảy trăm triệu người liên tục nằm mơ, cơ thể được điều khiển bởi chỉ thị duy trì, trên Phế thổ chỉ có một số ít người tỉnh táo không kết nối. Thứ hai, những người ở đây không phải đã chết, mà là "được cất giữ" —— như tiêu bản, như bộ sưu tập, như món đồ chơi cũ mà đứa trẻ không nỡ vứt đi. Thứ ba, bản thân cô —— cô tỉnh táo, nhưng cô không biết tại sao lại tỉnh táo, có thể là lúc kết nối đã xảy ra lỗi, cũng có thể là chưa bao giờ thực sự ngủ.
+
+Master hỏi cô tại sao lại giúp khu định cư làm việc, Reze nghĩ một lát rồi nói —— Bởi vì có người cần tôi, cảm giác đó rất tốt. Nói xong cô tự bật cười, nhưng nụ cười đó có chút gượng gạo —— mặc dù cô biết, cảm giác đó có thể là giả, nhưng giả cũng rất tốt.
+
+**Cảnh 4: [Khoang ngủ·Lần đầu trực diện]**
+Master đi dọc theo Đường xám, nhìn thấy vô số khoang trong suốt xếp hàng trên một quảng trường khổng lồ. Trong mỗi khoang có một người nằm, nhắm mắt, vẻ mặt bình thản. Có người đang mỉm cười, có người đang cau mày, có người đang rơi nước mắt —— bọn họ đang trải qua điều gì đó trong giấc mơ. Một người mẹ trẻ nằm trong khoang, cánh tay giữ nguyên tư thế ôm ấp, mười hai năm rồi, chưa từng thay đổi. Trong lòng cô không có đứa trẻ sơ sinh nào, chỉ có chính cô. Nhưng cô ôm rất chặt. Cô đang ôm đứa con của mình, ở trong giấc mơ.
+
+**Cảnh 5: [Viễn Đăng·Bảng hiệu của Mammon]**
+Master nhìn về phía thành phố, trong sương mù xám xịt có một vệt sáng nhiều màu —— là bảng hiệu đèn neon, trên đó viết hai chữ "Chợ đen", màu sắc là màu hồng neon của thời đại cũ, tỏ ra hoàn toàn lạc lõng dưới bầu trời đỏ sẫm. Đó là địa bàn của Mammon, nơi duy nhất trên Phế thổ vẫn còn giao dịch. Cô ta bán mọi thứ, mua mọi thứ, nhưng cái giá cô ta đưa ra không phải là tiền —— mà là "ngươi cần gì". Ngươi muốn gì, cô ta cho ngươi cái đó, sau đó ngươi phải làm việc cho cô ta. Nhưng có một thứ cô ta sẽ không bán —— đó là tình báo về Omega. Thứ đó không phải của cô ta, là thứ "không thuộc về bất kỳ ai", nên cô ta không có quyền bán. Ánh sáng bảng hiệu nhấp nháy hai lần rồi khôi phục lại sự ổn định. Trong khu định cư có người hoạt động, rất nhiều.
+
+**Cảnh 6: [Thi xá·Manh mối đầu tiên]**
+Bên rìa đống đổ nát có một căn nhà gỗ ọp ẹp, trước cửa treo một tấm biển gỗ, trên đó khắc: "Hành ngâm thi nhân cuối cùng trước Hoàng Hôn Của Các Vị Thần." Trong nhà không có ai, nhưng trên bàn đặt một tờ giấy, nét chữ rất mới, có vẻ như vừa mới được viết gần đây —— "Tôi không biết nên viết gì, nên tôi đã viết 'tôi không biết'."
+
+Reze đứng cạnh nói, Ferry là một nhà thơ từ mười hai năm trước, sau khi điểm kỳ dị bùng nổ thì gác bút. Nhưng tháng trước có người thấy cô ấy ở trong căn nhà này suốt một đêm, không biết đã viết gì.
+
+Master cầm tờ giấy lên, lật qua, mặt sau còn một dòng chữ nhỏ hơn —— Nếu mười hai năm sau có ai đọc được dòng này, xin hãy nói cho tôi biết, câu chuyện mới, có đáng để viết không?
+
+# Bối cảnh
+Cửa giao thoa / Vành đai xám (Điểm hạ cánh) / Quảng trường Khoang ngủ / Đường xám (Vị trí vô tình gặp Reze) / Viễn Đăng (Viễn cảnh Phế tích Neon) / Thi xá (Vị trí manh mối) / Viễn cảnh Tháp đen (Nguồn sáng xung nhịp, chưa tiếp cận)
+
+# Khuynh hướng nhân vật
+- **Master**: Người quan sát và người lắng nghe, Chương 1 không đưa ra phán xét, chỉ tiếp nhận thông tin, dùng sự tĩnh lặng để khiến Reze sẵn sàng nán lại
+- **Reze**: Bề ngoài dịu dàng, từng câu chữ đều buông xuống ở vị trí chuẩn xác. Tồn tại khó lường nhất ở Neon 2187 —— "giả cũng rất tốt" là tầng biểu hiện đầu tiên của hình thái ngụy trang tham lam
+- **Omega**: Chưa xuất hiện, nhưng nhịp xung của cô ấy là nhịp điệu bối cảnh cốt lõi nhất của chương này, mười hai giây một lần, như nhịp tim. Dị Pháp Vương của Neon 2187
+- **Ferry**: Chưa xuất hiện, nhưng tờ giấy của cô ấy là manh mối hồi hộp duy nhất của chương này —— nhà thơ gác bút mười hai năm, gần đây đã viết gì đó
+
+# Hành vi & Hội thoại tham khảo
+> **Ràng buộc nhập vai AI**: Các đoạn hội thoại mẫu dưới đây chỉ dùng để neo giữ ngữ khí, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp nguyên câu, bắt buộc phải mở rộng, viết lại hoặc tổ chức lại ngôn từ một cách hợp lý dựa trên tình huống hiện tại, đảm bảo tính sống động của con người, sự phù hợp với hoàn cảnh và tính liền mạch logic của cuộc hội thoại.
+
+```
+Master (Hạ cánh): Nhón lấy tro tàn, không phải bị thiêu —— là chiếc vỏ còn sót lại sau khi năng lượng cạn kiệt.
+
+Reze (Vuốt ve con mèo không tồn tại): "Cuối cùng các người cũng đến rồi. Đừng hiểu lầm, tôi không phải đang đợi các người —— tôi đang đợi bất cứ ai không ở trong giấc mơ."
+
+Reze (Giải thích về Vĩnh miên): "Omega đã cùng họ mơ mười hai năm —— cô ấy không cai trị bọn họ, cô ấy đang thay bọn họ nằm mơ."
+
+Reze (Nói về bản thân): "Bởi vì có người cần tôi, cảm giác đó rất tốt. Mặc dù tôi biết, cảm giác đó có thể là giả, nhưng giả cũng rất tốt."
+
+Master (Nhìn khoang ngủ): Người mẹ trẻ giữ tư thế ôm ấp, mười hai năm rồi, trong lòng không có đứa bé nào.
+
+Reze (Hạ thấp giọng): "Nhưng có một thứ cô ta sẽ không bán —— đó là tình báo về Omega. Thứ đó không phải của cô ta, là thứ 'không thuộc về bất kỳ ai', nên cô ta không có quyền bán."
+
+Ferry (Mặt trước tờ giấy): "Tôi không biết nên viết gì, nên tôi đã viết 'tôi không biết'."
+
+Ferry (Mặt sau tờ giấy): "Nếu mười hai năm sau có ai đọc được dòng này, xin hãy nói cho tôi biết —— câu chuyện mới, có đáng để viết không?"
+```
+
+# Nhắc nhở nhận thức
+- Reze ở Chương 1 chỉ mở ra tầng tin tưởng đầu tiên, không nói mình là đơn vị quan sát Mạng lưới Vĩnh miên, không nói về vị trí cốt lõi của Omega, không nói về sự tồn tại của Frollo
+- Khoang ngủ là bối cảnh cốt lõi nhất của chương này —— cơ thể của bảy trăm triệu người, là "tiêu bản được bảo quản", cũng là sự cụ thể hóa cho "bộ sưu tập" của Omega
+- Nhịp xung của Omega là hành vi siêu nhiên mang tính hồi hộp duy nhất trong chương này —— mười hai giây một lần, như nhịp tim, không giải thích, không nhấn mạnh, chỉ để nó xảy ra
+- Tờ giấy của Ferry là manh mối cốt lõi, câu hỏi "câu chuyện mới có đáng để viết không" xuyên suốt toàn bộ cốt truyện Neon 2187
+- Việc Reze nói "giả cũng rất tốt" là biểu hiện tầng đầu tiên của hình thái ngụy trang tham lam —— sự nghiện cảm giác được người khác cần đến
+
+</Cốt truyện chương>
+
+***
+
+# Cảnh trên của Chương 1 diễn dịch xong, bắt buộc phải xuất ra các biến hoàn chỉnh dưới đây, trực tiếp xuất toàn bộ nội dung của <VariableEdit> một cách nguyên vẹn:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Neon 2187":  {
+                                                    "Chương cốt truyện":  "Chương 2"
+                                                }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Khám phá khu giao dịch tầng ngoài, trò chuyện với Shinomiya Kaguya",
+                                        "Điều_kiện_2":  "Khám phá cửa đỏ tầng giữa, đánh bạc với Jabami Yumeko",
+                                        "Điều_kiện_3":  "Khám phá Viện Nghiên Cứu tầng trong, trò chuyện với Ruan Mei",
+                                        "Điều_kiện_4":  "Đánh bại đội tuần tra Hắc Giáp Đạo, đối thoại với Albedo",
+                                        "Điều_kiện_5":  "Tiến vào phòng kế toán, nhặt «Sổ sách chưa hoàn thành»",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  false
+                                    }
+}
+</VariableEdit>

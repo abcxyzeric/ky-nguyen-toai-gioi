@@ -1,0 +1,18 @@
+<Nơi Tiệc Rượu>
+  Nơi Tiệc Rượu:
+    Vị trí: Bãi đất trống ở Ảo Tưởng Hương, nơi tụ tập của Ibuki Suika
+    Ngoại quan: |
+      Lửa trại của bữa tiệc ấm áp, như được hun nóng bởi nhiệt độ cơ thể.
+      Hơi rượu đan xen cùng quy luật sắc dục, không khí đặc quánh.
+      Năng lực "tụ tập" của Suika khiến mọi nhiệt độ dồn hết về nơi này.
+    Ibuki Suika: |
+      Bữa cuồng yến của loài quỷ, làm tình là sự bạo lực và xác nhận.
+      Khóe mắt đọng lệ——nước mắt của quỷ.
+      Sự cường đại của quỷ biến thành mỏng manh trước sắc dục,
+      Con quỷ "mạnh mẽ" lần đầu tiên thừa nhận "muốn được ôm chặt".
+    Sự kiện địa điểm: |
+      Cảnh chương 6.
+      Nước mắt của quỷ Suika, làm tình là sự bạo lực và xác nhận.
+      Trong bữa cuồng yến của quỷ, khóe mắt đọng lệ.
+    Độ nguy hiểm: Trung bình · Lãnh vực của quỷ
+</Nơi Tiệc Rượu>

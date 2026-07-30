@@ -1,0 +1,1539 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biên niên sử Vực Nứt · Cosmos in the Rift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* ════════ Biên niên sử Vực Nứt · chủ đề tím đen sâu + vàng ánh kim ════════ */
+    :root {
+      --accent:#c9a961; --accent-bright:#e8c878; --accent-deep:#8a6d2f;
+      --purple:#6b4c8a; --purple-deep:#2d1b4e; --purple-glow:rgba(139,111,171,0.25);
+      --crimson:#8b1a1a; --blood:#5c0d0d;
+      --void:#0a0612; --abyss:#1a0f2e; --night:#0d0818;
+      --text:#e8dcc8; --text-bright:#f5ebd6; --dim:#a89a82; --faint:#6b5d48;
+      --border-soft:rgba(201,169,97,.22);
+      --text-main:#e8dcc8;
+      --bg:linear-gradient(145deg,#0a0612 0%,#140a22 40%,#1a0f2e 70%,#0d0818 100%);
+      --paper:rgba(14,8,24,0.96);
+      --bubble-bg:rgba(22,14,38,0.95);
+      --shadow:rgba(0,0,0,.45);
+      --r:4px; --smooth:cubic-bezier(.4,0,.2,1);
+      --font-display:'Cinzel','EB Garamond',serif;
+      --font-serif:'Cormorant Garamond','Noto Serif SC',serif;
+      --font-cn:'Noto Serif SC',serif;
+    }
+    body[data-theme="day"] {
+      --accent:#c9a961; --accent-bright:#e8c878; --accent-deep:#8a6d2f;
+      --border-soft:rgba(201,169,97,.28);
+      --text-main:#3a2a18;
+      --bg:linear-gradient(145deg,#f5f0e8 0%,#ede5d8 50%,#f0e8d5 100%);
+      --paper:rgba(255,252,246,0.97);
+      --bubble-bg:rgba(248,242,232,0.95);
+      --shadow:rgba(180,130,60,.13);
+    }
+    body {
+      background:var(--bg);
+      font-family:'Noto Serif SC',serif;
+      line-height:2.05;font-size:17.2px;
+      color:var(--text-main);
+      min-height:100vh;
+      transition:background .4s,color .4s;
+      margin:0;
+    }
+    .header {
+      position:fixed;top:0;width:100%;
+      background:rgba(10,6,18,0.97);
+      border-bottom:1px solid rgba(201,169,97,.35);
+      display:flex;flex-direction:column;align-items:center;
+      padding:8px 0 6px;z-index:100;
+      box-shadow:0 4px 20px var(--purple-glow);gap:4px;
+    }
+    body[data-theme="day"] .header {
+      background:rgba(253,246,238,0.97);
+      border-bottom-color:rgba(201,148,58,.4);
+      box-shadow:0 4px 20px rgba(180,130,60,.15);
+    }
+    .logo-container{display:flex;align-items:center;gap:10px}
+    .logo-container img{height:60px;border-radius:50%;border:3px solid var(--accent);box-shadow:0 0 20px rgba(201,169,97,.3)}
+    .logo-text{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--accent);letter-spacing:3px;white-space:nowrap}
+    body[data-theme="day"] .logo-text{color:#8a6d2f}
+    .theme-controls{display:flex;align-items:center;gap:6px}
+    .control-btn{
+      width:42px;height:42px;border-radius:50%;
+      background:rgba(20,14,30,.9);border:2px solid rgba(201,169,97,.4);color:var(--accent);
+      font-size:16px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:all .3s;box-shadow:0 3px 10px rgba(139,111,171,.18);
+    }
+    body[data-theme="day"] .control-btn{background:#fff;border-color:rgba(201,148,58,.5);color:#8a6d2f;box-shadow:0 3px 10px rgba(180,130,60,.18)}
+    .control-btn:hover{transform:scale(1.1);background:var(--accent);color:#fff;border-color:var(--accent)}
+    .grimoire-container{
+      max-width:100%;margin:100px 0 60px;
+      background:var(--paper);padding:35px 12px 45px;
+      box-shadow:0 8px 35px var(--shadow);position:relative;overflow:hidden;
+      border:1px solid var(--border-soft);
+    }
+    body[data-theme="day"] .grimoire-container{border:none}
+    @media(min-width:769px){
+      .grimoire-container{max-width:860px;margin:118px auto 80px;padding:45px 48px 50px;border-radius:12px}
+    }
+    .grimoire-container::before{
+      content:"";position:absolute;left:-28px;top:12%;
+      width:88px;height:88px;
+      background:radial-gradient(circle,rgba(201,169,97,0.15) 25%,transparent 75%);
+      border-radius:50%;z-index:-1;animation:floatLeft 11s infinite ease-in-out;
+    }
+    .grimoire-container::after{
+      content:"✦ ☽ ✧ ☽ ✦";position:absolute;left:-45px;top:18%;
+      font-size:24px;color:var(--accent);opacity:.15;line-height:1.45;
+      writing-mode:vertical-rl;letter-spacing:20px;z-index:-1;
+      animation:floatLeft 17s infinite linear;
+    }
+    .right-sticker{
+      position:absolute;right:-32px;top:32%;
+      font-size:29px;color:var(--accent);opacity:.12;line-height:1.55;
+      writing-mode:vertical-rl;letter-spacing:24px;z-index:-1;
+      animation:floatRight 14s infinite ease-in-out;
+    }
+    @keyframes floatLeft{0%,100%{transform:translateY(0)}50%{transform:translateY(-28px)}}
+    @keyframes floatRight{0%,100%{transform:translateY(0)}50%{transform:translateY(32px)}}
+    .reading-content{font-size:17.2px;line-height:2.05;max-width:100%}
+    .reading-content>p{
+      position:relative;margin:0 0 2.2em;padding:0 0 0 22px;
+      text-indent:0;color:var(--text-main);letter-spacing:.04em;
+    }
+    .reading-content>p::before{
+      content:'';position:absolute;left:0;top:4px;bottom:4px;
+      width:3px;border-radius:999px;
+      background:linear-gradient(180deg,var(--accent),transparent);opacity:.45;
+    }
+    .reading-content>p:first-of-type::first-letter{
+      float:left;font-size:3.2em;line-height:.78;
+      margin:6px 8px 0 -2px;font-weight:900;color:var(--accent);
+      text-shadow:0 2px 12px rgba(201,169,97,.25);
+    }
+    .reading-content>p+p::after{
+      content:'· · ·';display:block;text-align:center;font-size:13px;
+      color:var(--accent);opacity:.35;letter-spacing:8px;
+      margin-top:-1.4em;margin-bottom:.4em;pointer-events:none;
+    }
+    .reading-content .highlight{
+      background:linear-gradient(90deg,rgba(201,169,97,.18),rgba(139,26,26,.10));
+      border-radius:4px;padding:1px 4px;font-weight:500;
+    }
+    .reading-content>p:nth-child(odd){
+      background:rgba(201,169,97,.04);border-radius:0 8px 8px 0;
+      padding:10px 12px 10px 22px;margin-left:-2px;
+    }
+    body[data-theme="day"] .reading-content>p:nth-child(odd){background:rgba(201,148,58,.028)}
+    .dialogue-container{margin:2em 0;display:flex;align-items:flex-start;gap:10px}
+    .dialogue-container.right{flex-direction:row-reverse}
+    .bubble-wrap{flex:1;min-width:0;display:flex;flex-direction:column}
+    .char-avatar-wrap{
+      flex:0 0 64px;width:64px;height:64px;
+      border-radius:50%;overflow:hidden;position:relative;
+      box-shadow:0 3px 14px rgba(0,0,0,.25);align-self:flex-start;
+    }
+    .char-avatar-wrap img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;border-radius:50%}
+    .char-avatar-wrap svg{width:44px;height:44px;flex-shrink:0}
+    .char-avatar{width:60px;height:60px;border-radius:50%;object-fit:cover;border:2.5px solid var(--accent);flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.15)}
+    .bubble-text p,.dialogue-container p{padding:0;margin:0;background:none}
+    .bubble-text p::before,.bubble-text p::after{display:none}
+    .character-name{
+      display:inline-flex;align-items:baseline;gap:4px;margin-bottom:7px;
+      font-family:'Noto Serif SC',serif;font-weight:900;letter-spacing:1px;line-height:1;
+    }
+    .character-name .cn-first{font-size:2em;display:inline-block;transform:rotate(-3deg);transform-origin:bottom center;filter:drop-shadow(0 2px 6px currentColor);opacity:.9}
+    .character-name .cn-rest{font-size:1.25em;opacity:.85}
+    .bubble-text{
+      background:var(--bubble-bg);padding:11px 16px;
+      border-radius:4px 16px 16px 16px;box-shadow:0 3px 12px var(--shadow);
+      border:1px solid var(--border-soft);width:100%;box-sizing:border-box;
+      word-break:break-word;white-space:normal;font-size:.97em;line-height:1.9;display:block;
+    }
+    .image-container{
+      margin:24px 0 18px;text-align:center;
+      background:rgba(15,10,25,0.6);border-radius:16px;padding:10px 10px 8px;
+      border:1.5px solid rgba(201,169,97,.18);
+    }
+    body[data-theme="day"] .image-container{background:rgba(253,246,230,.55);border-color:rgba(201,148,58,.18)}
+    .image-controls{display:flex;justify-content:center;gap:10px;margin-bottom:8px}
+    .image-toggle-btn,.image-refresh-btn{
+      background:linear-gradient(90deg,var(--accent),var(--crimson));color:#fff;font-weight:700;
+      border:none;border-radius:24px;padding:6px 16px;font-size:13px;
+      box-shadow:0 3px 10px rgba(139,26,26,.22);cursor:pointer;transition:all .3s;
+    }
+    .image-refresh-btn{width:32px;height:32px;padding:0;font-size:1.1em;border-radius:50%}
+    .image-toggle-btn:hover,.image-refresh-btn:hover{transform:translateY(-2px) scale(1.05)}
+    .image-sub-tip{
+      font-size:12px;color:var(--accent);opacity:.75;text-align:center;
+      margin-bottom:6px;letter-spacing:.5px;
+      background:rgba(201,169,97,.08);border-radius:8px;padding:4px 10px;
+    }
+    body[data-theme="day"] .image-sub-tip{background:rgba(201,148,58,.06);color:#8a6d2f}
+    .image-content{max-height:0;overflow:hidden;transition:max-height .65s cubic-bezier(.25,.1,.25,1),opacity .4s;opacity:0}
+    .image-content.expanded{max-height:3200px;opacity:1}
+    .image-content img{border-radius:14px;border:4px solid rgba(201,169,97,.2);box-shadow:0 10px 30px rgba(0,0,0,.3);max-width:100%;display:block;margin:0 auto}
+    body[data-theme="day"] .image-content img{border-color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+    @media(max-width:768px){
+      .header{padding:8px 0 6px;height:auto;gap:4px}
+      .grimoire-container{margin:100px 0 60px;padding:28px 10px 40px}
+      .dialogue-container{gap:10px}
+      .char-avatar-wrap{flex:0 0 50px !important;width:50px !important;height:50px !important}
+      .char-avatar-wrap svg{width:38px !important;height:38px !important}
+      .character-name{font-size:12px;padding:2px 8px 2px 6px}
+      .bubble-text{padding:9px 12px;font-size:.94em}
+    }
+  </style>
+</head>
+<body data-theme="night">
+
+  <div class="header">
+    <div class="logo-container">
+      <img src="https://s1.imagehub.cc/images/2026/07/13/21305863c85f0af83f01f41c2a834461.jpeg" alt="logo">
+      <div class="logo-text">BIÊN NIÊN SỬ VỰC NỨT · COSMOS IN THE RIFT</div>
+    </div>
+    <div class="theme-controls">
+      <button class="control-btn" onclick="adjustFontSize(-1)" title="Thu nhỏ chữ">A−</button>
+      <button class="control-btn" onclick="adjustFontSize(1)"  title="Phóng to chữ">A+</button>
+      <button class="control-btn" onclick="toggleTheme()" id="themeBtn" title="Chuyển chế độ ban ngày">☀️</button>
+    </div>
+  </div>
+
+  <div class="grimoire-container">
+    <div class="right-sticker">✦ ☽ ✧ ☽ ✦</div>
+    <div class="reading-content" id="readingContent">$1</div>
+  </div>
+
+  <script>
+    const BASE_URL = 'https://zyxjack123.top/碎界纪元/';
+
+    /* ════════ Cấu hình ảnh bản đồ (tách khỏi hệ CG SFW/NSFW) ════════
+     * URL dùng key asset gốc: BASE_URL/bản_đồ/thế_giới/địa_điểm.webp
+     * Tag người chơi/AI có thể dùng tiếng Việt: <img>Bản đồ/Thanh Minh/Hồng Ma Quán</img>
+     * Runtime sẽ ánh xạ tên Việt về key asset gốc trước khi tải ảnh.
+     * Nếu không khớp địa điểm, hệ thống chọn một địa điểm cùng thế giới để dự phòng. */
+    const WORLD_MAP_PLACES = {
+      '青冥': [
+        '城东封锁区域1','渡劫坪1','法则核心·最深处1','飞舟残骸坪1','废弃渡劫台遗址1',
+        '废弃聚落·外围1','观星台1','狐火阁1','净化失败区·碎片场1','镜湖·域底层·隐藏地点1',
+        '镜湖1','九重雷劫·云层夹层·终结区1','枯树·裴清歌驻守处1','廊道末端·核心禁区入口1',
+        '炼丹坊1','裴清歌旧居1','青冥入口1','清霄城·主城区1','清霄城·主干道1',
+        '三道天关1','蛇崖荒地1','蛇崖山脚1','书阁·封存区1','书阁1',
+        '天心峰·无极驻地1','无极宫·正殿1','仙道长路·过渡区1','仙府遗址1','夜市旧址1',
+        '万仙长廊1','中央渡劫台1'
+      ],
+      '艾多拉': [
+        '阿库娅神殿1','艾尔唱歌处1','菲莉旧居1','和真所在地1','惠惠研究室1',
+        '混沌汇流点·艾多拉入口1','金色麦田1','卡维塔楼1','骑士团总部1',
+        '神殿广场1','神意之城·内城1','神意之城·外城1','神意之城·中城1',
+        '神意之所·最高处1','武装仓库1','系统核心办公室1','义体维护中心1',
+        '诸神黄昏遗迹·壁画区1','诸神黄昏遗迹·二亚居所1','诸神黄昏遗迹·米莉姆沉睡处1',
+        '诸神黄昏遗迹·入口1','诸神黄昏遗迹·银时新八据点1'
+      ],
+      '混沌汇流点': [
+        '沉梦之间1','断罪之庭1','绯晶寝殿1','黄金圣堂1','辉石圣堂1',
+        '空之回廊1','万华镜殿1','光之路径·南入口1','见证之庭1',
+        '人理树1','星光垂柳石桥1','鹦鹉螺号1','中央喷泉1'
+      ],
+      '幻想乡': [
+        '白玉楼1','博丽神社1','纯粹空间1','地灵殿1','红魔馆1',
+        '幻想乡入口1','汇流口1','酒宴处1','命莲寺走廊1','魔法森林1',
+        '森林边缘1','神社·能舞台1','审判庭1','守矢神社1','太阳花田1',
+        '雾之湖1','隙间1','妖怪之山1','永远亭1','有顶天1'
+      ],
+      '霓虹2187': [
+        '灰径1','汇流口1','监室1','静域1','旧贵区1','聚居1',
+        '空白域1','梦网边1','眠舱1','霓虹墟1','三重梦1','暗影巷1',
+        '高台1','黑海岸1','黑甲道1','黑塔1','红门1','红障1',
+        '候墙1','灰带1','游间1','远灯1','账房1','诗舍1',
+        '无尽架1','无眠村1','希望岸1','醒广场1','锈刀棚1','墟集1',
+        '研所1','营帐1'
+      ],
+      '水之都': [
+        '边界层入口1','边境救助站1','浮游岛边缘1','浮游岛议会厅1','歌声区1',
+        '灰雾涨落区域1','记忆回廊1','记忆邮局1','缄默礁1','礁崖尽头1',
+        '静滞区1','镜宫废墟1','镜宫入口1','镜宫远景1','镜宫中央1',
+        '空间管理局1','轮回区1','冥河区1','能量核心1','时间裂隙区1',
+        '水之都入口1','四面镜子1','溯光回廊1','王座区1','忘川汀1',
+        '虚像庭1','异能者学院1','隐匿区1','永恒图书馆1','月相观测所1',
+        '支配区1','咒术学院1'
+      ]
+    }
+
+    const PATH_ALIAS_TO_ASSET = Object.freeze({
+      "Lối vào Tầng Biên Giới Sương Xám Luân Hồi Thủy Chi Đô": "边界层入口 灰雾轮回水之都",
+      "Cửu Trọng Lôi Kiếp·Kẽ Hở Tầng Mây·Khu Vực Chung Cuộc": "九重雷劫·云层夹层·终结区",
+      "Cuối Hành Lang · Lối Vào Khu Vực Cấm Cốt Lõi": "廊道末端·核心禁区入口",
+      "Di Tích Hoàng Hôn Chư Thần · Nơi Ở Của Nia": "诸神黄昏遗迹·二亚居所",
+      "Khu Vực Thanh Tẩy Thất Bại·Bãi Mảnh Vỡ": "净化失败区·碎片场",
+      "Thanh Tiêu Thành · Khu vực thành chính": "清霄城·主城区",
+      "Di tích Ragnarok · Nơi Milim say giấc": "诸神黄昏遗迹·米莉姆沉睡处",
+      "Tiên Đạo Trường Lộ · Khu chuyển tiếp": "仙道长路·过渡区",
+      "Khu vực phong tỏa phía Đông thành": "城东封锁区域",
+      "Thiên Tâm Phong - Cứ điểm Vô Cực": "天心峰·无极驻地",
+      "Di Tích Ragnarok · Khu Bích Họa": "诸神黄昏遗迹·壁画区",
+      "Di chỉ Độ Kiếp Đài bị bỏ hoang": "废弃渡劫台遗址",
+      "Thanh Tiêu Thành · Đường chính": "清霄城·主干道",
+      "Cốt lõi Pháp tắc·Nơi sâu nhất": "法则核心·最深处",
+      "Phòng nghiên cứu của Megumin": "惠惠研究室",
+      "Thành phố Thần ý · Nội thành": "神意之城·内城",
+      "Trung tâm bảo trì nghĩa thể": "义体维护中心",
+      "Khu vực Sương xám Dâng rút": "灰雾涨落区域",
+      "Nơi Thần Ý · Đỉnh cao nhất": "神意之所·最高处",
+      "Thành Thần Ý · Ngoại Thành": "神意之城·外城",
+      "Thành Thần Ý · Trung Thành": "神意之城·中城",
+      "Cứ Điểm Gintoki Shinpachi": "银时新八据点",
+      "Đài Quan Sát Nguyệt Tướng": "月相观测所",
+      "Độ Kiếp Bình·Ba ngàn tầng": "渡劫坪·三千层",
+      "Cục Quản Lý Không Gian": "空间管理局",
+      "Đền Thờ · Sân Khấu Noh": "神社·能舞台",
+      "Diem Giao Thoa Hon Don": "混沌汇流点",
+      "Điểm Giao Thoa Hỗn Độn": "混沌汇流点",
+      "Khu tụ lạc bị bỏ hoang": "废弃聚落",
+      "Lối Vào Ảo Tưởng Hương": "幻想乡入口",
+      "Quảng trường Thần Điện": "神殿广场",
+      "Quảng Trường Tỉnh Giấc": "醒广场",
+      "Thư Các - Khu phong ấn": "书阁·封存区",
+      "Văn phòng lõi hệ thống": "系统核心办公室",
+      "Cánh đồng lúa mì vàng": "金色麦田",
+      "Hồ Gương·Tầng Đáy Vực": "镜湖·域底层",
+      "Hoàng Kim Thánh Đường": "黄金圣堂",
+      "Huy Thạch Thánh Đường": "辉石圣堂",
+      "Khu Khe Nứt Thời Gian": "时间裂隙区",
+      "nằm nghiêng nâng chân": "侧卧抬腿式",
+      "Reisen Udongein Inaba": "铃仙·优昙华院·因幡",
+      "Shiki Eiki Yamaxanadu": "四季映姬·夜摩仙那度",
+      "Trạm cứu hộ biên giới": "边境救助站",
+      "ép hai chân lên ngực": "双腿压胸式",
+      "Học Viện Dị Năng Giả": "异能者学院",
+      "Không Gian Thuần Túy": "纯粹空间",
+      "Phi Chu Tàn Hài Bình": "飞舟残骸坪",
+      "Rạn San Hô Tĩnh Lặng": "缄默礁",
+      "Tổng Bộ Hiệp Sĩ Đoàn": "骑士团总部",
+      "Vạn Tiên Trường Lang": "万仙长廊",
+      "Vườn Hoa Hướng Dương": "太阳花田",
+      "bế ngược kiểu bento": "反向火车便当式",
+      "Cựu cư Bùi Thanh Ca": "裴清歌旧居",
+      "Lối vào Thủy Chi Đô": "水之都入口",
+      "Patchouli Knowledge": "帕秋莉·诺蕾姬",
+      "Trung Tâm Kính Cung": "镜宫中央",
+      "Viễn Cảnh Kính Cung": "镜宫远景",
+      "Doanh trại Phế thổ": "废土营帐",
+      "Hành Lang Tố Quang": "溯光回廊",
+      "Học viện Chú thuật": "咒术学院",
+      "Không Chi Hồi Lang": "空之回廊",
+      "Lối vào Thanh Minh": "青冥入口",
+      "Phế Tích Kính Cung": "镜宫废墟",
+      "Tam Đạo Thiên Quan": "三道天关",
+      "Thư Viện Vĩnh Hằng": "永恒图书馆",
+      "Bức Tường Chờ Đợi": "候墙",
+      "Điện Vạn Hoa Cảnh": "万华镜殿",
+      "Fujiwara no Mokou": "藤原妹红",
+      "Inubashiri Momiji": "犬走椛",
+      "Khu Rừng Ma Thuật": "魔法森林",
+      "Lối Vào Kính Cung": "镜宫入口",
+      "Nơi ở cũ của Feli": "菲莉旧居",
+      "Phi Tinh Tẩm Điện": "绯晶寝殿",
+      "Violet Evergarden": "薇尔莉特·伊芙加登",
+      "Xà Nhai Hoang Địa": "蛇崖荒地",
+      "Chân núi Xà Nhai": "蛇崖山脚",
+      "Kaguya Houraisan": "蓬莱山辉夜",
+      "Khu Vực Đình Trệ": "静滞区",
+      "Luyện Đan Phường": "炼丹坊",
+      "Nơi ở của Kazuma": "和真所在地",
+      "Saigyouji Yuyuko": "西行寺幽幽子",
+      "Suzushina Yuriko": "铃科百合子",
+      "Vành Đai Tro Bụi": "灰带",
+      "Flandre Scarlet": "芙兰朵露·斯卡蕾特",
+      "Hành Lang Ký Ức": "记忆回廊",
+      "Hinanawi Tenshi": "比那名居天子",
+      "Khu Cựu Quý Tộc": "旧贵区",
+      "Kirisame Marisa": "雾雨魔理沙",
+      "nằm úp đằng sau": "平躺后入式",
+      "Remilia Scarlet": "蕾米莉亚·斯卡蕾特",
+      "Tiên Phủ Di Chỉ": "仙府遗址",
+      "Tòa Án Phán Xét": "审判庭",
+      "Tokisaki Kurumi": "时崎狂三",
+      "Viện Nghiên Cứu": "研所",
+      "Vong Xuyên Đinh": "忘川汀",
+      "Ao Tuong Huong": "幻想乡",
+      "Ảo Tưởng Hương": "幻想乡",
+      "Bác Lệ Thần Xã": "博丽神社",
+      "Bưu Điện Ký Ức": "记忆邮局",
+      "Di Chỉ Chợ Đêm": "夜市旧址",
+      "đứng xoạc chân": "站立一字马式",
+      "Hata no Kokoro": "秦心",
+      "Hữu Đỉnh Thiên": "有顶天",
+      "Komeiji Koishi": "古明地恋",
+      "Komeiji Satori": "古明地觉",
+      "Lõi Năng Lượng": "能量核心",
+      "Lối vào Eldora": "艾多拉入口",
+      "Ngã Thê Do Nãi": "我妻由乃",
+      "ông lão đẩy xe": "老汉推车式",
+      "Phòng giám sát": "监室",
+      "Shameimaru Aya": "射命丸文",
+      "Tam Trọng Mộng": "三重梦",
+      "Thần xã Moriya": "守矢神社",
+      "Trầm Mộng Gian": "沉梦之间",
+      "Tứ Cung Huy Dạ": "四宫辉夜",
+      "Vĩnh Viễn Đình": "永远亭",
+      "Yuzuriha Inori": "楪祈",
+      "Bạch Ngọc Lâu": "白玉楼",
+      "bế kiểu bento": "火车便当式",
+      "Bốn Tấm Gương": "四面镜子",
+      "Cửa Giao Thoa": "汇流口",
+      "Địa Linh Điện": "地灵殿",
+      "Đoạn Tội Đình": "断罪之庭",
+      "Hakurei Reimu": "博丽灵梦",
+      "Hư Tượng Đình": "虚像庭",
+      "Izayoi Sakuya": "十六夜咲夜",
+      "Jabami Yumeko": "蛇喰梦子",
+      "Khu Tiếng Hát": "歌声区",
+      "Khu Vương Tọa": "王座区",
+      "Kochiya Sanae": "东风谷早苗",
+      "Konpaku Youmu": "魂魄妖梦",
+      "Misaka Mikoto": "御坂美琴",
+      "Moriya Suwako": "洩矢诹访子",
+      "Nơi Tiệc Rượu": "酒宴处",
+      "Quan Tinh Đài": "观星台",
+      "sau cực khoái": "高潮事后",
+      "Shirai Kuroko": "白井黑子",
+      "Sorasaki Hina": "空崎阳奈",
+      "Tatara Kogasa": "多多良小伞",
+      "Thủ Ngạn Nhân": "守岸人",
+      "Yakumo Yukari": "八云紫",
+      "Akemi Homura": "晓美焰",
+      "Đền thờ Aqua": "阿库娅神殿",
+      "Hắc Giáp Đạo": "黑甲道",
+      "Hẻm Bóng Tối": "暗影巷",
+      "Hồng Ma Quán": "红魔馆",
+      "Hong Meiling": "红美铃",
+      "Kazami Yuuka": "风见幽香",
+      "Kho vũ trang": "武装仓库",
+      "Khu Chi Phối": "支配区",
+      "Khu Luân Hồi": "轮回区",
+      "Làng Vô Miên": "无眠村",
+      "máy đóng cọc": "打桩机式",
+      "Mệnh Liên Tự": "命莲寺",
+      "ngồi tòa sen": "莲花坐式",
+      "ngượng ngùng": "尴尬",
+      "Núi Yêu Quái": "妖怪之山",
+      "Ryougi Shiki": "两仪式",
+      "Vách Đá Ngầm": "礁崖",
+      "Bờ Biển Đen": "黑海岸",
+      "Hồ Sương Mù": "雾之湖",
+      "Ibuki Suika": "伊吹萃香",
+      "Khu Minh Hà": "冥河区",
+      "Khu Quần Cư": "聚居",
+      "kiểu Amazon": "亚马逊式",
+      "liếm lỗ đít": "舔屁眼",
+      "Lối Tro Bụi": "灰径",
+      "Thuy Chi Do": "水之都",
+      "Thủy Chi Đô": "水之都",
+      "truyền giáo": "传教式",
+      "Vô Cực Cung": "无极宫",
+      "Bờ Hy Vọng": "希望岸",
+      "cưỡi ngược": "反向乘骑式",
+      "Hồ Hỏa Các": "狐火阁",
+      "Khu Ẩn Nấp": "隐匿区",
+      "Lán Dao Rỉ": "锈刀棚",
+      "ngạc nhiên": "惊讶",
+      "nghiêm túc": "严肃",
+      "Nơi El hát": "艾尔唱歌处",
+      "Rào Cản Đỏ": "红障",
+      "Thanh Minh": "青冥",
+      "Tháp Kaveh": "卡维塔楼",
+      "Tomori Nao": "友利奈绪",
+      "Vùng Trống": "空白域",
+      "Yakumo Ran": "八云蓝",
+      "Yor Forger": "约尔·福杰",
+      "chiến đấu": "战斗",
+      "cưỡi ngựa": "乘骑式",
+      "dùng chân": "足交",
+      "Honjo Nia": "本条二亚",
+      "Kính Uyên": "镜渊",
+      "liếm chân": "舔脚",
+      "Neon 2187": "霓虹2187",
+      "Raiden Ei": "雷电影",
+      "Tích Liên": "昔涟",
+      "tư thế 69": "69式",
+      "Chợ Neon": "霓虹墟",
+      "Chtholly": "珂朵莉",
+      "đằng sau": "后入式",
+      "Darkness": "达克妮斯",
+      "liếm lồn": "舔小穴",
+      "mỉm cười": "微笑",
+      "Phrolova": "弗洛洛",
+      "Rìa Rừng": "森林边缘",
+      "Tháp Đen": "黑塔",
+      "Thuần Hồ": "纯狐",
+      "Tĩnh Vực": "静域",
+      "tức giận": "生气",
+      "vạch lồn": "掰开小穴",
+      "bất lực": "无奈",
+      "bối rối": "困惑",
+      "buồn bã": "悲伤",
+      "Cây khô": "枯树",
+      "Đài Cao": "高台",
+      "Hà Điệp": "遐蝶",
+      "hậu môn": "肛交",
+      "hôn môi": "亲嘴",
+      "Khu Chợ": "墟集",
+      "liếm vú": "舔奶子",
+      "Lối vào": "艾多拉入口",
+      "Lối Vào": "幻想乡入口",
+      "Megumin": "惠惠",
+      "móc cua": "指交",
+      "Thư Các": "书阁",
+      "Thuy Do": "水之都",
+      "Thủy Đô": "水之都",
+      "Albedo": "雅儿贝德",
+      "Ban do": "地图",
+      "Bản đồ": "地图",
+      "cạ đùi": "素股",
+      "Cửa Đỏ": "红门",
+      "Eldora": "艾多拉",
+      "Emilia": "爱蜜莉雅",
+      "Kagura": "神乐",
+      "kẹp vú": "乳交",
+      "Khe Hở": "隙间",
+      "Makima": "玛奇玛",
+      "Mammon": "玛门",
+      "Thi Xá": "诗舍",
+      "vui vẻ": "开心",
+      "xấu hổ": "害羞",
+      "Cirno": "琪露诺",
+      "Ferry": "菲莉",
+      "Idola": "艾多拉",
+      "Illya": "伊莉雅",
+      "Kaveh": "卡维",
+      "Omega": "奥梅迦",
+      "Rumia": "露米娅",
+      "đứng": "站立式",
+      "Isla": "艾拉",
+      "Mita": "米塔",
+      "Reze": "蕾塞",
+      "Yuno": "尤诺",
+      "Rem": "雷姆",
+      "Al": "艾尔",
+      "bú": "口交"
+    });
+    const ASSET_TO_DISPLAY = Object.freeze(Object.entries(PATH_ALIAS_TO_ASSET).reduce((o, [display, asset]) => { if (!o[asset]) o[asset] = display; return o; }, {}));
+    function _cleanAssetToken(v) {
+      return safeDecode(String(v || ''))
+        .replace(/\.webp$/i, '')
+        .replace(/\{\{\s*roll\s*:\s*d\d+\s*\}\}/ig, '')
+        .replace(/^\/+|\/+$/g, '')
+        .trim()
+        .normalize('NFC');
+    }
+    function _aliasKey(v) { return _cleanAssetToken(v).replace(/_/g, ' ').replace(/\s+/g, ' '); }
+    function _assetAlias(v) {
+      const key = _aliasKey(v);
+      if (PATH_ALIAS_TO_ASSET[key]) return PATH_ALIAS_TO_ASSET[key];
+      const compact = key.replace(/\s/g, '').toLowerCase();
+      const hit = Object.keys(PATH_ALIAS_TO_ASSET).find(k => k.replace(/\s/g, '').toLowerCase() === compact);
+      return hit ? PATH_ALIAS_TO_ASSET[hit] : _cleanAssetToken(v);
+    }
+    function _displayAssetName(v) {
+      const base = _cleanAssetToken(v).replace(/\d+$/, '');
+      return ASSET_TO_DISPLAY[base] || ASSET_TO_DISPLAY[_cleanAssetToken(v)] || base;
+    }
+    function _escapeRe(v) { return String(v).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+    /* Khớp mờ tên địa điểm: chính xác -> chứa chuỗi -> từng cụm -> LCS -> chọn ngẫu nhiên trong cùng thế giới */
+    function _lcsLen(a,b){const na=a.replace(/[·\s]/g,''),nb=b.replace(/[·\s]/g,'');let mx=0;for(let i=0;i<na.length;i++)for(let j=0;j<nb.length;j++){let k=0;while(i+k<na.length&&j+k<nb.length&&na[i+k]===nb[j+k])k++;if(k>mx)mx=k;}return mx;}
+    function _pick(arr){return arr[Math.floor(Math.random()*arr.length)];}
+    function _findBestMatchPlace(world,keyword){
+      const kw=String(keyword||'').trim().replace(/\.\w+$/,'').replace(/\d+$/,'');
+      if(!kw||!WORLD_MAP_PLACES[world])return null;
+      const bases=WORLD_MAP_PLACES[world].map(p=>({orig:p,base:p.replace(/\d+$/,'')}));
+      /* 1. Khớp chính xác */
+      const exact=bases.filter(p=>p.base===kw||p.base.replace(/[·\s]/g,'')===kw.replace(/[·\s]/g,''));
+      if(exact.length)return {place:_pick(exact).orig,fallback:false,origKeyword:kw};
+      /* 2. Khớp chứa chuỗi: gom mọi địa điểm có chứa từ khóa hoặc được từ khóa chứa */
+      const contained=bases.filter(p=>p.base.includes(kw)||kw.includes(p.base));
+      if(contained.length)return {place:_pick(contained).orig,fallback:false,origKeyword:kw};
+      /* 3. Khớp từng cụm */
+      const kwWords=kw.split(/[·\/]/).filter(w=>w.length>=1);
+      if(kwWords.length>1){
+        const wm=bases.filter(p=>kwWords.every(w=>p.base.includes(w)));
+        if(wm.length)return {place:_pick(wm).orig,fallback:false,origKeyword:kw};
+      }
+      /* 4. Khớp mờ bằng LCS: gom các ứng viên đạt ngưỡng */
+      const lcsMatches=[];
+      let bestScore=0;
+      for(const p of bases){
+        const score=_lcsLen(p.base,kw);
+        const threshold=Math.min(p.base.length,kw.length)*0.4;
+        if(score>=threshold){
+          if(score>bestScore){bestScore=score;lcsMatches.length=0;lcsMatches.push(p);}
+          else if(score===bestScore)lcsMatches.push(p);
+        }
+      }
+      if(lcsMatches.length)return {place:_pick(lcsMatches).orig,fallback:false,origKeyword:kw};
+      /* 5. Nếu đều thất bại -> chọn ngẫu nhiên trong cùng thế giới */
+      const places=WORLD_MAP_PLACES[world];
+      return {place:_pick(places),fallback:true,origKeyword:kw};
+    }
+    /* Xử lý tag bản đồ trong nội dung và thay bằng khung ảnh.
+     * Nhận cả tag Việt `Bản đồ/thế giới/địa_điểm` và key gốc `地图/世界/地点`.
+     * Một tag chỉ tạo một ảnh, nếu không khớp thì dùng ảnh dự phòng cùng thế giới. */
+    function processMapTags(){
+      try{
+        const content=document.getElementById('readingContent');
+        const worldKeys=[...new Set(Object.keys(WORLD_MAP_PLACES).concat(Object.keys(PATH_ALIAS_TO_ASSET).filter(k=>WORLD_MAP_PLACES[PATH_ALIAS_TO_ASSET[k]])))].sort((a,b)=>b.length-a.length).map(_escapeRe).join('|');
+        const mapRe=new RegExp('(?:地图|Bản đồ|Ban do)\\/('+worldKeys+')\\/([^<&\n\r,。！？、；：]+)');
+        const _makeContainer=(worldName,bestPlace,tipText,displayWorld,displayPlace)=>{
+          const imgSrc=`${BASE_URL}地图/${worldName}/${bestPlace}.webp`;
+          const id='map-'+Math.random().toString(36).substr(2,9);
+          const mapLabel=`${displayWorld||_displayAssetName(worldName)} · ${displayPlace||_displayAssetName(bestPlace)}`;
+          const subTip=tipText?`<div class="image-sub-tip">${tipText}</div>`:'';
+          const div=document.createElement('div');
+          div.className='image-container map-image-container';
+          div.setAttribute('data-map-world',worldName);
+          div.setAttribute('data-map-place',bestPlace);
+          div.innerHTML=
+            `<div class="image-controls">`+
+            `<button class="image-toggle-btn" onclick="toggleImage('${id}')">${mapLabel}</button>`+
+            `</div>${subTip}`+
+            `<div class="image-content expanded" id="${id}">`+
+            `<img src="${imgSrc}" alt="${mapLabel}" loading="lazy" onerror="this.onerror=null;this.alt='Ảnh tải thất bại';this.style.opacity='0.3';">`+
+            `</div>`;
+          return div;
+        };
+        const _resolve=(w,p)=>{
+          const worldAsset=_assetAlias(w);
+          if(!WORLD_MAP_PLACES[worldAsset])return null;
+          return {worldAsset,result:_findBestMatchPlace(worldAsset,_assetAlias(p))};
+        };
+        const _build=(w,pr)=>{
+          const resolved=_resolve(String(w).trim(),String(pr).trim());
+          if(!resolved||!resolved.result)return null;
+          const r=resolved.result;
+          /* Khớp chính xác thì không hiện nhắc; khớp mờ hoặc dự phòng thì hiện nhắc */
+          const placeBase=r.place.replace(/\d+$/,'');
+          const origAsset=_assetAlias(r.origKeyword);
+          const isExact=placeBase===origAsset||placeBase.replace(/[·\s]/g,'')===origAsset.replace(/[·\s]/g,'');
+          const displayPlace=_displayAssetName(r.place);
+          const tip=isExact?null:`Không có minh họa địa điểm "${_aliasKey(pr)}", đã thay bằng "${displayPlace}"`;
+          return _makeContainer(resolved.worldAsset,r.place,tip,_aliasKey(w),displayPlace);
+        };
+
+        /* A. Xử lý tag bản đồ trong thuộc tính src */
+        content.querySelectorAll('img').forEach(img=>{
+          const src=safeDecode(img.getAttribute('src')||'');
+          const m=src.match(mapRe);
+          if(m){
+            const c=_build(m[1],m[2]);
+            if(c) img.replaceWith(c);
+          }
+        });
+
+        /* B. Xử lý tag bản đồ còn nằm trong text node bằng TreeWalker */
+        const walker=document.createTreeWalker(content,NodeFilter.SHOW_TEXT,null);
+        const targets=[];
+        let node;
+        while((node=walker.nextNode())){
+          const text=node.nodeValue;
+          if(!text||(!text.includes('地图/')&&!text.includes('Bản đồ/')&&!text.includes('Ban do/'))) continue;
+          const m=text.match(mapRe);
+          if(m) targets.push({node,match:m,text});
+        }
+        for(const t of targets){
+          const c=_build(t.match[1],t.match[2]);
+          if(c){
+            const before=t.text.substring(0,t.match.index);
+            const after=t.text.substring(t.match.index+t.match[0].length);
+            const parent=t.node.parentNode;
+            if(before) parent.insertBefore(document.createTextNode(before),t.node);
+            parent.insertBefore(c,t.node);
+            if(after) parent.insertBefore(document.createTextNode(after),t.node);
+            parent.removeChild(t.node);
+          }
+        }
+
+        /* Dọn các phần tử <img> rỗng không có src */
+        content.querySelectorAll('img').forEach(img=>{
+          if(!img.getAttribute('src')) img.remove();
+        });
+      }catch(e){ /* Lỗi xử lý bản đồ không được làm ảnh hưởng luồng CG */ }
+    }
+
+    /* -- Cấu hình minh họa CG (đồng nhất với thanh trạng thái) --
+     * SFW: 11 biểu cảm, mỗi loại d4 | NSFW: 29 tư thế, mỗi loại d3
+     * Tất cả nhân vật dùng chung _SFW_COMMON / _NSFW_COMMON */
+    const _SFW_COMMON={'开心':4,'微笑':4,'悲伤':4,'严肃':4,'害羞':4,'生气':4,'战斗':4,'无奈':4,'困惑':4,'尴尬':4,'惊讶':4};
+    const _NSFW_COMMON={'反向火车便当式':3,'素股':3,'掰开小穴':3,'足交':3,'亲嘴':3,'肛交':3,'反向乘骑式':3,'高潮事后':3,'后入式':3,'舔奶子':3,'老汉推车式':3,'指交':3,'乘骑式':3,'莲花坐式':3,'侧卧抬腿式':3,'站立式':3,'平躺后入式':3,'亚马逊式':3,'打桩机式':3,'舔小穴':3,'舔脚':3,'传教式':3,'乳交':3,'69式':3,'双腿压胸式':3,'口交':3,'站立一字马式':3,'舔屁眼':3,'火车便当式':3};
+    const _CG_TEMPLATE={..._SFW_COMMON,..._NSFW_COMMON};
+    const _ALL_CHAR_NAMES=[
+      '玉藻前','阿比盖尔·威廉姆斯','阿尔托莉雅·潘德拉贡','埃列什基伽勒','迦摩','贞德','梅柳齐娜',
+      'BB','赫斯缇雅','伊什塔尔','玛修·基列莱特','莱昂纳多·达·芬奇','女神ALICE','杀生院祈荒','斯卡哈·斯卡蒂','厄里斯','莉丝妲黛',
+      '八云紫','符玄','流萤','美杜莎女王','纳西妲','裴清歌','青衣','神里绫华','苏锦华',
+      '涂山红红','涂山雅雅','无极','无量塔姬子','爱丽丝·滋贝鲁库','八重神子',
+      '阿库娅','惠惠','达克妮斯','爱蜜莉雅','珂朵莉','米莉姆','雷姆','伊莉雅',
+      '艾拉','本条二亚','菲莉','神乐',
+      'C.C.','白井黑子','镜渊','雷电影','两仪式','铃科百合子','玛奇玛','时崎狂三','薇尔莉特·伊芙加登','昔涟','遐蝶','晓美焰','楪祈','尤诺','友利奈绪','御坂美琴',
+      '艾姬多娜','玛门','弗洛洛','空崎阳奈','蕾塞','阮·梅','米塔','蛇喰梦子','守岸人',
+      '雅儿贝德','约尔·福杰','四宫辉夜','千羽斩斩','我妻由乃','奥梅迦',
+      '风见幽香','芙兰朵露·斯卡蕾特','古明地觉','古明地恋','红美铃','魂魄妖梦',
+      '蕾米莉亚·斯卡蕾特','铃仙·优昙华院·因幡','露米娅','帕秋莉·诺蕾姬','蓬莱山辉夜',
+      '琪露诺','秦心','犬走椛','射命丸文','十六夜咲夜','四季映姬·夜摩仙那度',
+      '藤原妹红','雾雨魔理沙','洩矢诹访子','西行寺幽幽子','伊吹萃香','八意永琳',
+      '八云蓝','比那名居天子','博丽灵梦','纯狐','东风谷早苗','多多良小伞'
+    ];
+    const IMAGE_LISTS={};
+    _ALL_CHAR_NAMES.forEach(n=>IMAGE_LISTS[n]={..._CG_TEMPLATE});
+
+    const CHARACTER_CONFIG = {
+      // -- Servant --
+      '玉藻前': {
+        color:'#c9a961',bg:'rgba(201,169,97,.10)',border:'rgba(201,169,97,.30)',
+        aliases:['玉藻前','Caster','玉藻'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/6208c0cd81727b8a843c4b640e6c09f6.jpg'
+      },
+      '阿比盖尔·威廉姆斯': {
+        color:'#8b5cf6',bg:'rgba(139,92,246,.10)',border:'rgba(139,92,246,.30)',
+        aliases:['阿比盖尔','阿比盖尔·威廉姆斯'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/17a64f22fa38328838e1b2d192ed3d12.jpg'
+      },
+      '阿尔托莉雅·潘德拉贡': {
+        color:'#38b09a',bg:'rgba(56,176,154,.10)',border:'rgba(56,176,154,.30)',
+        aliases:['阿尔托莉雅','Saber','潘德拉贡'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/17ed9c0e5173796f84990edb6e552588.jpg'
+      },
+      '埃列什基伽勒': {
+        color:'#9b6dd7',bg:'rgba(155,109,215,.10)',border:'rgba(155,109,215,.30)',
+        aliases:['埃列什基伽勒','艾蕾'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/7c3f478de6ba9d1c019dead2ff12df6d.jpg'
+      },
+      '迦摩': {
+        color:'#e07ea0',bg:'rgba(224,126,160,.10)',border:'rgba(224,126,160,.30)',
+        aliases:['迦摩','Kama'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/c44861ce5c3acd1120f8eedca0aef2a5.jpg'
+      },
+      '贞德': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['贞德','Jeanne'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/f9985f83bf0018d41a48c3b577c0a024.jpg'
+      },
+      '梅柳齐娜': {
+        color:'#6bb7c0',bg:'rgba(107,183,192,.10)',border:'rgba(107,183,192,.30)',
+        aliases:['梅柳齐娜','齐娜'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/05/85e4c7a4cb3caaf9560dbafec8c4ab52.jpg'
+      },
+      'BB': {
+        color:'#e07ea0',bg:'rgba(224,126,160,.10)',border:'rgba(224,126,160,.30)',
+        aliases:['BB','碧碧'],
+        avatar:'https://cdn.imgchest.com/files/5704a2f7bddb.webp'
+      },
+      '赫斯缇雅': {
+        color:'#5aaddb',bg:'rgba(90,173,219,.10)',border:'rgba(90,173,219,.30)',
+        aliases:['赫斯缇雅','赫斯提亚'],
+        avatar:'https://cdn.imgchest.com/files/29ae8c95cb28.webp'
+      },
+      '伊什塔尔': {
+        color:'#d4920a',bg:'rgba(212,146,10,.10)',border:'rgba(212,146,10,.30)',
+        aliases:['伊什塔尔','凛'],
+        avatar:'https://cdn.imgchest.com/files/d1b807834563.webp'
+      },
+      '女神ALICE': {
+        color:'#e0b0ff',bg:'rgba(224,176,255,.10)',border:'rgba(224,176,255,.30)',
+        aliases:['ALICE','Alice'],
+        avatar:'https://cdn.imgchest.com/files/cabed9951207.webp'
+      },
+      '杀生院祈荒': {
+        color:'#ff69b4',bg:'rgba(255,105,180,.10)',border:'rgba(255,105,180,.30)',
+        aliases:['杀生院祈荒','祈荒','Kiara'],
+        avatar:'https://cdn.imgchest.com/files/469458817a58.webp'
+      },
+      '斯卡哈·斯卡蒂': {
+        color:'#6a5acd',bg:'rgba(106,90,205,.10)',border:'rgba(106,90,205,.30)',
+        aliases:['斯卡蒂','斯卡哈·斯卡蒂'],
+        avatar:'https://cdn.imgchest.com/files/6bfbda5dd315.webp'
+      },
+      '厄里斯': {
+        color:'#c71585',bg:'rgba(199,21,133,.10)',border:'rgba(199,21,133,.30)',
+        aliases:['厄里斯','Eris'],
+        avatar:'https://cdn.imgchest.com/files/7682e0330ec5.webp'
+      },
+      '莉丝妲黛': {
+        color:'#ff8c69',bg:'rgba(255,140,105,.10)',border:'rgba(255,140,105,.30)',
+        aliases:['莉丝妲黛','Ristarte'],
+        avatar:'https://cdn.imgchest.com/files/8105f4bf712d.webp'
+      },
+      '玛修·基列莱特': {
+        color:'#8fbc8f',bg:'rgba(143,188,143,.10)',border:'rgba(143,188,143,.30)',
+        aliases:['玛修','玛修·基列莱特'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/0e7fa091220815d973ad2ea775e152a2.jpeg'
+      },
+      '莱昂纳多·达·芬奇': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['达芬奇','莱昂纳多·达·芬奇'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/7dc2dd69625a1b31fe42d648eeb43f07.jpeg'
+      },
+      // -- Thanh Minh --
+      '八云紫': {
+        color:'#9b7fd4',bg:'rgba(155,127,212,.10)',border:'rgba(155,127,212,.30)',
+        aliases:['八云紫','紫妈','紫'],
+        avatar:'https://img.z4a.net/images/2026/07/11/c24e3b2d112777e8b185d5bc61256f8e.webp'
+      },
+      '符玄': {
+        color:'#7ec8e3',bg:'rgba(126,200,227,.10)',border:'rgba(126,200,227,.30)',
+        aliases:['符玄','Fu Xuan'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/0a65d91edf60d3beb2a3a4d9c01658d1.jpeg'
+      },
+      '流萤': {
+        color:'#ff6b6b',bg:'rgba(255,107,107,.10)',border:'rgba(255,107,107,.30)',
+        aliases:['流萤','Firefly'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/9372a0c3a374b784981fb01782087f20.jpeg'
+      },
+      '美杜莎女王': {
+        color:'#8b4586',bg:'rgba(139,69,134,.10)',border:'rgba(139,69,134,.30)',
+        aliases:['美杜莎','美杜莎女王'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/78f6db656815258badcabf863968754c.jpeg'
+      },
+      '纳西妲': {
+        color:'#7dc97e',bg:'rgba(125,201,126,.10)',border:'rgba(125,201,126,.30)',
+        aliases:['纳西妲','Nahida','草神'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/d895f3d3c943405b05224c935e06d3a8.jpeg'
+      },
+      '裴清歌': {
+        color:'#b8860b',bg:'rgba(184,134,11,.10)',border:'rgba(184,134,11,.30)',
+        aliases:['裴清歌'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/f7968733caccec51d4396f39af8bb556.webp'
+      },
+      '青衣': {
+        color:'#4a9ead',bg:'rgba(74,158,173,.10)',border:'rgba(74,158,173,.30)',
+        aliases:['青衣'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/7a62c4f48ad6ff43c7aeb5911ed34f60.webp'
+      },
+      '神里绫华': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['绫华','神里绫华'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/11a3cd28c5eff1ddc69fd89c00a8985d.jpeg'
+      },
+      '苏锦华': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['苏锦华'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/891a4195e480c90bbc13f34dd5bee72e.webp'
+      },
+      '涂山红红': {
+        color:'#dc143c',bg:'rgba(220,20,60,.10)',border:'rgba(220,20,60,.30)',
+        aliases:['涂山红红','红红'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/2d0af6772c5fb6bafd4c611b321ceb92.jpeg'
+      },
+      '涂山雅雅': {
+        color:'#9370db',bg:'rgba(147,112,219,.10)',border:'rgba(147,112,219,.30)',
+        aliases:['涂山雅雅','雅雅'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/afe5143266acbd79eae3291eea902ae1.jpeg'
+      },
+      '无极': {
+        color:'#4b0082',bg:'rgba(75,0,130,.10)',border:'rgba(75,0,130,.30)',
+        aliases:['无极','天心魔尊'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/d17a02c962b79d4dd41e338a26b8e7f0.webp'
+      },
+      '无量塔姬子': {
+        color:'#ff4500',bg:'rgba(255,69,0,.10)',border:'rgba(255,69,0,.30)',
+        aliases:['姬子','无量塔姬子'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/7581093f14ac78b94e8575de484d3cd1.jpeg'
+      },
+      '爱丽丝·滋贝鲁库': {
+        color:'#dda0dd',bg:'rgba(221,160,221,.10)',border:'rgba(221,160,221,.30)',
+        aliases:['爱丽丝','爱丽丝·滋贝鲁库'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/36b333c22156968a289337dfe309b2c9.jpeg'
+      },
+      '八重神子': {
+        color:'#ff69b4',bg:'rgba(255,105,180,.10)',border:'rgba(255,105,180,.30)',
+        aliases:['八重神子','神子','Yae Miko'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/fc47127cc373a918c002e46af0a2d966.jpeg'
+      },
+      '夏洛克·福尔摩斯': {
+        color:'#708090',bg:'rgba(112,128,144,.10)',border:'rgba(112,128,144,.30)',
+        aliases:['福尔摩斯','夏洛克·福尔摩斯'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/4a98dfe4c16d716b790ca5eff7bd1570.jpeg'
+      },
+      '闻星': {
+        color:'#6a5acd',bg:'rgba(106,90,205,.10)',border:'rgba(106,90,205,.30)',
+        aliases:['闻星'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/6028bd9b988a747365d08f256a92dd44.webp'
+      },
+      '叶知秋': {
+        color:'#cd853f',bg:'rgba(205,133,63,.10)',border:'rgba(205,133,63,.30)',
+        aliases:['叶知秋'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/d17a83a0157e2aa742ffd3b3c6443e8c.webp'
+      },
+      // -- Eldora --
+      '阿库娅': {
+        color:'#5dade2',bg:'rgba(93,173,226,.10)',border:'rgba(93,173,226,.30)',
+        aliases:['阿库娅','Aqua'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/54f48f40014fce1689e2da8ee1c23386.jpeg'
+      },
+      '惠惠': {
+        color:'#9b59b6',bg:'rgba(155,89,182,.10)',border:'rgba(155,89,182,.30)',
+        aliases:['惠惠','Megumin'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/84ffd0f41022616f53ce2eabc4d0869f.jpeg'
+      },
+      '达克妮斯': {
+        color:'#f0c040',bg:'rgba(240,192,64,.10)',border:'rgba(240,192,64,.30)',
+        aliases:['达克妮斯','Darkness'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/5bcb2e3bd1eabd9db5a2580c81f17d83.jpeg'
+      },
+      '爱蜜莉雅': {
+        color:'#e8b4c8',bg:'rgba(232,180,200,.10)',border:'rgba(232,180,200,.30)',
+        aliases:['爱蜜莉雅','Emilia','EMT'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/23ca4b7eabccd5c77e9ccf87175f6995.jpeg'
+      },
+      '珂朵莉': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['珂朵莉','Chtholly'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/b641ab4d89334565ab7f6b5f17b9f46b.jpeg'
+      },
+      '米莉姆': {
+        color:'#ff6347',bg:'rgba(255,99,71,.10)',border:'rgba(255,99,71,.30)',
+        aliases:['米莉姆','Milim'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/46bb2348957c2937fd457a85c75584c0.jpeg'
+      },
+      '雷姆': {
+        color:'#5a8ddb',bg:'rgba(90,141,219,.10)',border:'rgba(90,141,219,.30)',
+        aliases:['雷姆','Rem'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/de489e2760d8dd2ef1726dde596c400f.jpeg'
+      },
+      '伊莉雅': {
+        color:'#f0c0e0',bg:'rgba(240,192,224,.10)',border:'rgba(240,192,224,.30)',
+        aliases:['伊莉雅','Illya'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/1d769ec0aed2cd94ea895a918c59bb64.jpeg'
+      },
+      '艾尔': {
+        color:'#a0a0a0',bg:'rgba(160,160,160,.10)',border:'rgba(160,160,160,.30)',
+        aliases:['艾尔','Aile'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/25206ccea68fa71cc244f9cedf32228e.webp'
+      },
+      '奥丁残影': {
+        color:'#4a4a6a',bg:'rgba(74,74,106,.10)',border:'rgba(74,74,106,.30)',
+        aliases:['奥丁残影','奥丁'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/fb1d8e58e2d2c096d4e5f57490b90b88.webp'
+      },
+      '和真': {
+        color:'#708090',bg:'rgba(112,128,144,.10)',border:'rgba(112,128,144,.30)',
+        aliases:['和真','Kazuma'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/e535e111028435d66e173b210db500d9.jpeg'
+      },
+      '艾拉': {
+        color:'#b0c4de',bg:'rgba(176,196,222,.10)',border:'rgba(176,196,222,.30)',
+        aliases:['艾拉'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/bf768118501a97b7f1f8f782206a70f2.jpeg'
+      },
+      '本条二亚': {
+        color:'#da70d6',bg:'rgba(218,112,214,.10)',border:'rgba(218,112,214,.30)',
+        aliases:['本条二亚','二亚'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/3d024dfb9ec8b92d3da99afcec9584e0.jpeg'
+      },
+      '菲莉': {
+        color:'#98fb98',bg:'rgba(152,251,152,.10)',border:'rgba(152,251,152,.30)',
+        aliases:['菲莉'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/1c17babff03486eddbb0ae8db4ac08ba.jpeg'
+      },
+      '卡维': {
+        color:'#cd853f',bg:'rgba(205,133,63,.10)',border:'rgba(205,133,63,.30)',
+        aliases:['卡维','Kaveh'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/33cfcde74c935b333ea09581b906070e.jpeg'
+      },
+      '神乐': {
+        color:'#ff6347',bg:'rgba(255,99,71,.10)',border:'rgba(255,99,71,.30)',
+        aliases:['神乐','Kagura'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/575dd2d9204635d868ef86b6e1648067.jpeg'
+      },
+      '志村新八': {
+        color:'#808080',bg:'rgba(128,128,128,.10)',border:'rgba(128,128,128,.30)',
+        aliases:['新八','志村新八'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/d6619a91aa848fd99d4e4fcb8cac69d1.jpeg'
+      },
+      '坂田银时': {
+        color:'#c0c0c0',bg:'rgba(192,192,192,.10)',border:'rgba(192,192,192,.30)',
+        aliases:['银时','坂田银时'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/14/47b9644420371959a92abe3fa5005ed9.jpeg'
+      },
+      // -- Neon 2187 --
+      '艾姬多娜': {
+        color:'#e8b4c8',bg:'rgba(232,180,200,.10)',border:'rgba(232,180,200,.30)',
+        aliases:['艾姬多娜','Echidna'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/b12cea6f4ed8036cdc2f32382c65c37c.jpeg'
+      },
+      '玛门': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['玛门','Mammon'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/accd31fe8592624de5c203da15285363.jpeg'
+      },
+      '弗洛洛': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['弗洛洛','Flollo'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/8c0ef32f975c84839e7e4988b09d2769.jpeg'
+      },
+      '空崎阳奈': {
+        color:'#ff6b6b',bg:'rgba(255,107,107,.10)',border:'rgba(255,107,107,.30)',
+        aliases:['阳奈','空崎阳奈'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/0df4cb7694a10fa49ff49e9c9c4d8125.jpeg'
+      },
+      '蕾塞': {
+        color:'#9b59b6',bg:'rgba(155,89,182,.10)',border:'rgba(155,89,182,.30)',
+        aliases:['蕾塞','Reze'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/ffb0b58c5e7935df3b5663b229a14f96.jpeg'
+      },
+      '阮·梅': {
+        color:'#5f9ea0',bg:'rgba(95,158,160,.10)',border:'rgba(95,158,160,.30)',
+        aliases:['阮梅','阮·梅'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/7825348b3a882b49790b248e080442fa.jpeg'
+      },
+      '米塔': {
+        color:'#ff69b4',bg:'rgba(255,105,180,.10)',border:'rgba(255,105,180,.30)',
+        aliases:['米塔','Mita'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/6a71d58921a91950e558f06cfbc1d904.jpeg'
+      },
+      '蛇喰梦子': {
+        color:'#dc143c',bg:'rgba(220,20,60,.10)',border:'rgba(220,20,60,.30)',
+        aliases:['梦子','蛇喰梦子'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/e89ad10da09a9dc8e5699106c1b3ffc0.jpeg'
+      },
+      '守岸人': {
+        color:'#4682b4',bg:'rgba(70,130,180,.10)',border:'rgba(70,130,180,.30)',
+        aliases:['守岸人'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/9dd4ed1b5f0f88ee0cc8cdf0eddb468d.jpeg'
+      },
+      '雅儿贝德': {
+        color:'#d4af37',bg:'rgba(212,175,55,.10)',border:'rgba(212,175,55,.30)',
+        aliases:['雅儿贝德','Albedo'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/50209bcbe54fd79b1b52b21ec8506d81.jpeg'
+      },
+      '约尔·福杰': {
+        color:'#ff6347',bg:'rgba(255,99,71,.10)',border:'rgba(255,99,71,.30)',
+        aliases:['约尔','约尔·福杰'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/382ad9ab2f28af62108e3f444cff8247.jpeg'
+      },
+      '四宫辉夜': {
+        color:'#e8b4c8',bg:'rgba(232,180,200,.10)',border:'rgba(232,180,200,.30)',
+        aliases:['四宫辉夜','辉夜'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/1b7b1b681ffdf26adfa37169da88285c.jpeg'
+      },
+      '千羽斩斩': {
+        color:'#dc143c',bg:'rgba(220,20,60,.10)',border:'rgba(220,20,60,.30)',
+        aliases:['千羽','千羽斩斩'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/c6065e84f5f1dae7c6d40c9cbb12cad5.jpeg'
+      },
+      '我妻由乃': {
+        color:'#ff1493',bg:'rgba(255,20,147,.10)',border:'rgba(255,20,147,.30)',
+        aliases:['由乃','我妻由乃'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/17/8c0924b36d4afc327cecf15e9b54741c.jpeg'
+      },
+      '奥梅迦': {
+        color:'#4a4a6a',bg:'rgba(74,74,106,.10)',border:'rgba(74,74,106,.30)',
+        aliases:['奥梅迦','Omega'],
+        avatar:'https://s1.imagehub.cc/images/2026/07/10/f8689777232224904eb10dea8090b8ab.webp'
+      },
+      // -- Ảo Tưởng Hương --
+      '风见幽香': {
+        color:'#ff6347',bg:'rgba(255,99,71,.10)',border:'rgba(255,99,71,.30)',
+        aliases:['幽香','风见幽香'],
+        avatar:'https://img.z4a.net/images/2026/07/11/3395994aadd25206c3110e63dbc04325.webp'
+      },
+      '芙兰朵露·斯卡蕾特': {
+        color:'#ff69b4',bg:'rgba(255,105,180,.10)',border:'rgba(255,105,180,.30)',
+        aliases:['芙兰','Flan','芙兰朵露'],
+        avatar:'https://img.z4a.net/images/2026/07/11/832d73a3c91d0d9cc72bef92f71a58ce.webp'
+      },
+      '古明地觉': {
+        color:'#e8b4c8',bg:'rgba(232,180,200,.10)',border:'rgba(232,180,200,.30)',
+        aliases:['地觉','古明地觉'],
+        avatar:'https://img.z4a.net/images/2026/07/11/9eb7efb0fe821c570a79eec894122042.webp'
+      },
+      '古明地恋': {
+        color:'#dda0dd',bg:'rgba(221,160,221,.10)',border:'rgba(221,160,221,.30)',
+        aliases:['地恋','古明地恋'],
+        avatar:'https://img.z4a.net/images/2026/07/11/401c792f1de88f0590f0e4e0dca6ec94.webp'
+      },
+      '红美铃': {
+        color:'#dc143c',bg:'rgba(220,20,60,.10)',border:'rgba(220,20,60,.30)',
+        aliases:['美铃','红美铃'],
+        avatar:'https://img.z4a.net/images/2026/07/11/9fbe933d3633331753bfc4d92611b3c4.webp'
+      },
+      '魂魄妖梦': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['妖梦','魂魄妖梦'],
+        avatar:'https://img.z4a.net/images/2026/07/11/bc99203869f2f4e776c9328a64bce536.webp'
+      },
+      '蕾米莉亚·斯卡蕾特': {
+        color:'#8b0000',bg:'rgba(139,0,0,.10)',border:'rgba(139,0,0,.30)',
+        aliases:['蕾米','蕾米莉亚·斯卡蕾特'],
+        avatar:'https://img.z4a.net/images/2026/07/11/3990f4fb6758564a635c8db62e50246d.webp'
+      },
+      '铃仙·优昙华院·因幡': {
+        color:'#ff69b4',bg:'rgba(255,105,180,.10)',border:'rgba(255,105,180,.30)',
+        aliases:['铃仙','铃仙·优昙华院·因幡'],
+        avatar:'https://img.z4a.net/images/2026/07/11/590b2be29a780f6f0b416df2dd40b5f7.webp'
+      },
+      '露米娅': {
+        color:'#ffd700',bg:'rgba(255,215,0,.10)',border:'rgba(255,215,0,.30)',
+        aliases:['露米娅','Rumia'],
+        avatar:'https://img.z4a.net/images/2026/07/11/9ddc425a490b3dbcf13d2e508d7a508c.webp'
+      },
+      '帕秋莉·诺蕾姬': {
+        color:'#9b59b6',bg:'rgba(155,89,182,.10)',border:'rgba(155,89,182,.30)',
+        aliases:['帕秋莉','帕秋莉·诺蕾姬','帕秋莉'],
+        avatar:'https://img.z4a.net/images/2026/07/11/e26cac3619d41b26bea127f82ac7f30c.webp'
+      },
+      '蓬莱山辉夜': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['蓬莱山辉夜'],
+        avatar:'https://img.z4a.net/images/2026/07/11/395e84d1c53cdbb41648a5868708586c.webp'
+      },
+      '琪露诺': {
+        color:'#5dade2',bg:'rgba(93,173,226,.10)',border:'rgba(93,173,226,.30)',
+        aliases:['琪露诺','Cirno','⑨'],
+        avatar:'https://img.z4a.net/images/2026/07/11/031d14ede7cf85c9ef9585a73ec3c4fc.webp'
+      },
+      '秦心': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['秦心','Kokoro'],
+        avatar:'https://img.z4a.net/images/2026/07/11/ed913b695802f5533d2f55dd7d8753fe.webp'
+      },
+      '犬走椛': {
+        color:'#cd853f',bg:'rgba(205,133,63,.10)',border:'rgba(205,133,63,.30)',
+        aliases:['椛','犬走椛'],
+        avatar:'https://img.z4a.net/images/2026/07/11/25304375ffe2490d47777bb6f9bd1af0.webp'
+      },
+      '射命丸文': {
+        color:'#808080',bg:'rgba(128,128,128,.10)',border:'rgba(128,128,128,.30)',
+        aliases:['丸文','射命丸文'],
+        avatar:'https://img.z4a.net/images/2026/07/11/cd895982bd0f831b7936fb26fd7bf901.webp'
+      },
+      '十六夜咲夜': {
+        color:'#c0c0c0',bg:'rgba(192,192,192,.10)',border:'rgba(192,192,192,.30)',
+        aliases:['咲夜','十六夜咲夜'],
+        avatar:'https://img.z4a.net/images/2026/07/11/31ab588bc2d71bc50c0dbac2fac35beb.webp'
+      },
+      '四季映姬·夜摩仙那度': {
+        color:'#32cd32',bg:'rgba(50,205,50,.10)',border:'rgba(50,205,50,.30)',
+        aliases:['四季映姬','四季映姬·夜摩仙那度'],
+        avatar:'https://img.z4a.net/images/2026/07/11/830e0dc59e553a5fdbba0189bac50e12.webp'
+      },
+      '藤原妹红': {
+        color:'#ff4500',bg:'rgba(255,69,0,.10)',border:'rgba(255,69,0,.30)',
+        aliases:['妹红','藤原妹红'],
+        avatar:'https://img.z4a.net/images/2026/07/11/cdb2201f4ee7af1a635cdc475a4c99d6.webp'
+      },
+      '雾雨魔理沙': {
+        color:'#ffd700',bg:'rgba(255,215,0,.10)',border:'rgba(255,215,0,.30)',
+        aliases:['魔理沙','雾雨魔理沙'],
+        avatar:'https://img.z4a.net/images/2026/07/11/2c7f070e9f65b8217bcb51c2dc068178.webp'
+      },
+      '洩矢诹访子': {
+        color:'#556b2f',bg:'rgba(85,107,47,.10)',border:'rgba(85,107,47,.30)',
+        aliases:['诹访子','洩矢询访子'],
+        avatar:'https://img.z4a.net/images/2026/07/11/f49b9fb4078669b84d1bb5901a528613.webp'
+      },
+      '西行寺幽幽子': {
+        color:'#ffb6c1',bg:'rgba(255,182,193,.10)',border:'rgba(255,182,193,.30)',
+        aliases:['幽幽子','西行寺幽幽子'],
+        avatar:'https://img.z4a.net/images/2026/07/11/d85d697c75bbdcd60adb6984b8c48b20.webp'
+      },
+      '伊吹萃香': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['萃香','伊吹萃香'],
+        avatar:'https://img.z4a.net/images/2026/07/11/1fd2b6c3b939f17a57856b75a567ed61.webp'
+      },
+      '八意永琳': {
+        color:'#808080',bg:'rgba(128,128,128,.10)',border:'rgba(128,128,128,.30)',
+        aliases:['永琳','八意永琳'],
+        avatar:'https://img.z4a.net/images/2026/07/11/c637b396945bbc88c0d3d92de7095c4f.webp'
+      },
+      '八云蓝': {
+        color:'#daa520',bg:'rgba(218,165,32,.10)',border:'rgba(218,165,32,.30)',
+        aliases:['蓝','八云蓝'],
+        avatar:'https://img.z4a.net/images/2026/07/11/61858e99660a78766946f733c06c0530.webp'
+      },
+      '比那名居天子': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['天子','比那名居天子'],
+        avatar:'https://img.z4a.net/images/2026/07/11/62798bc204cda376141659ce89f86591.webp'
+      },
+      '博丽灵梦': {
+        color:'#dc143c',bg:'rgba(220,20,60,.10)',border:'rgba(220,20,60,.30)',
+        aliases:['灵梦','博丽灵梦'],
+        avatar:'https://img.z4a.net/images/2026/07/11/5ac44962241b3770cd34c237ef97faa8.webp'
+      },
+      '纯狐': {
+        color:'#ffd700',bg:'rgba(255,215,0,.10)',border:'rgba(255,215,0,.30)',
+        aliases:['纯狐','Junko'],
+        avatar:'https://img.z4a.net/images/2026/07/11/794a580c6f1717f92e42dc04f5510caa.webp'
+      },
+      '东风谷早苗': {
+        color:'#32cd32',bg:'rgba(50,205,50,.10)',border:'rgba(50,205,50,.30)',
+        aliases:['早苗','东风谷早苗'],
+        avatar:'https://img.z4a.net/images/2026/07/11/9152a21c892d6a70a4dd617378b2517d.webp'
+      },
+      '多多良小伞': {
+        color:'#87ceeb',bg:'rgba(135,206,235,.10)',border:'rgba(135,206,235,.30)',
+        aliases:['小伞','多多良小伞'],
+        avatar:'https://img.z4a.net/images/2026/07/11/a54262c6713cafb79f282455c25ef1d0.webp'
+      },
+      // -- Thủy Đô --
+      'C.C.': {
+        color:'#d4a574',bg:'rgba(212,165,116,.10)',border:'rgba(212,165,116,.30)',
+        aliases:['C.C.','CC','C2'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/eb662cfd8ed73337301cb570e2cd3af2.jpeg'
+      },
+      '白井黑子': {
+        color:'#8b7355',bg:'rgba(139,115,85,.10)',border:'rgba(139,115,85,.30)',
+        aliases:['白井黑子','黑子','Shirai'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/23e6cad254a7fe0692407f0b166203d8.jpeg'
+      },
+      '镜渊': {
+        color:'#708090',bg:'rgba(112,128,144,.10)',border:'rgba(112,128,144,.30)',
+        aliases:['镜渊'],
+        avatar:'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mysterious%20silver%20hair%20girl%20mirror%20domain%20anime%20portrait&image_size=portrait_4_3'
+      },
+      '雷电影': {
+        color:'#9370db',bg:'rgba(147,112,219,.10)',border:'rgba(147,112,219,.30)',
+        aliases:['雷电影','影','Raiden Shogun'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/2b461383cebee72a53f7ddd77751789d.jpeg'
+      },
+      '两仪式': {
+        color:'#4682b4',bg:'rgba(70,130,180,.10)',border:'rgba(70,130,180,.30)',
+        aliases:['两仪式','式','Shiki'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/e9b0e0d07a888c83526b8831a1e4bf66.jpeg'
+      },
+      '铃科百合子': {
+        color:'#ff8c00',bg:'rgba(255,140,0,.10)',border:'rgba(255,140,0,.30)',
+        aliases:['铃科百合子','百合子'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/9e4360b0a38c6c10cd382af3dcf80992.jpeg'
+      },
+      '玛奇玛': {
+        color:'#ff6347',bg:'rgba(255,99,71,.10)',border:'rgba(255,99,71,.30)',
+        aliases:['玛奇玛','Makima'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/06b7f31bea1a0c632cdc2f7d6c499f64.jpeg'
+      },
+      '时崎狂三': {
+        color:'#8b0000',bg:'rgba(139,0,0,.10)',border:'rgba(139,0,0,.30)',
+        aliases:['时崎狂三','狂三','Kurumi'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/a8c9bf292eea3257c03c620b4b853e65.jpeg'
+      },
+      '薇尔莉特·伊芙加登': {
+        color:'#6495ed',bg:'rgba(100,149,237,.10)',border:'rgba(100,149,237,.30)',
+        aliases:['薇尔莉特','Violet','薇尔莉特·伊芙加登'],
+        avatar:'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Violet%20Evergarden%20blonde%20hair%20mechanical%20hands%20anime%20portrait&image_size=portrait_4_3'
+      },
+      '昔涟': {
+        color:'#00ced1',bg:'rgba(0,206,209,.10)',border:'rgba(0,206,209,.30)',
+        aliases:['昔涟'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/f61aced8b6df13ade8ff0f90153eca6e.jpeg'
+      },
+      '遐蝶': {
+        color:'#c0a0c0',bg:'rgba(192,160,192,.10)',border:'rgba(192,160,192,.30)',
+        aliases:['遐蝶'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/c978a8efc970cd4b8b4ceabf38f7284f.jpeg'
+      },
+      '晓美焰': {
+        color:'#4a3768',bg:'rgba(74,55,104,.10)',border:'rgba(74,55,104,.30)',
+        aliases:['晓美焰','焰','Homura'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/34bc10c12d5f0804a5999bc3be1d638f.jpeg'
+      },
+      '楪祈': {
+        color:'#ff6b6b',bg:'rgba(255,107,107,.10)',border:'rgba(255,107,107,.30)',
+        aliases:['楪祈','祈','Inori'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/2e2b5d1e437b8a1a849da8b87184ebf4.jpeg'
+      },
+      '尤诺': {
+        color:'#ffd700',bg:'rgba(255,215,0,.10)',border:'rgba(255,215,0,.30)',
+        aliases:['尤诺','Yuno'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/a0dea5a978773a00b0cc1dcf2d86d15e.jpeg'
+      },
+      '友利奈绪': {
+        color:'#b0c4de',bg:'rgba(176,196,222,.10)',border:'rgba(176,196,222,.30)',
+        aliases:['友利奈绪','奈绪','Nao'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/3523397fc8e818f4b74960f51b982c59.jpeg'
+      },
+      '御坂美琴': {
+        color:'#ff8c00',bg:'rgba(255,140,0,.10)',border:'rgba(255,140,0,.30)',
+        aliases:['御坂美琴','美琴','Misaka','炮姐'],
+        avatar:'https://s1.imagehub.cc/images/2026/05/26/ea09995363a182bfac48686c49b39a52.jpeg'
+      }
+    };
+
+    let currentFontSize = 17.2;
+    function adjustFontSize(d) {
+      currentFontSize = Math.max(14, Math.min(24, currentFontSize + d));
+      document.querySelector('.reading-content').style.fontSize = currentFontSize + 'px';
+      localStorage.setItem('sjjy-font-size', currentFontSize);
+    }
+    function toggleTheme() {
+      const b = document.body;
+      const night = b.getAttribute('data-theme') === 'night';
+      b.setAttribute('data-theme', night ? 'day' : 'night');
+      document.getElementById('themeBtn').textContent = night ? '☀️' : '🌙';
+      localStorage.setItem('sjjy-theme', night ? 'day' : 'night');
+    }
+    function safeDecode(s) { try { return decodeURIComponent(s); } catch { return s; } }
+    function normalizeCharacterName(raw) {
+      const n = String(raw||'').trim().replace(/^[\s"'"'「」《》()【】]+|[\s"'"'「」《》()【】]+$/g,'');
+      for (const [k,c] of Object.entries(CHARACTER_CONFIG))
+        if (k===n || c.aliases?.includes(n)) return k;
+      return null;
+    }
+
+    function processDialogue() {
+      const chr96 = String.fromCharCode(96);
+      const content = document.getElementById('readingContent');
+      const paras = content.innerHTML.trim().split(/\n\s*\n+/).filter(p=>p.trim());
+      content.innerHTML = paras.map(p => {
+        p = p.trim();
+        const m = p.match(/^[\s"'"'「」]*([^\s"'"'「」]+)[\s"'"'「」]*[「"'](.+?)[」"'][\s"'"'「」]*$/);
+        if (m) {
+          const charName = normalizeCharacterName(m[1]);
+          if (charName) {
+            const c = CHARACTER_CONFIG[charName];
+            const fn = charName.charAt(0);
+            const fr = charName.slice(1);
+            return `<div class="dialogue-container">
+              <div class="char-avatar-wrap" style="border:2.5px solid ${c.border};">
+                <img src="${c.avatar}" alt="${charName}"
+                  onerror="this.style.display='none';">
+              </div>
+              <div class="bubble-wrap">
+                <div class="character-name" style="color:${c.color};">
+                  <span class="cn-first">${fn}</span><span class="cn-rest">${fr}</span>
+                </div>
+                <div class="bubble-text">${m[2]}</div>
+              </div>
+            </div>`;
+          }
+        }
+        return `<p>${p}</p>`;
+      }).join('');
+    }
+
+    function _findCgIndex(parts){ return parts.findIndex(p=>safeDecode(p)==='NSFW'||safeDecode(p)==='SFW'); }
+    function _cgLookup(char,type){
+      let d=IMAGE_LISTS[char]; if(d?.[type]) return d[type];
+      const nc=char.trim().normalize('NFC');
+      if(!d){ const k=Object.keys(IMAGE_LISTS).find(c=>c.trim().normalize('NFC')===nc||c.replace(/\s/g,'')===char.replace(/\s/g,'')); if(k) d=IMAGE_LISTS[k]; }
+      if(!d) return 0;
+      if(d[type]) return d[type];
+      const nt=type.trim().normalize('NFC');
+      const k2=Object.keys(d).find(t=>t.trim().normalize('NFC')===nt||t.replace(/\s/g,'')===type.replace(/\s/g,''));
+      return k2?d[k2]:0;
+    }
+    function _pickSubChar(originalChar){
+      const pool=_ALL_CHAR_NAMES.filter(c=>c!==originalChar);
+      return pool[Math.floor(Math.random()*pool.length)]||_ALL_CHAR_NAMES[0];
+    }
+    function _pickSubType(cat,excludeType){
+      const isSfw=safeDecode(cat)==='SFW';
+      const src=isSfw?_SFW_COMMON:_NSFW_COMMON;
+      const keys=Object.keys(src).filter(k=>k!==excludeType);
+      if(!keys.length) return Object.keys(src)[0]||excludeType;
+      return keys[Math.floor(Math.random()*keys.length)];
+    }
+    function _charExists(char){
+      if(IMAGE_LISTS[char]) return true;
+      const nc=char.trim().normalize('NFC');
+      return Object.keys(IMAGE_LISTS).some(c=>c.trim().normalize('NFC')===nc||c.replace(/\s/g,'')===char.replace(/\s/g,''));
+    }
+    function _sceneExists(cat,scene){
+      const src=cat==='SFW'?_SFW_COMMON:_NSFW_COMMON;
+      if(src[scene]) return true;
+      const ns=scene.trim().normalize('NFC');
+      return Object.keys(src).some(k=>k.trim().normalize('NFC')===ns||k.replace(/\s/g,'')===scene.replace(/\s/g,''));
+    }
+    function autoAssignImageNumber(src) {
+      const parts=src.split('/');
+      const idx=_findCgIndex(parts);
+      if(idx<0||idx+2>=parts.length) return {src,tip:null};
+      const cat=parts[idx]; let char=_assetAlias(safeDecode(parts[idx+1]));
+      parts[idx+1]=encodeURIComponent(char);
+      let name=_assetAlias(safeDecode(parts[idx+2]));
+      let tip=null;
+
+      /* Tách hậu tố số và lấy tên cảnh cơ sở */
+      const fm=name.match(/^(.+?)(\d+)$/);
+      const baseName=_assetAlias(fm?fm[1]:name);
+      const hasNum=!!fm;
+      const charOk=_charExists(char);
+      const sceneOk=charOk ? !!_cgLookup(char,baseName) : _sceneExists(safeDecode(cat),baseName);
+
+      /* Bình thường: nhân vật và cảnh đều tồn tại */
+      if(charOk && sceneOk){
+        if(hasNum) return {src,tip:null};
+        const max=_cgLookup(char,baseName);
+        parts[idx+2]=encodeURIComponent(baseName+(Math.floor(Math.random()*max)+1)+'.webp');
+        return {src:parts.join('/'),tip:null};
+      }
+
+      /* Trường hợp 1: không có nhân vật nhưng có cảnh -> đổi nhân vật, giữ cảnh */
+      if(!charOk && sceneOk){
+        const origChar=char;
+        const subChar=_pickSubChar(char);
+        parts[idx+1]=encodeURIComponent(subChar);
+        const max=_cgLookup(subChar,baseName);
+        if(!max) return {src:parts.join('/'),tip:null};
+        parts[idx+2]=encodeURIComponent(baseName+(Math.floor(Math.random()*max)+1)+'.webp');
+        tip=`Nhân vật "${origChar}" không có minh họa, đã thay bằng "${_displayAssetName(subChar)} · ${_displayAssetName(baseName)}"`;
+        return {src:parts.join('/'),tip};
+      }
+
+      /* Trường hợp 2: không có cả nhân vật lẫn cảnh -> đổi cả hai */
+      if(!charOk && !sceneOk){
+        const origChar=char, origType=baseName;
+        const subChar=_pickSubChar(char);
+        const subType=_pickSubType(cat,baseName);
+        parts[idx+1]=encodeURIComponent(subChar);
+        const max=_cgLookup(subChar,subType);
+        if(!max) return {src:parts.join('/'),tip:`Nhân vật "${origChar}" và cảnh "${origType}" không có minh họa`};
+        parts[idx+2]=encodeURIComponent(subType+(Math.floor(Math.random()*max)+1)+'.webp');
+        tip=`"${origChar}" không có minh họa, cảnh "${origType}" không tồn tại, đã thay bằng "${_displayAssetName(subChar)} · ${_displayAssetName(subType)}"`;
+        return {src:parts.join('/'),tip};
+      }
+
+      /* Trường hợp 3: có nhân vật nhưng không có cảnh -> đổi cảnh */
+      const origType=baseName;
+      const subType=_pickSubType(cat,baseName);
+      const max=_cgLookup(char,subType);
+      if(!max) return {src:parts.join('/'),tip:null};
+      parts[idx+2]=encodeURIComponent(subType+(Math.floor(Math.random()*max)+1)+'.webp');
+      tip=`"${_displayAssetName(char)}" không có minh họa "${origType}", đã thay bằng "${_displayAssetName(subType)}"`;
+      return {src:parts.join('/'),tip};
+    }
+
+    function createInteractiveImageContainer(imgHTML) {
+      const id = 'img-' + Math.random().toString(36).substr(2,9);
+      const m = imgHTML.match(/src=["']([^"']+)["']/i);
+      let tipText=null;
+      if (m) {
+        const result=autoAssignImageNumber(m[1]);
+        imgHTML = imgHTML.replace(m[1], result.src);
+        tipText=result.tip;
+      }
+      const subTip = tipText
+        ? `<div class="image-sub-tip">${tipText}</div>`
+        : '';
+      return `<div class="image-container">
+        <div class="image-controls">
+          <button class="image-toggle-btn" onclick="toggleImage('${id}')">Xem minh họa</button>
+          <button class="image-refresh-btn" onclick="refreshImage('${id}',event)" title="Đổi ngẫu nhiên">↻</button>
+        </div>
+        ${subTip}
+        <div class="image-content expanded" id="${id}">${imgHTML}</div>
+      </div>`;
+    }
+
+    window.toggleImage = id => {
+      const d = document.getElementById(id);
+      const btn = d.parentElement.querySelector('.image-toggle-btn');
+      const expanded = d.classList.toggle('expanded');
+      const mapContainer = d.parentElement.closest('.map-image-container');
+      if (mapContainer) {
+        const label = `${mapContainer.dataset.mapWorld||''} · ${mapContainer.dataset.mapPlace||''}`.trim();
+        btn.textContent = expanded ? label : `Xem: ${label}`;
+      } else {
+        btn.textContent = expanded ? 'Thu gọn' : 'Xem minh họa';
+      }
+    };
+    window.refreshImage = (id,e) => {
+      const img = document.getElementById(id).querySelector('img');
+      if(!img) return;
+      const btn = e?.target?.closest('.image-refresh-btn');
+      if (btn) { btn.style.transform='rotate(360deg)'; setTimeout(()=>btn.style.transform='',500); }
+      img.style.opacity = '0.4';
+      img.style.transition = 'opacity 0.3s ease';
+      const _updateTip=(container,text)=>{
+        if(!container) return;
+        let tip=container.querySelector('.image-sub-tip');
+        if(!tip){ tip=document.createElement('div'); tip.className='image-sub-tip'; container.querySelector('.image-content').before(tip); }
+        tip.textContent=text;
+      };
+      try{
+        const parts = img.src.split('/');
+        const idx = _findCgIndex(parts);
+        if(idx<0||idx+2>=parts.length){ img.style.opacity='1'; return; }
+        const cat = parts[idx]; let char = _assetAlias(safeDecode(parts[idx+1]));
+        parts[idx+1]=encodeURIComponent(char);
+        const rawFile = _assetAlias(safeDecode(parts[idx+2]));
+        const fm = rawFile.match(/^(.+?)(\d+)$/);
+        let type = _assetAlias(fm ? fm[1] : rawFile);
+        const curNum = fm ? parseInt(fm[2]) : 0;
+        const container=img.closest('.image-container');
+
+        /* Trường hợp 1: không có nhân vật -> thay nhân vật */
+        if(!_charExists(char)){
+          const origChar=char;
+          const subChar=_pickSubChar(char);
+          parts[idx+1]=encodeURIComponent(subChar);
+          char=subChar;
+          let max=_cgLookup(char,type);
+          if(!max){
+            const origType=type;
+            const subType=_pickSubType(cat,type);
+            max=_cgLookup(char,subType)||1;
+            type=subType;
+            _updateTip(container,`"${origChar}" không có minh họa, cảnh "${origType}" không tồn tại, đã thay bằng "${_displayAssetName(subChar)} · ${_displayAssetName(subType)}"`);
+          }else{
+            _updateTip(container,`Nhân vật "${origChar}" không có minh họa, đã thay bằng "${_displayAssetName(subChar)} · ${_displayAssetName(type)}"`);
+          }
+          let newNum; if(max===1) newNum=1; else do{ newNum=Math.floor(Math.random()*max)+1; }while(newNum===curNum);
+          parts[idx+2]=encodeURIComponent(type+newNum+'.webp');
+          img.onload=()=>{img.style.opacity='1';}; img.onerror=()=>{img.style.opacity='1';};
+          img.src=parts.join('/');
+          return;
+        }
+
+        /* Trường hợp 2: có nhân vật nhưng không có cảnh -> thay cảnh */
+        let max = _cgLookup(char,type);
+        if(!max){
+          const origType=type;
+          const subType=_pickSubType(cat,type);
+          max=_cgLookup(char,subType)||1;
+          type=subType;
+          _updateTip(container,`"${_displayAssetName(char)}" không có minh họa "${origType}", đã thay bằng "${_displayAssetName(subType)}"`);
+        }
+
+        let newNum;
+        if(max===1) newNum=1;
+        else do{ newNum=Math.floor(Math.random()*max)+1; }while(newNum===curNum);
+        parts[idx+2] = encodeURIComponent(type+newNum+'.webp');
+        img.onload = ()=>{ img.style.opacity='1'; };
+        img.onerror = ()=>{ img.style.opacity='1'; };
+        img.src = parts.join('/');
+      }catch(err){ img.style.opacity='1'; }
+    };
+
+    function processAllImages() {
+      document.getElementById('readingContent').querySelectorAll('img').forEach(img => {
+        if (img.closest('.image-container') || img.closest('.char-avatar-wrap')) return;
+        /* Bỏ qua <img> rỗng không có src do tag bản đồ còn sót */
+        if (!img.getAttribute('src')) { img.remove(); return; }
+        /* Bỏ qua ảnh bản đồ, phần này không thuộc luồng CG */
+        const decodedSrc=safeDecode(img.getAttribute('src'));
+        if (decodedSrc.includes('地图/')||decodedSrc.includes('Bản đồ/')||decodedSrc.includes('Ban do/')) return;
+        const wrap = document.createElement('div');
+        wrap.innerHTML = createInteractiveImageContainer(img.outerHTML);
+        img.replaceWith(wrap.firstElementChild);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const sz = localStorage.getItem('sjjy-font-size');
+      if (sz) { currentFontSize=parseFloat(sz); document.querySelector('.reading-content').style.fontSize=sz+'px'; }
+      const th = localStorage.getItem('sjjy-theme');
+      if (th) { document.body.setAttribute('data-theme',th); document.getElementById('themeBtn').textContent=th==='night'?'🌙':'☀️'; }
+      processDialogue();
+      processMapTags();
+      processAllImages();
+    });
+  </script>
+</body>
+</html>
+```

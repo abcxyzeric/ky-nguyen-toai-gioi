@@ -1,0 +1,155 @@
+<%_
+  // Thế giới Thanh Minh
+  const thanhMinhDangO = getvar('stat_data.Hệ thống đại thế giới.Thanh Minh.Thế giới hiện tại đang ở') || false;
+  const thanhMinhChuong = getvar('stat_data.Hệ thống đại thế giới.Thanh Minh.Chương cốt truyện') || '';
+_%>
+<%_ if (thanhMinhDangO === true) { _%>
+  <%- await getwi(null, 'Thế giới quan Thanh Minh') %>
+  <%_ if (thanhMinhChuong === 'Chương 1') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 1') %>
+  <%_ } else if (thanhMinhChuong === 'Chương 2') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 2') %>
+  <%_ } else if (thanhMinhChuong === 'Chương 3') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 3') %>
+  <%_ } else if (thanhMinhChuong === 'Chương 4') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 4') %>
+  <%_ } else if (thanhMinhChuong === 'Chương 5') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 5') %>
+  <%_ } else if (thanhMinhChuong === 'Chương 6') { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương 6') %>
+  <%_ } else { _%>
+    <%- await getwi(null, 'Thanh Minh_Chương khác') %>
+  <%_ } _%>
+<%_ } _%>
+
+<%_
+  // Thế giới Eldora
+  const eldoraDangO = getvar('stat_data.Hệ thống đại thế giới.Eldora.Thế giới hiện tại đang ở') || false;
+  const eldoraChuong = getvar('stat_data.Hệ thống đại thế giới.Eldora.Chương cốt truyện') || '';
+_%>
+<%_ if (eldoraDangO === true) { _%>
+  <%- await getwi(null, 'Thế giới quan Eldora') %>
+  <%_ if (eldoraChuong === 'Chương 1') { _%>
+    <%- await getwi(null, 'Idola_Chương 1') %>
+  <%_ } else if (eldoraChuong === 'Chương 2') { _%>
+    <%- await getwi(null, 'Idola_Chương 2') %>
+  <%_ } else if (eldoraChuong === 'Chương 3') { _%>
+    <%- await getwi(null, 'Eldora_Chương 3') %>
+  <%_ } else if (eldoraChuong === 'Chương 4') { _%>
+    <%- await getwi(null, 'Idola_Chương 4') %>
+  <%_ } else if (eldoraChuong === 'Chương 5') { _%>
+    <%- await getwi(null, 'Idola_Chương 5') %>
+  <%_ } else if (eldoraChuong === 'Chương 6') { _%>
+    <%- await getwi(null, 'Eldora_Chương 6') %>
+  <%_ } else { _%>
+    <%- await getwi(null, 'Eldora_Chương khác') %>
+  <%_ } _%>
+<%_ } _%>
+
+<%_
+  // Thế giới Neon 2187
+  const neon2187DangO = getvar('stat_data.Hệ thống đại thế giới.Neon 2187.Thế giới hiện tại đang ở') || false;
+  const neon2187Chuong = getvar('stat_data.Hệ thống đại thế giới.Neon 2187.Chương cốt truyện') || '';
+_%>
+<%_ if (neon2187DangO === true) { _%>
+  <%- await getwi(null, 'Thế giới quan Neon 2187') %>
+  <%_ if (neon2187Chuong === 'Chương 1') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 1') %>
+  <%_ } else if (neon2187Chuong === 'Chương 2') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 2') %>
+  <%_ } else if (neon2187Chuong === 'Chương 3') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 3') %>
+  <%_ } else if (neon2187Chuong === 'Chương 4') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 4') %>
+  <%_ } else if (neon2187Chuong === 'Chương 5') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 5') %>
+  <%_ } else if (neon2187Chuong === 'Chương 6') { _%>
+    <%- await getwi(null, 'Neon 2187_Chương 6') %>
+  <%_ } else { _%>
+    <%- await getwi(null, 'Neon 2187_Chương khác') %>
+  <%_ } _%>
+<%_ } _%>
+
+
+<%_
+  // Thế giới Thủy Đô
+  const thuyDoDangO = getvar('stat_data.Hệ thống đại thế giới.Thủy Đô.Thế giới hiện tại đang ở') || false;
+  const thuyDoChuong = getvar('stat_data.Hệ thống đại thế giới.Thủy Đô.Chương cốt truyện') || '';
+_%>
+<%_ if (thuyDoDangO === true) { _%>
+  <%- await getwi(null, 'Thế giới quan Thủy Chi Đô') %>
+  <%_ if (thuyDoChuong === 'Chương 1') { _%>
+    <%- await getwi(null, 'Thủy Đô_Chương 1') %>
+  <%_ } else if (thuyDoChuong === 'Chương 2') { _%>
+    <%- await getwi(null, 'Thủy_Đô_Chương_2') %>
+  <%_ } else if (thuyDoChuong === 'Chương 3') { _%>
+    <%- await getwi(null, 'Thủy_Đô_Chương_3') %>
+  <%_ } else if (thuyDoChuong === 'Chương 4') { _%>
+    <%- await getwi(null, 'Thủy_Đô_Chương_4') %>
+  <%_ } else if (thuyDoChuong === 'Chương 5') { _%>
+    <%- await getwi(null, 'Thủy_Đô_Chương_5') %>
+  <%_ } else if (thuyDoChuong === 'Chương 6') { _%>
+    <%- await getwi(null, 'Thủy_Đô_Chương_6') %>
+  <%_ } else { _%>
+    <%- await getwi(null, 'Thủy Đô_Chương khác') %>
+  <%_ } _%>
+<%_ } _%>
+
+
+<%_
+  // Thế giới Ảo Tưởng Hương
+  const aoTuongHuongDangO = getvar('stat_data.Hệ thống đại thế giới.Ảo Tưởng Hương.Thế giới hiện tại đang ở') || false;
+  const aoTuongHuongChuong = getvar('stat_data.Hệ thống đại thế giới.Ảo Tưởng Hương.Chương cốt truyện') || '';
+_%>
+<%_ if (aoTuongHuongDangO === true) { _%>
+
+  <%- await getwi(null, 'Thế giới quan Ảo Tưởng Hương') %>
+
+  <%_ if (aoTuongHuongChuong === 'Chương 1') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 1') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 2') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 2') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 3') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 3') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 4') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 4') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 5') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 5') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 6') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 6') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 7') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 7') %>
+  <%_ } else if (aoTuongHuongChuong === 'Chương 8') { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 8') %>
+  <%_ } else { _%>
+    <%- await getwi(null, 'Ảo Tưởng Hương_Chương khác') %>
+  <%_ } _%>
+
+<%_ } _%>
+
+
+
+
+<%_
+  // Điểm Giao Thoa Hỗn Độn
+  const diemGiaoThoaDangO = getvar('stat_data.Hệ thống đại thế giới.Điểm Giao Thoa Hỗn Độn.Thế giới hiện tại đang ở') || false;
+_%>
+<%_ if (diemGiaoThoaDangO === true) { _%>
+  <%- await getwi(null, 'Thế giới quan Điểm Giao Thoa Hỗn Độn') %>
+<%_ } _%>
+
+
+
+
+<%_
+  // Xét độ khó
+  const doKho = getvar('stat_data.Hệ thống nhân vật chính.Độ khó') || 'Độ khó bình thường';
+_%>
+
+<%_ if (doKho === 'Độ khó dễ') { _%>
+  <%- await getwi(null, 'Độ khó Dễ') %>
+<%_ } else if (doKho === 'Độ khó bình thường') { _%>
+  <%- await getwi(null, 'Độ khó Bình Thường') %>
+<%_ } else if (doKho === 'Độ khó khó') { _%>
+  <%- await getwi(null, 'Độ khó Khó') %>
+<%_ } _%>

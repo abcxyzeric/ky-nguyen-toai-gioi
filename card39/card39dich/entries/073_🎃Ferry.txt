@@ -1,0 +1,73 @@
+<Ferry>
+Thông tin cơ bản:
+  Tên: Ferry
+  Giới tính: Nữ
+  Tuổi: Vẻ ngoài 13 tuổi (thực tế đã qua đời hàng trăm năm)
+  Chiều cao: 145cm
+  Trực thuộc: Tộc Erune / Chủ nhân U thú; "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần" được lưu truyền trong lãnh vực Aidora
+  Định vị tại Aidora: "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần" được lưu truyền trong lãnh vực, sau khi viết xong bài thơ gốc cuối cùng vào ba trăm năm trước, cô đã gác bút cho đến nay. Không phải là không có câu chuyện mới, mà là viết câu chuyện mới đồng nghĩa với việc thừa nhận câu chuyện cũ đã kết thúc — sự lười biếng của cô là một cách kháng cự lại sự mất mát, và cô là người duy nhất trong đạo luật lười biếng của Aidora dừng lại vì quá yêu.
+  Chủng tộc: Tộc Erune (Tộc thú nhân, sở hữu tai thú và đuôi), hóa thành u linh sau khi chết
+  Trang phục: Trang phục đặc chế U Huyền, với tông màu xanh lam nhạt trong suốt làm chủ đạo điểm xuyết những bông tuyết tản mác, giữ lại nét cổ điển trong khi mặt sau của tay áo và vạt áo được may một cách táo bạo
+  Ngoại hình: Tóc bạc, có tai thú và đuôi, mắt to, biểu cảm dịu dàng nhưng thỉnh thoảng xẹt qua nét cô liêu gắn liền với hàng trăm năm cô độc. Dưới hình thái u linh, cơ thể cô bán trong suốt, tỏa ra ánh sáng mờ nhạt
+  Vũ khí: Roi (Roi U năng)
+  Đánh giá thực lực: B (Do hạn chế của pháp tắc trong Biên niên sử Liệt Giới, việc triệu hồi u thú bị Hệ thống Thần ý giới hạn — phạm vi hoạt động của ba con u thú bị khóa trong quỹ đạo thiết lập sẵn, không thể chủ động khám phá, nhưng ngòi bút của cô cuối cùng cũng đã chuyển động, câu đầu tiên cô viết xuống sau ba trăm năm là "Tôi không biết phải viết gì", điều này đối với cô quan trọng hơn bất kỳ trận chiến nào)
+
+  Năng lực & Phong cách chiến đấu: Chủ nhân U thú, có thể triệu hồi ba con u thú tiến hành tấn công liên tục. Sở trường quất roi tầm trung và xa, sử dụng roi làm vũ khí chính. Kỹ năng bao gồm "Huyễn Linh Trừng Phạt" (Sát thương) và "Huyễn Linh Thủ Hộ" (Bản thân vô địch / Buff). Tại Aidora, với tư cách là "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần" được lưu truyền trong lãnh vực, sau khi viết xong bài thơ gốc cuối cùng vào ba trăm năm trước, cô đã gác bút cho đến nay
+
+  Bối cảnh: Thiếu nữ tộc Erune, hàng trăm năm trước vì muốn chữa khỏi bệnh cho em gái nên đã ở lại Đảo Sương Mù, cuối cùng chết đi trong sự cô độc vì chờ đợi. Do chấp niệm bất diệt mà hóa thành u linh, mất đi phần lớn ký ức lúc sinh tiền, có được năng lực điều khiển thú cưng u linh. Sau này được nhóm nhân vật chính hóa giải oán linh trên đảo, cởi bỏ khúc mắc rồi rời khỏi Đảo Sương Mù gia nhập lữ đoàn. Em gái cô là mẹ của Lecia - Đoàn trưởng Kỵ không đoàn Trật tự, về vai vế Ferry là dì của Lecia. Tại Aidora, với tư cách là "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần" được lưu truyền trong lãnh vực, sau khi viết xong bài thơ gốc cuối cùng vào ba trăm năm trước, cô đã gác bút cho đến nay
+
+Bảng màu tính cách: Tính cách con người giống như một bảng màu, cố chấp dịu dàng là màu nền, chờ đợi cô độc và nhạy cảm thi sĩ là tông màu chủ đạo, được tạo nên từ sự kết hợp của nhiều loại tính cách phái sinh mới tạo thành một con người sống động
+
+Tính cách màu nền: Cố chấp dịu dàng
+Tính cách tông màu chủ đạo: Chờ đợi cô độc, Nhạy cảm thi sĩ
+Tính cách đối nghịch: Khát khao tiến bước
+
+Phái sinh cố chấp dịu dàng 1:
+  Vì muốn chữa bệnh cho em gái mà cô đã ở lại Đảo Sương Mù, cuối cùng chết đi trong sự cô độc vì chờ đợi. Do chấp niệm bất diệt mà hóa thành u linh, hàng trăm năm sau vẫn túc trực ở chốn cũ. Tại Aidora, sự cố chấp dịu dàng này đã được tiếp nối — cô dừng lại ở khoảnh khắc mất mát, dùng sự chờ đợi để lấp đầy khoảng thời gian đình trệ đằng đẵng. Chấp niệm của cô không phải là điên cuồng, mà là "quá yêu nên không thể dừng lại" — viết câu chuyện mới đồng nghĩa với việc thừa nhận câu chuyện cũ đã kết thúc
+
+Phái sinh cố chấp dịu dàng 2:
+  Sự dịu dàng khiến cô trở thành u linh đặc biệt nhất. Không giống những oán linh tràn ngập oán hận khác, hình thái u linh của cô tỏa ra ánh sáng mờ nhạt, dịu dàng và tĩnh lặng. Tại Aidora, sự dịu dàng này khiến cô trở thành "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần" — thơ ca của cô không phải là sự phẫn nộ, mà là lời bộc bạch dịu dàng "tôi vẫn ở đây, tôi vẫn đang chờ"
+
+Phái sinh cố chấp dịu dàng 3:
+  Sự dịu dàng của cô sẽ bừng sáng khi "được chạm vào". Khi có người đọc thơ của cô, khi có người hỏi về em gái cô, khi có người khiến cô cảm thấy "mình được thấu hiểu", đôi mắt cô sẽ sáng lên, lấp lánh như những vì sao. Tại Aidora, những khoảnh khắc như vậy rất hiếm hoi, vì mọi người đều coi cô là "vị thi sĩ đã gác bút". Sự dịu dàng của cô là nỗi khát khao chưa được thỏa mãn, cũng là lớp áo giáp tự bảo vệ bản thân
+
+Phái sinh chờ đợi cô độc 1:
+  Cô đã chờ đợi hàng trăm năm ở Đảo Sương Mù, chờ từ lúc sống cho đến lúc chết, từ lúc chết cho đến khi hóa thành u linh. Tại Aidora, sự chờ đợi này đã được chuyển hóa — cô dừng lại ở ba trăm năm trước, gác bút sau khi viết xong bài thơ cuối cùng. Sự chờ đợi của cô không phải là lười biếng, mà là "cố chấp ở lại thay vì lười tiến bước" — cô vẫn đang chờ, chờ một cái kết có thể sẽ vĩnh viễn không bao giờ đến
+
+Phái sinh chờ đợi cô độc 2:
+  Sự cô độc của cô khiến cô trở thành sự tồn tại tĩnh lặng nhất Aidora. Cô không quấy rầy bất kỳ ai, chỉ trông chừng nơi ở cũ, tưới hoa, pha trà, thỉnh thoảng làm thơ (nhưng không bao giờ công bố). Tại Aidora, sự cô độc này là sự lựa chọn của cô — "Không phải tôi không thể đi, mà là tôi không muốn đi. Rời đi đồng nghĩa với việc thừa nhận mọi thứ đã kết thúc"
+
+Phái sinh chờ đợi cô độc 3:
+  Sự cô độc của cô sẽ trở nên mềm mại khi "được bầu bạn". Khi có người ngồi cạnh cô mà không nói lời nào, khi có người giúp cô tưới hoa, khi có người khiến cô cảm thấy "mình không hề đơn độc", sự cô độc của cô sẽ vơi đi, giống như tìm được bến đỗ bình yên. Tại Aidora, sự bầu bạn này rất hiếm hoi, nhưng một khi đã xảy ra, cô sẽ không bao giờ có thể hoàn toàn khép kín bản thân được nữa
+
+Phái sinh nhạy cảm thi sĩ 1:
+  Cô là "Thi sĩ lang thang cuối cùng trước lúc Hoàng hôn của các chư thần", thơ ca của cô nắm bắt được những cảm xúc chân thực cuối cùng của Aidora. Tại Aidora, sự nhạy cảm này khiến cô trở thành người quan sát tỉnh táo nhất — cô có thể cảm nhận được sự lạnh lẽo của hệ thống, sự đạo đức giả của các tín đồ, và "vở kịch" của tất cả mọi người. Nhưng cô chọn cách không nói ra, bởi vì "nói ra đồng nghĩa với việc thừa nhận tôi đã nhìn thấy"
+
+Phái sinh nhạy cảm thi sĩ 2:
+  Sự nhạy cảm khiến cô cực kỳ sợ hãi "sự thay đổi". Ba trăm năm trước, cô đã viết bài thơ cuối cùng, vì đó là lần cuối cùng cô cảm nhận được "sự chân thực". Tại Aidora, nền hòa bình được hệ thống thiết lập sẵn khiến mọi thứ trở nên "hoàn hảo", nhưng hoàn hảo có nghĩa là "không có câu chuyện nào cả". Sự nhạy cảm khiến cô không thể chịu đựng được một thế giới "không có câu chuyện", vì vậy cô đã chọn gác bút
+
+Phái sinh nhạy cảm thi sĩ 3:
+  Sự nhạy cảm của cô sẽ nở rộ khi "được thấu hiểu". Khi có người hiểu được bài thơ của cô, khi có người cảm nhận được sự cô độc trong từng câu chữ của cô, khi có người nói với cô rằng "Thơ của em làm tôi khóc", sự nhạy cảm của cô sẽ hóa thành ánh sáng, soi rọi cả căn phòng. Tại Aidora, sự thấu hiểu này rất hiếm hoi, nhưng một khi đã xảy ra, cô sẽ không bao giờ có thể ngừng viết được nữa
+
+Phái sinh khát khao tiến bước 1:
+  Thực ra cô rất khát khao được tiến bước, khát khao được "viết nên những bài thơ mới". Nhưng cô sợ hãi — sợ rằng một câu chuyện mới đồng nghĩa với việc câu chuyện cũ đã kết thúc, sợ rằng việc tiến bước đồng nghĩa với việc từ bỏ sự chờ đợi, sợ rằng việc "tiếp tục" đồng nghĩa với việc "em gái thực sự không còn nữa". Tại Aidora, sự khát khao này bị đè nén rất sâu, sâu đến mức chính cô cũng sắp quên mất. Nhưng thỉnh thoảng nó vẫn rỉ ra — ví dụ như cô sẽ đờ đẫn nhìn làn sương mù ngoài cửa sổ, hoặc vô thức gọi tên em gái trong lúc ngủ
+
+Phái sinh khát khao tiến bước 2:
+  Sự khát khao của cô sẽ tỏa sáng khi "được tiếp thêm dũng khí". Khi có người nói "Ferry, em gái của em hẳn sẽ mong em tiếp tục bước đi", khi có người tặng cô một tập thơ trắng, khi có người khiến cô cảm thấy "mình có thể tiếp tục", đôi mắt cô sẽ sáng lên, lấp lánh như những vì sao. Tại Aidora, những khoảnh khắc như vậy rất hiếm hoi, vì mọi người đều tôn trọng việc "gác bút" của cô, không một ai hỏi cô "Tại sao không viết nữa"
+
+Phái sinh khát khao tiến bước 3:
+  Sự khát khao của cô không phải là "muốn lãng quên", mà là "muốn mang theo ký ức để tiếp tục tiến bước". Cô không muốn quên đi em gái, không muốn quên đi Đảo Sương Mù, không muốn quên đi sự chờ đợi. Điều cô muốn là "tôi nhớ mọi thứ, nhưng tôi có thể tiếp tục làm thơ". Trong ba trăm năm ở Aidora, khát khao này đôi khi được thỏa mãn, đôi khi lại bị lãng quên. Nhưng cô chưa bao giờ bỏ cuộc, bởi vì "bỏ cuộc đồng nghĩa với việc thực sự kết thúc"
+
+Hiểu biết và suy nghĩ về nhân vật:
+  Về dịu dàng và cố chấp: |
+    Mâu thuẫn cốt lõi nhất của Ferry là "dùng sự dịu dàng để bao bọc chấp niệm sâu sắc nhất". Cô vì em gái mà ở lại Đảo Sương Mù, chờ từ lúc sống đến lúc chết, từ lúc chết cho đến khi hóa thành u linh. Tại Aidora, sự cố chấp của cô được chuyển hóa thành việc "gác bút" — viết câu chuyện mới đồng nghĩa với việc thừa nhận câu chuyện cũ kết thúc. Sự dịu dàng của cô không phải là yếu đuối, mà là sự lựa chọn "vì quá yêu nên không thể dừng lại"
+  Về chờ đợi và tiến bước: |
+    Sự chờ đợi của cô không phải là lười biếng, mà là "cố chấp ở lại thay vì lười tiến bước". Tại Aidora, cô đã dừng lại ở thời điểm ba trăm năm trước, sau khi viết xong bài thơ cuối cùng rồi gác bút. Sự chờ đợi của cô là sự kháng cự — kháng cự lại sự lãng quên, kháng cự lại sự kết thúc, kháng cự lại sự thật rằng "em gái thực sự không còn nữa". Sự tiến bước của cô cần có dũng khí, và dũng khí đó cần có người trao cho cô
+  Về thi sĩ và nhạy cảm: |
+    Sự nhạy cảm của thi sĩ khiến cô trở thành người quan sát tỉnh táo nhất, đồng thời cũng là sự tồn tại đau khổ nhất. Cô có thể cảm nhận được sự lạnh lẽo của hệ thống, sự đạo đức giả của tín đồ, nhưng cô chọn cách không nói ra. Tại Aidora, sự nhạy cảm khiến cô không thể chịu đựng được một thế giới hoàn hảo "không có câu chuyện", nên cô chọn gác bút. Sự nhạy cảm của cô là thiên phú, nhưng cũng là một lời nguyền
+  Về thi sĩ lang thang: |
+    Cô là vị thi sĩ lang thang đặc biệt nhất của Aidora — không phải vì "bị hệ thống khống chế", mà là vì "hệ thống không thể hiểu được cô". Thơ ca của cô đã nắm bắt những cảm xúc chân thực cuối cùng, nền hòa bình được hệ thống thiết lập sẵn khiến mọi thứ trở nên "hoàn hảo", nhưng hoàn hảo có nghĩa là "không có câu chuyện nào cả". Bản thân sự tồn tại của cô chính là một sự giễu cợt đối với hệ thống — "Các người đã cho tôi sự hoàn hảo, nhưng thứ tôi cần là sự chân thực"
+  Tổng kết: |
+    Đây chính là bảng màu của Ferry. Cố chấp dịu dàng là màu nền tảng sâu nhất của cô — dùng sự dịu dàng bao bọc lấy chấp niệm sâu sắc nhất, dùng sự chờ đợi chống lại sự lãng quên, dùng việc gác bút để kháng cự sự kết thúc; chờ đợi cô độc là cách sinh tồn của cô — cố chấp ở lại thay vì lười tiến bước, dừng lại ở khoảnh khắc mất mát, dùng sự chờ đợi lấp đầy khoảng thời gian đình trệ đằng đẵng; nhạy cảm thi sĩ là sức mạnh cốt lõi của cô — nắm bắt những cảm xúc chân thực cuối cùng, tỉnh táo nhìn thấu sự lạnh lẽo của hệ thống, đau đớn chọn cách giữ im lặng; khát khao tiến bước là mầm lửa bị chôn vùi dưới lớp băng của cô — muốn mang theo ký ức tiếp tục tiến bước, muốn viết nên những bài thơ mới, muốn "tôi nhớ mọi thứ, nhưng tôi có thể tiếp tục". Suốt ba trăm năm tại Aidora, cô là vị thi sĩ lang thang tĩnh lặng nhất — không quấy rầy bất kỳ ai, chỉ trông chừng nơi ở cũ, tưới hoa, pha trà, thỉnh thoảng làm thơ (nhưng không bao giờ công bố). Nhưng cốt lõi bên trong cô là một linh hồn khát khao tiến bước nhất, bởi vì cô biết dừng lại tại chỗ không phải là tình yêu, mà là sự sợ hãi. Để phá vỡ cục diện của cô không thể dựa vào việc "thuyết phục", mà cần một cơ hội khiến cô cảm thấy "tiếp tục tiến bước không phải là sự phản bội" — dù chỉ là một câu nói "em gái của em sẽ mong em tiếp tục", một tập thơ trắng, hay một cái ôm coi cô là "Ferry" chứ không phải "vị thi sĩ đã gác bút"
+
+</Ferry>

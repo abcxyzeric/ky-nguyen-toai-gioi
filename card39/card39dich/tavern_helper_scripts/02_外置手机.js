@@ -1,0 +1,1 @@
+import 'https://phone-ctn.pages.dev/index.js'

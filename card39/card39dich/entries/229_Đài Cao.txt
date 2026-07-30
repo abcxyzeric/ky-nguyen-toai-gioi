@@ -1,0 +1,16 @@
+<Đài Cao>
+  Đài Cao:
+    Vị trí: Trung tâm Làng Không Ngủ, nơi ở của Thiên Vũ Trảm Trảm
+    Ngoại quan: |
+      Bục gỗ cao lụp xụp, nằm ở trung tâm khu định cư.
+      Thiên Vũ Trảm Trảm đứng đó, nhìn về hướng Chaldea.
+      Không khí khu định cư căng thẳng, mọi người đều chằm chằm nhìn kẻ ngoại lai.
+    Cảm quan: |
+      Thiên Vũ Trảm Trảm: "Ta không cho phép bất kỳ kẻ nào của ta từ bỏ chính mình. Cho dù bọn họ có muốn đi chăng nữa."
+      "Omega dùng giấc mơ giam cầm bảy trăm triệu người, ta dùng bạo lực chiếm đoạt vài trăm người, chúng ta đều là những kẻ nô lệ của sự tham lam."
+      Master: "Biết rõ bản thân đang làm gì, không có nghĩa điều đó là đúng."
+    Sự kiện địa điểm: |
+      Thiên Vũ Trảm Trảm đứng trên đài cao duy trì trật tự khu định cư.
+      Cô nói với Master: "Biết, vẫn tốt hơn là không biết, đúng chứ?"
+      Đến chương cuối, cô bước xuống khỏi đài cao: "Những kẻ tỉnh táo…… không biết có cần tiếp tục tỉnh táo nữa hay không."
+</Đài Cao>

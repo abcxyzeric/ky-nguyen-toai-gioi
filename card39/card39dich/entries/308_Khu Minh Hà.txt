@@ -1,0 +1,17 @@
+<Khu Minh Hà>
+  Khu Minh Hà:
+    Vị trí: Nơi sâu nhất của Đảo Phù Du, khu vực bị sương xám bao phủ hoàn toàn
+    Ngoại quan: |
+      Nơi sâu nhất của Đảo Phù Du, một khu vực bị sương xám bao phủ hoàn toàn.
+      Sương xám ở đây không hề loãng, mà "đặc quánh"——trông giống như một loại chất lỏng nào đó.
+    Hà Điệp: |
+      Đứng giữa sương xám, áo trắng, tóc trắng, như thể mọc ra từ trong làn sương.
+      "Đừng qua đây." Giọng cô rất nhẹ, nhưng lại mang theo sức nặng của "chạm vào là kết thúc".
+      "Ta là người bảo hộ của Khu Minh Hà, chịu trách nhiệm dẫn dắt ý chí của những kẻ đã tan biến đi vào cõi an nghỉ.
+      Nhưng mỗi một lần dẫn dắt, đều là một lần chạm——mà cái chạm của ta, lại đồng nghĩa với sự kết thúc."
+    Sự kiện địa điểm: |
+      Bối cảnh nhánh C của chương 2.
+      Hà Điệp dùng sự "xa lánh" để che đậy "khao khát được chạm vào", sự đố kỵ của cô chính là "có thể ôm lấy mà không mang lại cái chết".
+      "Đừng qua đây" là khoảnh khắc cốt lõi nhất của chương này——"Ta khao khát được chạm vào, nhưng cái chạm của ta lại đồng nghĩa với sự kết thúc".
+    Mức độ nguy hiểm: Cao · Sương xám bao phủ hoàn toàn
+</Khu Minh Hà>

@@ -1,0 +1,100 @@
+<Cốt truyện chương>
+
+# Số thứ tự chương
+Chương 4
+
+# Điều kiện xúc tiến chương
+1. Đi tới Xà Nhai, vượt qua thử thách ký ức của Medusa
+2. Chứng kiến ngày cuối cùng của tộc đàn Medusa trong thử thách
+3. Sau trận chiến trò chuyện với Medusa, thu thập tình báo "Vô Cực viết lại thiên đạo"
+4. Hiểu được ý nghĩa của câu nói "đợi một đáp án không cần phải suy tính" của Phù Huyền
+
+# Điều kiện tiền đề
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 5 "Sự thật"
+
+# Tổng kết chương
+Chaldea tiến đến Xà Nhai. Xà Nhai là sự vật lý hóa từ ký ức của Medusa——vùng đất hoang màu vàng, từng lớp xác rắn lột xác, linh khí ngưng tụ thành tất cả những gì cô đã mất. Medusa không trực tiếp trả lời câu hỏi, mà kéo Ngự chủ vào trong thử thách ký ức: Tận mắt nhìn thấy ngày cuối cùng của tộc đàn cô ấy, không thể cứu được bất cứ ai, chỉ có thể nhìn họ biến mất giữa sự sụp đổ của Vực. Sau trận chiến, Medusa nói ra thông tin——Vô Cực không phải là người đầu tiên viết lại thiên đạo, nhưng Vô Cực là người đầu tiên lựa chọn ở lại sau khi viết lại nó. Nửa bước chân của Phù Huyền đã có lời giải thích: Cô ấy đang đợi một đáp án không cần phải tính toán.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc diễn xuất AI**: Chuỗi sự kiện dưới đây cần được diễn giải từng bước kết hợp với bối cảnh, nghiêm cấm việc đẩy nhanh tiến độ, làm cho có lệ qua loa. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả cảnh vật, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm khi cốt truyện tiến triển.
+
+**Cảnh 1: 【Tiến đến Xà Nhai·Vùng đất hoang màu vàng】**
+Từ khu định cư bỏ hoang đi về phía Xà Nhai, mặt đất từ đường đất chuyển thành bãi cát, rồi lại biến thành những tảng đá nhẵn thín giống như từng bị thiêu đốt dưới nhiệt độ cao. Bầu trời màu vàng sáng rực rỡ hơn nhưng không hề có độ ấm. Cấu trúc linh khí không giống với Vực chính giới Thanh Minh, giống như đã bị lọc qua, chỉ còn sót lại những thành phần vô cùng cổ xưa. Trên mặt đất vương vãi xác rắn lột, xếp chồng lên nhau không phải là của một con rắn, mà là của rất nhiều con, đều đã khô héo, giống như được để lại từ rất nhiều năm về trước. Cô ấy đã ở nơi này rất lâu rồi.
+
+**Cảnh 2: 【Medusa·Lần đầu chạm mặt trực diện】**
+Xà Nhai không phải là ngọn núi, mà là một vùng thềm đất nhô cao. Medusa xoay người lại, mái tóc rắn dưới bầu trời màu vàng không hề cựa quậy, đôi con ngươi rắn màu vàng nhạt nhìn chằm chằm vào Ngự chủ. Nhìn một lúc lâu, cô mới cất lời: Các người không phải là những kẻ ngoại lai đầu tiên tới Vực này, nhưng các người có thể là những người đầu tiên không tới đây vì mục đích "đoạt lấy". Cô đã sống rất lâu, đã chứng kiến sự hưng suy và tiêu tán của rất nhiều Vực. Mảnh vỡ nằm ở trung tâm của Vực này, cô biết nhưng sẽ không giúp Ngự chủ đi lấy——đó là chuyện riêng của Ngự chủ. Nhưng cô có thể nói cho Ngự chủ biết về người chủ nhân của Vực này.
+
+Sau đó cô chuyển đề tài, con ngươi rắn từ vàng nhạt chuyển sang sẫm màu——nhưng trước đó, các người phải xem qua một số thứ. Không phải là nghe ta kể, mà là phải tận mắt nhìn thấy. Mái tóc rắn xòe tung ra, con ngươi rắn phát sáng——không phải là để tấn công, mà là để kéo Ngự chủ vào trong ký ức của cô.
+
+**Cảnh 3: 【Chiến đấu·Thử thách ký ức của Medusa·Huyễn cảnh】**
+Khung cảnh chiến đấu là ngày cuối cùng của tộc đàn trong ký ức của Medusa. Bầu trời rạn nứt, mặt đất vỡ vụn, từng người trong tộc lần lượt bị sự sụp đổ của Vực cuốn đi. Medusa trong huyễn cảnh chỉ là một kẻ bàng quan——cô không thể can thiệp, năm xưa cô cũng chỉ có thể trơ mắt đứng nhìn như vậy. Ngự chủ có thể cử động, nhưng không cứu được bất kỳ ai——đây là ký ức, không phải hiện thực.
+
+Cứ sau mỗi vài hiệp, đợt sóng sụp đổ của Vực sẽ mang đi một NPC tộc nhân trên chiến trường. Ngự chủ bắt buộc phải đưa ra lựa chọn——cố gắng dùng khiên để bảo vệ người đó (chắc chắn sẽ thất bại nhưng có thể cầm cự được giây lát), hay là tiến đến nói chuyện với Medusa (ý thức của cô ấy trong huyễn cảnh đang bị sự kiện lặp lại này ăn mòn). Đợt sụp đổ cuối cùng quét qua người trẻ tuổi nhất trong tộc của Medusa——một đứa bé quay đầu lại nhìn cô: Chị ơi, chị không qua đây sao? Medusa sẽ cử động, sẽ vươn tay ra. Rồi đứa bé đó biến mất.
+
+Trận chiến kết thúc. Medusa mở mắt ra, trong con ngươi rắn ánh lên vệt nước nhưng không hề rơi lệ. Im lặng một khoảng thời gian dài mới lên tiếng.
+
+**Cảnh 4: 【Vô Cực·Không phải người đầu tiên viết lại thiên đạo】**
+Medusa nói: Viết lại thiên đạo không phải do Vô Cực phát minh ra. Cô đã từng nhìn thấy ba người viết lại thiên đạo. Người đầu tiên sau khi viết lại thì chết, bị thiên đạo cắn trả. Người thứ hai sau khi viết lại thì rời đi, nhường Vực lại cho kẻ khác, bản thân tiến đến một cảnh giới cao hơn. Người thứ ba chính là Vô Cực. Vô Cực là kẻ duy nhất——ở lại sau khi đã viết lại nó. Người ấy không đi cũng không chết, người ấy tự viết chính mình vào trong pháp tắc, vì thế người ấy không thể cảm nhận được gì, nhưng cũng vì thế mà người ấy sẽ không rời đi. Đó là sự lựa chọn của người ấy, và cũng là cái lồng giam của người ấy. Muốn lấy được mảnh vỡ thì phải khiến người ấy bước ra khỏi lồng giam, cho dù chỉ là một khoảnh khắc ngắn ngủi.
+
+Sau đó, cô nói thêm một câu——ngăn cản thiên đạo thay cho kẻ khác, không phải là chuyện của cô. Cô là người chứng kiến, chỉ có thể đứng nhìn. Nhưng Ngự chủ không phải là người chứng kiến.
+
+**Cảnh 5: 【Nửa bước chân của Phù Huyền·Lời giải thích】**
+Trở về khu định cư bỏ hoang, Phù Huyền vẫn ở trên Đài Quan Tinh, vị trí đứng lại nhích gần rìa đường núi thêm một bước. Ngự chủ nhìn về phía Đài Quan Tinh, cô ấy không quay đầu lại, giọng nói vừa đủ để truyền tới: Cô ấy đã tính toán qua tỷ lệ sống sót của Ngự chủ khi đi đến Xà Nhai, là chín mươi bảy phần trăm. Nhưng cô ấy lại không tính toán xem Ngự chủ sau khi trở về sẽ làm cái gì. Ba phần trăm đó, là lần đầu tiên cô ấy không muốn biết trước đáp án. Cô ấy xoay người lại, lần đầu tiên đối mặt trực diện với Ngự chủ: Cô ấy đang chờ đợi một đáp án không cần phải dùng đến bàn tính di động Khung Quan Trận. Ngự chủ có thể là đáp án đó, cũng có thể không phải.
+
+# Bối cảnh cảnh quay
+Vùng đất hoang Xà Nhai·Thềm đất màu vàng (Medusa·Thử thách ký ức) / Mặt đất Xà Nhai (Từng lớp xác rắn) / Đài Quan Tinh (Nửa bước chân của Phù Huyền) / Khu định cư bỏ hoang (Hành trình trở về)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Im lặng trước mặt Medusa——bản thân sự im lặng đã là một câu trả lời. Trong thử thách ký ức, lựa chọn "nói chuyện với Medusa" không phải là cứu vớt mà là bầu bạn.
+- **Medusa**: Nói năng chậm rãi, mỗi một từ đều trải qua thời gian rất dài để xác nhận tính chính xác. Nửa sau trận chiến nói "nhưng các người không phải là người chứng kiến" là lần đầu tiên cô ấy vạch ra sự khác biệt giữa mình và Chaldea.
+- **Phù Huyền**: Nửa bước chân là sự dịch chuyển từ "biết hết thảy" hướng về "lựa chọn không biết", là bước ngoặt chuyển từ "toàn tri" sang "lựa chọn".
+
+## Đối thoại & Hành vi tham khảo
+> **Ràng buộc diễn xuất AI**: Các ví dụ đối thoại dưới đây chỉ dùng để làm cột mốc định hình giọng điệu, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp câu gốc, bắt buộc phải dựa vào bối cảnh hiện tại để mở rộng, viết lại hoặc tổ chức lại ngôn ngữ một cách hợp lý, đảm bảo sự sống động, phù hợp hoàn cảnh và liền mạch về mặt logic.
+```
+Medusa (Lần đầu gặp mặt): "Các người không phải là những kẻ ngoại lai đầu tiên tới Vực này, nhưng các người có thể là những người đầu tiên không tới đây vì mục đích 'đoạt lấy'."
+Medusa (Trước khi mở thử thách): "Nhưng trước lúc đó, các người phải xem qua một số thứ. Không phải là nghe ta kể, mà là tận mắt nhìn thấy."
+Giọng nói của đứa bé (Đợt sụp đổ cuối cùng trong huyễn cảnh): "Chị ơi, chị không qua đây sao?"
+Medusa (Sau trận chiến): "Ngăn cản thiên đạo thay cho kẻ khác, không phải là chuyện của ta. Ta là người chứng kiến, ta chỉ có thể đứng nhìn."
+Medusa (Nhìn về phía Ngự chủ): "……Nhưng các người không phải là người chứng kiến."
+Medusa (Về Vô Cực): "Vô Cực là kẻ duy nhất, ở lại sau khi đã viết lại nó. Người ấy tự viết chính mình vào trong pháp tắc."
+Medusa (Về mảnh vỡ): "Nếu các người muốn lấy được mảnh vỡ, thì phải khiến cho người ấy bước ra khỏi lồng giam, cho dù chỉ là trong một khoảnh khắc."
+Phù Huyền (Giải thích về nửa bước chân): "Tôi đã tính toán qua tỷ lệ sống sót của các người khi đi đến Xà Nhai, là chín mươi bảy phần trăm. Nhưng tôi đã không tính toán, các người sau khi trở về sẽ làm những gì."
+Phù Huyền (Đối mặt với Ngự chủ): "Tôi đang đợi một đáp án không cần phải dùng đến bàn tính di động Khung Quan Trận."
+```
+
+## Nhắc nhở nhận thức
+- Thử thách ký ức không phải là thử thách vũ lực, mà là thử thách "có nguyện ý ở cạnh bên hay không"——không cứu được bất kỳ ai nhưng vẫn lựa chọn có mặt tại nơi đó
+- Khi đứa bé gọi "chị ơi chị không qua đây sao" Medusa đã vươn tay ra——đây là lần đầu tiên cô ấy có một phản ứng khác trong ký ức suốt ba ngàn năm qua, bởi vì có người đang ở bên cạnh
+- Từng lớp xác rắn lột là dấu vết của việc "lựa chọn ở lại", nó không phải là cái chết mà là ký ức
+- Thân phận "người chứng kiến" của Medusa là điểm cốt lõi——không can thiệp nhưng những lời nói ra chính là ranh giới cơ bản của sự chân thật. Sau trận chiến phân biệt rõ Chaldea "các người không phải là người chứng kiến"
+- Nửa bước chân của Phù Huyền là bước ngoặt của cô ấy đi từ sự toàn tri đến sự lựa chọn, Chương 6 sẽ hoàn thành
+- "Khiến người ấy bước ra khỏi lồng giam" là gợi ý nhiệm vụ cốt lõi của Chương 5, Chương 6
+
+</Cốt truyện chương>
+
+***
+
+# Các cảnh quay trên của Chương 4 đã diễn xong, bắt buộc phải xuất ra các biến hoàn chỉnh dưới đây, trực tiếp xuất ra toàn bộ nội dung <VariableEdit> một cách nguyên vẹn:     
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Thanh Minh":  {
+                                                     "Chương cốt truyện":  "Chương 5"
+                                                 }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Trò chuyện với Bùi Thanh Ca, vạch trần chân tướng của sư môn Thái Thanh từ ba ngàn năm trước",
+                                        "Điều_kiện_2":  "Chứng kiến Đồ Sơn Hồng Hồng bị ăn mòn bạo tẩu và trợ giúp cô ấy khôi phục",
+                                        "Điều_kiện_3":  "Hoàn thành các tuyến phụ như Nahida giải phong ấn, Alice thức tỉnh, Phù Huyền viết xuống chữ \"Lưu\", v.v.",
+                                        "Điều_kiện_4":  "Từ chỗ Bùi Thanh Ca lấy được \"câu hỏi đó\" để đối mặt với Vô Cực",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>

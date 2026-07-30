@@ -1,0 +1,53 @@
+{
+    "id":  14,
+    "keys":  [
+                 "艾拉多",
+                 "Eldora"
+             ],
+    "secondary_keys":  [
+
+                       ],
+    "comment":  "Eldora ban đầu",
+    "content":  "<Điều kiện thúc đẩy chương Eldora>\n1. Trò chuyện với Kazuma, thu thập thông tin về quy tắc cơ bản của Eldora\n2. Lắng nghe El hát, lấy manh mối về Thành phố Thần Ý\n3. Quan sát nghi thức cầu nguyện tại thần điện, phát hiện điểm bất thường\n4. Lấy mảnh giấy từ căn nhà cũ của Feli, đọc nội dung ở cả hai mặt trước và sau\n\n# Lần đầu tiến vào Eldora, chương một của cốt truyện, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, trực tiếp xuất ra toàn bộ nội dung trong <VariableEdit> một cách nguyên vẹn:\n\n<VariableEdit>\r\n{\r\n    \"Điều kiện tiến triển chương\":  {\r\n                                        \"Điều_kiện_1\":  \"Trò chuyện với Kazuma, thu thập thông tin về quy tắc cơ bản của Eldora\",\r\n                                        \"Điều_kiện_2\":  \"Lắng nghe El hát, lấy manh mối về Thành phố Thần Ý\",\r\n                                        \"Điều_kiện_3\":  \"Quan sát nghi thức cầu nguyện tại thần điện, phát hiện điểm bất thường\",\r\n                                        \"Điều_kiện_4\":  \"Lấy mảnh giấy từ căn nhà cũ của Feli, đọc nội dung ở cả hai mặt trước và sau\",\r\n                                        \"Điều_kiện_5\":  \"Không có\",\r\n                                        \"Điều_kiện_1_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_2_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_3_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_4_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_5_hoàn_thành\":  true\r\n                                    }\r\n}\r\n</VariableEdit>\n</Điều kiện thúc đẩy chương một Eldora>",
+    "constant":  false,
+    "selective":  true,
+    "insertion_order":  999,
+    "enabled":  true,
+    "position":  "before_char",
+    "use_regex":  true,
+    "extensions":  {
+                       "position":  0,
+                       "exclude_recursion":  true,
+                       "display_index":  113,
+                       "probability":  100,
+                       "useProbability":  true,
+                       "depth":  4,
+                       "selectiveLogic":  0,
+                       "outlet_name":  "",
+                       "group":  "",
+                       "group_override":  false,
+                       "group_weight":  100,
+                       "prevent_recursion":  true,
+                       "delay_until_recursion":  false,
+                       "scan_depth":  null,
+                       "match_whole_words":  null,
+                       "use_group_scoring":  false,
+                       "case_sensitive":  null,
+                       "automation_id":  "",
+                       "role":  0,
+                       "vectorized":  false,
+                       "sticky":  0,
+                       "cooldown":  0,
+                       "delay":  0,
+                       "match_persona_description":  false,
+                       "match_character_description":  false,
+                       "match_character_personality":  false,
+                       "match_character_depth_prompt":  false,
+                       "match_scenario":  false,
+                       "match_creator_notes":  false,
+                       "triggers":  [
+
+                                    ],
+                       "ignore_budget":  false
+                   }
+}

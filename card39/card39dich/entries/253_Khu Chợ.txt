@@ -1,0 +1,15 @@
+<Khu Chợ>
+  Khu Chợ:
+    Vị trí: Tầng ngoài Nghê Hồng Khư, quảng trường ồn ào tiếng người
+    Ngoại quan: |
+      Khu định cư náo nhiệt, tiếng người ồn ào, các cuộc giao dịch đang diễn ra.
+      Có người bán thức ăn, có người bán tình báo, có người bán "trải nghiệm giấc mơ".
+      Quảng trường trung tâm dựng tượng của Mammon——bức tượng một người mẹ ôm đứa trẻ.
+    Cảm nhận: |
+      Da Vinci: "Những người ở đây không hề trống rỗng, họ là 'những dục vọng được lấp đầy'——mỗi người đều có mục tiêu đạt được của riêng mình."
+      Holmes: "Chú ý ánh mắt của họ, không phải vui vẻ, không phải bi thương, mà là 'vẫn cần nhiều hơn nữa'."
+    Sự kiện địa điểm: |
+      Chaldea tiến vào khu giao dịch tầng ngoài, cảm nhận nơi duy nhất có "hơi thở cuộc sống" trên vùng đất hoang.
+      Bệ tượng Mammon khắc dòng chữ: "Một phần năm trăm ngàn, mỗi một người đều xứng đáng."
+      Khu quý tộc cũ của Shinomiya Kaguya nằm trong những tòa nhà cũ được bảo tồn nguyên vẹn ở phía đông tầng ngoài.
+</Khu Chợ>

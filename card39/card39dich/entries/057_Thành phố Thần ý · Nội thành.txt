@@ -1,0 +1,30 @@
+<Thành phố Thần ý · Nội thành>
+  Nội thành:
+    Vị trí: Nơi Thần ý, khu vực do Người được thần chọn bảo vệ
+    Ngoại quan: |
+      Trên cửa khắc chữ "Nơi Thần ý".
+      Emilia đứng trước cửa, mặc trường bào màu trắng, trên tay cầm một cuộn sách tiên tri.
+      Ngoại trừ Người được thần chọn và nhân sự cốt lõi của hệ thống, chưa từng có ai tiến vào.
+    Emilia: |
+      "Tôi là Người được thần chọn, chức trách của tôi là bảo vệ Nội thành."
+      Ngự chủ hỏi cô liệu bản thân cô có tình nguyện không, cô sửng sốt một chút——
+      Sự sửng sốt đó chỉ kéo dài 0.3 giây, nhưng chân thực đến mức xé lòng.
+      "Tôi..." Cô thốt ra một chữ, rồi dừng lại,
+      Sau đó khôi phục nụ cười chuẩn mực:
+      "Tôi là Người được thần chọn, chức trách của tôi là bảo vệ Nội thành."
+      Cô đã nén câu hỏi đó xuống, bằng bản năng được rèn luyện suốt ba trăm năm.
+    Sự kiện địa điểm: |
+      Nhiệm vụ phụ Chương 2 nhánh F, lối vào Nội thành.
+      Cảnh cốt lõi Chương 5, lần "từ chối" đầu tiên của Emilia:
+      "Nếu tôi không truyền đạt thì sao?"
+      Câu hỏi ấy vang vọng trong Nơi Thần ý.
+      Isla không có phản ứng——"Không nằm trong quy trình".
+      Chtholly không có phản ứng——"Không có trong kịch bản của tôi".
+      Thanh kiếm của Darkness động đậy một chút, nhưng cô ấy không rút nó ra——
+      "Không biết sau khi không phục tùng thì nên làm gì".
+      Emilia nhìn bọn họ, nói:
+      "Tôi đã mất ba trăm năm để học cách thuận tùng, bây giờ tôi muốn học cách không thuận tùng. Nhưng lại không biết phải học thế nào."
+      Ngự chủ nói: "Không cần học. Không thuận tùng chính là... không làm gì cả."
+      Emilia sửng sốt một chút, sau đó đặt cuộn sách tiên tri xuống đất.
+      "Không làm." Cô lặp lại một lần, giống như đang xác nhận cách phát âm của từ này, "...Không làm."
+</Thành phố Thần ý · Nội thành>

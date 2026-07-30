@@ -1,0 +1,20 @@
+<Khu Rừng Ma Thuật>
+  Khu Rừng Ma Thuật:
+    Vị trí: Khu vực xung quanh Hakurei Thần Xã, nơi ở biệt lập của Kirisame Marisa
+    Ngoại quan: |
+      Sâu trong rừng có nấm và sách ma thuật, căn chòi của Marisa ẩn giấu giữa những tán cây.
+      Cây cối bị quy luật sắc dục thẩm thấu, vỏ cây ấm nóng, xúc giác hệt như làn da người.
+      Thân cây đổ đốn là địa điểm làm tình của Marisa, trên bề mặt vẫn còn lưu lại những dấu răng.
+    Kirisame Marisa: |
+      Chủ nhân của căn chòi sâu trong rừng, kẻ chiếm đoạt mang bản tính cướp bóc.
+      Cô không hề bị khóa chặt ép buộc——trong lúc chiến đấu, cô đã chủ động vượt qua ranh giới đó.
+      Dưới sự thẩm thấu của quy luật sắc dục, Master Spark đã biến thành một luồng ánh sáng màu hồng phấn.
+      Sau trận chiến, cô chủ động tiến về phía Ngự chủ, cắn xuống một dấu răng xem như "bộ sưu tập"——
+      Sự thực thể hóa của nỗi "sợ bị lãng quên".
+    Sự kiện địa điểm: |
+      Bối cảnh chương 1.
+      Ngự chủ và Marisa triển khai một trận chiến đạn mạc (danmaku) sâu trong rừng.
+      Sau trận chiến, Marisa không hề bị đánh bại——cô chủ động lựa chọn đầu hàng.
+      Dấu răng lưu lại trên cổ tay Ngự chủ, chính là hình thái sắc dục của sự "chiếm hữu".
+    Độ nguy hiểm: Trung bình · Chiến đấu đạn mạc
+</Khu Rừng Ma Thuật>

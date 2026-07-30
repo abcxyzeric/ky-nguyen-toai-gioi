@@ -1,0 +1,54 @@
+{
+    "id":  328,
+    "keys":  [
+                 "水之都",
+                 "Thủy Đô",
+                 "Thủy Chi Đô"
+             ],
+    "secondary_keys":  [
+
+                       ],
+    "comment":  "Thủy_Đô_Khởi_Đầu",
+    "content":  "<Điều kiện tiến triển chương 1 Thủy Đô>\n# Điều kiện tiến triển chương\n1. Trò chuyện với Ryougi Shiki, thu thập tình báo về quy luật của Thủy Đô\n2. Quan sát sự lên xuống của sương xám, lấy manh mối về tầng biên giới\n3. Phát hiện vị trí bưu điện ký ức\n\n# Lần đầu tiến vào Thủy Đô, cốt truyện chương 1, bắt buộc xuất ra toàn bộ biến số dưới đây, trực tiếp xuất ra nguyên vẹn nội dung của toàn bộ <VariableEdit>:\n\n<VariableEdit>\r\n{\r\n    \"Hệ thống đại thế giới\":  {\r\n                                  \"Thủy Đô\":  {\r\n                                                  \"Chương cốt truyện\":  \"Chương 1\"\r\n                                              }\r\n                              },\r\n    \"Điều kiện tiến triển chương\":  {\r\n                                        \"Điều_kiện_1\":  \"Trò chuyện với Ryougi Shiki, thu thập tình báo về quy luật của Thủy Đô\",\r\n                                        \"Điều_kiện_2\":  \"Quan sát sự lên xuống của sương xám, lấy manh mối về tầng biên giới\",\r\n                                        \"Điều_kiện_3\":  \"Phát hiện vị trí bưu điện ký ức\",\r\n                                        \"Điều_kiện_4\":  \"Không có\",\r\n                                        \"Điều_kiện_5\":  \"Không có\",\r\n                                        \"Điều_kiện_1_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_2_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_3_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_4_hoàn_thành\":  true,\r\n                                        \"Điều_kiện_5_hoàn_thành\":  true\r\n                                    }\r\n}\r\n</VariableEdit>\n</Điều kiện tiến triển chương 1 Thủy Đô>\n",
+    "constant":  false,
+    "selective":  true,
+    "insertion_order":  888,
+    "enabled":  true,
+    "position":  "before_char",
+    "use_regex":  true,
+    "extensions":  {
+                       "position":  0,
+                       "exclude_recursion":  true,
+                       "display_index":  150,
+                       "probability":  100,
+                       "useProbability":  true,
+                       "depth":  4,
+                       "selectiveLogic":  0,
+                       "outlet_name":  "",
+                       "group":  "",
+                       "group_override":  false,
+                       "group_weight":  100,
+                       "prevent_recursion":  true,
+                       "delay_until_recursion":  false,
+                       "scan_depth":  null,
+                       "match_whole_words":  null,
+                       "use_group_scoring":  false,
+                       "case_sensitive":  null,
+                       "automation_id":  "",
+                       "role":  0,
+                       "vectorized":  false,
+                       "sticky":  0,
+                       "cooldown":  0,
+                       "delay":  0,
+                       "match_persona_description":  false,
+                       "match_character_description":  false,
+                       "match_character_personality":  false,
+                       "match_character_depth_prompt":  false,
+                       "match_scenario":  false,
+                       "match_creator_notes":  false,
+                       "triggers":  [
+
+                                    ],
+                       "ignore_budget":  false
+                   }
+}

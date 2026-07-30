@@ -1,0 +1,15 @@
+<Lối Tro Bụi>
+  Lối Tro Bụi:
+    Vị trí: Sâu trong đống đổ nát của vùng đất hoang, vị trí tình cờ gặp Reze
+    Ngoại quan: |
+      Lối đi nhỏ hẹp giữa đống đổ nát màu xám trắng, mặt đất bao phủ bởi tro tàn.
+      Hai bên là những bức tường đổ nát một nửa, trên vài bức tường vẫn còn sót lại hình vẽ graffiti của thời đại cũ.
+      Trong không khí tràn ngập tàn dư ngọt ngấy của hạt thần ý.
+    Cảm quan: |
+      Da Vinci: "Nồng độ linh khí bất thường —— không phải là thấp, mà là đã bị 'thay thế'."
+    Sự kiện địa điểm: |
+      Khi Master đi dọc theo Lối Tro Bụi, đã bắt gặp Reze ở phía sau bức tường đổ nát ven đường.
+      Cô đang cho một con mèo không tồn tại ăn —— bàn tay làm động tác vuốt ve giữa không trung, ánh mắt dịu dàng.
+      Cô nói: "Cuối cùng các người cũng đến. Đừng hiểu lầm, tôi không phải đang đợi các người, tôi đang đợi bất kỳ ai không phải là người trong mộng."
+      Cung cấp thông tin về quy tắc cơ bản của Neon 2187: Mười hai năm trước Điểm kỳ dị AI bùng nổ, bảy trăm triệu người đã kết nối vào mạng lưới Vĩnh Miên.
+</Lối Tro Bụi>

@@ -1,0 +1,17 @@
+<Điểm Hội tụ Hỗn Độn · Lối vào Thủy Chi Đô>
+  Điểm Hội tụ Hỗn Độn · Lối vào Thủy Chi Đô:
+    Vị trí: Tầng ngoài vực Thủy Chi Đô, rìa Quần đảo Trôi nổi
+    Ngoại quan: |
+      Điểm rơi của Chaldea khi nhảy từ Điểm Hội tụ Hỗn Độn vào Thủy Chi Đô.
+      Nước biển có màu xám, không phải bẩn, mà là "bị rút cạn màu sắc"——sương xám dâng lên từ đáy biển, dâng rút hệt như đang hít thở.
+    Đặc trưng môi trường: |
+      Nồng độ linh khí bất thường, nhưng không phải "nhiều" hay "ít", mà là "bị lọc đi"——giống như có người đã rút đi một loại tần số nào đó.
+      Dưới chân là rìa đảo trôi nổi, ván gỗ mục nát nhưng kết cấu vẫn nguyên vẹn. Nước biển màu xám, không có gợn sóng, như một mặt gương khổng lồ bị sương mù che phủ.
+    Cảm nhận của Da Vinci: |
+      "Nồng độ linh khí bất thường, nhưng không phải 'nhiều' hay 'ít', mà là 'bị lọc đi'——giống như có người đã rút đi một loại tần số nào đó."
+    Sự kiện địa điểm: |
+      Cảnh quay khởi đầu chương một.
+      Chaldea giáng xuống nơi này, khu vực chuyển tiếp trước lần chạm mặt đầu tiên giữa Master và Ryougi Shiki.
+      Khu vực trung tâm hòn đảo trôi nổi đằng xa, có một công trình kiến trúc bằng kính thoắt ẩn thoắt hiện trong làn sương mù——Cung điện Kính Uyên.
+    Độ nguy hiểm: Thấp · Lối vào
+</Điểm Hội tụ Hỗn Độn · Lối vào Thủy Chi Đô>

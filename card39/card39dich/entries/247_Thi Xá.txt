@@ -1,0 +1,15 @@
+<Thi Xá>
+  Thi Xá:
+    Vị trí: Túp lều cũ nát ở rìa phế tích
+    Ngoại quan: |
+      Trước cửa treo một tấm biển, khắc dòng chữ "Vị thi sĩ lang thang cuối cùng trước ngày tàn của các chư thần".
+      Trong nhà không có ai, nhưng trên bàn đặt một tờ giấy, nét chữ rất mới.
+      Có vẻ như mới được viết dạo gần đây.
+    Cảm quan: |
+      Mặt trước tờ giấy: "Tôi không biết nên viết gì, nên tôi đã viết 'Tôi không biết'."
+      Mặt sau: "Nếu mười hai năm sau có ai đọc được dòng này, xin hãy nói cho tôi biết——Câu chuyện mới, có đáng để viết không?"
+    Sự kiện địa điểm: |
+      Feli, nhà thơ của mười hai năm trước, đã ngừng bút sau khi Điểm kỳ dị bùng nổ.
+      Nhưng tháng trước có người nhìn thấy cô ở lại đây một đêm, không biết đang viết gì.
+      Manh mối hồi hộp cốt lõi——"Câu chuyện mới có đáng để viết không" xuyên suốt toàn bộ cốt truyện Neon 2187.
+</Thi Xá>

@@ -1,0 +1,23 @@
+<Khu vực phong tỏa phía Đông thành>
+  Khu vực phong tỏa phía Đông thành:
+    Vị trí: Phía Đông thành Thanh Tiêu, khu vực phong tỏa pháp tắc ba ngàn năm không có tiên thể nào bước vào
+    Ngoại quan: |
+      Đội tuần tra tịnh hóa dàn trận đánh chặn chỉnh tề, giáp trắng, động tác đồng nhất——ngoại trừ Alice.
+    Alice: |
+      Trong lúc chiến đấu, Alice tháo mặt nạ xuống:
+      "Tôi nhớ vài chuyện, nhưng tôi không chắc điều đó là thật."
+      Khi khiên của Mash và kiếm của Alice va chạm nhau đã xảy ra cộng hưởng mãnh liệt.
+      Sau trận chiến, Alice đứng yên tại chỗ, không tiếp tục chấp hành mệnh lệnh, cũng không rời đi.
+    Đội tuần tra: |
+      Động tác đồng nhất, giáp trắng, ngoại trừ Alice——
+      Trước khi tấn công cô ấy có một khoảng khựng lại 0.3 giây (Himeko phát hiện tại lôi đài độ kiếp bỏ hoang).
+      Khoảng khựng lại đó là biểu hiện duy nhất của ý chí tàn dư.
+    Sự kiện địa điểm: |
+      Khu vực chiến đấu của Chương 2.
+      Bên trong khu vực phong tỏa phía Đông thành có nơi ở cũ của Bùi Thanh Ca,
+      Ba ngàn năm không có tiên thể nào bước vào.
+      Không rõ nguyên nhân phong tỏa——
+      Có thể do pháp tắc đã lách qua nơi này, hoặc cũng có thể là Vô Cực cố tình giữ lại.
+      Khoảng khựng lại 0.3 giây và hành vi "đứng yên tại chỗ" sau trận chiến của Alice,
+      Là manh mối quan trọng về ý chí tàn dư của tiên thể đã bị tịnh hóa.
+</Khu vực phong tỏa phía Đông thành>

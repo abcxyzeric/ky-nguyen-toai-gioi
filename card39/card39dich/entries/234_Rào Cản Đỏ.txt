@@ -1,0 +1,13 @@
+<Rào Cản Đỏ>
+  Rào Cản Đỏ:
+    Vị trí: Điểm nút đặc biệt bị bao quanh bởi rào cản màu đỏ
+    Ngoại quan: |
+      Xung quanh bị bao bọc bởi một lớp rào cản màu đỏ, bên trong là khung cảnh một gia đình hoàn mỹ.
+      Thiếu nữ đang nấu ăn trong bếp, chờ đợi một người nào đó trở về.
+    Cảm quan: |
+      Yuno Gasai: "Đây là nhà của Yukiteru, chỉ có Yukiteru mới được vào. Nếu các người bước vào, tức là muốn cướp Yukiteru đi."
+      "Mặc dù tôi biết, Yukiteru đó là do Omega tạo ra dựa trên ký ức của tôi, nhưng đồ giả cũng rất tốt, Yukiteru giả, cũng là Yukiteru của tôi."
+    Sự kiện địa điểm: |
+      Hình thái thuần túy nhất của sự tham lam chiếm đoạt——nuốt chửng chứ không phải cho đi.
+      Đến chương cuối buông dao xuống: "Yukiteru……không biết có nên tiếp tục đợi nữa không."
+</Rào Cản Đỏ>

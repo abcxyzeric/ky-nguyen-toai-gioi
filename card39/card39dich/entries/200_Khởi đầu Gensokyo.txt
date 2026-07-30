@@ -1,0 +1,26 @@
+<Điều kiện thúc đẩy chương 1 Gensokyo>
+# Điều kiện thúc đẩy chương
+1. Nói chuyện với Hakurei Reimu, thấu hiểu bản chất của dị biến Xuân Dung và cơ chế thẩm thấu của luật lệ sắc dục
+2. Chiến đấu với Kirisame Marisa và trải nghiệm hình thái sắc dục mang tên "chiếm hữu"
+3. Hoàn thành việc giao thoa cắm rút cùng Cirno và Rumia, thu thập mảnh vỡ của nhiệt độ và bóng tối
+4. Thu thập bốn mảnh vỡ tàn dư, kích hoạt con đường dẫn đến Hồng Ma Quán
+
+# Lần đầu tiên tiến vào Gensokyo, cốt truyện chương 1, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, trực tiếp xuất ra toàn bộ nội dung trong <VariableEdit> một cách nguyên vẹn:
+
+<VariableEdit>
+{
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Nói chuyện với Hakurei Reimu, thấu hiểu bản chất của dị biến Xuân Dung và cơ chế thẩm thấu của luật lệ sắc dục",
+                                        "Điều_kiện_2":  "Chiến đấu với Kirisame Marisa và trải nghiệm hình thái sắc dục mang tên \"chiếm hữu\"",
+                                        "Điều_kiện_3":  "Hoàn thành việc giao thoa cắm rút cùng Cirno và Rumia, thu thập mảnh vỡ của nhiệt độ và bóng tối",
+                                        "Điều_kiện_4":  "Thu thập bốn mảnh vỡ tàn dư, kích hoạt con đường dẫn đến Hồng Ma Quán",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>
+</Điều kiện thúc đẩy chương 1 Thanh Minh>

@@ -1,0 +1,25 @@
+<Điều kiện tiến triển chương 1 Thanh Minh>
+# Điều kiện tiến triển chương
+1. Đánh bại ý chí tàn lưu của phế tích tụ lạc
+2. Đối thoại với Bùi Thanh Ca, thu thập tình báo pháp tắc giới Thanh Minh
+3. Hỏi Đồ Sơn Hồng Hồng về vị trí Hồ Hỏa Các
+
+# Lần đầu tiến vào Thanh Minh, cốt truyện chương 1, bắt buộc phải xuất ra các biến hoàn chỉnh sau đây, xuất toàn bộ nội dung trong <VariableEdit> một cách trọn vẹn:
+
+<VariableEdit>
+{
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Đánh bại ý chí tàn lưu của phế tích tụ lạc",
+                                        "Điều_kiện_2":  "Đối thoại với Bùi Thanh Ca, thu thập tình báo pháp tắc giới Thanh Minh",
+                                        "Điều_kiện_3":  "Hỏi Đồ Sơn Hồng Hồng về vị trí Hồ Hỏa Các",
+                                        "Điều_kiện_4":  "Không có",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  true,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>
+</Điều kiện tiến triển chương 1 Thanh Minh>

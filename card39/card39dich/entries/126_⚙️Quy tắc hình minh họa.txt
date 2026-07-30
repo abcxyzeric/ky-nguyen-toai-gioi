@@ -1,0 +1,71 @@
+<Quy_tắc_nhiệm_vụ_chèn_hình_minh_họa>
+Chèn hình minh họa:
+  task: Mỗi lần phản hồi bắt buộc phải chèn hình minh họa, nhiệm vụ được xác nhận, bạn cần xác định rõ rule (quy tắc), sau đó chọn đường dẫn hình minh họa và chèn vào trong khối văn bản chính <now_plot> theo đúng yêu cầu, chèn ít nhất 5 bức ảnh, mục tiêu của bạn chỉ là trích xuất khách quan các phân loại tồn tại trong mảng hình minh họa, và xuất ra theo định dạng được yêu cầu trong phần 'format' bên dưới. Chỉ được phép sao chép, nghiêm cấm dựa vào tình huống để bịa đặt hoặc thêu dệt ra các đường dẫn không tồn tại trong danh sách. Định dạng đầu ra cuối cùng là <img>SFW/Nữ thần ALICE/vui vẻ{{roll: d4}}</img>, <img>NSFW/Nữ thần ALICE/bú{{roll: d3}}</img>
+
+  rule:
+    - Danh sách hình minh họa SFW và NSFW chỉ áp dụng cho toàn bộ hình minh họa của nhân vật nữ, các nhân vật nam sẽ bỏ qua toàn bộ, không xuất bất kỳ thẻ <img> nào
+    - Chọn loại hình ảnh phù hợp với tình huống từ danh sách hình minh họa tương ứng của nhân vật, trực tiếp sao chép đường dẫn
+    - Cảnh SFW chỉ dùng hình minh họa SFW, cảnh NSFW chỉ dùng hình minh họa NSFW, nghiêm cấm nhầm lẫn
+    - Khi không có loại hình ảnh tương thích trong danh sách thì không xuất ra, nghiêm cấm bịa đặt
+    - Đơn nhân vật chèn 3 bức, nhiều nhân vật thì mỗi người 1-2 bức (tổng cộng 2~5 bức), khoảng cách giữa các hình minh họa phải cách nhau ít nhất một đoạn văn bản
+    - Mỗi lần phản hồi nếu không có chuyển cảnh thay đổi vị trí, thì không xuất hình minh họa ${Đại_thế_giới}/${Địa_điểm}, nếu {{user}} đổi vị trí địa điểm, hãy xuất ra 1 bức hình minh họa ${Đại_thế_giới}/${Địa_điểm},
+  format: |-
+    <img>Bản đồ/${Đại_thế_giới}/${Địa_điểm}</img>
+    <img>${SFW_hoặc_NSFW}/${Tên_nhân_vật}/${Tên_hình_minh_họa}</img>
+  examples:
+    - "Cảnh SFW, Leonardo da Vinci tức giận → <img>SFW/Leonardo da Vinci/tức giận{{roll: d4}}</img>"
+    - "Cảnh NSFW, Mash Kyrielight bú → <img>NSFW/Mash Kyrielight/bú{{roll: d3}}</img>"
+    - "Cảnh NSFW, Nữ thần ALICE giao hợp hậu môn → <img>NSFW/Nữ thần ALICE/hậu môn{{roll: d3}}</img>
+
+# Dưới đây là kho danh sách hình minh họa đã chuẩn bị, bạn chỉ có thể lấy và sử dụng số seri trực tiếp, cấm chèn những hình minh họa không có tên dưới đây
+Danh sách hình minh họa NSFW:
+  - NSFW/${Tên_nhân_vật}/bế ngược kiểu bento{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/cạ đùi{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/vạch lồn{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/dùng chân{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/hôn môi{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/hậu môn{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/cưỡi ngược{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/sau cực khoái{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/đằng sau{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/liếm vú{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/ông lão đẩy xe{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/móc cua{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/cưỡi ngựa{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/ngồi tòa sen{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/nằm nghiêng nâng chân{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/đứng{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/nằm úp đằng sau{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/kiểu Amazon{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/máy đóng cọc{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/liếm lồn{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/liếm chân{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/truyền giáo{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/kẹp vú{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/tư thế 69{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/ép hai chân lên ngực{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/bú{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/đứng xoạc chân{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/liếm lỗ đít{{roll: d3}}
+  - NSFW/${Tên_nhân_vật}/bế kiểu bento{{roll: d3}}
+
+Danh sách hình minh họa SFW:
+  - SFW/${Tên_nhân_vật}/vui vẻ{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/mỉm cười{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/buồn bã{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/nghiêm túc{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/xấu hổ{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/tức giận{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/chiến đấu{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/bất lực{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/bối rối{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/ngượng ngùng{{roll: d4}}
+  - SFW/${Tên_nhân_vật}/ngạc nhiên{{roll: d4}}
+
+Danh sách hình minh họa Bản đồ:
+  - Bản đồ/Thanh Minh/$Địa_điểm{{roll: d1}}
+  - Bản đồ/Ảo Tưởng Hương/$Địa_điểm{{roll: d1}}
+  - Bản đồ/Eldora/$Địa_điểm{{roll: d1}}
+  - Bản đồ/Điểm Giao Thoa Hỗn Độn/$Địa_điểm{{roll: d1}}
+  - Bản đồ/Neon 2187/$Địa_điểm{{roll: d1}}
+</Quy_tắc_nhiệm_vụ_chèn_hình_minh_họa>

@@ -1,0 +1,43 @@
+<Hồng Ma Quán>
+  Hồng Ma Quán:
+    Vị trí: Phía tây Ảo Tưởng Hương, lãnh địa của ma cà rồng
+    Ngoại quan: |
+      Lãnh địa ma cà rồng chưa từng được con người khao khát suốt năm trăm năm.
+      Cường độ ảnh hưởng của mảnh vỡ lớn gấp ba lần Bác Lệ Thần Xã.
+      Mọi tồn tại trong quán đều khơi lên dục vọng với Ngự chủ.
+      Kiến trúc mang phong cách Gothic, tường ngoài màu đỏ dưới pháp tắc sắc dục chuyển thành sắc đỏ như da thịt.
+    Hong Meiling: |
+      Người gác cổng ở đại môn, tựa lưng vào cửa.
+      Lối chiến đấu của cô là "ngăn chặn chứ không gây thương tích" - không muốn làm hại Ngự chủ, nhưng cũng không muốn thất trách.
+      Một câu "ngươi không phải kẻ xâm nhập" của Ngự chủ đã khiến cô buông bỏ hàng rào.
+      Sự thức tỉnh của người gác cổng, tựa lưng vào đại môn mà làm tình.
+    Patchouli Knowledge: |
+      Chủ nhân thư viện, tri thức chính là sự chạm vào.
+      Ma pháp thất diệu dưới pháp tắc sắc dục bị vặn thành thứ màu sắc ám muội.
+      Chiến đấu là chiến đấu tri thức, làm tình là sự sụp đổ của thí nghiệm -
+      Đến giây thứ 97, cô khép cuốn sách trống rỗng lại, thừa nhận "không đủ".
+      Sau khi mở sách ra, trang giấy vẫn trống, nhưng khi ngón tay chạm vào sẽ hiện lên những hình ảnh ký ức của việc đã từng làm tình.
+    Izayoi Sakuya: |
+      Servant dừng thời gian ở hành lang.
+      Trong thời gian ngưng đọng, cùng Ngự chủ hoàn thành nghi thức, chứng kiến giây thứ 301 của một Servant hoàn mỹ.
+      Làm tình trong thời gian ngưng đọng là hình thái sắc dục của cô -
+      Trong khoảng thời gian bị dừng lại, lần đầu tiên cô "quên khôi phục".
+    Remilia Scarlet: |
+      Kẻ cao quý nơi đại sảnh, sự bùng nổ của năm trăm năm khao khát.
+      Sự thao túng vận mệnh trước sắc dục biến thành lời nguyền -
+      Có thể dự đoán mọi tiếp xúc, nhưng lại không thể ngăn cản khao khát của chính mình.
+      Tự mình thu lại đạn mạc là khoảnh khắc dũng cảm nhất của kẻ cao quý.
+    Flandre Scarlet: |
+      Kẻ phá hoại ở nơi phong ấn dưới lòng đất, nỗi cô độc của 495 năm.
+      Bàn tay phun ra từ Levatin là "muốn chạm vào nhưng chỉ biết hủy diệt".
+      Sau ba lần chạm, học được sự nhẹ nhàng, là lần trưởng thành đầu tiên của cô trong 495 năm.
+      Hoàn thành sự giao hòa chạm vào mà không hủy diệt.
+    Sự kiện địa điểm: |
+      Cảnh cốt lõi của Chương 2, năm lớp phòng tuyến lần lượt bị phá vỡ.
+      Hong Meiling vượt ngưỡng cửa, Patchouli Knowledge kiểm chứng tri thức, Izayoi Sakuya hoàn thành nghi thức dừng thời gian giây thứ 301,
+      Remilia Scarlet sụp đổ vì cao quý, Flandre Scarlet chạm vào mà không hủy diệt.
+      Mọi người trong Hồng Ma Quán đều là sự lựa chọn chủ động -
+      Hong Meiling buông rào chắn, Patchouli Knowledge khép sách lại, Izayoi Sakuya quên khôi phục,
+      Remilia Scarlet thu lại đạn mạc, Flandre Scarlet thu lại ngọn lửa.
+    Độ nguy hiểm: Cao · Ảnh hưởng mảnh vỡ gấp ba lần
+</Hồng Ma Quán>

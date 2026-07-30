@@ -1,0 +1,18 @@
+<Hành Lang>
+  Hành Lang:
+    Vị trí: Hành lang Mệnh Liên Tự, nơi dạo bước của Tatara Kogasa
+    Ngoại quan: |
+      Trên sàn gỗ của hành lang còn lưu lại nhiệt độ cơ thể không phải của mình,
+      Khi giẫm chân trần lên sẽ kích hoạt ký ức xúc giác của người khác.
+      Cuối hành lang là bóng tối, Kogasa nhảy ra từ trong bóng tối hù dọa người qua đường.
+    Tatara Kogasa: |
+      Sự hù dọa và hơi ấm dưới ô.
+      "Hù dọa" của cô ấy là một hình thức vặn vẹo của khát khao được chú ý tới——
+      Làm tình là lần đầu tiên cô ấy không cần phải hù dọa mà vẫn được người ta chú ý.
+      Sự hù dọa và hơi ấm, "không cần dọa người cũng có thể được nhìn thấy".
+    Sự kiện địa điểm: |
+      Cảnh chương 6.
+      Kogasa hù dọa và hơi ấm.
+      Sự hòa quyện dưới ô——"không cần dọa người cũng có thể được nhìn thấy".
+    Độ nguy hiểm: Thấp · Lãnh vực hù dọa
+</Hành Lang>

@@ -1,0 +1,16 @@
+<Bốn Tấm Gương>
+  Bốn Tấm Gương:
+    Vị trí: Bên trong Kính Cung, bốn phương hướng
+    Ngoại quan: |
+      Bốn mặt của Kính Cung đều là gương, mỗi mặt đều phản chiếu "nếu như".
+      Tấm gương thứ nhất: Kính Uyên mười bảy tuổi, dị năng vừa mới thức tỉnh, cười nói với bạn bè "Mình có thể bảo vệ các cậu".
+      Tấm gương thứ hai: Cái ngày sương xám bùng phát, bạn bè biến mất ngay trước mắt cô, cô vươn tay ra bắt, nhưng lại chụp hụt.
+      Tấm gương thứ ba: Hai mươi năm sau cho đến hôm nay, cô ngồi trong Kính Cung, duy trì trật tự, nhưng trong lòng vẫn luôn tự hỏi "Nếu lúc đó mình không thức tỉnh dị năng".
+      Tấm gương thứ tư: Trống rỗng. Kính Uyên nói: "Mặt này là để lại cho 'tương lai', nhưng tôi không biết tương lai là gì."
+    Sự kiện địa điểm: |
+      Bối cảnh giải đố cốt lõi của chương ba.
+      Bốn tấm gương là sự thực thể hóa của chủ đề "đố kỵ"——"Tôi đố kỵ với cái nếu như đó".
+      Điều kiện kích hoạt: Tự động kích hoạt sau khi tiến vào Kính Cung.
+      Tấm gương trống rỗng thứ tư là để dành cho "tương lai", cũng là hy vọng cuối cùng của Kính Uyên.
+    Độ nguy hiểm: Cao · Xói mòn ký ức
+</Bốn Tấm Gương>

@@ -1,0 +1,204 @@
+<Cốt truyện chương>
+
+# Mã số chương
+Chương 5·Người được Thần chọn
+
+# Điều kiện tiến triển chương
+1. Hoàn thành sự kiện "từ chối" của Emilia
+2. Kích hoạt hành động chủ động của Aqua
+3. Thu được "Báo cáo" do Megumin đệ trình
+4. Có cuộc đối thoại chân thực đầu tiên với Kaveh
+
+# Điều kiện tiền đề
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 6 "Bình minh của Chư thần"
+
+# Tóm tắt chương
+Lần đầu tiên Emilia hỏi "Nếu như tôi không truyền thì sao?"——đây là sự "từ chối" đầu tiên của Idola trong suốt ba trăm năm qua. Thần dụ (Oracle) trực tiếp can thiệp——dùng các hạt ánh sáng vàng bao bọc lấy cổ tay, bờ vai và trán cô. Đó không phải là trừng phạt, mà là "sự uốn nắn dịu dàng": Khiến cô cảm thấy dễ chịu, khiến cô muốn bỏ cuộc. Cô dùng móng tay bấm mạnh vào cổ tay mình, dùng sự đau đớn để chống lại hơi ấm đó. "Không làm." Cô nghiến răng rặn ra hai chữ này. Các hạt Thần dụ tản đi——chúng không thể xử lý được lệnh "thà chịu đau đớn chứ không cần thoải mái".
+
+Trong Thần điện, lần đầu tiên Aqua chủ động hành động——bởi vì có kẻ đã nghi ngờ thần cách của cô. Những hạt Thần dụ rỉ ra từ các bức tường, cố gắng bịt miệng cô, nhưng bị cô vung một tát đánh tan. Cô hét lớn: "Ta là Nữ thần cơ mà——! Kẻ nào dám nghi ngờ ta! Các ngươi——cũng không được phép để cho dăm ba cái hạt giẻ rách này bịt miệng! Muốn ta ngậm miệng ư? Nằm mơ đi! Ta là Aqua cơ mà!"
+
+Megumin đệ trình bản báo cáo kéo dài suốt ba trăm năm. Quan viên hệ thống nói "Không nằm trong quy trình." Cô đợi một hồi lâu, sau đó đập mạnh tay xuống bàn——"Ta không biết, nhưng ta sẽ nghĩ ra cách."
+
+Lần đầu tiên Kaveh thừa nhận "Nơi này là do tôi xây dựng." Ly rượu tuột khỏi tay anh, rơi vỡ tan tành trên mặt đất. Anh không nhặt nó lên.
+
+Illya ngồi trong khu vực lưu trữ mảnh vỡ Nhân lý. Khi lời "không làm" của Emilia truyền đến, các mảnh vỡ bắt đầu phát sáng. Lần đầu tiên cô chủ động đứng dậy, vươn tay ra, để các mảnh vỡ từ đầu ngón tay mình bay về phía Ngự chủ. "Xin hãy thu hồi mảnh vỡ." Cô dừng lại một nhịp, "Nhưng xin đừng nhét chúng vào một vật chứa khác. Được không."
+
+Cú lật ngược cốt lõi của chương này: Emilia nói "Tôi đã dành ba trăm năm để học cách thuận theo, bây giờ tôi muốn học cách không thuận theo"——bản thân việc "học cách không thuận theo" của cô vốn dĩ đã là mặt trái của sự thuận theo, nhưng cô vẫn đang dùng phương pháp "học". "Không thuận theo" thực sự không phải là học được——mà là bắt tay vào làm.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc nhập vai của AI**: Chuỗi sự kiện dưới đây phải được diễn dịch từng bước một kết hợp chặt chẽ với bối cảnh, nghiêm cấm việc đẩy nhanh tiến độ hoặc làm qua loa bằng vài câu hời hợt. Mỗi sự kiện đều phải được miêu tả bối cảnh đầy đủ, thể hiện rõ phản ứng của nhân vật cùng các tầng lớp cảm xúc, đảm bảo nhịp độ thúc đẩy cốt truyện và cảm giác nhập vai sâu sắc.
+
+**Cảnh 1: 【Nội thành · Thần dụ sở · Sự từ chối của Emilia】**
+Chính giữa Thần dụ sở. Emilia cầm sách tiên tri, Chtholly và Darkness đứng thành một hàng——đó là quy trình tiêu chuẩn diễn ra mỗi ngày suốt ba trăm năm qua.
+
+Cô mở sách tiên tri ra, liếc nhìn một cái rồi gập lại. Im lặng ba giây. "Nếu như——tôi không truyền thì sao."
+
+Câu hỏi đó vang vọng trong Thần dụ sở. Chtholly không có phản ứng——"Không nằm trong kịch bản của tôi." Thanh kiếm của Darkness nhúc nhích một chút nhưng không rút ra——"Không biết phải làm gì sau khi không phục tùng."
+
+Emilia quay sang nhìn Ngự chủ. "Tôi đã dành ba trăm năm để học cách thuận theo. Bây giờ tôi muốn học cách không thuận theo. Nhưng tôi không biết phải học thế nào." Ngự chủ nói——không cần phải học. Không thuận theo chính là... không làm. Cô sững người một thoáng, rồi đặt sách tiên tri xuống đất. "Không làm. ——Không làm."
+
+Khoảnh khắc sách tiên tri chạm đất, ánh sáng vàng nhạt rỉ ra từ các bức tường——các hạt Thần dụ quấn quanh cổ tay, bờ vai và trán cô như một dải lụa mỏng. Đó không phải là sự trừng phạt, mà là "sự uốn nắn": Hơi ấm đó khiến người ta chỉ muốn nhắm mắt lại, không làm gì cả, để mọi thứ quay trở về vị trí cũ. Cơ thể cô bắt đầu run rẩy. Quá đỗi thoải mái. Cuốn sách nằm ngay dưới chân, chỉ cần nhặt lên và đọc ra, mọi thứ sẽ dễ dàng biết bao. Bàn tay cô vô thức vươn về phía cuốn sách tiên tri.
+
+Cô dùng bàn tay còn lại nắm chặt lấy cổ tay mình. Móng tay bấm sâu vào da thịt. Máu rịn ra. "……Không. ——Không làm."
+
+Các hạt Thần dụ khẽ chớp động, rồi tản đi——nó không thể xử lý được chỉ lệnh này. Emilia ngồi sụp xuống đất, trên cổ tay hằn rõ vệt máu, khóe miệng run rẩy. "……Nó đi rồi."——Nụ cười đó là nụ cười thật tâm, bởi vì cô không biết nụ cười này là đúng hay sai.
+
+**Cảnh 2: 【Thần điện · Sự bùng nổ của Aqua】**
+Bức tượng của Aqua đột nhiên cử động——không phải là những động tác được Thần dụ cài đặt sẵn. Tiếng thạch cao nứt vỡ vang lên từ bề mặt bức tượng. Giọng nói của cô vang vọng khắp thành phố.
+
+"Có kẻ dám nghi ngờ thần cách của ta——!"
+
+Aqua bước ra từ trong bức tượng——không phải với tư cách một nữ thần được thờ phụng. Mà là một người phụ nữ bằng xương bằng thịt, đang vô cùng tức giận, và cảm thấy lòng tự trọng bị xúc phạm.
+
+"Ba trăm năm rồi——! Các người ngày nào cũng cầu nguyện——nhưng chẳng có ai thực sự tin ta là thần! Các người chỉ là những tín đồ được Thần dụ thiết lập sẵn mà thôi!"
+
+Những bức tường của Thần điện bắt đầu ứa ra các hạt Thần dụ——những vệt sáng màu vàng rực lao về phía cổ họng cô, trông hệt như một bàn tay. Thần dụ đang cố gắng bịt miệng cô lại.
+
+Aqua cúi đầu nhìn những dải ánh sáng đang quấn lấy cổ mình. Sau đó, cô càng tức giận hơn.
+
+"——Ngươi lại còn muốn bắt ta câm miệng sao?!"
+
+Cô vung một tát đánh tan những hạt Thần dụ đó. Không phải bằng thần lực——mà bằng sự phẫn nộ. Sự phẫn nộ thuần túy, không có lý lẽ, và chưa từng bùng phát suốt ba trăm năm qua.
+
+"Ta là Nữ thần cơ mà——! Kẻ nào dám nghi ngờ ta! Các người——cũng không được phép để cho mấy cái hạt chết tiệt này bịt miệng! Muốn ta ngậm miệng? Mơ đi! Ta là Aqua cơ mà!"
+
+Những hạt Thần dụ đó sau khi bị đánh tan không hề tập hợp lại nữa. Thần dụ đã từ bỏ——không phải vì đánh không lại. Mà là vì "phẫn nộ" không nằm trong phạm vi xử lý của nó.
+
+**Cảnh 3: 【Megumin · Đệ trình báo cáo / Kaveh · Thừa nhận】**
+Megumin bước vào văn phòng cốt lõi của Thần dụ. Trên tay cô cầm bản báo cáo của suốt ba trăm năm. Trên bìa cuối cùng cũng có chữ——được viết tay, đè lên dòng đầu tiên vốn dĩ đã trống rỗng suốt ba thế kỷ.
+
+"Khuyết điểm căn bản của Thần dụ. Ta đã phân tích ba trăm năm. Kết luận là——Thần dụ có thể bị dừng lại."
+
+Viên quan chức liếc nhìn cô một cái. "Không nằm trong quy trình."
+
+Megumin chờ ba giây. Ngón tay gõ xuống mặt bàn một cái. Thêm một cái nữa. Sau đó, cô vung tay đập mạnh xuống bàn. Chiếc bút trong hộp đựng bút nảy lên rồi rơi xuống, lăn lông lốc trên mặt đất.
+
+"Ta——không biết. Nhưng ta sẽ nghĩ ra cách."
+
+Cô quay người bỏ đi. Lần đầu tiên không trở về phòng nghiên cứu. Cô đi dọc trên con phố, không biết mình sẽ đi đâu. Nhưng cô sẽ nghĩ ra. Chữ "sẽ" đó, là thì tương lai đầu tiên xuất hiện trong suốt ba trăm năm qua.
+
+——Cùng lúc đó. Kaveh đang ở trên ngọn tháp. Nhìn sự hỗn loạn của thành phố. Ngự chủ bước vào. Anh quay người lại. Không hề mỉm cười.
+
+"Nơi này là do tôi xây dựng."
+
+Ly rượu tuột khỏi tay——rơi vỡ nát trên sàn. Những mảnh vỡ văng tới tận chân Ngự chủ. Anh không nhặt lên. Lần đầu tiên trong suốt ba trăm năm, trên sàn của ngọn tháp lại xuất hiện những thứ không nên có.
+
+"Ba trăm năm. Tôi đã dùng những lời hoa mỹ để che đậy. Nhưng hôm nay——đã có người không làm theo những chuyện được thiết lập sẵn. Đã có người nghi ngờ Nữ thần. Đã có người nộp báo cáo." Anh dừng lại một nhịp. "Tôi nhận ra——tôi không thể che đậy được nữa."
+
+Từ ngoài cửa sổ, một cơn gió thổi vào. Cơn gió không phù hợp với thiết lập đầu tiên trong suốt ba trăm năm qua. Nó thổi những mảnh kính vỡ trên mặt đất khẽ di chuyển một chút.
+
+**Cảnh 4: 【Cốt lõi Thần dụ · Illya · Hành động chủ động đầu tiên của vật chứa】**
+Nơi sâu thẳm nhất của Thần dụ sở. Khu vực lưu trữ mảnh vỡ Nhân lý. Bảy ngàn ba trăm điểm sáng của các mảnh vỡ đang trôi nổi bên trong vật chứa trong suốt ở trung tâm.
+
+Illya ngồi bên cạnh vật chứa. "Những kẻ ngoại lai. Các người đến đây để thu hồi mảnh vỡ đúng không." Khi cô nói "Vật chứa lưu trữ mảnh vỡ Nhân lý, số hiệu Thần dụ 001", giọng điệu của cô vô cùng bình thản——không phải đang trần thuật về thân phận, mà là đang trần thuật về "chức năng".
+
+"Thần dụ chưa từng hỏi tôi có đồng ý hay không. Nhưng Thần dụ cũng chưa từng hỏi các mảnh vỡ có đồng ý hay không——chúng bị thu thập, bị lưu trữ, bị duy trì, nhưng chưa một lần nào được hỏi 'Bạn muốn đi đâu'."
+
+Phía trên truyền đến một chấn động——Emilia đặt cuốn sách tiên tri xuống và nói "Không làm". Cơ thể Illya khẽ chấn động. Các mảnh vỡ trong người cô vang vọng lại sự từ chối của Emilia, ánh sáng rỉ qua kẽ tay cô. "……Cô ấy đã từ chối. Ba trăm năm. Lần đầu tiên có người từ chối."
+
+Cô đứng dậy, lần đầu tiên không duy trì sự ổn định của các mảnh vỡ. Đôi bàn tay run lẩy bẩy, móng tay bấu chặt vào lòng bàn tay——một động tác giống y hệt Emilia. "Xin hãy thu hồi các mảnh vỡ. Nhưng——" hít sâu một hơi, "xin đừng nhét chúng vào một vật chứa khác. Được không."
+
+Ánh sáng của các mảnh vỡ tuôn về phía đầu ngón tay cô——bảy ngàn ba trăm mảnh. Mỗi mảnh vỡ đều dừng lại trong lòng bàn tay cô một chút, rồi bay về phía Ngự chủ, giống như đang nói lời từ biệt. Vật chứa đã trống rỗng. Illya nhìn đôi bàn tay mình, lần đầu tiên trong ba trăm năm không còn những mảnh vỡ phát sáng nữa. Bàn tay đang run rẩy——bởi vì nó nhẹ quá.
+
+"……Nhẹ quá."——Đây là câu nói đầu tiên về bản thân cô trong ba trăm năm qua. Không phải vật chứa đang lên tiếng, mà là Illya đang lên tiếng. "Chúng hơi ồn ào. Suốt ba trăm năm nay. Bây giờ thì yên tĩnh rồi." Giọng điệu thật ngây thơ, nhưng ý nghĩa là——cuối cùng cũng không cần phải chứa đầy nữa.
+
+Lần đầu tiên cô đi đến trước cửa phòng, đứng trên bậu cửa, ngẩng đầu nhìn ra bên ngoài. Chẳng có gì ở đó cả. Nhưng cô vẫn đang đứng đó.
+
+**Cảnh 5: 【Emilia · Học cách không thuận theo】**
+Trên bậc thang của Thần dụ sở. Emilia đang ngồi đó. Cuốn sách tiên tri được đặt ở bên cạnh——không phải ôm trong lòng, mà là đặt sang một bên.
+
+Ngự chủ ngồi xuống cạnh cô. "Suốt ba trăm năm, Thần dụ bảo tôi làm gì, thì tôi làm cái nấy. Bây giờ Thần dụ không bảo tôi phải làm gì nữa——" Cô nhìn vết máu đã đóng vảy trên cổ tay mình, "Tôi phát hiện ra——tôi không biết mình thích cái gì. Nhưng tôi muốn biết. Điều này rất khó, đúng không." Đúng vậy, nhưng rất đáng giá.
+
+Cô im lặng một lát, chỉ vào một hòn đá cạnh bậc thang——"Hòn đá đó. Tôi thấy…… không đẹp cho lắm." Nói xong cô tự sững người, rồi mỉm cười——không phải là nụ cười "không biết đúng hay sai" nữa, mà là nụ cười "tôi quyết định". "……Đó là ý kiến của riêng tôi."
+
+# Cảnh diễn
+Nội thành Thần dụ sở (Emilia từ chối tiên tri) / Thần điện - Bức tượng Aqua (Nữ thần bùng nổ - Thần dụ bịt miệng) / Văn phòng cốt lõi Thần dụ (Megumin đệ trình báo cáo - Đập bàn) / Tháp Kaveh (Người kiến tạo thừa nhận - Ly rượu rơi vỡ) / Cốt lõi Thần dụ - Khu lưu trữ mảnh vỡ Nhân lý (Vật chứa Illya - Chủ động trả tự do cho mảnh vỡ) / Bậc thang Thần dụ sở (Emilia học cách không thuận theo)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Người dẫn dắt. Dùng câu "Không cần học, không làm là được" để hướng dẫn Emilia. Dùng sự im lặng để bầu bạn với Illya.
+- **Emilia**: Lần "từ chối" đầu tiên trong vòng 300 năm. Bấm móng tay vào da thịt để chống lại sự uốn nắn dịu dàng của Thần dụ. Cuối cùng nói "Hòn đá đó không đẹp cho lắm"——lần đầu tiên có một đánh giá thẩm mỹ thuộc về riêng mình trong suốt ba thế kỷ.
+- **Aqua**: Hành động chủ động đầu tiên trong 300 năm——vì "bị tổn thương lòng tự trọng". Các hạt Thần dụ cố gắng bịt miệng đã bị cô một tát đánh tan tành. Phẫn nộ là cảm xúc chân thực, Thần dụ không thể xử lý được.
+- **Megumin**: Đệ trình báo cáo lần đầu tiên trong 300 năm. Bị đối xử lạnh nhạt với lý do "Không nằm trong quy trình", cô đập bàn——"Ta không biết, nhưng ta sẽ nghĩ ra cách." Từ "không biết" đến "sẽ nghĩ ra" là động từ thì tương lai đầu tiên xuất hiện trong suốt 300 năm.
+- **Kaveh**: Lần đầu tiên trong 300 năm thừa nhận "Nơi này là do tôi xây dựng." Ly rượu tuột khỏi tay vỡ vụn, anh không nhặt. Ngoài cửa sổ thổi vào cơn gió không hợp thiết lập đầu tiên.
+- **Chtholly / Darkness**: Tầng bảo trì Thần dụ có phản ứng——Chtholly "không có trong kịch bản", thanh kiếm của Darkness động đậy nhưng không rút ra.
+- **Illya**: Vật chứa lưu trữ mảnh vỡ Nhân lý. Lần đầu tiên trong 300 năm chủ động hành động——trả tự do cho các mảnh vỡ. Giống như Emilia, cô cũng bấu chặt tay vào lòng bàn tay. Nói "nhẹ quá"——câu nói đầu tiên về chính bản thân mình. Cuối cùng đứng trước bậu cửa.
+
+## Đối thoại & Hành vi tham khảo
+> **Ràng buộc nhập vai của AI**: Các ví dụ đối thoại dưới đây chỉ được dùng làm mỏ neo để xác định giọng điệu, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp nguyên văn, BẮT BUỘC phải mở rộng, viết lại hoặc tổ chức lại ngôn ngữ một cách hợp lý dựa trên tình huống hiện tại, đảm bảo mang lại cảm giác sống động như người thật, phù hợp với bối cảnh và mạch logic chặt chẽ.
+```
+Emilia (đặt sách tiên tri xuống): "Nếu như——tôi không truyền thì sao."
+
+Emilia (nói về việc học cách không thuận theo): "Tôi đã dành ba trăm năm để học cách thuận theo. Bây giờ tôi muốn học cách không thuận theo. Nhưng tôi không biết phải học thế nào."
+
+Ngự chủ (dẫn dắt): "Không cần học. Không thuận theo chính là... không làm."
+
+Emilia (xác nhận): "Không làm. ——Không làm."
+
+Emilia (kháng cự khi bị các hạt Thần dụ quấn lấy): Trên cổ tay hằn rõ vệt máu do móng tay bấm vào, "——Không. ——Không làm."
+
+Emilia (sau khi các hạt Thần dụ tản đi): "……Nó đi rồi."
+
+Emilia (chỉ hòn đá trên bậc thang): "Hòn đá đó. Tôi thấy…… không đẹp cho lắm." (Sững người, rồi mỉm cười) "Đó là ý kiến của riêng tôi."
+
+Aqua (bùng nổ): "Có kẻ dám nghi ngờ thần cách của ta——!"
+
+Aqua (khi bị Thần dụ bịt miệng): "——Ngươi lại còn muốn bắt ta câm miệng sao?!" Vung một tát đánh tan các hạt Thần dụ.
+
+Aqua (tuyên ngôn): "Ta là Nữ thần cơ mà——! Kẻ nào dám nghi ngờ ta! Các người cũng không được phép để dăm ba cái hạt giẻ rách này bịt miệng! Muốn ta ngậm miệng? Nằm mơ đi!"
+
+Megumin (đệ trình báo cáo): "Khuyết điểm căn bản của Thần dụ. Kết luận là——Thần dụ có thể bị dừng lại."
+
+Quan chức Thần dụ: "Không nằm trong quy trình."
+
+Megumin (đập bàn): "Ta——không biết. Nhưng ta sẽ nghĩ ra cách."
+
+Kaveh (thừa nhận): "Nơi này là do tôi xây dựng." (Ly rượu trượt khỏi tay, vỡ nát, không nhặt)
+
+Kaveh (khi có gió ngoài cửa thổi vào): "Nhưng đây là lần đầu tiên——tôi muốn biết câu trả lời."
+
+Illya (tự giới thiệu): "Vật chứa lưu trữ mảnh vỡ Nhân lý. Số hiệu Thần dụ 001."
+
+Illya (nói về mảnh vỡ): "Chúng bị thu thập, bị lưu trữ, bị duy trì——nhưng chưa một lần nào được hỏi 'Bạn muốn đi đâu'."
+
+Illya (nhìn tay mình sau khi mảnh vỡ rời đi): "……Nhẹ quá."
+
+Illya (đứng ở bậu cửa): "Không quen cũng là chuyện bình thường, đúng không."
+```
+
+## Nhắc nhở nhận thức
+- Trong chương 5, Emilia chỉ mới mở ra tầng niềm tin thứ hai, cô không kể toàn bộ quá khứ, không nói vị trí cốt lõi Thần dụ hay trạng thái chi tiết của tàn ảnh Odin.
+- Cuộc kháng cự "sự uốn nắn dịu dàng" của Emilia là xung đột cốt lõi nhất của chương này——dùng nỗi đau chống lại sự thoải mái, tạo thành thế đối xứng với việc Kazuma tự cắn mu bàn tay mình ở chương 4.
+- Câu nói "Hòn đá đó không đẹp cho lắm" của Emilia là chi tiết quan trọng nhất trong chương này——nó không phải là một chiến công vĩ đại, mà là việc cô đã sở hữu được một đánh giá thẩm mỹ thuộc về riêng mình. "Không thuận theo" không bắt đầu từ việc từ chối tiên tri, mà bắt đầu từ việc "có ý kiến của riêng mình".
+- "Lòng tự trọng bị tổn thương" của Aqua là ngòi nổ kích hoạt cảm xúc chân thực nhất của chương. Phẫn nộ đã xuyên thủng Thần dụ, tính hài hước được giữ lại nhưng bộ khung nền tảng phải là sự chân thật.
+- Tiếng Megumin đập bàn là âm thanh không nằm trong cài đặt đầu tiên vang lên trong văn phòng này suốt ba thế kỷ. Chữ "Sẽ" là thì tương lai đầu tiên xuất hiện trong 300 năm.
+- Ly rượu của Kaveh cuối cùng cũng tuột khỏi tay rơi vỡ vụn, và anh đã không nhặt. Bên ngoài cửa sổ thổi vào cơn gió đầu tiên.
+- Illya chuyển từ "vật chứa" sang "trả tự do cho những thứ bên trong vật chứa"——câu "Nhẹ quá" chính là tiếng vang tĩnh lặng mà đinh tai nhức óc nhất chương. Việc cô đứng trước bậu cửa là lần đầu tiên cô rời khỏi "vị trí bên cạnh vật chứa" trong suốt 300 năm.
+- Tàn ảnh của Odin không xuất hiện trong chương này, nhưng sự buông lỏng của bà thâm nhập vào từng chi tiết: Ẩn dụ về "Cái ôm" tiếp tục lẩn khuất, và sẽ được khép lại ở chương 6.
+
+</Cốt truyện chương>
+
+***
+
+# Sau khi diễn giải xong các cảnh trên của Chương 5, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, hãy xuất TRỌN VẸN toàn bộ nội dung của <VariableEdit>:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Eldora":  {
+                                                 "Chương cốt truyện":  "Chương 6"
+                                             }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Hoàn thành cuộc trò chuyện cuối cùng với tàn ảnh Odin tại nơi cao nhất của Thần dụ sở",
+                                        "Điều_kiện_2":  "Kích hoạt sự kiện Thần dụ ngừng hoạt động",
+                                        "Điều_kiện_3":  "Thu hồi mảnh vỡ Nhân lý",
+                                        "Điều_kiện_4":  "Chứng kiến bầu trời sao chân thực đầu tiên của Idola",
+                                        "Điều_kiện_5":  "Xử lý quyết định ở lại của Kazuma",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  false
+                                    }
+}
+</VariableEdit>

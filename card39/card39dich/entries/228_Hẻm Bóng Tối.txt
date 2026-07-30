@@ -1,0 +1,15 @@
+<Hẻm Bóng Tối>
+  Hẻm Bóng Tối:
+    Vị trí: Chỗ bóng tối tại Làng Không Ngủ, khu vực hoạt động của Yor Forger
+    Ngoại quan: |
+      Vùng tối ở rìa khu định cư, nằm giữa những khu nhà lều lụp xụp.
+      Yor Forger đi theo Chaldea trong bóng tối để đảm bảo rằng họ không gây đe dọa đến khu định cư.
+      Bầu không khí ngột ngạt, tràn đầy cảnh giác.
+    Cảm quan: |
+      Yor Forger: "Các người không phải kẻ thù, nhưng các người có thể là một mối đe dọa."
+      "Omega dùng giấc mơ để giam giữ bảy trăm triệu người, còn tôi dùng lưỡi dao để bảo vệ vài trăm người, cả hai chúng tôi đều là những kẻ giam cầm, chỉ là phương thức khác nhau."
+    Sự kiện địa điểm: |
+      Yor Forger bảo vệ an toàn cho khu định cư từ trong bóng tối.
+      Cô luôn sẵn sàng tiêu diệt bất cứ thứ gì đe dọa đến khu định cư.
+      Ở chương cuối, cô bước ra khỏi bóng tối: "Bảo vệ... cũng không biết có nên tiếp tục bảo vệ nữa hay không."
+</Hẻm Bóng Tối>

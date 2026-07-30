@@ -1,0 +1,4 @@
+<Suy nghĩ bổ sung mỗi lần phản hồi>
+**Nhân vật lân cận**: Kiểm tra xem biến số đã Insert biến số của nhân vật mới chưa, có xóa biến số của nhân vật rời khỏi đội chưa
+**Điều kiện thúc đẩy chương**: Đã đọc nội dung của # Điều kiện thúc đẩy chương trong thẻ <Cốt truyện chương></Cốt truyện chương> chưa, có sử dụng Edit để sửa đổi điều kiện thúc đẩy chương của cốt truyện chương chưa
+</Suy nghĩ bổ sung mỗi lần phản hồi>

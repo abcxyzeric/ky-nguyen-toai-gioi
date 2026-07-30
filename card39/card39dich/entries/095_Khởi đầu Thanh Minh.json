@@ -1,0 +1,53 @@
+{
+    "id":  95,
+    "keys":  [
+                 "青冥",
+                 "Thanh Minh"
+             ],
+    "secondary_keys":  [
+
+                       ],
+    "comment":  "Khởi đầu Thanh Minh",
+    "content":  "<Điều kiện tiến triển chương 1 Thanh Minh>\n# Điều kiện tiến triển chương\n1. Đánh bại ý chí tàn lưu của phế tích tụ lạc\n2. Đối thoại với Bùi Thanh Ca, thu thập tình báo pháp tắc giới Thanh Minh\n3. Hỏi Đồ Sơn Hồng Hồng về vị trí Hồ Hỏa Các\n\n# Lần đầu tiến vào Thanh Minh, cốt truyện chương 1, bắt buộc phải xuất ra các biến hoàn chỉnh sau đây, xuất toàn bộ nội dung trong <VariableEdit> một cách trọn vẹn:\n\n<VariableEdit>\r\n{\r\n    \"Điều kiện tiến triển chương\":  {\r\n                                        \"Điều_kiện_1\":  \"Đánh bại ý chí tàn lưu của phế tích tụ lạc\",\r\n                                        \"Điều_kiện_2\":  \"Đối thoại với Bùi Thanh Ca, thu thập tình báo pháp tắc giới Thanh Minh\",\r\n                                        \"Điều_kiện_3\":  \"Hỏi Đồ Sơn Hồng Hồng về vị trí Hồ Hỏa Các\",\r\n                                        \"Điều_kiện_4\":  \"Không có\",\r\n                                        \"Điều_kiện_5\":  \"Không có\",\r\n                                        \"Điều_kiện_1_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_2_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_3_hoàn_thành\":  false,\r\n                                        \"Điều_kiện_4_hoàn_thành\":  true,\r\n                                        \"Điều_kiện_5_hoàn_thành\":  true\r\n                                    }\r\n}\r\n</VariableEdit>\n</Điều kiện tiến triển chương 1 Thanh Minh>",
+    "constant":  false,
+    "selective":  true,
+    "insertion_order":  993,
+    "enabled":  true,
+    "position":  "before_char",
+    "use_regex":  true,
+    "extensions":  {
+                       "position":  0,
+                       "exclude_recursion":  true,
+                       "display_index":  74,
+                       "probability":  100,
+                       "useProbability":  true,
+                       "depth":  4,
+                       "selectiveLogic":  0,
+                       "outlet_name":  "",
+                       "group":  "",
+                       "group_override":  false,
+                       "group_weight":  100,
+                       "prevent_recursion":  true,
+                       "delay_until_recursion":  false,
+                       "scan_depth":  null,
+                       "match_whole_words":  null,
+                       "use_group_scoring":  false,
+                       "case_sensitive":  null,
+                       "automation_id":  "",
+                       "role":  0,
+                       "vectorized":  false,
+                       "sticky":  0,
+                       "cooldown":  0,
+                       "delay":  0,
+                       "match_persona_description":  false,
+                       "match_character_description":  false,
+                       "match_character_personality":  false,
+                       "match_character_depth_prompt":  false,
+                       "match_scenario":  false,
+                       "match_creator_notes":  false,
+                       "triggers":  [
+
+                                    ],
+                       "ignore_budget":  false
+                   }
+}

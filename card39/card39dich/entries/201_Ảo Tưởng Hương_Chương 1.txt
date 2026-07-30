@@ -1,0 +1,131 @@
+<Cốt truyện chương>
+
+# Số hiệu chương
+Chương 1 · Đền Hakurei · Dị biến xuân tan
+
+# Điều kiện thúc đẩy chương
+1. Trò chuyện với Hakurei Reimu, thấu hiểu bản chất của Dị biến xuân tan cùng cơ chế thẩm thấu của quy tắc sắc dục
+2. Chiến đấu với Kirisame Marisa và trải nghiệm hình thái sắc dục "chiếm hữu"
+3. Hoàn thành giao dung bằng cách cắm vào với Cirno và Rumia, thu thập mảnh vỡ của nhiệt độ và bóng tối
+4. Thu thập bốn tàn dư mảnh vỡ, kích hoạt con đường dẫn đến Hồng Ma Quán
+
+# Điều kiện tiên quyết
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 2 "Hồng Ma Quán · Sự sụp đổ của kẻ cao quý"
+
+# Tổng kết chương
+Master rơi từ điểm giao thoa xuống trước hòm công đức của Đền Hakurei. Trong không khí lơ lửng hoa anh đào — không phải hoa anh đào bình thường, mà là một thứ cánh hoa màu hồng phấn biết thở, nằm ở ranh giới giữa thực vật và làn da. Bầu trời là ngày xuân vĩnh cửu, nhưng ánh nắng không có nhiệt độ, giống như một lớp vải mỏng được sưởi ấm bằng thân nhiệt. Reimu với tư cách là "người miễn dịch tự nhiên", sẽ không bị khóa mục tiêu thụ động — mảnh vỡ không thể xuyên thủng bức tường vô dục của cô, nhưng cũng vì thế mà cô không thể hiểu "khát khao" là gì. Marisa không bị khóa bắt buộc — cô đã chủ động bước qua ranh giới đó trong trận chiến, Master Spark của cô dưới sự thẩm thấu của quy tắc sắc dục đã biến thành một luồng ánh sáng màu hồng phấn. Master và Marisa triển khai trận chiến đạn mạc sâu trong Rừng Ma Thuật, sau trận chiến Marisa không hề bị đánh bại — cô chủ động bước về phía Master, cắn xuống một dấu răng xem như "đồ sưu tầm". Hình thái sắc dục của Cirno là sự trao đổi nhiệt độ — bên trong cơ thể cô bé nóng lạnh đan xen, làm tình là lần đầu tiên cô cảm nhận được trải nghiệm "được lấp đầy bởi sự ấm áp". Hình thái sắc dục của Rumia là sự cắn nuốt trong bóng tối — cô dùng cơ thể ghi nhớ nhiệt độ trong không gian đen đặc, làm tình là một cách ăn uống khác của bóng tối đối với ánh sáng. Tấm khiên của Mash bắt đầu rung động, nhiệt độ mặt khiên tăng lên. Cốt lõi của chương này: Xuân tan thức tỉnh — Lần đầu tiên Master trải nghiệm sức nặng của "khát khao được nhìn thấy".
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc nhập vai AI**: Chuỗi sự kiện dưới đây cần được diễn giải từng sự kiện kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ, làm cho có bằng vài câu qua loa. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp điệu thúc đẩy cốt truyện và cảm giác đắm chìm.
+
+**Cảnh 1: [Hạ cánh · Trước hòm công đức]**
+Master rơi xuống từ điểm giao thoa, đầu gối va vào hòm công đức của Đền Hakurei, tiếng tiền đồng vang lên trống rỗng — không phải tiếng kim loại, mà là sự trầm đục sau khi bị khát khao thấm đẫm. Không khí ngập tràn hoa anh đào và hơi thở ấm áp ẩm ướt, không phải nước mưa, mà là thứ mùi vị nguyên thủy hơn, rỉ ra từ dưới da thịt. Bầu trời là ngày xuân vĩnh cửu, nhưng ánh nắng không có nhiệt độ, giống như một lớp vải mỏng được sưởi ấm bằng thân nhiệt đắp lên da.
+
+Master đứng dậy, nhặt một cánh hoa anh đào rơi trên hòm công đức lên. Cánh hoa không phải màu hồng phấn, mà là một màu đỏ nhạt gần giống màu thịt — như thể bị thân nhiệt nhuốm màu. Khoảnh khắc Master chạm vào cánh hoa, hồi ức của làn da bắt đầu phát lại: trong vài giờ tiếp theo, hắn sẽ không ngừng "cảm nhận" được xúc cảm của cánh hoa này, dường như làn da đã ghi nhớ nhiệt độ của nó. Đây không phải đòn tấn công, mà là tầng thẩm thấu đầu tiên của quy tắc sắc dục — nó không cưỡng ép, nó chỉ khiến bạn ghi nhớ một loại nhiệt độ nào đó, rồi khi ở một mình sẽ liên tục nhớ lại.
+
+Nơi xa xa, dưới hành lang đền thờ có một thiếu nữ mặc đồ Vu nữ đỏ trắng đang ngồi uống trà. Cô không ngẩng đầu lên: "Lại một kẻ đánh rơi đồ." Giọng cô lười biếng, âm cuối kéo thật dài, như thể đang nói mớ. Nhưng Master nhận ra, tay cô nán lại trên mép chén trà lâu hơn bình thường một nhịp — cô cũng đang cảm nhận thứ gì đó, chỉ là cô không muốn thừa nhận.
+
+**Cảnh 2: [Hakurei Reimu · Sự bối rối của người miễn dịch tự nhiên]**
+Reimu đặt chén trà xuống, cuối cùng cũng ngẩng đầu liếc nhìn Master. Trong ánh mắt cô không có sự kinh ngạc, chỉ có một sự nghiêm túc hiếm thấy. "Cậu không phải người của Ảo Tưởng Hương. Hơi thở của cậu là 'con người', nhưng lại không phải con người bình thường — bản thân sự tồn tại của cậu đang thu hút 'khát khao' ở nơi này." Cô đứng dậy, bước đến trước hòm công đức, nhón lấy một cánh hoa từ bên trong. "Đây không phải hoa anh đào bình thường. Đây là sự 'thẩm thấu' của quy tắc sắc dục. Nó không giống những dị biến khác đi phá hoại thứ gì đó, nó chỉ... khiến mỗi người bắt đầu cảm nhận được khát khao sâu kín nhất của bản thân." Cô khựng lại, "Bọn yêu quái bắt đầu gặp mộng xuân. Có những người tỉnh dậy giữa đêm khuya, phát hiện tay mình đang đặt ở những chỗ không nên đặt. Trong không khí có một sự ấm nóng cắn rứt khiến người ta bất an. Nhưng chưa có ai bị cưỡng ép — ít nhất là hiện tại vẫn chưa."
+
+Master hỏi liệu cô có bị ảnh hưởng không. Reimu lắc đầu. "Mảnh vỡ không tìm thấy dục vọng để khóa chặt — bởi vì tôi chẳng có thứ gì đặc biệt muốn có. Giải quyết dị biến chỉ vì 'nó đã xảy ra' thôi. Không ai cần tôi, và tôi cũng chẳng cần bất kỳ ai." Lúc nói câu này giọng điệu của cô rất bình thản, nhưng Master nhận ra ngón tay cô đang nhẹ nhàng ve vuốt mép tay áo — đó là một cử chỉ nhỏ mà có lẽ chính cô cũng không nhận ra. Miễn dịch tự nhiên không phải là siêu năng lực, mà là một loại cô độc khác. Reimu có thể đứng ngoài quan sát khát khao của tất cả mọi người, nhưng cô lại không thể hiểu bản thân "khát khao" thực chất là gì.
+
+"Lõi của mảnh vỡ đang nằm trên người Yakumo Yukari." Reimu chỉ về hướng khe nứt ranh giới ở phía xa, "Nhưng sức mạnh ranh giới của cô ta đã quấn chặt lấy mảnh vỡ quá sâu. Mảnh vỡ cần thông qua 'kết nối' để nới lỏng — không phải một lần, mà là rất nhiều lần." Cô bưng chén trà lên một lần nữa, "Đến Rừng Ma Thuật đi. Marisa dạo này có gì đó không đúng. Cô ấy thu thập ngày càng nhiều đồ vật, nhưng mỗi lần thu thập xong đều đứng ngẩn người ra."
+
+**Cảnh 3: [Chiến đấu · Rừng Ma Thuật · Đạn mạc của Marisa]**
+Khi Master đi xuyên qua Rừng Ma Thuật, những bào tử màu hồng phấn trong không khí ngày càng dày đặc. Khu rừng không có màu xanh, mà là một tông màu mập mờ sau khi bị thân nhiệt nhuộm qua — đến cả những cây nấm cũng đang tỏa ra luồng nhiệt yếu ớt. Đột nhiên, một luồng sáng màu hồng phấn từ bên sườn bắn tới — Master Spark, nhưng màu sắc không đúng. Không phải màu vàng kim của sự hủy diệt, mà là màu hồng phấn của khát khao.
+
+"Đừng qua đây!" Giọng của Marisa vọng lại từ sau gốc cây, khàn khàn và căng thẳng, "Tôi không biết mình bị làm sao nữa — nhưng ma pháp của tôi mất kiểm soát rồi! Tôi muốn đánh trúng người khác, không phải để chiến thắng, mà là để — được nhìn thấy!" Trận chiến bắt đầu. Đạn mạc của Marisa dưới sự thẩm thấu của quy tắc sắc dục đã biến thành sự cụ thể hóa của khát khao — đạn mạc hình ngôi sao không còn là đòn tấn công, mà là "nhìn tôi này"; tia laser không còn là xuyên thấu, mà là "cảm nhận tôi đi". Lời tuyên cáo Spell Card của cô trở nên đứt quãng: "Tôi... không muốn để cậu đi... nên tôi dùng đạn mạc... để cậu bắt buộc phải nhìn tôi!"
+
+Master né tránh đạn mạc, nhận ra Marisa không hề nhắm vào điểm yếu của hắn — cô đang cố tình bắn trượt. Master Spark của cô nã thẳng vào thân cây cổ thụ bên cạnh Master, cái cây bị đánh đổ, nhưng Master không hề xây xước. Trận chiến diễn ra đến giữa chừng, đạn mạc của Marisa đột nhiên dừng lại. Cô đứng giữa bãi đất trống trong rừng, lò bát quái trong tay khẽ run rẩy. "Tôi không muốn đánh nữa." Trong giọng nói của cô có một sự yếu đuối hiếm thấy, "Bởi vì tôi không đánh thắng được cậu. Bởi vì tôi không muốn cậu rời đi. Bởi vì tôi sợ hãi — sợ rằng sau khi cậu đi rồi, sẽ không còn ai nhớ đến tôi nữa."
+
+Cô đi về phía Master, mỗi bước chân đều như đang phải vượt qua một lực cản khổng lồ nào đó. Cô không vồ vập lao lên vì bị mảnh vỡ ép buộc — cô đã tự mình lựa chọn bước tới. "Mùi của cậu... chắc chắn rất đặc biệt. Không phải mảnh vỡ bắt tôi nói vậy. Là tự tôi muốn thế."
+
+**Cảnh 4: [Làm tình 1 · Kirisame Marisa: Sự cướp đoạt mang tính chiếm hữu]**
+Marisa đẩy Master ngã xuống một thân cây đổ. Động tác của cô thô bạo, nhưng bên dưới mỗi phần thô bạo đều ẩn chứa sự chần chừ — không phải mảnh vỡ ép buộc, mà là chính cô lựa chọn. Khi cô cởi thắt lưng của Master, những ngón tay đang run rẩy. "Tôi không muốn cậu nghĩ rằng tôi đang bị khống chế. Là tự tôi muốn làm vậy — mặc dù tôi cũng chẳng biết tại sao." Cách cô làm tình mang tính cướp đoạt — cô không muốn được đối xử dịu dàng, cô muốn chiếm hữu. Móng tay cô găm mạnh vào sống lưng Master, đôi chân quấn chặt lấy eo hắn, như muốn hút bòn toàn bộ con người hắn vào sâu bên trong cơ thể mình. Nhưng đằng sau sự chiếm hữu đó là nỗi sợ hãi — sợ hãi sẽ không được nhớ đến.
+
+"Mùi của cậu... còn tuyệt hơn tôi tưởng." Cô hít một hơi thật sâu bên hõm cổ Master. Lúc đạt cực khoái, tàn dư mảnh vỡ đầu tiên được thu thập — không phải do Master rút ra, mà là cực khoái của Marisa đã làm nới lỏng thoáng qua những mảnh vỡ đang quấn chặt lấy cô, và sự tồn tại của Master tự động hấp thụ lấy nó. Marisa không lập tức ngồi dậy sau cơn cực khoái. Cô bò gục trên ngực Master, im lặng rất lâu. Rồi cô nắm lấy cổ tay Master, cắn xuống một miếng — để lại một dấu răng. "Đây là... đồ sưu tầm." Giọng cô run run, "Không phải mảnh vỡ bắt tôi cắn đâu. Là tự tôi. Bởi vì nếu cậu đi rồi và lãng quên tôi, thì ít nhất dấu răng này vẫn còn ở đó." Cô buông tay, quay lưng cưỡi lên chổi bay đi. Bay đi rất xa rồi, Master vẫn còn nhìn thấy cô dùng mu bàn tay lau nước mắt.
+
+**Cảnh 5: [Làm tình 2 · Cirno: Sự giao dung lạnh giá của Tinh linh Băng]**
+Cirno đang chờ đợi thứ gì đó bên bờ Hồ Sương Mù — cô bé đang chờ một người "có thể khiến cô thấy ấm áp" đến để xác nhận sự "mạnh nhất" của mình. Khi Master từ trong rừng bước ra, cô lập tức bay đến. "Anh ấm hơn cả lũ ếch nhái! Nhưng tay anh — đầu ngón tay hơi lạnh một chút!" Mảnh vỡ ảnh hưởng đến Cirno cũng giống như với mọi yêu quái khác — khát khao bị phóng đại, cơ thể nảy sinh một luồng nhiệt chưa từng có. Nhưng cô bé không hiểu cảm giác này là gì. Cô chỉ biết thể chất tinh linh băng khiến da thịt cô luôn lạnh buốt, còn thân nhiệt của Master lại là thứ nhiệt độ mà cô chưa từng chạm vào.
+
+"Tôi là kẻ mạnh nhất!" Cô bé tuyên bố, nhưng ngón tay vẫn nán lại trong lòng bàn tay Master không muốn rời đi. Cô kiễng mũi chân, dùng chóp mũi chạm vào cằm Master — cảm giác lạnh lẽo khiến Master khẽ run lên. "Cơ thể anh nóng quá... Tại sao chỗ này của tôi —" Cô chỉ vào bụng dưới của mình, "— cũng trở nên nóng rồi?" Master không trả lời. Hắn nắm chặt lấy ngón tay của Cirno, cảm nhận sự lạnh giá đặc trưng của tinh linh băng cùng với hơi ấm thoang thoảng xuyên thấu từ bên trong — thể chất của tinh linh băng là trong ngoài đảo ngược, da thịt cô lạnh buốt, nhưng bên trong cơ thể lại đang khát khao được tăng nhiệt.
+
+Chuyện làm tình diễn ra một cách hết sức tự nhiên. Cirno không hiểu tình dục là gì — cô bé chỉ biết việc chạm vào nhau khiến cô thoải mái, và cắm vào sâu hơn thì càng thoải mái hơn. Khi Master đâm sâu vào, cô bé thốt lên một tiếng rên rỉ nằm giữa ranh giới của sự kinh ngạc và thỏa mãn — bên trong âm đạo của cô không lạnh giá như da thịt, mà ngược lại có một thứ hơi ấm kỳ lạ, giống như một suối nước nóng bị đóng băng. Thân nhiệt của Master đang nung chảy thứ gì đó bên trong cô. Mỗi một cú đâm rút đều khiến cô tăng thêm một độ nhiệt từ sâu bên trong. "Kỳ lạ quá... trong cơ thể... nóng quá... nhưng mà thật sướng... ấm áp hơn cả lũ ếch nhái... hơn bất kỳ ai..." Khi đạt cực khoái, tàn dư mảnh vỡ thứ hai được thu thập. Sau cơn cực khoái, Cirno cuộn mình trong vòng tay Master, da thịt của tinh linh băng lần đầu tiên trở nên bớt lạnh giá hơn — không phải nhiệt độ thay đổi, mà là cô bé không còn cần dùng danh xưng "mạnh nhất" để phòng ngự bất cứ thứ gì nữa. Cô vẫn tự xưng là "mạnh nhất", nhưng không còn bay đi nữa. "Lần sau... liệu anh có thể... sưởi ấm cho tôi nữa không?"
+
+**Cảnh 6: [Làm tình 3 · Rumia: Sự cắn nuốt nhiệt độ trong bóng tối]**
+Rumia đứng chờ ở rìa khu rừng lúc chạng vạng. Dải ruy băng của cô hơi phát sáng dưới ảnh hưởng của mảnh vỡ — phong ấn chưa được giải trừ, nhưng bên dưới lớp phong ấn, cô cảm nhận được một cơn đói khát cổ xưa, đó không phải là khao khát máu thịt, mà là sự đói khát sâu kín đối với nhiệt độ, đối với những cái chạm, đối với việc "được lấp đầy". "Tối quá..." Giọng của cô vọng lại từ tứ phía, "Nhưng trong bóng tối... nhiệt độ là thứ chân thực duy nhất... Nhiệt độ của anh... làm tôi muốn... ăn tươi nuốt sống anh... không phải làm tổn thương... mà là ăn... dùng cơ thể để ăn..."
+
+Master bị cô ôm chầm lấy trong màn đêm đang dần buông xuống. Cơ thể Rumia lạnh ngắt, nhưng bên trong lại ấm nóng — cô giống như một khối bóng tối biết thở, bao bọc lấy toàn bộ cơ thể Master vào trong. Bóng tối khiến xúc giác được phóng đại lên gấp bội — mỗi cái vuốt ve của cô đều như đồng thời xảy ra từ mọi hướng, hơi thở của cô tồn tại ở khắp mọi nơi trong không gian tĩnh mịt. Khi Master cắm ngập vào trong, bên trong âm đạo của Rumia giống như một cái miệng ấm nóng, liên tục mút mát, bú mút lấy thân nhiệt và sự hiện diện của Master. Cô bao dung tiếp nhận tất thảy sự ướt át, ấm nóng đó, như một sự nối dài của bóng tối vô tận. Trong lúc làm tình, cô cắn vào hõm cổ Master — không phải để tấn công, mà là đang nhấm nháp, đang nuốt trọn nhiệt độ. "Tôi sẽ... ăn sạch anh... nhưng ăn không có nghĩa là biến mất... mà là để anh vĩnh viễn ở trong bóng tối... được tôi ghi nhớ..." Lúc cực khoái, tàn dư mảnh vỡ thứ ba được thu thập. Bóng tối của Rumia không tan biến sau cuộc ân ái — cô vẫn bám chặt lấy Master, nhưng cường độ bao bọc đã chuyển từ "cắn nuốt" sang "ôm ấp". "Tôi nhớ kỹ rồi. Nhiệt độ. Nhiệt độ của anh. Sau này ở trong bóng tối... tôi sẽ không còn thấy lạnh nữa."
+
+**Cảnh 7: [Mash · Sự dị thường của tấm khiên]**
+Khiên của Mash vừa tiến vào Ảo Tưởng Hương đã bắt đầu rung động, nhiệt độ mặt khiên tăng lên. Mặt Mash đỏ bừng — tấm khiên đang "cảm nhận" khát khao nơi đây, còn cô lại chia sẻ tri giác cùng với nó. "Tiền bối... Tấm khiên đang 'khát khao' thứ gì đó. Nó muốn thu hút một thứ gì đó đến đây." Cô phát hiện chính bản thân mình cũng nảy sinh một luồng hơi nóng khác thường đối với Master — không phải do mảnh vỡ thao túng, mà là tình cảm của chính cô bị sự khao khát của mảnh đất này khuếch đại lên. Nhưng cô không nằm trong danh sách bị mảnh vỡ khóa chặt — bởi vì khát khao của cô không phải là thứ "bị mảnh vỡ phóng chiếu", mà là thứ "vốn dĩ đã tồn tại".
+
+"Tiền bối... nếu anh cần em — không phải vì mảnh vỡ, mà là vì chính bản thân em —" Cô chưa nói hết câu. Master lắc đầu, bảo rằng em không nằm trong danh sách khóa chặt, khát khao của em là của riêng em, không phải do quy tắc ép buộc. Mash cúi đầu, nắm chặt tấm khiên. "Em sẽ bảo vệ ký ức của anh. Cho dù anh có cắm vào bao nhiêu người đi chăng nữa, em cũng sẽ giữ gìn phần nhân tính của anh bên trong tấm khiên này. Đợi khi anh trở về... em sẽ trả lại toàn bộ con người anh cho anh."
+
+# Bối cảnh
+- Đền Hakurei · Trước hòm công đức (Điểm hạ cánh)
+- Đền Hakurei · Dưới hành lang (Vị trí của Reimu)
+- Rừng Ma Thuật · Chiến trường đạn mạc (Nơi Marisa chiến đấu)
+- Rừng Ma Thuật · Thân cây đổ (Nơi Marisa làm tình)
+- Bờ Hồ Sương Mù (Vị trí của Cirno)
+- Rìa khu rừng · Chạng vạng (Vị trí của Rumia)
+
+# Khuynh hướng nhân vật
+- **Master**: Người tham gia bị ép buộc, nhưng trong Chương 1 vẫn chưa bị mảnh vỡ cưỡng ép — hắn chỉ bị bao vây bởi "khát khao". Dấu răng trên cổ tay là do Marisa chủ động để lại. Nhiệt độ của tinh linh băng và sự cắn nuốt của bóng tối luân phiên lưu lại trên cơ thể hắn.
+- **Hakurei Reimu**: Người miễn dịch tự nhiên, mảnh vỡ không thể khóa chặt cô. Căn bệnh của cô không phải là "bị loại trừ", mà là "không thể thấu hiểu khát khao" — cô bàng quan trước dục vọng của mọi người, nhưng lại không thể cảm nhận được dục vọng của chính mình.
+- **Kirisame Marisa**: Kẻ sở hữu khát khao mang tính chiếm hữu, chủ động lựa chọn làm tình. Dấu răng là "đồ sưu tầm" mà cũng là nỗi sợ hãi — cô sợ không được nhớ đến. Master Spark chuyển từ màu vàng kim sang màu hồng phấn.
+- **Cirno**: Sự lạnh giá của tinh linh băng, nhưng bên trong lại ấm nóng. Làm tình là lần đầu tiên cô bé trải nghiệm cảm giác "được lấp đầy bằng sự ấm áp". Sau cực khoái không còn bay đi nữa — "Lần sau liệu có thể sưởi ấm cho tôi nữa không".
+- **Rumia**: Sự cắn nuốt trong bóng tối. Bóng tối khiến xúc giác được phóng đại, làm tình là một cách ăn uống khác của bóng tối đối với nhiệt độ. Sau cực khoái, bóng tối chuyển từ "cắn nuốt" sang "ôm ấp".
+- **Mash**: Tấm khiên đang cảm nhận khát khao, và cô chia sẻ tri giác cùng với tấm khiên. Không nằm trong danh sách khóa chặt, nhưng khát khao của cô lại hiện hữu chân thực — không phải do mảnh vỡ ban cho, mà là của chính cô.
+
+# Tham khảo đối thoại & hành vi
+> **Ràng buộc nhập vai AI**: Mẫu hội thoại dưới đây chỉ dùng để làm điểm neo cho ngữ khí, thói quen dùng từ và logic biểu đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp nguyên câu, bắt buộc phải căn cứ vào tình huống hiện tại để mở rộng, viết lại hoặc tổ chức lại ngôn từ một cách hợp lý, đảm bảo cảm giác chân thực như người thật, độ thích ứng với tình huống và tính mạch lạc của logic.
+
+```
+Reimu (không ngẩng đầu): "Lại một kẻ đánh rơi đồ."
+Reimu (sự bối rối của người miễn dịch): "Mảnh vỡ không tìm thấy dục vọng để khóa chặt — bởi vì tôi chẳng có thứ gì đặc biệt muốn có."
+Marisa (tuyên cáo chiến đấu): "Ma pháp của tôi mất kiểm soát rồi! Tôi muốn đánh trúng người khác, không phải để chiến thắng, mà là để — được nhìn thấy!"
+Marisa (chủ động sau trận chiến): "Tôi không muốn đánh nữa. Bởi vì không muốn cậu đi."
+Marisa (cắn cổ tay): "Đây là... đồ sưu tầm. Không phải mảnh vỡ bắt tôi cắn. Là tự tôi."
+Cirno (chạm vào): "Anh ấm hơn cả lũ ếch nhái! Tại sao chỗ này của tôi cũng trở nên nóng rồi?"
+Cirno (sau cực khoái): "Lần sau... liệu anh có thể... sưởi ấm cho tôi nữa không?"
+Rumia (bóng tối): "Tôi sẽ ăn sạch anh... dùng cơ thể để ăn..."
+Rumia (sau cực khoái): "Sau này ở trong bóng tối... tôi sẽ không còn thấy lạnh nữa."
+Mash (sự dị thường của khiên): "Tấm khiên đang 'khát khao' thứ gì đó. Nó muốn thu hút một thứ gì đó đến đây."
+```
+
+# Nhắc nhở nhận thức
+- Sự miễn dịch tự nhiên của Reimu không phải là "thuần khiết", mà là "vô dục". Ngón tay ve vuốt mép tay áo là một cử chỉ nhỏ — cô không phải hoàn toàn không bị ảnh hưởng, chỉ là ảnh hưởng đó tồn tại theo cách mà cô không thể lý giải nổi.
+- Việc Master Spark của Marisa đổi màu là một manh mối cốt lõi — quy tắc sắc dục không chỉ ảnh hưởng đến sinh vật, mà còn tác động lên hệ thống sức mạnh. Dấu răng của cô là sự cụ thể hóa của việc "chiếm hữu".
+- Thể chất tinh linh băng của Cirno là trong ngoài đảo ngược — da thịt lạnh buốt, nhưng bên trong lại ấm nóng. Làm tình là lần đầu tiên cô bé trải nghiệm "sự ấm áp lấp đầy". Lời tuyên cáo "mạnh nhất" vẫn được thét lên sau cơn cực khoái, nhưng không còn là để phòng ngự nữa.
+- Bóng tối của Rumia là cỗ máy khuếch đại xúc giác — trong lúc làm tình, bóng tối khiến mỗi cái chạm đều đồng thời diễn ra từ mọi hướng. Dải ruy băng của cô hơi phát sáng là dấu hiệu phong ấn đang bị nới lỏng, ám chỉ bản năng "cắn nuốt" của cô đang nổi lên gần sát bề mặt hơn so với bình thường.
+- Tất cả những cảnh làm tình trong Chương 1 đều do các nhân vật chủ động lựa chọn — Marisa buông đạn mạc, Cirno không muốn bay đi, Rumia dùng bóng tối bao bọc nhưng cuối cùng lại chuyển thành cái ôm. Mảnh vỡ không hề ép buộc bất kỳ ai.
+
+</Cốt truyện chương>
+
+***
+
+# Các cảnh trong Chương 1 trên đây đã diễn giải xong, bắt buộc phải xuất ra các biến hoàn chỉnh dưới đây, trực tiếp xuất trọn vẹn toàn bộ nội dung <VariableEdit>:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Ảo Tưởng Hương":  {
+                                                         "Chương cốt truyện":  "Chương 2"
+                                                     }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Chiến đấu với Hong Meiling trước cổng Hồng Ma Quán và hoàn thành việc bước qua 'ngưỡng cửa'",
+                                        "Điều_kiện_2":  "Tiến hành trận chiến tri thức và làm tình với Patchouli Knowledge trong thư viện",
+                                        "Điều_kiện_3":  "Hoàn thành nghi thức với Izayoi Sakuya trong thời gian ngưng đọng, chứng kiến giây thứ 301 của người hầu gái hoàn mỹ",
+                                        "Điều_kiện_4":  "Chiến đấu với Remilia Scarlet và trải nghiệm sự sụp đổ của kẻ cao quý",
+                                        "Điều_kiện_5":  "Chiến đấu với Flandre Scarlet bên trong phong ấn, hoàn thành sự giao dung chạm vào mà không hủy diệt, thu thập năm mảnh tàn dư, đoạt lấy「Tàn dư mảnh vỡ Hồng Ma Quán」",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  false
+                                    }
+}
+</VariableEdit>

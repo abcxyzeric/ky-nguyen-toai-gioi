@@ -1,0 +1,21 @@
+<Khu Tiếng Hát>
+  Khu Tiếng Hát:
+    Vị trí: Tầng giữa Đảo Phù Du, điểm ổn định tầng ranh giới sương xám
+    Ngoại quan: |
+      Một khu vực rộng mở, ở giữa có một sân khấu nhỏ.
+      Xung quanh sân khấu là ghế khán giả, nhưng không có ai ngồi——chỉ có sương xám đang cuộn chảy.
+    Inori: |
+      Cốt lõi của "Khu Tiếng Hát" ở Thủy Chi Đô, dùng tiếng hát duy trì sự ổn định của tầng ranh giới sương xám.
+      Khiến ý chí của những người biến mất không bị tan biến hoàn toàn.
+      Sự đố kỵ hiện diện dưới hình thái "được cần đến"——cô đố kỵ với những kẻ "không được cần đến cũng có thể tồn tại".
+      Tiếng hát của cô là sự chuyển hóa của lòng đố kỵ: biến "tôi cần bạn" thành "bạn cần tôi".
+    Đặc điểm môi trường: |
+      Sương xám trong Khu Tiếng Hát sẽ cuộn chảy theo nhịp điệu tiếng hát.
+      Khi tiếng hát ngừng lại, sương xám sẽ trở nên bồn chồn dao động.
+      Mỗi lần ca hát đều tiêu hao sự tồn tại của Inori——cô ngày càng trở nên trong suốt.
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Inori ở đây dùng tiếng hát duy trì sự ổn định của tầng ranh giới sương xám.
+      Là sự hiện thực hóa của "lòng đố kỵ" dưới hình thái "được cần đến".
+    Mức độ nguy hiểm: Trung bình · Tiếng hát duy trì
+</Khu Tiếng Hát>

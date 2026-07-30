@@ -1,0 +1,16 @@
+<Điểm Hội Tụ>
+  Điểm Hội Tụ:
+    Vị trí: Điểm hạ cánh khi Chaldea nhảy từ điểm hội tụ hỗn độn vào Neon 2187
+    Ngoại quan: |
+      Bầu trời mang màu đỏ sẫm vĩnh hằng, không có mặt trời hay mặt trăng, nhiệt độ khá thấp.
+      Trong không khí có tàn dư ngọt ngấy của hạt thần ý.
+      Tòa tháp đen phía xa phát ra ánh sáng xung nhịp yếu ớt, nhấp nháy mỗi mười hai giây một lần.
+    Cảm quan: |
+      Da Vinci: "Linh khí bị tín hiệu nhân tạo bao phủ, giống như một lớp màng."
+      Khiên của Mashu có sự cộng hưởng yếu ớt —— "Sức mạnh của bảy trăm triệu người đồng thời nằm mơ đã rò rỉ ra ngoài."
+    Sự kiện địa điểm: |
+      Chaldea nhảy từ điểm hội tụ hỗn độn vào Neon 2187,
+      Điểm hạ cánh nằm ở rìa đống đổ nát màu xám trắng của vùng đất hoang.
+      Bầu trời đỏ sẫm vĩnh hằng, bầu không khí tĩnh lặng quá mức,
+      Ngay từ cái nhìn đầu tiên đã cảm nhận được thế giới này có "chỗ nào đó không đúng".
+</Điểm Hội Tụ>

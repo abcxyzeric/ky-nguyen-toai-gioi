@@ -1,0 +1,19 @@
+<Rìa Rừng>
+  Rìa Rừng:
+    Vị trí: Ranh giới giao nhau giữa Khu Rừng Ma Thuật và Hồ Sương Mù, vào thời điểm hoàng hôn
+    Ngoại quan: |
+      Tia sáng hoàng hôn mang sắc đỏ nhạt màu thịt, tựa như được nhuộm bởi nhiệt độ cơ thể.
+      Bóng tối lan tràn ra từ sâu trong rừng, là lãnh địa của Rumia.
+      Dải ruy băng khẽ phát sáng là dấu hiệu cho thấy phong ấn đang lỏng lẻo.
+    Rumia: |
+      Bóng tối là cỗ máy khuếch đại xúc giác——trong lúc làm tình, bóng tối khiến mỗi một lần chạm vào đều
+      đồng loạt xảy ra từ khắp mọi hướng.
+      Hình thái sắc dục của cô bé là sự cắn nuốt trong bóng tối——
+      dùng cơ thể để ghi nhớ nhiệt độ trong bóng tối tuyệt đối,
+      làm tình chính là một phương thức ăn uống khác của bóng tối đối với ánh sáng.
+    Sự kiện địa điểm: |
+      Bối cảnh chương 1.
+      Sự cắn nuốt trong bóng tối của Rumia, thu thập các mảnh vỡ của nhiệt độ và bóng tối.
+      Bóng tối bao bọc nhưng cuối cùng lại hóa thành một cái ôm.
+    Độ nguy hiểm: Trung bình · Lãnh địa bóng tối
+</Rìa Rừng>

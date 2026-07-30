@@ -1,0 +1,20 @@
+<Học Viện Dị Năng Giả>
+  Học Viện Dị Năng Giả:
+    Vị trí: Tầng giữa Đảo Phù Du, phía đông Hồi Lang Tố Quang
+    Ngoại quan: |
+      Một quần thể kiến trúc quy mô lớn, được cấu thành từ nhiều dãy nhà giảng đường với kết cấu kim loại và kính.
+      Bên trong rộng rãi sáng sủa, nhưng lại có một loại "sự trống rỗng có chủ ý" —— tất cả mọi người đều có mục tiêu rõ ràng, không có ai đi dạo nhàn rỗi.
+    Misaka Mikoto: |
+      Huấn luyện viên trưởng của "Học Viện Dị Năng Giả" ở Thủy Đô, chịu trách nhiệm huấn luyện dị năng giả thế hệ mới.
+      Là tồn tại được tôn kính nhất trong giai tầng dị năng giả.
+      Sự ghen tị mang hình thái "sức mạnh" —— cô ghen tị với những người "không cần phải trở nên mạnh mẽ".
+    Kamijou Touma: |
+      Học sinh đặc biệt của "Học Viện Dị Năng Giả" ở Thủy Đô, "Huyễn Tưởng Sát Thủ" có khả năng xóa tan sương xám.
+      Là người bình thường duy nhất có thể tự do hành động trong sương xám.
+      Sự đối lập tự nhiên với quy luật ghen tị —— cậu chẳng ghen tị với bất cứ thứ gì, bởi vì cậu chẳng mong muốn thứ gì.
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Misaka Mikoto huấn luyện các dị năng giả thế hệ mới tại đây, Kamijou Touma tồn tại với tư cách là học sinh đặc biệt.
+      Là nơi tập trung sự ghen tị dưới hình thái "sức mạnh" của giai tầng dị năng giả.
+    Độ nguy hiểm: Trung bình · Tập trung đông dị năng giả
+</Học Viện Dị Năng Giả>

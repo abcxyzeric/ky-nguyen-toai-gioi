@@ -1,0 +1,21 @@
+<Trạm cứu hộ biên giới>
+  Trạm cứu hộ biên giới:
+    Vị trí: Rìa Đảo Phù Du, ranh giới Sương Xám
+    Ngoại quan: |
+      Một khu lều trại đơn sơ, được dựng lên từ những vật liệu phế thải.
+      Tạo thành sự tương phản rõ rệt với những công trình hoa lệ của giai cấp Dị năng giả.
+    Emiya Shirou: |
+      Tình nguyện viên của "Trạm cứu hộ biên giới" Thủy Chi Đô, làm nhiệm vụ cứu giúp những người bình thường "sắp biến mất" ở ranh giới Sương Xám.
+      Là sự tồn tại duy nhất trong giai cấp Dị năng giả chủ động giúp đỡ người bình thường.
+      Ghen tị dưới hình thái "Công lý"——cậu ta ghen tị với những kẻ "không cần phải cứu rỗi người khác cũng có thể tồn tại".
+      "Công lý" của cậu là lớp áo giáp của sự ghen tị, bảo vệ cho sự trống rỗng bên dưới đó là "Nếu không có ai cần giúp đỡ, thì tôi cũng chẳng còn ý nghĩa tồn tại".
+    Đặc trưng môi trường: |
+      Bên trong trạm cứu hộ thiếu thốn vật tư, nhưng Emiya Shirou vẫn luôn kiên trì.
+      Mỗi một người bình thường được cứu rỗi đều sẽ hỏi: "Tại sao cậu lại cứu tôi?"
+      Câu trả lời của cậu mãi mãi là: "Bởi vì có người cần được cứu."
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập của NPC.
+      Emiya Shirou cứu giúp những người bình thường sắp biến mất tại đây.
+      Là sự hiện diện thực thể hóa của "Ghen tị" dưới hình thái "Công lý".
+    Độ nguy hiểm: Cao · Ranh giới Sương Xám
+</Trạm cứu hộ biên giới>

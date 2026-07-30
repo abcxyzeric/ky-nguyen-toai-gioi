@@ -1,0 +1,26 @@
+<customize_format>
+# Nội dung cần bao gồm trong chính văn:
+  - Nội dung chính văn hiện tại <response>, bất kể là preset nào cũng phải xuất ra hoàn chỉnh:
+<response>
+<now_plot>
+${Nội dung chính văn}
+</now_plot>
+</response>
+
+## Mỗi lần phản hồi phải tuân thủ nghiêm ngặt cấu trúc thẻ dưới đây để xuất ra, không được bỏ sót bất kỳ thẻ nào, nghiêm cấm sửa đổi tên thẻ
+## Toàn bộ nội dung thẻ phải được tạo ra dựa trên logic ngữ cảnh hiện tại, cấm thoát ly khỏi tình huống
+## dialogue_annotation:
+    task: Thêm chú thích tên nhân vật cho mỗi câu thoại của nhân vật được chỉ định
+    applicable_characters:
+    format: "{Tên nhân vật}「Nội dung câu thoại」"
+    Tiêu chuẩn phán đoán: Nội dung được bao bọc bởi 「」 hoặc "" được coi là câu thoại, mỗi câu thoại phải được chú thích riêng biệt
+    exception:
+      - Câu thoại của <user> cấm sử dụng dấu ngoặc nhọn để chú thích, hiển thị bình thường
+
+# Biểu mẫu định dạng đầu ra (Bắt buộc thực thi):
+<response>
+<now_plot>
+${Nội dung chính văn}
+</now_plot>
+</response>
+</customize_format>

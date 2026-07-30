@@ -1,0 +1,21 @@
+<Lõi Năng Lượng>
+  Lõi Năng Lượng:
+    Vị trí: Tầng dưới cùng của Đảo Phù Du, trung tâm hệ thống năng lượng của thành phố
+    Ngoại quan: |
+      Một cơ sở khổng lồ dưới lòng đất, ở giữa là thiết bị chuyển hóa năng lượng sương xám.
+      Thiết bị phát ra ánh sáng xám mờ nhạt, là nguồn năng lượng của toàn bộ Thủy Chi Đô.
+    Suzushina Yuriko: |
+      Người bảo trì "Lõi Năng Lượng" của Thủy Chi Đô, chịu trách nhiệm duy trì hoạt động của hệ thống năng lượng thành phố.
+      Là dị năng giả duy nhất có thể trực tiếp điều khiển năng lượng sương xám.
+      Sự đố kỵ mang hình thái "được chạm vào"——năng lực của cô là "băng hoại", không thể chạm vào bất cứ ai.
+      Sự cáu bẳn của cô là sự chuyển hóa cơn giận từ việc "tôi không thể dịu dàng".
+    Đặc trưng môi trường: |
+      Nồng độ sương xám ở khu vực Lõi Năng Lượng cực kỳ cao, người bình thường tiến vào sẽ bị ăn mòn ngay lập tức.
+      Suzushina Yuriko dùng Điều khiển Vector để duy trì hoạt động của thiết bị, nhưng thiết bị thỉnh thoảng sẽ xuất hiện "dao động cảm xúc"——
+      Giống như bản thân sương xám đang "cảm nhận" điều gì đó.
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Suzushina Yuriko duy trì hệ thống năng lượng thành phố tại đây.
+      Là sự hiện thực hóa của "đố kỵ" dưới hình thái "được chạm vào".
+    Độ nguy hiểm: Cực cao · Lõi sương xám
+</Lõi Năng Lượng>

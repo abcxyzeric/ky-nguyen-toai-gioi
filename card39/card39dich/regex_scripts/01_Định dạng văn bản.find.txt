@@ -1,0 +1,1 @@
+/<(?:content|TXT|正文|response|gametext|geme|maincontent|now_plot)>([\s\S]*?)<\/(?:content|TXT|正文|response|gametext|geme|maincontent|now_plot)>(?![\s\S]*<(?:content|TXT|正文|response|gametext|geme|now_plot)>)/is

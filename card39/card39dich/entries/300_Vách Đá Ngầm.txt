@@ -1,0 +1,16 @@
+<Tận Cùng Vách Đá Ngầm>
+  Tận Cùng Vách Đá Ngầm:
+    Vị trí: Rìa Rạn San Hô Tĩnh Lặng, hướng ra biển xám
+    Ngoại quan: |
+      Phía tận cùng vách đá ngầm, đối diện với một vùng biển màu xám.
+      Không có gợn sóng, không có âm thanh, chỉ có sương xám dâng lên từ đáy biển, dâng lên hạ xuống như một nhịp thở.
+    Ryougi Shiki: |
+      Một người phụ nữ mặc áo trắng đứng đó nhìn biển, không ngoảnh đầu lại:
+      "Các người không phải người ở đây, trong tiếng bước chân của các người có 'mục tiêu'."
+      Cô xoay người lại, đôi mắt màu xám nhạt, không phải là mù, mà là "đã nhìn thấy quá nhiều".
+    Sự kiện địa điểm: |
+      Bối cảnh quan trọng của Chương 1.
+      Nơi diễn ra cuộc đối thoại đầu tiên giữa Master và Ryougi Shiki.
+      Ryougi Shiki tại đây giải thích logic vận hành trong hai mươi năm của Thủy Đô, quy luật sương xám, cùng sự tồn tại của Vực Gương.
+    Độ nguy hiểm: Thấp
+</Tận Cùng Vách Đá Ngầm>

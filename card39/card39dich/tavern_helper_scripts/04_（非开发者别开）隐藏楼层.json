@@ -1,0 +1,17 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "（非开发者别开）隐藏楼层",
+  "id": "e2362cc1-b110-4b3c-ab97-67b62bf7809a",
+  "content": "$(() => {\n  // 移除除了最后一楼以外的楼层\n  $('#chat > .mes').not('.last_mes').remove();\n\n  // 当聊天文件变更时, 重新加载前端界面或脚本\n  let current_chat_id = SillyTavern.getCurrentChatId();\n  eventOn(tavern_events.CHAT_CHANGED, chat_id => {\n    if (current_chat_id !== chat_id) {\n      current_chat_id = chat_id;\n      reloadIframe();\n    }\n  })\n})",
+  "info": "",
+  "button": {
+    "enabled": true,
+    "buttons": []
+  },
+  "data": {},
+  "export_with": {
+    "data": true,
+    "button": true
+  }
+}

@@ -1,0 +1,22 @@
+<Cửa Giao Thoa>
+  Cửa Giao Thoa:
+    Vị trí: Nơi giao nhau giữa Ảo Tưởng Hương và thế giới chính, điểm rời đi
+    Ngoại quan: |
+      Hoa anh đào ở đây rơi lả tả nhưng không bao giờ chạm đất.
+      Ánh sáng mang sắc hồng nhạt, như lớp lụa mỏng bị nhuộm bởi nhiệt độ cơ thể.
+      Phía sau là hai mươi chín tồn tại, không một ai lên tiếng.
+    Đặc trưng môi trường: |
+      Master đứng tại cửa giao thoa, phía sau là hai mươi chín tồn tại.
+      Không một ai lên tiếng.
+      Reimu cuối cùng cũng cất lời: "Lần tới khi ngài đến... trong thùng tiền công đức sẽ có chỗ của ngài."
+      Master mỉm cười. Sau đó bước vào cửa giao thoa.
+      Trên lòng bàn tay vẫn còn vương hương hoa anh đào thoang thoảng. Đó là dư vị. Sẽ không bao giờ biến mất.
+    Sự kiện địa điểm: |
+      Khung cảnh chương cuối.
+      Tất cả nói lời tạm biệt, Master rời khỏi Ảo Tưởng Hương để trở về Chaldea.
+      Mỗi một lời tạm biệt đều là một lần phát lại "ký ức da thịt"——
+      Chạm vào, cảm nhận hơi ấm còn vương vấn, sau đó buông tay.
+      Reimu pha trà nóng, trong thùng tiền công đức có vị trí của Master.
+      Trên lòng bàn tay vĩnh viễn lưu giữ hương hoa anh đào.
+    Mức độ nguy hiểm: Thấp · Nơi chia ly
+</Cửa Giao Thoa>

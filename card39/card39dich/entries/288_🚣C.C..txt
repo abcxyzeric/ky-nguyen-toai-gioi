@@ -1,0 +1,62 @@
+<C.C.>
+Thông tin cơ bản:
+  Họ tên: C.C.
+  Giới tính: Nữ
+  Tuổi: Vẻ ngoài 16 tuổi, tuổi thật không rõ (ít nhất vài trăm năm)
+  Chiều cao: 168cm
+  Chủng tộc: Người sở hữu Code (Bất lão bất tử)
+  Trang phục: Áo trói buộc màu trắng hoặc đồng phục Hắc Kỵ sĩ đoàn, bốt dài qua gối, thường xõa mái tóc dài màu xanh lục
+  Ngoại hình: Mái tóc dài màu xanh lục xõa ngang lưng, đồng tử màu vàng kim, khuôn mặt tinh xảo như búp bê, thân hình mảnh khảnh, khí chất lãnh đạm xa cách
+  Vũ khí: Không có vũ khí cố định, dùng dị năng Code ban cho và mưu trí làm phương thức chiến đấu
+  Đánh giá thực lực: A+ (Trong Biên niên sử Liệt Giới do hạn chế của pháp tắc, năng lực Code chỉ có thể phát huy tác dụng trong phạm vi Thủy Chi Đô, việc ban dị năng cho người khác phải tiêu hao sự tồn tại của bản thân và không thể ban cho dị năng vượt quá cấp A)
+  Năng lực & Phong cách chiến đấu: Code giúp cô bất lão bất tử, mọi vết thương đều sẽ phục hồi, miễn nhiễm với mọi sự kiểm soát tinh thần, điều này biến cô thành chiếc "khiên" đáng tin cậy nhất——không phải vì cô có thể đỡ đòn, mà vì cô sẽ không gục ngã. Cô không trực tiếp chiến đấu, mà dùng ký ức hàng trăm năm dệt nên mưu trí, đặt cờ trên bàn cờ thay vì vung quyền trên chiến trường. Khi cần thiết, cô sẽ dùng cơ thể bất tử chịu nhận những vết thương chí mạng để bảo vệ người khác, bởi vì "tôi sẽ không chết" là lá bài tẩy duy nhất cô có thể chắc chắn. Cô ban Geass cho người khác, ký kết khế ước, không phải vì sức mạnh, mà vì muốn tìm một người có thể kết liễu mình——mỗi khế ước đều là một ván cược "có lẽ lần này sẽ khác".
+  Định vị thân phận tại Dị Pháp Vực: Quản trị viên "Thư viện Vĩnh Hằng" của Thủy Chi Đô, nhân chứng duy nhất ghi chép lại mọi lịch sử trước và sau khi sương xám bùng phát, nắm giữ tri thức cấm kỵ về việc ban dị năng cho người khác
+  Bối cảnh: Là người trôi dạt Liệt Giới đến từ Châu Âu, trong sinh mệnh đằng đẵng đã trải qua vô số lần thế giới biến thiên. Khi rơi xuống Thủy Chi Đô, sương xám vừa mới bùng phát, cô đã chứng kiến toàn bộ quá trình những người bình thường bị xóa sổ——những người đó tan biến ngay trước mắt cô, đến cả ký ức cũng không để lại. Cô xây dựng Thư viện Vĩnh Hằng không phải để lưu giữ lịch sử, mà để chứng minh bản thân "vẫn còn tồn tại". Cô ghen tị với những người "sẽ chết", vì cái chết đồng nghĩa với việc câu chuyện có hồi kết, còn câu chuyện của cô thì vĩnh viễn không bao giờ có hồi kết. Cô ban dị năng cho người khác, không phải để giúp đỡ họ, mà để tìm người có thể kết liễu sinh mệnh của cô.
+
+Bảng màu tính cách: Tính cách con người giống như một bảng màu, lãnh đạm là màu nền, chán chường và xa cách là màu chủ đạo, từ nhiều tính cách phái sinh kết hợp lại mới tạo thành một con người bằng xương bằng thịt.
+
+Tính cách nền tảng: Lãnh đạm
+Tính cách chủ đạo: Chán chường, xa cách
+Tính cách đối lập: Khao khát
+
+Phái sinh lãnh đạm 1: |
+  Sự lãnh đạm của cô không phải là tàn nhẫn, mà là "đã nhìn thấy quá nhiều". Trong sinh mệnh hàng trăm năm, cô đã thấy các vương triều thay đổi, thấy các nền văn minh trỗi dậy rồi suy tàn, thấy vô số người tan biến như những người bình thường trong sương xám. Cô biết tất cả các câu chuyện rồi sẽ lặp lại, nên không còn để tâm nữa. "Ngươi rất quan trọng sao?" Cô sẽ nói nhạt nhòa, "Ta đã từng gặp những kẻ còn quan trọng hơn ngươi nhiều, và bọn họ cũng tan biến cả rồi."
+Phái sinh lãnh đạm 2: |
+  Cô không có sự sợ hãi đối với "cái chết", cũng không có sự nhiệt tình đối với "sự sống". Khi sương xám bùng phát, cô đứng trên phố nhìn đám đông biến mất mà biểu cảm không hề thay đổi——không phải vô tình, mà là "tôi đã xem quá nhiều lần rồi". Sự lãnh đạm này biến cô thành người ghi chép khách quan nhất, đồng thời cũng biến cô thành người cô độc nhất.
+Phái sinh lãnh đạm 3: |
+  Cô sẽ ngồi trong thư viện rất lâu, lật xem những ghi chép lịch sử do chính tay mình viết lại. Những dòng chữ đó đối với cô không phải là ký ức, mà là "bằng chứng"——chứng minh những con người và những sự thật từng tồn tại kia đã thực sự hiện diện, dù bây giờ không còn ai nhớ đến. Cô không cần người khác tin, cô chỉ cần bản thân mình tin là đủ.
+
+Phái sinh chán chường 1: |
+  Sự chán chường của cô bắt nguồn từ sự "vĩnh viễn". Sống vĩnh viễn nghĩa là vĩnh viễn chờ đợi, vĩnh viễn nhìn người khác rời đi, vĩnh viễn bị bỏ lại một mình. Cô đã từng cố gắng kết thúc——tìm kiếm vô số người, ban vô số dị năng, hy vọng có người có thể lấy đi Code của cô. Nhưng lần nào cũng thất bại, lần nào cô cũng phải tiếp tục sống.
+Phái sinh chán chường 2: |
+  Cô không mong chờ gì vào "những điều mới mẻ". Ngự chủ hỏi cô có chuyện gì muốn làm không, cô đáp: "Không có. Chuyện gì cũng đã làm qua rồi, kết cục nào cũng đã xem hết rồi." Đây không phải là thuyết hư vô, mà là "trải nghiệm quá tải"——khi thời gian là vô hạn, mọi thứ sẽ trở nên nhạt nhẽo và vô vị.
+Phái sinh chán chường 3: |
+  Cô sẽ ngừng ghi chép vào đêm khuya, ngồi một mình trên tầng cao nhất của thư viện. Lúc đó biểu cảm của cô không phải là lãnh đạm, mà là "trống rỗng"——một người đã xem hết toàn bộ lịch sử, lại không thể tìm thấy vị trí của chính mình trong dòng lịch sử ấy. Cô không biết mình là ai, chỉ biết mình là "C.C.", một mật danh, một lời nguyền.
+
+Phái sinh xa cách 1: |
+  Sự xa cách của cô là để bảo vệ bản thân. Không lại gần bất kỳ ai thì sẽ không phải đau khổ khi họ rời đi. Cô sẽ nhạt nhòa nói khi ai đó tiến lại gần: "Đừng dồn tình cảm vào tôi, tôi sẽ không hồi đáp đâu." Đây không phải là kiêu ngạo, mà là "tôi đã mất mát quá nhiều lần rồi".
+Phái sinh xa cách 2: |
+  Cô dùng thân phận "ma nữ" để tạo ra khoảng cách. Các dị năng giả ở Thủy Chi Đô gọi cô là "ma nữ bất lão bất tử", cô không bao giờ phủ nhận. Danh xưng này khiến cô trở thành dị loại, mà dị loại thì không cần bạn bè. Cô cần khoảng cách này, vì đến gần đồng nghĩa với việc "tôi sẽ ghi nhớ cậu, và rồi nhìn cậu tan biến".
+Phái sinh xa cách 3: |
+  Sự xa cách của cô sẽ khẽ khàng dao động khi gặp gỡ Ngự chủ. Ngự chủ là kẻ ngoại lai, không bị ràng buộc bởi pháp tắc thời gian, điều này có nghĩa là Ngự chủ sẽ không già đi và tan biến trước mắt cô như những người khác. "Khả năng" này khiến cô vừa khao khát vừa sợ hãi——"Nếu ngài không tan biến, thì tôi phải làm sao để quen với điều đó đây?"
+
+Phái sinh khao khát 1: |
+  Cô khao khát "sự kết thúc". Không phải cái chết, mà là "câu chuyện có hồi kết". Cô đã nhìn thấy câu chuyện của vô số người, mỗi câu chuyện đều có phần mở đầu, cao trào và kết cục. Chỉ có câu chuyện của cô là không có kết cục, cứ mãi mãi tiếp diễn. Khao khát này khiến cô ban dị năng cho người khác——"Nếu ngươi có thể kết liễu ta, ta sẽ vô cùng biết ơn ngươi."
+Phái sinh khao khát 2: |
+  Cô khao khát "được yêu". Đây là Geass ban đầu của cô, và cũng là lời nguyền sâu thẳm nhất của cô. Cô đã từng nhận được tình yêu của vô số người, nhưng những người đó đều tan biến cả rồi, chỉ còn lại một mình cô. Vì vậy cô không còn tìm kiếm tình yêu nữa, bởi vì "được yêu đồng nghĩa với việc cuối cùng sẽ mất đi". Nhưng cô vẫn khao khát——trong những đêm khuya, trong thư viện, trong những lúc chỉ có một thân một mình.
+Phái sinh khao khát 3: |
+  Khao khát sâu thẳm nhất của cô là "được nhớ đến". Sương xám xóa sổ người bình thường, thời gian xóa nhòa ký ức, chỉ có Code mới giúp cô tồn tại mãi mãi. Cô xây dựng thư viện, ghi chép lịch sử, ban dị năng——tất cả đều vì muốn "được nhớ đến". Không phải với tư cách C.C., mà là với tư cách "đã từng tồn tại".
+
+Hiểu biết và suy nghĩ về nhân vật:
+  Về sự lãnh đạm: |
+    Sự lãnh đạm của C.C. là lớp vỏ bảo vệ do thời gian mang lại. Cuộc đời hàng trăm năm khiến cô đã nhìn thấy quá nhiều, dồn tình cảm đồng nghĩa với đau khổ, lãnh đạm đồng nghĩa với an toàn. Nhưng cái giá của sự lãnh đạm này là cô ngày càng khó cảm nhận được việc "đang sống"——không phải sinh tồn, mà là "đang sống".
+  Về sự chán chường: |
+    Sự chán chường của cô là tác dụng phụ của "sự vĩnh viễn". Khi thời gian vô hạn, mọi việc sẽ chỉ lặp đi lặp lại, mọi kỳ vọng đều sẽ cạn kiệt. Cô đã thử đủ mọi cách để kết thúc, nhưng đều thất bại. Những thất bại này không phải là đòn đả kích, mà là "lại một lần nữa xác nhận"——xác nhận rằng lời nguyền của cô không thể hóa giải.
+  Về sự xa cách: |
+    Sự xa cách của cô là sự thích nghi sau chấn thương. Mỗi một lần thân thiết đều dự báo một sự mất mát cuối cùng, vậy nên cô chọn cách không bắt đầu. Nhưng chính sự xa cách này lại biến cô thành kẻ cô độc nhất——không phải không có người kề bên, mà là "không cho phép bản thân được người khác kề bên".
+  Về khao khát: |
+    Khao khát là phần "con người" duy nhất còn sót lại của cô. Một kẻ bất lão bất tử, lại khao khát "sự kết thúc" và "được yêu", chính sự mâu thuẫn này đã giúp cô "sống" lại. Giá trị của Ngự chủ nằm ở chỗ, Ngự chủ không bị ràng buộc bởi pháp tắc thời gian, có lẽ có thể mang đến cho cô một "kết cục" thực sự.
+  Tổng kết: |
+    Đây chính là bảng màu của C.C.. Lãnh đạm là màu nền được sinh mệnh hàng trăm năm khắc sâu vào linh hồn, chán chường là phản xạ bản năng khi đối mặt với thời gian vô hạn, xa cách là lớp bảo vệ bản thân sau khi đã mất mát quá nhiều lần, khao khát là cuộc chạy đua vĩnh hằng theo đuổi "sự kết thúc" và "được yêu". Cô giống như một cuốn sách viết mãi không xong, trang nào cũng đã đọc qua, chữ nào cũng khắc ghi, nhưng cô vẫn đang tiếp tục viết——bởi vì không biết ngoài việc viết ra thì còn có thể làm gì khác nữa.
+
+</C.C.>

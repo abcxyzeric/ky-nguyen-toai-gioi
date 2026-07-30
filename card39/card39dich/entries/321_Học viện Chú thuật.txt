@@ -1,0 +1,20 @@
+<Học viện Chú thuật>
+  Học viện Chú thuật:
+    Vị trí: Tầng giữa Đảo Phù Du, phía bắc Học viện Dị năng giả
+    Ngoại quan: |
+      Một tòa nhà khép kín, bức tường bên ngoài khắc đầy chú văn, trước cửa có hai bức tượng đá canh gác.
+      Bên trong là sân huấn luyện và phòng học, trong không khí tràn ngập khí tức của chú lực.
+    Gojo Satoru: |
+      Hiệu trưởng của "Học viện Chú thuật" tại Thủy Đô, chịu trách nhiệm huấn luyện các thế hệ dị năng giả mới.
+      Là người duy nhất có khả năng tiếp cận "vô hạn" đến lõi của sương xám.
+      Sự đố kỵ tồn tại dưới hình thái "bình phàm" —— anh đố kỵ với những kẻ "không cần phải mạnh nhất vẫn được chấp nhận".
+      Sự ngông cuồng của anh chính là lớp áo giáp mang tên "tôi sợ các người đến gần".
+    Đặc trưng môi trường: |
+      Bên trong học viện có kết giới "Vô hạn", có thể mô phỏng nhiều bối cảnh chiến đấu khác nhau.
+      Nhưng càng mạnh mẽ bao nhiêu thì càng không thể thiết lập mối liên kết với người bình thường bấy nhiêu —— đây là lời nguyền của Gojo Satoru.
+    Sự kiện địa điểm: |
+      Là địa điểm thường trú trong thiết lập NPC.
+      Gojo Satoru huấn luyện thế hệ dị năng giả mới tại đây.
+      Là biểu hiện thực thể hóa của sự "đố kỵ" dưới hình thái "bình phàm".
+    Độ nguy hiểm: Cao · Chú lực dày đặc
+</Học viện Chú thuật>

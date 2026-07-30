@@ -1,0 +1,22 @@
+<Thần xã Moriya>
+  Thần xã Moriya:
+    Vị trí: Chân Núi Yêu Quái, nơi ở của thần linh
+    Ngoại quan: |
+      Cổng Torii chuyển sang màu đỏ thẫm như máu, trên bề mặt có dịch tiết ấm nóng.
+      Thần linh ở đây trải nghiệm sự đảo ngược của việc "được khao khát".
+      Đường tham đạo dưới quy tắc sắc dục đã biến thành một loại tồn tại nằm giữa làn da và phiến đá.
+    Kochiya Sanae: |
+      Vu nữ trên tham đạo, phép màu mất đi hiệu lực.
+      "Ấm áp hơn cả tín ngưỡng".
+      Cuộc chiến của cô là sự đối kháng giữa phép màu và nỗi khao khát.
+      Tín ngưỡng sụp đổ, nhưng không phải là đánh mất —— mà là phát hiện ra một thứ ấm áp hơn.
+    Moriya Suwako: |
+      Vị thần cổ xưa trong hang động ngầm, ký ức thức tỉnh giữa trận pháp Ngự Trụ.
+      Ngự chủ gọi tên cô —— "Đã lâu rồi mới lại nghe thấy tên của mình".
+      Lột xác, cơn khát khao cổ xưa đã được thỏa mãn.
+    Sự kiện địa điểm: |
+      Bối cảnh nửa đầu chương 5.
+      Tín ngưỡng của Sanae sụp đổ, Suwako lột xác.
+      Thần linh trải nghiệm sự đảo ngược của việc "được khao khát".
+    Độ nguy hiểm: Trung bình · Lĩnh vực tín ngưỡng
+</Thần xã Moriya>

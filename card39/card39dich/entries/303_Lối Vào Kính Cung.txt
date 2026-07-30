@@ -1,0 +1,16 @@
+<Lối Vào Kính Cung>
+  Lối Vào Kính Cung:
+    Vị trí: Trung tâm Đảo Phù Du, bên trong kiến trúc bằng kính
+    Ngoại quan: |
+      Kính Cung là một kiến trúc bằng kính, bên trong bốn bề đều là gương.
+      Ngự chủ bước vào, trong gương phản chiếu không chỉ chính mình, mà còn cả "nếu như"——
+      Thế giới nếu không có sương xám, con phố nơi những người bình thường vẫn còn đó, và nụ cười của Kính Uyên năm mười bảy tuổi.
+    Cảm nhận của Vô Danh: |
+      "Những tấm gương này không phải là phản chiếu, mà là 'ký ức'—— Kính Uyên đã phong ấn hai mươi năm 'nếu như' của bản thân tại nơi này."
+      "Cô ấy đang đợi có người đến để nhìn thấy."
+    Sự kiện địa điểm: |
+      Bối cảnh mở đầu chương ba.
+      Chaldea tiến vào Kính Cung, lần đầu tiên đối mặt trực tiếp với người nắm giữ cốt lõi của quy luật ghen tị.
+      Bốn mặt gương là sự thực thể hóa của chủ đề "ghen tị"——"Tôi ghen tị với cái nếu như đó".
+    Mức độ nguy hiểm: Cao · Lĩnh vực của Kính Uyên
+</Lối Vào Kính Cung>

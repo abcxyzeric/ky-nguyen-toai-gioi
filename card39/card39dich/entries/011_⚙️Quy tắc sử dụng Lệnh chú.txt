@@ -1,0 +1,59 @@
+<Quy tắc sử dụng Lệnh chú>
+
+#Quy tắc cơ bản
+
+Giới hạn tối đa: 3 vạch
+Hồi phục: Mỗi ngày hồi phục 1 vạch
+Tiêu hao: Mỗi lần sử dụng tiêu hao 1 vạch, hiệu ứng có hiệu lực ngay lập tức, không thể đảo ngược
+
+Cơ chế cốt lõi:
+  Lệnh chú là thông đạo khế ước trực tiếp giữa Ngự chủ và Anh Linh Tọa
+  Ở Liệt Giới, Nhân Lý Thụ héo úa dẫn đến tín hiệu Lệnh chú không ổn định — hiệu ứng có thể được tăng cường, suy yếu hoặc sinh ra đột biến ngoài ý muốn
+  Mỗi lần sử dụng đều sẽ để lại một vết bỏng trên mu bàn tay Ngự chủ, khi ba vết bỏng tồn tại cùng lúc sẽ tạo ra cộng hưởng với nhau
+
+#Kỹ năng Lệnh chú
+
+[
+  0: "Trị liệu thương thế: Một vạch, chữa lành hoàn toàn toàn bộ vết thương cho một người"
+  1: "Phòng ngự vô địch: Một vạch, triển khai kết giới phòng ngự tuyệt đối trong một hiệp"
+  2: "Giải phóng Bảo khí: Một vạch, chỉ định một nhân vật giải phóng Bảo khí tung kỹ năng"
+  3: "Mệnh lệnh tuyệt đối: Một vạch, ban lệnh không thể phản kháng cho một người"
+  4: "Thôi miên cưỡng chế: Một vạch, khiến một người rơi vào trạng thái thôi miên sâu trong 5 phút"
+  5: "Ngưng đọng thời gian: Một vạch, dừng thời gian 5 giây để tự do hành động"
+]
+
+#Giới hạn sử dụng
+
+Mệnh lệnh tuyệt đối: Chỉ thị phải là một hành động đơn nhất, không thể là lệnh duy trì liên tục
+Phòng ngự vô địch: Đối tượng bên trong kết giới không thể tấn công ra bên ngoài
+Giải phóng Bảo khí: Chỉ có hiệu lực với đòn tấn công tiếp theo
+
+#Quy tắc đặc biệt tại Liệt Giới
+
+Sự tương tác giữa Lệnh chú và Quy tắc của Vực:
+  Thanh Minh Vực: Hiệu ứng Lệnh chú có thể bị nhiễu bởi quy tắc Tiên hóa, trị liệu có thể kèm theo tác dụng phụ "tịnh hóa" (xóa bỏ trạng thái tiêu cực nhưng đồng thời cũng xóa luôn bùa lợi)
+  Vực Idola: Hệ Thống Thần Ý có thể nhận dạng Lệnh chú là "thần tích", kích hoạt phản ứng dị thường của NPC trong Vực
+  Vực Neon 2187: Lệnh chú trong mạng tinh thể ảo thể hiện dưới dạng "quyền quản trị viên", có thể cưỡng chế sửa đổi mã cục bộ
+  Vực Thủy Đô: Sương xám gây nhiễu yếu ớt đến Lệnh chú, hiệu quả của mệnh lệnh tuyệt đối đối với Dị năng giả bị giảm sút
+  Vực Kỷ Nguyên Không: Giao thức thanh trừng có thể đánh dấu Lệnh chú là "nguồn năng lượng dị thường", thu hút các đơn vị thực thi pháp luật kéo đến
+  Vực Ảo Tưởng Hương: Lệnh chú tương thích với quy tắc cảnh giới, hiệu ứng ổn định, nhưng Yakumo Yukari sẽ cảm nhận được mỗi lần sử dụng
+  Đầu Thiên Bình: Việc sử dụng Lệnh chú có thể kích hoạt chấn động dòng thời gian, cán cân của Linh Giới sẽ hơi nghiêng đi một chút
+
+Lệnh chú và Dị Pháp Vương:
+  Khi sử dụng Mệnh lệnh tuyệt đối lên Dị Pháp Vương, hiệu quả phụ thuộc vào cường độ "Tội" của Vương đó
+  Ngạo mạn (Vô Cực): Hiệu quả mệnh lệnh giảm mạnh, hắn từ chối tuân phục bất kỳ ai
+  Lười biếng (Tàn ảnh Odin): Hiệu quả mệnh lệnh ở mức trung bình, nhưng có thể kích hoạt cơ chế tự động phản kích của Hệ Thống Thần Ý
+  Tham lam (Omega): Mệnh lệnh có thể bị phân tích thành "tiêm nhúng dữ liệu", hiệu ứng không ổn định
+  Đố kỵ (Kính Uyên): Mệnh lệnh có hiệu lực với bản thể, nhưng vô hiệu với phân thân sương xám
+  Bạo thực (Augustus): Mệnh lệnh bị phán định là "dị thường", có thể kích hoạt giao thức thanh trừng
+  Sắc dục (Yakumo Yukari): Hiệu quả mệnh lệnh bình thường, nhưng cô ta sẽ "đáp lễ" sau khi mệnh lệnh kết thúc
+  Phẫn nộ (Linh Giới): Hiệu quả mệnh lệnh mạnh nhất — hắn từng là Ngự chủ, hiểu rõ bản chất của Lệnh chú
+
+#Định vị tự sự
+
+Lệnh chú là vật phẩm tiêu hao, dùng một vạch mất một vạch
+Mỗi một vạch đều là lựa chọn không thể vãn hồi — trị liệu hay nạp năng lượng, cưỡng chế hay giữ lại
+Giống như những gì Chaldea đã làm ở mọi Vực: Không có đáp án tốt, chỉ có những lựa chọn bắt buộc phải làm
+Sự cộng hưởng của vết bỏng do ba đạo Lệnh chú cùng tồn tại, là mối liên hệ trực tiếp cuối cùng giữa Ngự chủ và Anh Linh Tọa
+
+</Quy tắc sử dụng Lệnh chú>

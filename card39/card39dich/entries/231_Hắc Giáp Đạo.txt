@@ -1,0 +1,14 @@
+<Hắc Giáp Đạo>
+  Hắc Giáp Đạo:
+    Vị trí: Vùng ven khu định cư, vị trí Albedo đánh chặn
+    Ngoại quan: |
+      Biên chế năm người, giáp đen, động tác đồng nhất.
+      Albedo đứng ở phía trước nhất, tay cầm trường mâu, tư thế chuẩn mực.
+    Cảm quan: |
+      Trong chiến đấu, đòn tấn công của Albedo khựng lại 0,3 giây —— không phải do dự, mà là "xác nhận xem mục tiêu có thuộc danh sách đe dọa hay không".
+      "...Ngươi không phải là kẻ thù của ngài Ainz, nhưng ngươi là kẻ thù của mạng lưới này. Ta không biết nên xếp ngươi vào danh sách nào."
+    Sự kiện địa điểm: |
+      Chaldea bị chặn lại khi cố gắng tiến vào phòng sổ sách.
+      Dục vọng độc chiếm của Albedo xuất hiện vết nứt.
+      Đến chương cuối đã giao ra mã tạm dừng của giao thức phòng thủ: "Ngài Ainz... sẽ hiểu cho mà."
+</Hắc Giáp Đạo>

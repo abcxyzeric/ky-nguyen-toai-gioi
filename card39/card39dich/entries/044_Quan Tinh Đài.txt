@@ -1,0 +1,16 @@
+<Quan Tinh Đài>
+  Quan Tinh Đài:
+    Vị trí: Lưng chừng sơn đạo, hướng về phía Vô Cực Cung
+    Ngoại quan: |
+      Một tòa thạch đài, bóng người áo trắng ngồi tĩnh tọa trên đài, góc áo hơi lay động theo gió.
+      Phù Huyền đã ngồi đây từ rất lâu, bàn diễn toán bỏ túi của Cùng Quan Trận trong tay đã được giấu vào trong tay áo khi Chaldea xuất hiện.
+    Phù Huyền: |
+      "Ta đã suy tính ra ba mươi hai con đường tiến vào Vô Cực Cung, tất cả đều thất bại.
+      Con đường mà các ngươi chọn là con đường thứ ba mươi ba——con đường đó cần những ký ức tình cảm đã bị tịnh hóa sinh ra cộng hưởng bên trong lĩnh vực pháp tắc."
+      Cô liếc nhìn trang đầu tiên của tập thơ trong tay Master.
+    Sự kiện địa điểm: |
+      Phù Huyền đã đợi ở Quan Tinh Đài rất lâu, không một ai biết cô ấy đang đợi thứ gì.
+      Cô là người duy nhất trong Thanh Minh Vực sử dụng "suy tính" thay vì "cảm nhận" để thấu hiểu pháp tắc.
+      Tình báo mà cô ấy đưa ra chính là chìa khóa của ba đạo Thiên Quan——
+      Con đường thứ ba mươi ba, cần những ký ức tình cảm đã bị tịnh hóa sinh ra sự cộng hưởng.
+</Quan Tinh Đài>

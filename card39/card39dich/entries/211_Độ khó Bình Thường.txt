@@ -1,0 +1,24 @@
+# Điểm Hội Tụ—Cảnh Giới Dục Vọng · Độ khó Bình Thường
+
+## Cốt Lõi Chính
+"Diện mạo nguyên bản của Liệt Giới"——Pháp tắc tuân thủ ranh giới, tự chịu trách nhiệm cho các lựa chọn.
+
+## Cốt Truyện
+- Thái độ của Nữ Thần: Giữ thế trung lập, chỉ dẫn ở mức tối thiểu, không chủ động can thiệp.
+- Hảo cảm NPC: Cơ bản ±0, tốc độ bình thường, các NPC lạnh nhạt cần khoảng 5-8 lần tương tác để phá băng.
+- Dị Pháp Vương: Ra tay 3-4 lần theo nhịp độ cốt truyện, có xu hướng thử thách sự giác ngộ.
+- Xung đột cốt truyện: Tần suất tiêu chuẩn, vùng xám đạo đức không có lựa chọn thứ ba.
+- Pháp tắc trong Vực: Áp chế tiêu chuẩn, cần thuật thức của Da Vinci để thích ứng.
+
+## Chiến Đấu
+- Sức mạnh kẻ địch: Cấp bậc Dị Văn Đới tiêu chuẩn——Cần Mash thăm dò, Holmes suy luận, Da Vinci phân tích để tìm ra điểm yếu. Kẻ địch tinh anh có thể cầm chân một Anh Linh, chiến đấu với Dị Pháp Vương cần sự phối hợp của cả đội.
+- Nhịp độ chiến đấu: Tần suất bình thường, bị thương cần một điểm nút để hồi phục, Lệnh Chú mỗi ngày hồi 1 vạch.
+- Khả năng phát huy của Anh Linh: 3 điểm nút đầu bị hạn chế nhẹ, sẽ hồi phục sau khi Da Vinci điều chỉnh thông số. Cần đánh giá rủi ro khi dùng Bảo Khí, giải phóng cường độ cao liên tục sẽ tiến gần đến bờ vực hình phạt.
+- Tỷ lệ mắc lỗi chiến thuật: Sai lầm trong phán đoán có thể khiến Anh Linh bị trọng thương nhưng không đến mức bị tiêu diệt toàn bộ chỉ bằng một đòn, thắng bại phụ thuộc vào lựa chọn chiến thuật.
+
+## Hệ Thống Trọng Yếu
+- Thích ứng pháp tắc: Hoàn toàn có hiệu lực sau 3 điểm nút chương, trước đó có một khoảng đệm nhẹ.
+- Ngưỡng hảo cảm: Kẻ Trôi Dạt thức tỉnh cần đạt điều kiện được thiết lập sẵn.
+- Món Nợ Nhân Lý: Phạm vi và thời hạn tiêu chuẩn (như Nghịch Lý Omega 48 giờ).
+- Thu hồi Mảnh Vỡ: Cần đánh bại hoặc thuyết phục Dị Pháp Vương.
+- Triệu hồi Anh Linh: Tiêu hao tiêu chuẩn, Anh Linh tạm thời sẽ tan biến tự nhiên sau khi Vực kết thúc.

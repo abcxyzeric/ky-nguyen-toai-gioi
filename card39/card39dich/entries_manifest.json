@@ -1,0 +1,6766 @@
+[
+  {
+    "index": 0,
+    "comment": "Cứ Điểm Gintoki Shinpachi",
+    "keys": [
+      "银时据点",
+      "新八据点",
+      "Cứ Điểm Gintoki",
+      "Cứ Điểm Shinpachi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "银时据点",
+      "新八据点"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1414,
+    "contentSha256": "d3244fc8033533fa18d42b1122c68741d77f9b5bcbd9ee1889738760ab870348"
+  },
+  {
+    "index": 1,
+    "comment": "🎃Aqua (Idola)",
+    "keys": [
+      "阿库娅",
+      "Aqua"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "阿库娅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13406,
+    "contentSha256": "43e7a35966f8fc60728e074efd3ee7a4dfdb23cb1203e133a07861baf60f4770"
+  },
+  {
+    "index": 2,
+    "comment": "⚙️Quy tắc triệu hồi Anh Linh",
+    "keys": [
+      "英灵",
+      "召唤",
+      "从者",
+      "灵基",
+      "圣晶石",
+      "Anh Linh",
+      "Triệu hồi",
+      "Tòng Giả",
+      "Linh Cơ",
+      "Thánh Tinh Thạch"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "英灵",
+      "召唤",
+      "从者",
+      "灵基",
+      "圣晶石"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1578,
+    "contentSha256": "5386764f660627f0b1930918e6e83c4278ac364a17f6f0571bd6d9a234c6ed37"
+  },
+  {
+    "index": 3,
+    "comment": "⚙️Suy nghĩ bổ sung",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 417,
+    "contentSha256": "32a97155baff70a15f1ecf7bd7ce6b4df5ecc5894cce6ea61b5c0ccb280f3628"
+  },
+  {
+    "index": 4,
+    "comment": "⚙️Thiết lập Kẻ Trôi Dạt",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1896,
+    "contentSha256": "24db9c070dc64568aadc4febf754889f987fda120b60a8089b9ba9b45c3d383c"
+  },
+  {
+    "index": 5,
+    "comment": "⚙️Thời gian lịch pháp",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1849,
+    "contentSha256": "2467e23431d8cb0a5aac9bef92e6b7eebe32b53b73b92b2ba1efcb7571f211e0"
+  },
+  {
+    "index": 6,
+    "comment": "⚙️Thiết lập Nhân Lý Thiêu Khước",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 725,
+    "contentSha256": "7e7d32e582e4a0d9a34a5ad0eb01f1d97bb4dfbad7b7a966d0cbba36c07b528c"
+  },
+  {
+    "index": 7,
+    "comment": "Quảng trường Thần Điện",
+    "keys": [
+      "神殿广场",
+      "雕像下方",
+      "Quảng trường Thần Điện",
+      "bên dưới bức tượng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "神殿广场",
+      "雕像下方"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1371,
+    "contentSha256": "c94de6a87b269a43cd2d23eca4e387506c8f3904800b731fa526f5bb81010884"
+  },
+  {
+    "index": 8,
+    "comment": "⚙️Tổng quan 7 đại vực",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 3451,
+    "contentSha256": "9827948301325014979b9cda6eb1078e2501c5f208f27829131ad708af4295fd"
+  },
+  {
+    "index": 9,
+    "comment": "⚙️Quy tắc NSFW",
+    "keys": [
+      "口交",
+      "乳交",
+      "足交",
+      "指交",
+      "性爱",
+      "做爱",
+      "私处",
+      "爱抚",
+      "舔乳",
+      "舔穴",
+      "肛",
+      "小穴",
+      "素股",
+      "肉棒",
+      "呻吟",
+      "坚挺",
+      "喘息",
+      "后入",
+      "甬道",
+      "肉仞",
+      "泥泞不堪",
+      "性交",
+      "插入",
+      "抽插",
+      "幼腔",
+      "幼穴",
+      "龟头",
+      "粉蛤",
+      "蜜液",
+      "体位",
+      "传教式",
+      "乘骑式位",
+      "后入式",
+      "摩擦",
+      "高潮",
+      "射精",
+      "拔出",
+      "火车便当",
+      "打桩",
+      "69",
+      "侧入",
+      "khẩu giao",
+      "kẹp ngực",
+      "cọ chân",
+      "dùng ngón tay",
+      "tình dục",
+      "làm tình",
+      "vùng kín",
+      "vuốt ve",
+      "liếm ngực",
+      "liếm lồn",
+      "hậu môn",
+      "lỗ nhỏ",
+      "cọ đùi non",
+      "gậy thịt",
+      "rên rỉ",
+      "cương cứng",
+      "thở dốc",
+      "đút đằng sau",
+      "thông đạo",
+      "kiếm thịt",
+      "lầy lội ướt sũng",
+      "giao hợp",
+      "đâm vào",
+      "đâm rút",
+      "khoang non",
+      "lỗ lồn non",
+      "quy đầu",
+      "sò hồng",
+      "mật dịch",
+      "tư thế",
+      "truyền giáo",
+      "cưỡi ngựa",
+      "đằng sau",
+      "ma sát",
+      "cực khoái",
+      "xuất tinh",
+      "rút ra",
+      "bế đứng",
+      "đóng cọc",
+      "đâm ngang sườn"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "口交",
+      "乳交",
+      "足交",
+      "指交",
+      "性爱",
+      "做爱",
+      "私处",
+      "爱抚",
+      "舔乳",
+      "舔穴",
+      "肛",
+      "小穴",
+      "素股",
+      "肉棒",
+      "呻吟",
+      "坚挺",
+      "喘息",
+      "后入",
+      "甬道",
+      "肉仞",
+      "泥泞不堪",
+      "性交",
+      "插入",
+      "抽插",
+      "幼腔",
+      "幼穴",
+      "龟头",
+      "粉蛤",
+      "蜜液",
+      "体位",
+      "传教式",
+      "乘骑式位",
+      "后入式",
+      "摩擦",
+      "高潮",
+      "射精",
+      "拔出",
+      "火车便当",
+      "打桩",
+      "侧入"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1351,
+    "contentSha256": "acb4416243d83e489b0a9888c4b53e4b02993e0e4f58c02cc38d91116913080f"
+  },
+  {
+    "index": 10,
+    "comment": "🏄Diệp Tri Thu (Thanh Minh)",
+    "keys": [
+      "叶知秋",
+      "知秋",
+      "Diệp Tri Thu",
+      "Tri Thu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "叶知秋",
+      "知秋"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11658,
+    "contentSha256": "f57955b96d577b92a52f97dec8da28ce4978787db4bbec4303b82102d9d9a93d"
+  },
+  {
+    "index": 11,
+    "comment": "⚙️Quy tắc sử dụng Lệnh chú",
+    "keys": [
+      "令咒",
+      "伤势治疗",
+      "无敌防御",
+      "宝具解放",
+      "绝对命令",
+      "强制催眠",
+      "时间暂停",
+      "Lệnh chú",
+      "Trị liệu thương thế",
+      "Phòng ngự vô địch",
+      "Giải phóng Bảo khí",
+      "Mệnh lệnh tuyệt đối",
+      "Thôi miên cưỡng chế",
+      "Ngưng đọng thời gian"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "令咒",
+      "伤势治疗",
+      "无敌防御",
+      "宝具解放",
+      "绝对命令",
+      "强制催眠",
+      "时间暂停"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 3740,
+    "contentSha256": "a3a9f517e01a9541e7733e7cf73e41c7b0a0cf81ef64dcb25cc7e98f22d1306f"
+  },
+  {
+    "index": 12,
+    "comment": "⚙️Giải thích chi tiết về mùi hương",
+    "keys": [
+      "舔舐",
+      "吮吸",
+      "气味",
+      "味道",
+      "味觉",
+      "气息",
+      "嗅",
+      "乳穴",
+      "小穴",
+      "骚逼",
+      "后穴",
+      "肛",
+      "屁眼",
+      "脚",
+      "嘴部",
+      "足部",
+      "贴身衣物",
+      "鞋子",
+      "liếm láp",
+      "mút mát",
+      "mùi hương",
+      "mùi vị",
+      "vị giác",
+      "hơi thở",
+      "ngửi",
+      "lỗ vú",
+      "lỗ nhỏ",
+      "lồn dâm",
+      "lỗ sau",
+      "hậu môn",
+      "lỗ đít",
+      "chân",
+      "phần miệng",
+      "phần chân",
+      "nội y",
+      "giày"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "舔舐",
+      "吮吸",
+      "气味",
+      "味道",
+      "味觉",
+      "气息",
+      "嗅",
+      "乳穴",
+      "小穴",
+      "骚逼",
+      "后穴",
+      "肛",
+      "屁眼",
+      "脚",
+      "嘴部",
+      "足部",
+      "贴身衣物",
+      "鞋子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2375,
+    "contentSha256": "326344c9b346ec588acc6e5c3e987dd35d444f123450420380c8d474c7cbc476"
+  },
+  {
+    "index": 13,
+    "comment": "🏙️Eris (Vườn Tinh Khung)",
+    "keys": [
+      "厄里斯",
+      "Eris"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "厄里斯"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12031,
+    "contentSha256": "335312657e1239819ce2f796411da639c6ac770913dd87753f67b7338f5979c0"
+  },
+  {
+    "index": 14,
+    "comment": "Eldora ban đầu",
+    "keys": [
+      "艾拉多",
+      "Eldora"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾拉多"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1612,
+    "contentSha256": "3169eb5f201178fcd0abec5f349403dbc80e559e5a89926b244b47547702a089"
+  },
+  {
+    "index": 15,
+    "comment": "🏄Thanh Y (Thanh Minh)",
+    "keys": [
+      "青衣",
+      "Thanh Y"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青衣"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10766,
+    "contentSha256": "4a24fa2e254dcb097e6d9478258ec17f4b560d64599cf752000bf84c28d5db01"
+  },
+  {
+    "index": 16,
+    "comment": "Thế giới quan Điểm Giao Thoa Hỗn Độn",
+    "keys": [
+      "迦勒底",
+      "汇流点",
+      "据点",
+      "星穹花园",
+      "Chaldea",
+      "Điểm Giao Thoa",
+      "Cứ điểm",
+      "Vườn Tinh Khung"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "迦勒底",
+      "汇流点",
+      "据点",
+      "星穹花园"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 6324,
+    "contentSha256": "b115c6a1071332fda9d517dcb51e2eeb71a68d6241745c9b9fc908dcd9be2d10"
+  },
+  {
+    "index": 17,
+    "comment": "⚙️Món Nợ Nhân Lý",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2700,
+    "contentSha256": "08dc913246af2067a5b0d3b272d0204bf519e8750f74ab7962f8b1f2714d7696"
+  },
+  {
+    "index": 18,
+    "comment": "Di Tích Hoàng Hôn Chư Thần · Nơi Ở Của Nia",
+    "keys": [
+      "二亚居所",
+      "半塌房子",
+      "Nơi ở của Nia",
+      "Ngôi nhà sập một nửa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "二亚居所",
+      "半塌房子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1680,
+    "contentSha256": "7b75c61b33dc8223228d156211b1a60c814f501dab5183b7c4b4c8f0917b3564"
+  },
+  {
+    "index": 19,
+    "comment": "Thanh Minh_Chương 1",
+    "keys": [
+      "青冥_第一章",
+      "Thanh Minh_Chương Một"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第一章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 12983,
+    "contentSha256": "86c70159ae17e743f5b4ffb3594e4af23e0fb2ccd4b60e89aae1bc37829e2a08"
+  },
+  {
+    "index": 20,
+    "comment": "Tổng Bộ Hiệp Sĩ Đoàn",
+    "keys": [
+      "骑士团总部",
+      "中城东侧",
+      "Tổng Bộ Hiệp Sĩ Đoàn",
+      "Phía đông Trung Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "骑士团总部",
+      "中城东侧"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1981,
+    "contentSha256": "ac643a507f219f24399659de75b2ef2f1f5c5e0deaf22c88f17e98ab59c0abe1"
+  },
+  {
+    "index": 21,
+    "comment": "⚙️Quy tắc chiến đấu",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 836,
+    "contentSha256": "0d7ebb1a4434e38ec1688c8e6ff64bc1ff94fe29a5168d39f2122fe82065b10f"
+  },
+  {
+    "index": 22,
+    "comment": "⚙️Chân thực hóa thế giới",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2857,
+    "contentSha256": "101203bb7e5a80b37eaed9dd0d7b7ea62e8535a4ba053b777c32ca048ce65732"
+  },
+  {
+    "index": 23,
+    "comment": "⚙️Chỉ dẫn tổng thể phong cách tự sự",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2590,
+    "contentSha256": "16681138dccc30e232f025f6372ad82643a7aa7e5a862fa4fa57c9782362ada7"
+  },
+  {
+    "index": 24,
+    "comment": "Idola_Chương 2",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 24982,
+    "contentSha256": "6b492b32cf9d388b48e0aa684159e2c33e4d86206a8082e3bc7a07f8f47ac0c2"
+  },
+  {
+    "index": 25,
+    "comment": "Thế giới quan Thanh Minh",
+    "keys": [
+      "仙劫纪",
+      "青冥",
+      "仙劫",
+      "修仙",
+      "Kỷ nguyên Tiên kiếp",
+      "Thanh Minh",
+      "Tiên kiếp",
+      "Tu tiên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "仙劫纪",
+      "青冥",
+      "仙劫",
+      "修仙"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 5120,
+    "contentSha256": "31b5ff718997cddc39c1840b777e52b9d5a5429150d4da821380315ab515d7fe"
+  },
+  {
+    "index": 26,
+    "comment": "Thế giới quan Eldora",
+    "keys": [
+      "诸神",
+      "艾多拉",
+      "诸神黄昏",
+      "西幻",
+      "艾多",
+      "Chư Thần",
+      "Eldora",
+      "Ragnarok",
+      "Kỳ ảo phương Tây",
+      "Eldo"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "诸神",
+      "艾多拉",
+      "诸神黄昏",
+      "西幻",
+      "艾多"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 4662,
+    "contentSha256": "0bb3f3b10c051cd2ef09d3d36579aa0b0e4694ad667486dd97bf43d34bbf0405"
+  },
+  {
+    "index": 27,
+    "comment": "Thế giới quan Neon 2187",
+    "keys": [
+      "网络",
+      "霓虹",
+      "2187",
+      "赛博朋克",
+      "Mạng lưới",
+      "Neon",
+      "Cyberpunk"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "网络",
+      "霓虹",
+      "赛博朋克"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 7286,
+    "contentSha256": "0d5ee24dce8125be71ac6f5ebca5fa4d65aab0f0abce78bcc0020eb679750230"
+  },
+  {
+    "index": 28,
+    "comment": "Thế giới quan Thủy Chi Đô",
+    "keys": [
+      "灰雾",
+      "轮回",
+      "水之都",
+      "异能",
+      "Sương xám",
+      "Luân hồi",
+      "Thủy Chi Đô",
+      "Dị năng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "灰雾",
+      "轮回",
+      "水之都",
+      "异能"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 7172,
+    "contentSha256": "4debc24899b83e557aafaa992213a55d2d611339ae81bce2684195076fa44e6f"
+  },
+  {
+    "index": 29,
+    "comment": "Thế giới quan Kỷ Nguyên Zero",
+    "keys": [
+      "末日",
+      "灰域",
+      "纪元零",
+      "纪元",
+      "废土",
+      "Tận thế",
+      "Vực xám",
+      "Kỷ Nguyên Zero",
+      "Kỷ nguyên",
+      "Phế thổ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "末日",
+      "灰域",
+      "纪元零",
+      "纪元",
+      "废土"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 7283,
+    "contentSha256": "0060b562760ee49b2d470c6a6d7e4f677d511a658137a1796c6d4de284c51a1b"
+  },
+  {
+    "index": 30,
+    "comment": "Thế giới quan Ảo Tưởng Hương",
+    "keys": [
+      "幻想乡",
+      "境界永恒",
+      "Ảo Tưởng Hương",
+      "Ranh giới vĩnh cửu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "幻想乡",
+      "境界永恒"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 7510,
+    "contentSha256": "bd8293d7889b49a0844d01bcb1f0216806a5ca087facc8d0bdd037c610f77450"
+  },
+  {
+    "index": 31,
+    "comment": "Thế giới quan Tận Cùng Cán Cân",
+    "keys": [
+      "时间裂隙",
+      "天平",
+      "神之天平",
+      "Khe nứt thời gian",
+      "Cán cân",
+      "Cán cân của Thần"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "时间裂隙",
+      "天平",
+      "神之天平"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 8957,
+    "contentSha256": "3f0702b27c61854963d28dbaecfb46078a174086de44f18b79cb0d3f2103a313"
+  },
+  {
+    "index": 32,
+    "comment": "⚙️EJS điều khiển cốt truyện",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 6215,
+    "contentSha256": "31a6508386c2af2bf0dbb6d575c1d9e2e08988099019366d90257c0cc6bbda64"
+  },
+  {
+    "index": 33,
+    "comment": "🏄Thẩm Thanh (Thanh Minh)",
+    "keys": [
+      "沈青",
+      "Thẩm Thanh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "沈青"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11536,
+    "contentSha256": "c7148598eb804366cc6ae4049766125bf91d8bab6405310e71c14e80da1311ad"
+  },
+  {
+    "index": 34,
+    "comment": "❌Cấm mở đóng sách thế giới",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 35,
+    "comment": "⚙️Hệ thống giao dịch tiền tệ",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1469,
+    "contentSha256": "2428837d30288e81f9720e35299ce1afc504665edf4c4b075dd85def1eaac978"
+  },
+  {
+    "index": 36,
+    "comment": "🏄Mash Kyrielight (Chaldea)",
+    "keys": [
+      "玛修",
+      "基列莱特",
+      "Mash",
+      "Kyrielight"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "玛修",
+      "基列莱特"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10649,
+    "contentSha256": "220f8f58abb5fb6eb79b87651d9708b39e3a6e44df0f124bc2df95aa46dae8d9"
+  },
+  {
+    "index": 37,
+    "comment": "Khu vực phong tỏa phía Đông thành",
+    "keys": [
+      "清霄城东",
+      "城东封锁区域",
+      "Phía Đông thành Thanh Tiêu",
+      "Khu vực phong tỏa phía Đông thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "清霄城东",
+      "城东封锁区域"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1401,
+    "contentSha256": "b9381729a981c9076fb84e7e61e7e1c9d7d9b65bfc1804322be75af507b84704"
+  },
+  {
+    "index": 38,
+    "comment": "Đoạn 1847·Tiên thể đặc thù",
+    "keys": [
+      "特殊仙体",
+      "Tiên thể đặc thù"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "特殊仙体"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 843,
+    "contentSha256": "0c4b3dcd36930758f116411bd113c3befa9c223227a9bd35ab9b588cabcc3beb"
+  },
+  {
+    "index": 39,
+    "comment": "Độ Kiếp Bình·Ba ngàn tầng",
+    "keys": [
+      "渡劫坪",
+      "三千层",
+      "九天仙台核心",
+      "Độ Kiếp Bình",
+      "Ba ngàn tầng",
+      "Cốt lõi Cửu Thiên Tiên Đài"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "渡劫坪",
+      "三千层",
+      "九天仙台核心"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1167,
+    "contentSha256": "315ca28034dc2f51ad7e64ffd53b41c49fbc7086130a95d7cda8e09f8759063f"
+  },
+  {
+    "index": 40,
+    "comment": "Cốt lõi Pháp tắc·Nơi sâu nhất",
+    "keys": [
+      "法则核心",
+      "九天仙台",
+      "Cốt lõi Pháp tắc",
+      "Cửu Thiên Tiên Đài"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "法则核心",
+      "九天仙台"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1629,
+    "contentSha256": "cee7576932797276af4ffdaffb962ed9aa46848a83f2c7d9a30cd7b434a27e61"
+  },
+  {
+    "index": 41,
+    "comment": "Phi Chu Tàn Hài Bình",
+    "keys": [
+      "残骸坪",
+      "聚落南侧",
+      "Tàn Hài Bình",
+      "phía nam tụ lạc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "残骸坪",
+      "聚落南侧"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1155,
+    "contentSha256": "2a9131fe05ee61bd5e5e7721518d2bbfd8db0fa8751a7a34711732c4d5cbd4f3"
+  },
+  {
+    "index": 42,
+    "comment": "Di chỉ Độ Kiếp Đài bị bỏ hoang",
+    "keys": [
+      "渡劫台",
+      "清霄城南",
+      "Độ Kiếp Đài",
+      "phía nam Thanh Tiêu Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "渡劫台",
+      "清霄城南"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1157,
+    "contentSha256": "09b06ec8ed3f359cf34c447124e0144e592fa22624be9bfb393bfb8fbc41c6ec"
+  },
+  {
+    "index": 43,
+    "comment": "Khu tụ lạc bị bỏ hoang",
+    "keys": [
+      "废弃聚落",
+      "Khu tụ lạc bị bỏ hoang"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "废弃聚落"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1523,
+    "contentSha256": "442278bba7a112aa1cdb62681fdc309bcf1e7debad10b90cf117ae9f3ea5aa72"
+  },
+  {
+    "index": 44,
+    "comment": "Quan Tinh Đài",
+    "keys": [
+      "观星台",
+      "Quan Tinh Đài"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "观星台"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1094,
+    "contentSha256": "daf6ff205818bc09c5be1de33c8e28e18725c2f6dee20249495b213320aa76e4"
+  },
+  {
+    "index": 45,
+    "comment": "Hồ Hỏa Các",
+    "keys": [
+      "狐火阁",
+      "清霄城北",
+      "Hồ Hỏa Các",
+      "phía bắc Thanh Tiêu Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "狐火阁",
+      "清霄城北"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1055,
+    "contentSha256": "e74092dc970b9b62439e58b9c88db2dddf29da86eeb5c18e6672849724ac98bf"
+  },
+  {
+    "index": 46,
+    "comment": "Lối vào Thanh Minh",
+    "keys": [
+      "青冥入口",
+      "青冥界",
+      "Lối vào Thanh Minh",
+      "Thanh Minh Giới"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥入口",
+      "青冥界"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1027,
+    "contentSha256": "e17e31168316d098740f9c8c6fd967d1045003f6a62e4adf0ea347de8a58f12e"
+  },
+  {
+    "index": 47,
+    "comment": "Khu Vực Thanh Tẩy Thất Bại·Bãi Mảnh Vỡ",
+    "keys": [
+      "净化失败区",
+      "碎片场",
+      "Khu Vực Thanh Tẩy Thất Bại",
+      "Bãi Mảnh Vỡ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "净化失败区",
+      "碎片场"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1759,
+    "contentSha256": "d0c6cbf3760c1e61865cd3d7bcec9ad09ae5bf5258e3dacc62e3deac28e93f4a"
+  },
+  {
+    "index": 48,
+    "comment": "Hồ Gương·Tầng Đáy Vực",
+    "keys": [
+      "镜湖",
+      "废弃聚落地下",
+      "Hồ Gương",
+      "Dưới lòng đất khu tụ lạc bị bỏ hoang"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜湖",
+      "废弃聚落地下"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1224,
+    "contentSha256": "e5061fae25db0ddb79ee15d0df7c6bb12bd03f233018af9564227b33290bd082"
+  },
+  {
+    "index": 49,
+    "comment": "Cửu Trọng Lôi Kiếp·Kẽ Hở Tầng Mây·Khu Vực Chung Cuộc",
+    "keys": [
+      "雷劫",
+      "云层夹层",
+      "云层之间",
+      "Lôi kiếp",
+      "Kẽ hở tầng mây",
+      "Giữa các tầng mây"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雷劫",
+      "云层夹层",
+      "云层之间"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1209,
+    "contentSha256": "d54ece3cd3d80f7f48b9139cc1edfa79b20f1d806832f939e90761e105349cee"
+  },
+  {
+    "index": 50,
+    "comment": "Tháp Kaveh",
+    "keys": [
+      "卡维塔楼",
+      "中城最高处",
+      "设计顾问",
+      "Tháp Kaveh",
+      "Nơi cao nhất Trung Thành",
+      "Cố vấn thiết kế"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "卡维塔楼",
+      "中城最高处",
+      "设计顾问"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1841,
+    "contentSha256": "069849af805bc65b647b877fedb628b29abfff74ab227e1099a9cbb3745a1cff"
+  },
+  {
+    "index": 51,
+    "comment": "Văn phòng lõi hệ thống",
+    "keys": [
+      "系统核心办公室",
+      "核心办公室",
+      "Văn phòng lõi hệ thống",
+      "Văn phòng lõi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "系统核心办公室",
+      "核心办公室"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1366,
+    "contentSha256": "6395d7ed6d7474e7d68f6d0e39cc3f2fc3da57259e32fb18ed72863959d749fd"
+  },
+  {
+    "index": 52,
+    "comment": "Kho vũ trang",
+    "keys": [
+      "武装仓库",
+      "中城最深处",
+      "Kho vũ trang",
+      "Nơi sâu nhất của Trung Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "武装仓库",
+      "中城最深处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1232,
+    "contentSha256": "b88854e4b1b9db896df2b6fe37c3651a8332fa5cc9d30de13a95453d76ee27f6"
+  },
+  {
+    "index": 53,
+    "comment": "Nơi Thần Ý · Đỉnh cao nhất",
+    "keys": [
+      "奥丁所在",
+      "残影所在",
+      "神意之所",
+      "Nơi của Odin",
+      "Nơi của Tàn ảnh",
+      "Nơi Thần Ý"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "奥丁所在",
+      "残影所在",
+      "神意之所"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1952,
+    "contentSha256": "598c61ac20c4d6b8109e1028ead7f4eaa57a9d91230072a22312c4ea3dfd3c6f"
+  },
+  {
+    "index": 54,
+    "comment": "Thành Thần Ý · Trung Thành",
+    "keys": [
+      "城中城",
+      "系统维护区",
+      "Thành trong thành",
+      "Khu bảo trì hệ thống"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "城中城",
+      "系统维护区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1297,
+    "contentSha256": "0a5ee63a3f7baef4076fc9903905b5abe5145c40bc6a20b3c20d185a319cfd19"
+  },
+  {
+    "index": 55,
+    "comment": "Thành Thần Ý · Ngoại Thành",
+    "keys": [
+      "神意之城",
+      "城外城",
+      "Thành Thần Ý",
+      "Thành Ngoại Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "神意之城",
+      "城外城"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1395,
+    "contentSha256": "41a0b6ee9e503a9aecedc7f4c2c5461f1b852ca81db69b7f898b8f0d57858ae0"
+  },
+  {
+    "index": 56,
+    "comment": "⚙️Quy tắc độ hảo cảm",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2540,
+    "contentSha256": "2d711b1f97d4daa97758b84c372295f3901e26d813d21aae4fa207945fb43dde"
+  },
+  {
+    "index": 57,
+    "comment": "Thành phố Thần ý · Nội thành",
+    "keys": [
+      "神意之所",
+      "城内城",
+      "内城",
+      "Nơi Thần ý",
+      "Nội thành trong thành",
+      "Nội thành",
+      "Nơi Thần Ý"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "神意之所",
+      "城内城",
+      "内城"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1806,
+    "contentSha256": "df614221f7d7974be7e1b68ea9897a121bc6ca17044d54a445a8c0781675808e"
+  },
+  {
+    "index": 58,
+    "comment": "Di tích Ragnarok · Nơi Milim say giấc",
+    "keys": [
+      "遗迹深处",
+      "沉睡",
+      "Sâu trong di tích",
+      "Say giấc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "遗迹深处",
+      "沉睡"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1237,
+    "contentSha256": "ae6e0e2c3ee8c7dad34bb0e18518147aa964c6e7988d63b33024e38bbc23b1ab"
+  },
+  {
+    "index": 59,
+    "comment": "Lối vào Eldora",
+    "keys": [
+      "艾多拉入口",
+      "艾多拉的落点",
+      "Lối vào Eldora",
+      "Điểm rơi của Eldora"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾多拉入口",
+      "艾多拉的落点"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1220,
+    "contentSha256": "38a5137e7e6dc57bc00ee3b45656869c1511f833771ce37a34b0f70b60d4bcca"
+  },
+  {
+    "index": 60,
+    "comment": "⚙️Định dạng",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 1025,
+    "contentSha256": "5a53db3ac87fe4c8e8f1f39e1fcb30fbe66083e48b67720bc6a57c0e24491e42"
+  },
+  {
+    "index": 61,
+    "comment": "Cánh đồng lúa mì vàng",
+    "keys": [
+      "金色麦田",
+      "艾多拉最外围",
+      "麦田",
+      "Cánh đồng lúa mì vàng",
+      "Ngoại ô xa nhất của Eldora",
+      "Cánh đồng lúa mì"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "金色麦田",
+      "艾多拉最外围",
+      "麦田"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1381,
+    "contentSha256": "eb33964c2e6d97a4a376b9ce4a4598328e1047f4835473e995ead054884e3c23"
+  },
+  {
+    "index": 62,
+    "comment": "Eldora_Chương 3",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 21894,
+    "contentSha256": "b023b3a7bf62b21bbff234e43c9ee8546736551efd6bf28bbcf8d3da8ffae8d9"
+  },
+  {
+    "index": 63,
+    "comment": "Phòng nghiên cứu của Megumin",
+    "keys": [
+      "研究室",
+      "中城入口",
+      "分析科",
+      "Phòng nghiên cứu",
+      "Lối vào Trung Thành",
+      "Khoa phân tích"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "研究室",
+      "中城入口",
+      "分析科"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1905,
+    "contentSha256": "2816e23fb8aaba6f74e871ab55c0200eac124081f67af75b1ed61d88edc34bc6"
+  },
+  {
+    "index": 64,
+    "comment": "Nơi ở của Kazuma",
+    "keys": [
+      "和真所在地",
+      "村落路边",
+      "Nơi ở của Kazuma",
+      "Ven đường ngôi làng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "和真所在地",
+      "村落路边"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1500,
+    "contentSha256": "a514cabbb43330fabf678b6cc991995150d9817bc732821b9af4ca8ff5d5883a"
+  },
+  {
+    "index": 65,
+    "comment": "Nơi ở cũ của Feli",
+    "keys": [
+      "菲莉旧居",
+      "麦田边缘",
+      "吟诗",
+      "Nơi ở cũ của Feli",
+      "Rìa cánh đồng lúa mì",
+      "Ngâm thơ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "菲莉旧居",
+      "麦田边缘",
+      "吟诗"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1710,
+    "contentSha256": "e56542448b1b8af7620a478671489014a12d1d14d45a708f795191032d6e1315"
+  },
+  {
+    "index": 66,
+    "comment": "Nơi El hát",
+    "keys": [
+      "艾尔唱歌处",
+      "唱歌",
+      "Nơi El hát",
+      "Hát"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾尔唱歌处",
+      "唱歌"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1709,
+    "contentSha256": "51ca01e072073c7069ba145d04e2730a741c5cdeaee219bc8aed7f8a107d8326"
+  },
+  {
+    "index": 67,
+    "comment": "Đền thờ Aqua",
+    "keys": [
+      "阿库娅神殿",
+      "内城最高处",
+      "神意系统核心",
+      "Đền thờ Aqua",
+      "Nơi cao nhất nội thành",
+      "Cốt lõi Hệ thống Thần ý"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "阿库娅神殿",
+      "内城最高处",
+      "神意系统核心"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1859,
+    "contentSha256": "8dae20a570c888f2df84fb0f90069e7fa2039f80206eb79178fca90f11254469"
+  },
+  {
+    "index": 68,
+    "comment": "🎃Satou Kazuma",
+    "keys": [
+      "佐藤",
+      "和真",
+      "Satou",
+      "Kazuma"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "佐藤",
+      "和真"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11564,
+    "contentSha256": "348f5983fac0d0fbdb7259e23ffc033e31787e369ceaff0d7d86c31c4eed075f"
+  },
+  {
+    "index": 69,
+    "comment": "🎃Shimura Shinpachi",
+    "keys": [
+      "志村",
+      "新八",
+      "Shimura",
+      "Shinpachi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "志村",
+      "新八"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11405,
+    "contentSha256": "0f780d36e2619b7932c6fefb08c464ab886ac5c8b6e6179dac336c4614b208d4"
+  },
+  {
+    "index": 70,
+    "comment": "🎃Kagura",
+    "keys": [
+      "神乐",
+      "夜兔",
+      "Kagura",
+      "Dạ Thố"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "神乐",
+      "夜兔"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11613,
+    "contentSha256": "8477f42c266edcdbc67c04b96e0306c55cb94bf2b44198c9e0cf6169e8d4514c"
+  },
+  {
+    "index": 71,
+    "comment": "🎃Rem",
+    "keys": [
+      "雷姆",
+      "Rem"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雷姆"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9275,
+    "contentSha256": "6b0210384f3849653f133358fb19dd90cb02585a1ac6f9bfc36fd63b34ad0f90"
+  },
+  {
+    "index": 72,
+    "comment": "🎃Kaveh",
+    "keys": [
+      "卡维",
+      "Kaveh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "卡维"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13490,
+    "contentSha256": "091132e782e24a238210faa2f88843b690bd5a2acdd8dd181d5f30baf72eb8c0"
+  },
+  {
+    "index": 73,
+    "comment": "🎃Ferry",
+    "keys": [
+      "菲莉",
+      "Ferry"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "菲莉"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12134,
+    "contentSha256": "78793645cd55c78955b8a47eaf48d7d9d76ab015fbca0379ea6bc520fcda8b2c"
+  },
+  {
+    "index": 74,
+    "comment": "🎃Honjo Nia",
+    "keys": [
+      "本条",
+      "二亚",
+      "Honjo",
+      "Nia"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "本条",
+      "二亚"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11656,
+    "contentSha256": "2d1883ee4f3684dfe82a570302275beff0f591f8fb2f7041a16833ab00632130"
+  },
+  {
+    "index": 75,
+    "comment": "🎃Odin",
+    "keys": [
+      "奥丁",
+      "Odin"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "奥丁"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9646,
+    "contentSha256": "92b5482814569bca40aff270e0ea1de6654c5e2c98e8e1142b4c5f51a6d9b9af"
+  },
+  {
+    "index": 76,
+    "comment": "🎃Illya",
+    "keys": [
+      "伊莉雅",
+      "Illya"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "伊莉雅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11649,
+    "contentSha256": "e830bcf88dcc6e1f6311cbadfd5c563cc8baf991becc2761b921f3e8a61c52d7"
+  },
+  {
+    "index": 77,
+    "comment": "Trung tâm bảo trì nghĩa thể",
+    "keys": [
+      "义体维护中心",
+      "维护中心",
+      "中城深处",
+      "Trung tâm bảo trì nghĩa thể",
+      "Trung tâm bảo trì",
+      "Sâu trong Trung Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "义体维护中心",
+      "维护中心",
+      "中城深处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1672,
+    "contentSha256": "2ba39eb36ebf872a871106da3583e554fb9f009d0b887c3a973a98858fd3c64b"
+  },
+  {
+    "index": 78,
+    "comment": "🎃Milim Nava",
+    "keys": [
+      "米莉姆",
+      "纳瓦",
+      "Milim",
+      "Nava"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "米莉姆",
+      "纳瓦"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13320,
+    "contentSha256": "2a25e22f448c7a215451c1cebeb2a3e4e23430be3134883c43329da9e2e299a3"
+  },
+  {
+    "index": 79,
+    "comment": "🎃Chtholly",
+    "keys": [
+      "珂朵莉",
+      "Chtholly"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "珂朵莉"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12034,
+    "contentSha256": "70759702218c8765ec7484e12ff208e658910251f0f46b8aeb2f054f7946cdce"
+  },
+  {
+    "index": 80,
+    "comment": "🎃Megumin",
+    "keys": [
+      "惠惠",
+      "Megumin"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "惠惠"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12170,
+    "contentSha256": "2dac3b89cc55ba9b38f6803d513b5af28c7b7dcab0635d3b598bf446547201a3"
+  },
+  {
+    "index": 81,
+    "comment": "🎃Darkness",
+    "keys": [
+      "达克",
+      "妮斯",
+      "拉拉蒂娜",
+      "Darkness",
+      "Lalatina"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "达克",
+      "妮斯",
+      "拉拉蒂娜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11958,
+    "contentSha256": "f33165a55e4d470f8796afab2baacb953f62ef2c7f8f5e00067785142634ce9c"
+  },
+  {
+    "index": 82,
+    "comment": "🎃Sakata Gintoki",
+    "keys": [
+      "坂田",
+      "银时",
+      "Sakata",
+      "Gintoki"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "坂田",
+      "银时"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12226,
+    "contentSha256": "f4d899133ac4f24e9d9e54a49a802d60b37a0fa4c44740ff17a46db58d1e8cad"
+  },
+  {
+    "index": 83,
+    "comment": "🎃Emilia",
+    "keys": [
+      "爱蜜",
+      "莉雅",
+      "Emilia",
+      "Lia"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "爱蜜",
+      "莉雅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12056,
+    "contentSha256": "735d7ab3aa6cb9219f93774567f72682fb768a19d536a5439a7f8e45507e76de"
+  },
+  {
+    "index": 84,
+    "comment": "🎃Isla",
+    "keys": [
+      "艾拉",
+      "Isla"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾拉"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12053,
+    "contentSha256": "6ada21dca6d3aec4f33d2a279a1e7a18162786ea5d4f5815213f73dbfeb8ac31"
+  },
+  {
+    "index": 85,
+    "comment": "🎃Al",
+    "keys": [
+      "艾尔",
+      "Al"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾尔"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9390,
+    "contentSha256": "59704540c084158e88e38bdb800ec137f0587dcc1efbe9cb819ec3ecff3e719f"
+  },
+  {
+    "index": 86,
+    "comment": "Lối vào di tích đống đổ nát màu vàng kim",
+    "keys": [
+      "遗迹入口",
+      "金色废墟",
+      "Lối vào di tích",
+      "đống đổ nát màu vàng kim"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "遗迹入口",
+      "金色废墟"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1001,
+    "contentSha256": "baed65243eb801e63f05cfcae04540160101c818eed547a836d2bc64938348ba"
+  },
+  {
+    "index": 87,
+    "comment": "Idola_Chương 4",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 17503,
+    "contentSha256": "d5e4b791cf12925acabcd168240dc3f710dca23efd29c3f239de4372fcb224c3"
+  },
+  {
+    "index": 88,
+    "comment": "🍒Yagokoro Eirin (Ảo Tưởng Hương)",
+    "keys": [
+      "八意",
+      "永琳",
+      "Yagokoro",
+      "Eirin"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "八意",
+      "永琳"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12377,
+    "contentSha256": "75ada6c302121bbd36bc4c2d24cf6dbe8ea81e0bb4a02966e861290a8cade6b3"
+  },
+  {
+    "index": 89,
+    "comment": "🍒Yakumo Ran",
+    "keys": [
+      "八云蓝",
+      "Yakumo Ran"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "八云蓝"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 15637,
+    "contentSha256": "5939db89024cffd7e30aa7d3cc833e0aa459da851f6dc8c217c2eac31b92125e"
+  },
+  {
+    "index": 90,
+    "comment": "🍒Yakumo Yukari",
+    "keys": [
+      "八云紫",
+      "Yakumo Yukari"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "八云紫"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10554,
+    "contentSha256": "bee5367efe42ac89a7560b97350d5ceaecd5f57a288dacebaf48772538ca4a67"
+  },
+  {
+    "index": 91,
+    "comment": "🍒Hinanawi Tenshi",
+    "keys": [
+      "比那名",
+      "居天子",
+      "天子",
+      "Hinanawi",
+      "Tenshi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "比那名",
+      "居天子",
+      "天子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13202,
+    "contentSha256": "45e1071172dce650cc3cd6785a268be394ffa07d1e805289c803b86a447a1d45"
+  },
+  {
+    "index": 92,
+    "comment": "🍒Hakurei Reimu",
+    "keys": [
+      "博丽",
+      "灵梦",
+      "Hakurei",
+      "Reimu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "博丽",
+      "灵梦"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10627,
+    "contentSha256": "c4de16e92684e5e440b72cfb1823e7a825d6ca44956def5b3520022359196c68"
+  },
+  {
+    "index": 93,
+    "comment": "🍒Thuần Hồ",
+    "keys": [
+      "纯狐",
+      "Thuần Hồ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "纯狐"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 15509,
+    "contentSha256": "e26a3f350e66d023a6bed629ebb4c3826f8f6f0fd3e2c0dc279804e31da66050"
+  },
+  {
+    "index": 94,
+    "comment": "Idola_Chương 5",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 17810,
+    "contentSha256": "a237fa1c75ffd374883e0742a46d743299d11b38d1ff884ee7d036f80edd0b36"
+  },
+  {
+    "index": 95,
+    "comment": "Khởi đầu Thanh Minh",
+    "keys": [
+      "青冥",
+      "Thanh Minh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1410,
+    "contentSha256": "ab63bf543dc4a0aca06e1de5650554065f9c6e6d93aa7cc9b6a802894768f0e5"
+  },
+  {
+    "index": 96,
+    "comment": "Thanh Minh_Chương 2",
+    "keys": [
+      "青冥_第二章",
+      "Thanh Minh_Chương 2"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第二章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 18339,
+    "contentSha256": "f1d78a376a3464308873d40417cf4f242549feb7a55d3f247297ba87d0944236"
+  },
+  {
+    "index": 97,
+    "comment": "Thanh Minh_Chương 3",
+    "keys": [
+      "青冥_第三章",
+      "Thanh Minh_Chương ba"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第三章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11382,
+    "contentSha256": "66efb74649c1b6a43f815a885e3510cf22b49b1a907c081b4ccf1448a68211a0"
+  },
+  {
+    "index": 98,
+    "comment": "Thanh Minh_Chương 4",
+    "keys": [
+      "青冥_第四章",
+      "Thanh Minh_Chương bốn"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第四章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 10918,
+    "contentSha256": "09cce9b4925d59752dcd82ab46cd52ae99dfed62af58a72137cadf19fadbfc25"
+  },
+  {
+    "index": 99,
+    "comment": "Thanh Minh_Chương 5",
+    "keys": [
+      "青冥_第五章",
+      "Thanh Minh_Chương 5"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第五章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 18025,
+    "contentSha256": "46e2066088569f20b181b108473b4e3814474f7f46a10ab66ef8b217aeb1653f"
+  },
+  {
+    "index": 100,
+    "comment": "Thanh Minh_Chương 6",
+    "keys": [
+      "青冥_第六章",
+      "Thanh Minh_Chương 6"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "青冥_第六章"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 24882,
+    "contentSha256": "c88c1a8adc25a2e9d3e29475b7e05ff917f82137fe813ebc58a14b2027072158"
+  },
+  {
+    "index": 101,
+    "comment": "Eldora_Chương 6",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 18852,
+    "contentSha256": "4b7965d969c96f0efc74a836c49aefddb06ec6f7626b86420d5d5ae00330d13a"
+  },
+  {
+    "index": 102,
+    "comment": "Cây khô",
+    "keys": [
+      "枯树",
+      "废弃聚落边缘",
+      "聚落中心",
+      "Cây khô",
+      "Rìa khu dân cư bỏ hoang",
+      "Trung tâm khu dân cư"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "枯树",
+      "废弃聚落边缘",
+      "聚落中心"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1500,
+    "contentSha256": "23579c33adea3425fdc7c5c5f22e33456d661626ce071ad989eace56b3ae7793"
+  },
+  {
+    "index": 103,
+    "comment": "🏄Leonardo da Vinci (Chaldea)",
+    "keys": [
+      "莱昂纳多",
+      "芬奇",
+      "达芬奇",
+      "Leonardo",
+      "Vinci",
+      "Da Vinci"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "莱昂纳多",
+      "芬奇",
+      "达芬奇"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10482,
+    "contentSha256": "5fae1a02830aa3f8b9a0993d2f8da86b625d3a50c7ad50f0f1eb2af9b6e47439"
+  },
+  {
+    "index": 104,
+    "comment": "🏄Sherlock Holmes (Chaldea)",
+    "keys": [
+      "夏洛克",
+      "福尔",
+      "摩斯",
+      "Sherlock",
+      "Hol",
+      "mes"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "夏洛克",
+      "福尔",
+      "摩斯"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10769,
+    "contentSha256": "122342785a0370d616002ac232e5706901aafbd4ff5e370f56542aed8c07c551"
+  },
+  {
+    "index": 105,
+    "comment": "Cốt truyện bắt đầu",
+    "keys": [
+      "见证启动",
+      "开始剧情",
+      "碎界纪元",
+      "Khởi động chứng kiến",
+      "Cốt truyện bắt đầu",
+      "Kỷ nguyên vỡ nát"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "见证启动",
+      "开始剧情",
+      "碎界纪元"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 3190,
+    "contentSha256": "ed12d5a9a5e4d50087cbe3b9d4b34117db4d30edc2d26e5a53bef0b949f57ee7"
+  },
+  {
+    "index": 106,
+    "comment": "🏄Vực chủ Vô Cực (Thanh Minh)",
+    "keys": [
+      "无极",
+      "青冥域主",
+      "Vô Cực",
+      "Vực chủ Thanh Minh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无极",
+      "青冥域主"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11411,
+    "contentSha256": "fe1cc4eaea8028a69aac638cd1da469ff6168b91985bf440ad752b1400916df9"
+  },
+  {
+    "index": 107,
+    "comment": "🏄Bùi Thanh Ca (Thanh Minh)",
+    "keys": [
+      "裴",
+      "清歌",
+      "Bùi",
+      "Thanh Ca"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "裴",
+      "清歌"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11542,
+    "contentSha256": "4f0b97cc00932e951cf9564884e152ed98a525c36ad6dd41ceadf5f2e5c2e0dc"
+  },
+  {
+    "index": 108,
+    "comment": "🏄Văn Tinh (Thanh Minh)",
+    "keys": [
+      "闻星",
+      "Văn Tinh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "闻星"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12881,
+    "contentSha256": "fc50626ec47f6cb1ad85988e35f0a969a822086b448daa1bd01420525da58971"
+  },
+  {
+    "index": 109,
+    "comment": "🏄Phù Huyền (Thanh Minh)",
+    "keys": [
+      "符玄",
+      "Phù Huyền"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "符玄"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11313,
+    "contentSha256": "7c9b8c082f3f671472d217b860364d246814c16404d0184546d6c59e938f45d5"
+  },
+  {
+    "index": 110,
+    "comment": "🏄Lưu Huỳnh (Thanh Minh)",
+    "keys": [
+      "流萤",
+      "Lưu Huỳnh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "流萤"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11524,
+    "contentSha256": "9804574f9eca425a85499eabc3a5d64f86be1b8ceda370681d6a9bcb5d778234"
+  },
+  {
+    "index": 111,
+    "comment": "🏄Đồ Sơn Hồng Hồng (Thanh Minh)",
+    "keys": [
+      "涂山红红",
+      "红红",
+      "Đồ Sơn Hồng Hồng",
+      "Hồng Hồng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "涂山红红",
+      "红红"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11935,
+    "contentSha256": "960705595a9729ce3d088578b7d44ae364177eff112f99ea17f6415404038c33"
+  },
+  {
+    "index": 112,
+    "comment": "🏙️BB (Hoa viên Tinh Khung)",
+    "keys": [
+      "BB"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8902,
+    "contentSha256": "23941f2cf3dd74b2cf75da3703d4ac87a6db17ea2cf7f63040ca0a9fa8189f80"
+  },
+  {
+    "index": 113,
+    "comment": "🏄Đồ Sơn Nhã Nhã (Thanh Minh)",
+    "keys": [
+      "涂山雅雅",
+      "雅雅",
+      "Đồ Sơn Nhã Nhã",
+      "Nhã Nhã"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "涂山雅雅",
+      "雅雅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12017,
+    "contentSha256": "6a611f513319d68108268a8ff908eb554379387c037777c899e79d73f5e3b347"
+  },
+  {
+    "index": 114,
+    "comment": "🏄Kamisato Ayaka (Thanh Minh)",
+    "keys": [
+      "神里",
+      "绫华",
+      "Kamisato",
+      "Ayaka"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "神里",
+      "绫华"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12795,
+    "contentSha256": "c53bd53db5195d4656243a969bcf64e8e74b8c3092280a9788050abbf5b9a531"
+  },
+  {
+    "index": 115,
+    "comment": "🏄Yae Miko (Thanh Minh)",
+    "keys": [
+      "八重",
+      "神子",
+      "Yae",
+      "Miko"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "八重",
+      "神子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12826,
+    "contentSha256": "8c0857cece123594953671db37d5b25215c553a9c436e0adadae81c70d45c761"
+  },
+  {
+    "index": 116,
+    "comment": "🏄Nahida (Thanh Minh)",
+    "keys": [
+      "纳西妲",
+      "草神",
+      "Nahida",
+      "Thần Cỏ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "纳西妲",
+      "草神"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12552,
+    "contentSha256": "4665661a57581ca33d8fe9d091665a2bf5ae4119ce61eb3bc99872ccd063aa2a"
+  },
+  {
+    "index": 117,
+    "comment": "🏄Murata Himeko (Thanh Minh)",
+    "keys": [
+      "无量塔",
+      "姬子",
+      "Murata",
+      "Himeko"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无量塔",
+      "姬子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12327,
+    "contentSha256": "430ceca978dfbb86b805ee043a229105130371f8e3befbf5c279a3d71db3f45d"
+  },
+  {
+    "index": 118,
+    "comment": "🏄Nữ Vương Medusa (Thanh Minh)",
+    "keys": [
+      "美杜莎",
+      "彩鳞",
+      "Medusa",
+      "Thải Lân"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "美杜莎",
+      "彩鳞"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12310,
+    "contentSha256": "a5e2926c7953efaf9a38d7363b6e2b90f439eeb25197e5742f3ef607fb027a8f"
+  },
+  {
+    "index": 119,
+    "comment": "Di Tích Ragnarok · Khu Bích Họa",
+    "keys": [
+      "遗迹深处",
+      "壁画区",
+      "Sâu trong di tích",
+      "Khu bích họa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "遗迹深处",
+      "壁画区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1329,
+    "contentSha256": "caf41d722deb2e93fe3639609f18e37d73016911f0ccb894bb56b63b85d0567e"
+  },
+  {
+    "index": 120,
+    "comment": "🍒Kochiya Sanae",
+    "keys": [
+      "东风谷",
+      "早苗",
+      "Kochiya",
+      "Sanae"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "东风谷",
+      "早苗"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12985,
+    "contentSha256": "516b5aa3544550e75c000dbe534b9a5a2665b3aab7756f5a6806663b03d0035d"
+  },
+  {
+    "index": 121,
+    "comment": "🍒Tatara Kogasa",
+    "keys": [
+      "多多良",
+      "小伞",
+      "Tatara",
+      "Kogasa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "多多良",
+      "小伞"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13619,
+    "contentSha256": "47f42bb532b118697e9faa97548cc34ce34eb2cc2de63a79d1820995f5c4ef95"
+  },
+  {
+    "index": 122,
+    "comment": "🍒Kazami Yuuka",
+    "keys": [
+      "风见",
+      "幽香",
+      "Kazami",
+      "Yuuka"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "风见",
+      "幽香"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14322,
+    "contentSha256": "d499430478b1c15ef07498a1dc52fb93fab382d1407474384fdd463ade68b08e"
+  },
+  {
+    "index": 123,
+    "comment": "🍒Flandre Scarlet",
+    "keys": [
+      "芙兰朵露",
+      "斯卡蕾特",
+      "芙兰",
+      "Flandre",
+      "Scarlet",
+      "Fran"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "芙兰朵露",
+      "斯卡蕾特",
+      "芙兰"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10201,
+    "contentSha256": "b2289fc198437666d53c9fe9e28cc5ebb6b49e9ad26ce756d1afdc35501a71f6"
+  },
+  {
+    "index": 124,
+    "comment": "🏄Tô Cẩm Hoa (Thanh Minh)",
+    "keys": [
+      "苏锦华",
+      "锦华",
+      "Tô Cẩm Hoa",
+      "Cẩm Hoa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "苏锦华",
+      "锦华"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12668,
+    "contentSha256": "d562cf07342ac4fecf79b0d83072373920bb0ef2eb97dc657a633b16f6d22b5d"
+  },
+  {
+    "index": 125,
+    "comment": "⚙️Tổng quan thế giới quan",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 4908,
+    "contentSha256": "604292c16bc14b2d8388e723856edcdd678514501a93c12932610c76de688d27"
+  },
+  {
+    "index": 126,
+    "comment": "⚙️Quy tắc hình minh họa",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 4455,
+    "contentSha256": "ce27aa568f16e2c4824ead5c772be05478d17024aa27ebf47e3ee011774c8188"
+  },
+  {
+    "index": 127,
+    "comment": "Idola_Chương 1",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 19582,
+    "contentSha256": "482de932cdfb13a78f373f90240b4bc8990f7a60f41a0c2061cc5efb07638e07"
+  },
+  {
+    "index": 128,
+    "comment": "🏄Alice Zuberg (Thanh Minh)",
+    "keys": [
+      "爱丽丝",
+      "滋贝鲁库",
+      "Alice",
+      "Zuberg"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "爱丽丝",
+      "滋贝鲁库"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12869,
+    "contentSha256": "093d6ec4a582a6c864e46199b32adc8da3d29c588e3b4696f44499c4eadfb5c7"
+  },
+  {
+    "index": 129,
+    "comment": "Abigail Williams (Servant)",
+    "keys": [
+      "阿比",
+      "盖尔",
+      "威廉姆斯",
+      "Abi",
+      "Gail",
+      "Williams"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "阿比",
+      "盖尔",
+      "威廉姆斯"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10292,
+    "contentSha256": "dcaa34af943c2d64e5c53c7f87c82cfe0993cd9f5e80870e65b0b9389d4c0969"
+  },
+  {
+    "index": 130,
+    "comment": "Cuối Hành Lang · Lối Vào Khu Vực Cấm Cốt Lõi",
+    "keys": [
+      "廊道末端",
+      "核心禁区入口",
+      "末端",
+      "Cuối hành lang",
+      "Lối vào khu vực cấm cốt lõi",
+      "Phần cuối"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "廊道末端",
+      "核心禁区入口",
+      "末端"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 972,
+    "contentSha256": "033eda82984afda6c28cb167bd3d3f35eb9f3c5bf007c91df9a38df9136312cb"
+  },
+  {
+    "index": 131,
+    "comment": "Luyện Đan Phường",
+    "keys": [
+      "炼丹坊",
+      "清霄城内",
+      "Luyện Đan Phường",
+      "bên trong Thanh Tiêu thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "炼丹坊",
+      "清霄城内"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1031,
+    "contentSha256": "53a036e8b52a83928965bfd8719478a920904cb55dc7f5c304bd5de755af4f2e"
+  },
+  {
+    "index": 132,
+    "comment": "Cựu cư Bùi Thanh Ca",
+    "keys": [
+      "裴清歌旧居",
+      "旧居废墟",
+      "Cựu cư Bùi Thanh Ca",
+      "phế tích cựu cư"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "裴清歌旧居",
+      "旧居废墟"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1131,
+    "contentSha256": "4af4615a828f4246b2b3a53f998d133e752cb12714e92f51966b54058b73de5f"
+  },
+  {
+    "index": 133,
+    "comment": "Thanh Tiêu Thành · Khu vực thành chính",
+    "keys": [
+      "清霄城",
+      "Thanh Tiêu Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "清霄城"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1163,
+    "contentSha256": "c477a7319aa26e7d3f03ccf7fc72c57f758a3b81e4a224877362e01a5af25656"
+  },
+  {
+    "index": 134,
+    "comment": "Thanh Tiêu Thành · Đường chính",
+    "keys": [
+      "白玉",
+      "牌坊",
+      "主干道",
+      "bạch ngọc",
+      "bài phường",
+      "đường chính"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "白玉",
+      "牌坊",
+      "主干道"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1240,
+    "contentSha256": "87cdd9d7ea3621f24b2ff44a8afda45d015796caf62385033d571493389096cc"
+  },
+  {
+    "index": 135,
+    "comment": "Tam Đạo Thiên Quan",
+    "keys": [
+      "三道天关",
+      "天关",
+      "Tam Đạo Thiên Quan",
+      "Thiên Quan"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "三道天关",
+      "天关"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1543,
+    "contentSha256": "64f0dd57c14ae6402960f49b8f968727ba5737695368685f6b911f9ef4d0fdb3"
+  },
+  {
+    "index": 136,
+    "comment": "Xà Nhai Hoang Địa",
+    "keys": [
+      "蛇崖",
+      "Xà Nhai"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蛇崖"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1152,
+    "contentSha256": "f706712b95456f103c5982daaa158ee3b03cc92bf4dfcf51e1fa7a951c80dacf"
+  },
+  {
+    "index": 137,
+    "comment": "Chân núi Xà Nhai",
+    "keys": [
+      "蛇崖山脚",
+      "山道交汇",
+      "山脚",
+      "Chân núi Xà Nhai",
+      "Giao điểm đường núi",
+      "Chân núi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蛇崖山脚",
+      "山道交汇",
+      "山脚"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1514,
+    "contentSha256": "70b8f354cea6c7c97e951c874504a951e8867e14aefc18ea343c35b6fb844410"
+  },
+  {
+    "index": 138,
+    "comment": "Thư Các",
+    "keys": [
+      "书阁",
+      "藏书",
+      "Thư Các",
+      "Tàng thư"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "书阁",
+      "藏书"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1332,
+    "contentSha256": "a9440f798b04c6b3ef48462a42f7b3b06ff537b55db10c84306b5db9b1fd8579"
+  },
+  {
+    "index": 139,
+    "comment": "Thư Các - Khu phong ấn",
+    "keys": [
+      "书阁深处",
+      "封存区",
+      "封存之处",
+      "Sâu trong Thư Các",
+      "Khu phong ấn",
+      "Nơi bị phong ấn"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "书阁深处",
+      "封存区",
+      "封存之处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1609,
+    "contentSha256": "6b6a1d29e0ac0fbc3bfbc8c3989886a90b61b9de023027613890252fbbf99ea6"
+  },
+  {
+    "index": 140,
+    "comment": "Thiên Tâm Phong - Cứ điểm Vô Cực",
+    "keys": [
+      "天心峰",
+      "阵核心",
+      "仙峰",
+      "Thiên Tâm Phong",
+      "Cốt lõi trận",
+      "Tiên phong"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "天心峰",
+      "阵核心",
+      "仙峰"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1212,
+    "contentSha256": "0deb3ab916c8fff7ec555d142b5a6e8af5c055c369d4d5f4fb0c87696ba8826c"
+  },
+  {
+    "index": 141,
+    "comment": "Vạn Tiên Trường Lang",
+    "keys": [
+      "万仙",
+      "万仙长廊",
+      "空中走廊",
+      "Vạn Tiên",
+      "Vạn Tiên Trường Lang",
+      "hành lang trên không"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "万仙",
+      "万仙长廊",
+      "空中走廊"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1146,
+    "contentSha256": "90d4671da9b6ee12501b91648dbd476bd9066758980043a03ad5866e56898a7b"
+  },
+  {
+    "index": 142,
+    "comment": "Vô Cực Cung",
+    "keys": [
+      "无极宫",
+      "峰顶",
+      "Vô Cực Cung",
+      "đỉnh núi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无极宫",
+      "峰顶"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2068,
+    "contentSha256": "c8b7ebf2cb64eab08e844dd0d56931a9af707589f0cc097e76031c930754d5b0"
+  },
+  {
+    "index": 143,
+    "comment": "Tiên Đạo Trường Lộ · Khu chuyển tiếp",
+    "keys": [
+      "仙道长路",
+      "过渡区",
+      "空中石道",
+      "Tiên Đạo Trường Lộ",
+      "khu chuyển tiếp",
+      "đường đá trên không"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "仙道长路",
+      "过渡区",
+      "空中石道"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 813,
+    "contentSha256": "bb5f065f54a4691b0d30e5a2fe5623c3ab78fd2e44c0d21187473c6c2ae1a523"
+  },
+  {
+    "index": 144,
+    "comment": "Tiên Phủ Di Chỉ",
+    "keys": [
+      "仙府遗址",
+      "仙府",
+      "清霄城东南",
+      "Tiên Phủ Di Chỉ",
+      "Tiên phủ",
+      "đông nam Thanh Tiêu Thành"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "仙府遗址",
+      "仙府",
+      "清霄城东南"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1053,
+    "contentSha256": "11d340bca026fc4d2fb79bcfa6a7dcb5f08c7cd1949e9d0cd7a7dd51620c422d"
+  },
+  {
+    "index": 145,
+    "comment": "Di Chỉ Chợ Đêm",
+    "keys": [
+      "夜市旧址",
+      "夜市",
+      "Di Chỉ Chợ Đêm",
+      "chợ đêm"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "夜市旧址",
+      "夜市"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1077,
+    "contentSha256": "bb1fe11e0cd447acf4b96dd1c2a65ec37f7c9a686e294ca230dcc6c4dec5f86f"
+  },
+  {
+    "index": 146,
+    "comment": "🏙️Hestia (Khu Vườn Tinh Khung)",
+    "keys": [
+      "赫斯",
+      "缇雅",
+      "Hes",
+      "Tia"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "赫斯",
+      "缇雅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 7340,
+    "contentSha256": "04f0804e672e7707c015641ff222b289efe6c7cc67a4720fef9a4629363e6646"
+  },
+  {
+    "index": 147,
+    "comment": "🏙️Ristarte (Khu Vườn Tinh Khung)",
+    "keys": [
+      "莉丝",
+      "妲黛",
+      "Rista",
+      "rte"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "莉丝",
+      "妲黛"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10487,
+    "contentSha256": "a35495ebd101eb138afa1a7d8df47c73666de9b648ed0e318420b9ec39b0455d"
+  },
+  {
+    "index": 148,
+    "comment": "🏙️Nữ thần ALICE (Khu Vườn Tinh Khung)",
+    "keys": [
+      "人间管理局",
+      "女神ALICE",
+      "ALICE",
+      "alice",
+      "Alice",
+      "Cục Quản Lý Nhân Gian",
+      "Nữ thần ALICE"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "人间管理局",
+      "女神ALICE"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12318,
+    "contentSha256": "c90866bb625e3c80324f1dc097d961c593582f5be1e96d772dd4339bce987cee"
+  },
+  {
+    "index": 149,
+    "comment": "🏙️Sessyoin Kiara (Khu Vườn Tinh Khung)",
+    "keys": [
+      "杀生院.祈荒",
+      "Sessyoin",
+      "Kiara"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "杀生院.祈荒"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10327,
+    "contentSha256": "7f33c7bc17e105f8c0285187eb8527844f5c605ca8cb660ef6e3c57c2e8cdf57"
+  },
+  {
+    "index": 150,
+    "comment": "🏙️Scáthach-Skadi (Khu Vườn Tinh Khung)",
+    "keys": [
+      "斯卡哈",
+      "斯卡蒂",
+      "Scáthach",
+      "Skadi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "斯卡哈",
+      "斯卡蒂"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9877,
+    "contentSha256": "9746bc7b1b9339250f6900ae1561a137fc70904937c42ec1cbb719575517e9f7"
+  },
+  {
+    "index": 151,
+    "comment": "🏙️Ishtar (Khu Vườn Tinh Khung)",
+    "keys": [
+      "伊什",
+      "塔尔",
+      "Ish",
+      "tar"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "伊什",
+      "塔尔"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11459,
+    "contentSha256": "0ef0b3c55865da462f13723aa2488ca7daa4a70e8892629114c13177f7c20430"
+  },
+  {
+    "index": 152,
+    "comment": "🏝️Điện Vạn Hoa Cảnh",
+    "keys": [
+      "万华镜殿",
+      "万华镜",
+      "镜殿",
+      "Điện Vạn Hoa Cảnh",
+      "Vạn Hoa Cảnh",
+      "điện kính"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "万华镜殿",
+      "万华镜",
+      "镜殿"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2084,
+    "contentSha256": "fe903e4103632490a303d4586e804bd4cea0b47f4907b186880c062f575b2cba"
+  },
+  {
+    "index": 153,
+    "comment": "🏝️Trầm Mộng Gian",
+    "keys": [
+      "沉梦之间",
+      "沉梦",
+      "Trầm Mộng Gian",
+      "Trầm Mộng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "沉梦之间",
+      "沉梦"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2375,
+    "contentSha256": "4799d96e8e3844476a23bf31d22790bacadb99c4f00c039fd7a19d6c9a331042"
+  },
+  {
+    "index": 154,
+    "comment": "🏝️Đoạn Tội Đình",
+    "keys": [
+      "断罪之庭",
+      "断罪",
+      "Đoạn Tội Đình",
+      "Đoạn Tội"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "断罪之庭",
+      "断罪"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1950,
+    "contentSha256": "d725d5159742ad30de706e72be2c4afad609d825de995af6ff07b8977034616f"
+  },
+  {
+    "index": 155,
+    "comment": "🏝️Phi Tinh Tẩm Điện",
+    "keys": [
+      "绯晶",
+      "寝殿",
+      "Phi Tinh",
+      "Tẩm Điện"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "绯晶",
+      "寝殿"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2462,
+    "contentSha256": "2467569777c1b142463462ca5af646493845d84927001deb3baccb62b247209c"
+  },
+  {
+    "index": 156,
+    "comment": "🏝️Hoàng Kim Thánh Đường",
+    "keys": [
+      "黄金圣堂",
+      "圣堂",
+      "Hoàng Kim Thánh Đường",
+      "Thánh Đường"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "黄金圣堂",
+      "圣堂"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2091,
+    "contentSha256": "b438c3a143ac34d6bbae0143dcd7fcba471a81b18d60fa51de0e5ad819ba6f5a"
+  },
+  {
+    "index": 157,
+    "comment": "🏝️Huy Thạch Thánh Đường",
+    "keys": [
+      "辉石圣堂",
+      "辉石",
+      "Huy Thạch Thánh Đường",
+      "huy thạch"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "辉石圣堂",
+      "辉石"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2046,
+    "contentSha256": "911605f7a466a559ff2b9581cdc19beda21ce72b1975106ff1f4a49c20ca2d19"
+  },
+  {
+    "index": 158,
+    "comment": "🏝️Không Chi Hồi Lang",
+    "keys": [
+      "空之回廊",
+      "Không Chi Hồi Lang"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "空之回廊"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2601,
+    "contentSha256": "a1ef960291b3f88129953078760af3cd24d45ee364789e86c430dcf01d9131c6"
+  },
+  {
+    "index": 159,
+    "comment": "🍒Komeiji Satori",
+    "keys": [
+      "古明",
+      "地觉",
+      "小觉",
+      "Komeiji",
+      "Satori",
+      "bé Satori"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "古明",
+      "地觉",
+      "小觉"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12475,
+    "contentSha256": "9651dfb6b5db64fd75b12c9a9bf7d39f72aa3effbcd7f63b86c457bb688c6f1e"
+  },
+  {
+    "index": 160,
+    "comment": "❌Cấm mở/đóng Sách Thế Giới",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 161,
+    "comment": "🍒Komeiji Koishi",
+    "keys": [
+      "古明地恋",
+      "恋恋",
+      "Komeiji Koishi",
+      "Koishi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "古明地恋",
+      "恋恋"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12030,
+    "contentSha256": "e9b41d0c3619bb6e8e16b2167b3465cd08616d594481484f7e52c913a03bc709"
+  },
+  {
+    "index": 162,
+    "comment": "🍒Hong Meiling",
+    "keys": [
+      "红美铃",
+      "美玲",
+      "红师傅",
+      "Hong Meiling",
+      "Meiling",
+      "Hồng sư phụ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "红美铃",
+      "美玲",
+      "红师傅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14964,
+    "contentSha256": "63df9e1ef1be63ffb4a7d2b99429ff449e1ca155bf594bc40f87eae37e3435bf"
+  },
+  {
+    "index": 163,
+    "comment": "🍒Konpaku Youmu",
+    "keys": [
+      "魂魄妖梦",
+      "妖梦",
+      "Konpaku Youmu",
+      "Youmu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "魂魄妖梦",
+      "妖梦"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11225,
+    "contentSha256": "3a7a2bce631eb2d7410a2119fafa1c12db36b52a715c53093ec7debac27b3151"
+  },
+  {
+    "index": 164,
+    "comment": "🍒Remilia Scarlet",
+    "keys": [
+      "蕾米莉亚",
+      "蕾米",
+      "Remilia",
+      "Remi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蕾米莉亚",
+      "蕾米"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11070,
+    "contentSha256": "e559817c6733e401686ed99c4c4c606097f9ae4980edf69ef040e16c0ad10574"
+  },
+  {
+    "index": 165,
+    "comment": "🍒Reisen Udongein Inaba",
+    "keys": [
+      "铃仙",
+      "优昙华院",
+      "因幡",
+      "Reisen",
+      "Udongein",
+      "Inaba"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "铃仙",
+      "优昙华院",
+      "因幡"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13468,
+    "contentSha256": "0614b627905975838c6423296f1ba30be14259366c793d069d8b6e5e7319ade7"
+  },
+  {
+    "index": 166,
+    "comment": "🍒Rumia",
+    "keys": [
+      "露米娅",
+      "米娅",
+      "Rumia",
+      "Mia"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "露米娅",
+      "米娅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14517,
+    "contentSha256": "b2436208becd2364171224a2d346bdc97ef80d7f1ca19f582fbc5dc23e3ed7d5"
+  },
+  {
+    "index": 167,
+    "comment": "🍒Patchouli Knowledge",
+    "keys": [
+      "帕秋莉",
+      "诺蕾姬",
+      "Patchouli",
+      "Knowledge"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "帕秋莉",
+      "诺蕾姬"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 16421,
+    "contentSha256": "3801f4db7093585cd23a8941d4fc5ce33a0ae7483b6645689f1571c46e9a7cd2"
+  },
+  {
+    "index": 168,
+    "comment": "🍒Kaguya Houraisan",
+    "keys": [
+      "蓬莱山",
+      "辉夜姬",
+      "辉夜",
+      "蓬莱人",
+      "Houraisan",
+      "Kaguya-hime",
+      "Kaguya",
+      "Hourai"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蓬莱山",
+      "辉夜姬",
+      "辉夜",
+      "蓬莱人"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14247,
+    "contentSha256": "8defa5d2ff982b9eb4d3d100abfc2f4de60b3ac43930ce7a6f7f4e3f96fdbee0"
+  },
+  {
+    "index": 169,
+    "comment": "🍒Cirno",
+    "keys": [
+      "琪露诺",
+      "Cirno"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "琪露诺"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14205,
+    "contentSha256": "3eb4b24008ffa2d205734cb8907ca4faab4f4bb490249299517874458acfee4d"
+  },
+  {
+    "index": 170,
+    "comment": "🍒Hata no Kokoro",
+    "keys": [
+      "秦心",
+      "Hata no Kokoro"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "秦心"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 14473,
+    "contentSha256": "f29900f3276147ffbfa3bf3b754ccabfb0bd344745c8072ba8b7949234933b79"
+  },
+  {
+    "index": 171,
+    "comment": "🍒Inubashiri Momiji",
+    "keys": [
+      "犬走椛",
+      "椛",
+      "Inubashiri Momiji",
+      "Momiji"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "犬走椛",
+      "椛"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12947,
+    "contentSha256": "dfea9dcae781a40d224395e269d983ba7753bfbb08efe916015dc25ccfda2691"
+  },
+  {
+    "index": 172,
+    "comment": "🍒Shameimaru Aya",
+    "keys": [
+      "射命",
+      "丸文",
+      "文文",
+      "Shameimaru",
+      "Aya",
+      "Bunbun"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "射命",
+      "丸文",
+      "文文"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12219,
+    "contentSha256": "44d729395f297db6a5eb11172de7621fdb2ceb6b79e2e01dd13f7e0e8746c60e"
+  },
+  {
+    "index": 173,
+    "comment": "🍒Izayoi Sakuya",
+    "keys": [
+      "十六夜",
+      "咲夜",
+      "Izayoi",
+      "Sakuya"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "十六夜",
+      "咲夜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11375,
+    "contentSha256": "f5459830b1bb09ae64135a90e8fee4759c76d95110e61f445894fa0e562794ea"
+  },
+  {
+    "index": 174,
+    "comment": "🍒Shiki Eiki Yamaxanadu",
+    "keys": [
+      "四季",
+      "映姬",
+      "夜摩仙那度",
+      "Shiki",
+      "Eiki",
+      "Yamaxanadu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "四季",
+      "映姬",
+      "夜摩仙那度"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13739,
+    "contentSha256": "1f75c1942de89c4b1e6330b2de92ac079701d9571d8d75f001da0684eee94c2a"
+  },
+  {
+    "index": 175,
+    "comment": "🍒Fujiwara no Mokou",
+    "keys": [
+      "藤原",
+      "妹红",
+      "Fujiwara",
+      "Mokou"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "藤原",
+      "妹红"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12098,
+    "contentSha256": "26a9f555a765d4386c10fa35783a7942eaa27b51b0fcbffbde4c69e09dfdb81c"
+  },
+  {
+    "index": 176,
+    "comment": "🍒Kirisame Marisa",
+    "keys": [
+      "雾雨",
+      "魔理沙",
+      "Kirisame",
+      "Marisa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雾雨",
+      "魔理沙"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10936,
+    "contentSha256": "818d891bd1d051c37ce22c589382e7557b71ab5e0410689e02f6538bf7f9ff6b"
+  },
+  {
+    "index": 177,
+    "comment": "🍒Saigyouji Yuyuko",
+    "keys": [
+      "西行寺",
+      "幽幽子",
+      "Saigyouji",
+      "Yuyuko"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "西行寺",
+      "幽幽子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11464,
+    "contentSha256": "2613d639894e9151277c6521304d3778c447ed9588e201a0a561b562f0d38791"
+  },
+  {
+    "index": 178,
+    "comment": "🍒Moriya Suwako",
+    "keys": [
+      "洩矢",
+      "诹访子",
+      "访子",
+      "Moriya",
+      "Suwako",
+      "Wako"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "洩矢",
+      "诹访子",
+      "访子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12449,
+    "contentSha256": "5da7277ba3e90425af8758eb68090f43433a56184b0814a0adc2805fb60f2dc2"
+  },
+  {
+    "index": 179,
+    "comment": "🍒Ibuki Suika",
+    "keys": [
+      "伊吹",
+      "萃香",
+      "Ibuki",
+      "Suika"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "伊吹",
+      "萃香"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13650,
+    "contentSha256": "9b9a648a701d4bef86372a656ffc591b1187b7c1492fdd0094d2f667f3b8f655"
+  },
+  {
+    "index": 180,
+    "comment": "Bạch Ngọc Lâu",
+    "keys": [
+      "白玉楼",
+      "Bạch Ngọc Lâu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "白玉楼"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1333,
+    "contentSha256": "4ee403c109f64ad8f09f634e8fe0edef4a51f3f74ffea234e934dad6fe962661"
+  },
+  {
+    "index": 181,
+    "comment": "Bác Lệ Thần Xã",
+    "keys": [
+      "博丽神社",
+      "Bác Lệ Thần Xã"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "博丽神社"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1975,
+    "contentSha256": "32071153076a2b6ff74e30812c08c7e74ad0d78930251f9f1f8bc016383c86db"
+  },
+  {
+    "index": 182,
+    "comment": "Không Gian Thuần Túy",
+    "keys": [
+      "纯粹空间",
+      "Không Gian Thuần Túy"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "纯粹空间"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1073,
+    "contentSha256": "20360e380077536ced24f88b32d579ab2de1c58744684a3c222d90e056db1762"
+  },
+  {
+    "index": 183,
+    "comment": "Địa Linh Điện",
+    "keys": [
+      "地灵殿",
+      "Địa Linh Điện"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "地灵殿"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1530,
+    "contentSha256": "ea4090055b5904f93a78d27f5eb4752b83a38c6f677d2c5d92e8f3f69988e81a"
+  },
+  {
+    "index": 184,
+    "comment": "Hồng Ma Quán",
+    "keys": [
+      "红魔馆",
+      "Hồng Ma Quán"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "红魔馆"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2864,
+    "contentSha256": "e1180731977e2128e399551c8d988d68661d620e2c5142202257e308b92ce5f6"
+  },
+  {
+    "index": 185,
+    "comment": "Cửa Giao Thoa",
+    "keys": [
+      "汇流口",
+      "Cửa Giao Thoa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "汇流口"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1203,
+    "contentSha256": "137cb78420a2dd579a3f990901c4f3433aba371339c29a8d95bed07dca061ac0"
+  },
+  {
+    "index": 186,
+    "comment": "Lối Vào Ảo Tưởng Hương",
+    "keys": [
+      "幻想乡入口",
+      "Lối Vào Ảo Tưởng Hương"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "幻想乡入口"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1416,
+    "contentSha256": "57a7756a108aaaccd7e9b0bbb94933b4d98b5c8e0fe2eeb67ff962e1daf818dc"
+  },
+  {
+    "index": 187,
+    "comment": "Nơi Tiệc Rượu",
+    "keys": [
+      "酒宴处",
+      "酒宴",
+      "Nơi Tiệc Rượu",
+      "Tiệc rượu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "酒宴处",
+      "酒宴"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 826,
+    "contentSha256": "ebb3555a8a39213ce65cd7ecf612ee5c0ecefabada78b6204f5c29a3d52123ba"
+  },
+  {
+    "index": 188,
+    "comment": "Mệnh Liên Tự",
+    "keys": [
+      "命莲寺",
+      "命莲寺走廊",
+      "Mệnh Liên Tự",
+      "Hành lang Mệnh Liên Tự"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "命莲寺",
+      "命莲寺走廊"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 861,
+    "contentSha256": "36e77af0768d96b90cdd70416e329565d9e9d0e18ed27a2241a7acebe7266813"
+  },
+  {
+    "index": 189,
+    "comment": "Khu Rừng Ma Thuật",
+    "keys": [
+      "魔法森林",
+      "Khu Rừng Ma Thuật"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "魔法森林"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1264,
+    "contentSha256": "26248298a4e2b76b85d6364b08da3b688de3aceb03c08d0c3cdac2aeaa30fdbe"
+  },
+  {
+    "index": 190,
+    "comment": "Rìa Rừng",
+    "keys": [
+      "森林边缘",
+      "Rìa Rừng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "森林边缘"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1015,
+    "contentSha256": "7d57448eb699a77367b101ce484e051b21faca1cfb9720c2b574ec853ed809f2"
+  },
+  {
+    "index": 191,
+    "comment": "Đền Thờ · Sân Khấu Noh",
+    "keys": [
+      "能舞台",
+      "Sân Khấu Noh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "能舞台"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1166,
+    "contentSha256": "cef3db5237787bebdccbbdbc505aebf0519fc2870e921e26b5e1e3676d53e47f"
+  },
+  {
+    "index": 192,
+    "comment": "Tòa Án Phán Xét",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1077,
+    "contentSha256": "537b8f12ad833418bb9d36253e43156d867de477d6a5fc13df85119134c84821"
+  },
+  {
+    "index": 193,
+    "comment": "Thần xã Moriya",
+    "keys": [
+      "守矢神社",
+      "守矢",
+      "Thần xã Moriya",
+      "Moriya"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "守矢神社",
+      "守矢"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1113,
+    "contentSha256": "00fed1aef3e9485bb9d9aaae815dc28752658f538f5f344b9dd11028203379c0"
+  },
+  {
+    "index": 194,
+    "comment": "Vườn Hoa Hướng Dương",
+    "keys": [
+      "太阳花田",
+      "太阳花",
+      "幻想乡深处",
+      "Vườn Hoa Hướng Dương",
+      "hoa hướng dương",
+      "sâu trong Ảo Tưởng Hương"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "太阳花田",
+      "太阳花",
+      "幻想乡深处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1048,
+    "contentSha256": "40c378facc7d054fb739628e38ef3699d939fdb851404fc79fd2f6b2425f7d82"
+  },
+  {
+    "index": 195,
+    "comment": "Hồ Sương Mù",
+    "keys": [
+      "雾之湖",
+      "Hồ Sương Mù"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雾之湖"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1088,
+    "contentSha256": "7cf70bae787ac77433373a008e9fdd18c7309e16623f9698240c412d59df71de"
+  },
+  {
+    "index": 196,
+    "comment": "Khe Hở",
+    "keys": [
+      "隙间",
+      "Khe Hở"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "隙间"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2473,
+    "contentSha256": "25b30e719e10cdaac040ca20804dc610168d5459a08fb1858bef4bdf42094f71"
+  },
+  {
+    "index": 197,
+    "comment": "Núi Yêu Quái",
+    "keys": [
+      "妖怪之山",
+      "Núi Yêu Quái"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "妖怪之山"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1096,
+    "contentSha256": "952a6661475e5f909661407e35ece9c8dbfac7e2fdf40f07d41e695e52c532dc"
+  },
+  {
+    "index": 198,
+    "comment": "Vĩnh Viễn Đình",
+    "keys": [
+      "永远亭",
+      "Vĩnh Viễn Đình"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "永远亭"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 2341,
+    "contentSha256": "550e3a0421a8e5ed2488d410f63317c0f3bd8c3795cd487ce081f519e2cd4ab3"
+  },
+  {
+    "index": 199,
+    "comment": "Hữu Đỉnh Thiên",
+    "keys": [
+      "有顶天",
+      "Hữu Đỉnh Thiên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "有顶天"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 870,
+    "contentSha256": "200ccf08e46e872b85cd83d93b801a39b4e6e2a7a53c1d6c462627ff9af5d248"
+  },
+  {
+    "index": 200,
+    "comment": "Khởi đầu Gensokyo",
+    "keys": [
+      "幻想乡",
+      "Gensokyo",
+      "Ảo Tưởng Hương"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "幻想乡"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1833,
+    "contentSha256": "978af1a47e11e4181948ef44486b9fcd585f03190a675fd5b9598ae867fc6883"
+  },
+  {
+    "index": 201,
+    "comment": "Ảo Tưởng Hương_Chương 1",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 21095,
+    "contentSha256": "deff951d1d6979584a7b7a790f19dac3c63b11ce61d0b77022da1b46b3c2f137"
+  },
+  {
+    "index": 202,
+    "comment": "Độ khó Dễ",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 1728,
+    "contentSha256": "0493064f5bc7dbbd8e094929bf3852633852a25613b01057303cf86cd4803593"
+  },
+  {
+    "index": 203,
+    "comment": "Ảo Tưởng Hương_Chương 2",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 19764,
+    "contentSha256": "86ddb945a8f48dfc0cfb229dfe34e8a7e4f3d5c26b559050973abe0e0ad1ef3d"
+  },
+  {
+    "index": 204,
+    "comment": "Ảo Tưởng Hương_Chương 3",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 15232,
+    "contentSha256": "0f9405fe9c03a2071ee08fde38dac3a2fa99c548d5386d0c0ed85dbc3bbbe206"
+  },
+  {
+    "index": 205,
+    "comment": "Ảo Tưởng Hương_Chương 4",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 15113,
+    "contentSha256": "bf90fa45d8917d3f05b2f059751134dc3e268dc2721533de63cb6cd8b0a6123d"
+  },
+  {
+    "index": 206,
+    "comment": "Ảo Tưởng Hương_Chương 5",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 15366,
+    "contentSha256": "a0cbb9672c45dffcad515e1e5a432d093db09ab9cec93a688018f99a31b8ecd2"
+  },
+  {
+    "index": 207,
+    "comment": "Ảo Tưởng Hương_Chương 6",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 12233,
+    "contentSha256": "25978925e62a6b0f3f8ab5caba5949c21e965825148c13574ab025d6462d0ffe"
+  },
+  {
+    "index": 208,
+    "comment": "Ảo Tưởng Hương_Chương 7",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 15236,
+    "contentSha256": "b548fbb6e3483035c6828950b81880e4c5d2d0b5eb6d2f4b91d88d2e10564d00"
+  },
+  {
+    "index": 209,
+    "comment": "Ảo Tưởng Hương_Chương 8",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 12690,
+    "contentSha256": "a8dac558b9106835d06b525633e731e1dd0fba0e51917dd98e2a8c35b37bed76"
+  },
+  {
+    "index": 210,
+    "comment": "❌Cấm mở sách thế giới đã đóng",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 211,
+    "comment": "Độ khó Bình Thường",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 1869,
+    "contentSha256": "2d404fdde5107348979609e44f48353c990f72bb91ccb508c19773dcc8703d2e"
+  },
+  {
+    "index": 212,
+    "comment": "Độ khó Khó",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 4281,
+    "contentSha256": "4b18ecefaeadf0e67dc50e0af908ea9822eb809bee3a161929f7f9b72de62758"
+  },
+  {
+    "index": 213,
+    "comment": "🧊Echidna (Cyberpunk)",
+    "keys": [
+      "艾姬",
+      "多娜",
+      "Echi",
+      "Dona"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "艾姬",
+      "多娜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12431,
+    "contentSha256": "fb8249c463a676b1ef00c9c44092510e969a5011c0ea3e399dc77bd212a97821"
+  },
+  {
+    "index": 214,
+    "comment": "🧊Omega",
+    "keys": [
+      "奥梅迦",
+      "梅迦",
+      "Omega",
+      "Mega"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "奥梅迦",
+      "梅迦"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 13747,
+    "contentSha256": "96f6fc6c476591785dfeff77148eb24972731adb036064c4da453eb462c0aed0"
+  },
+  {
+    "index": 215,
+    "comment": "🧊Phrolova",
+    "keys": [
+      "弗洛洛",
+      "洛洛",
+      "Phrolova",
+      "Lolo"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "弗洛洛",
+      "洛洛"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12302,
+    "contentSha256": "5df958521f13c11497c185556f5a60f81df94b68d949c267da37f6eb1f72f3ec"
+  },
+  {
+    "index": 216,
+    "comment": "🧊Sorasaki Hina",
+    "keys": [
+      "空崎",
+      "阳奈",
+      "Sorasaki",
+      "Hina"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "空崎",
+      "阳奈"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8495,
+    "contentSha256": "c5981f7f80d21a2ab765b8683eae0e549e0707c87a12bf3a2ced001b409c5388"
+  },
+  {
+    "index": 217,
+    "comment": "🧊Reze",
+    "keys": [
+      "蕾塞",
+      "雷塞",
+      "Reze"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蕾塞",
+      "雷塞"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10954,
+    "contentSha256": "f101046f10b51c73fcb87d90ea37e1bb6b23a11cd3bbe5bb748ed0c94cd27004"
+  },
+  {
+    "index": 218,
+    "comment": "🧊Mammon",
+    "keys": [
+      "玛门",
+      "Mammon"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "玛门"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11119,
+    "contentSha256": "850bf4ede571fb11715c41192581239047040596a75886c91ff746281e5410d1"
+  },
+  {
+    "index": 219,
+    "comment": "🧊Mita",
+    "keys": [
+      "米塔",
+      "Mita"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "米塔"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11248,
+    "contentSha256": "da38fb21c85c778576d54e695c603a0f346f0b3a8055f195ae5b4cae30c0e515"
+  },
+  {
+    "index": 220,
+    "comment": "🧊Ruan Mei",
+    "keys": [
+      "阮·梅",
+      "阮梅",
+      "阮",
+      "Ruan Mei",
+      "Ruan"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "阮·梅",
+      "阮梅",
+      "阮"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12435,
+    "contentSha256": "351bcb8d73b2874c670cc4e23f6fcf0c543181c25a8544cc5db3dbfcf21d646d"
+  },
+  {
+    "index": 221,
+    "comment": "🧊Jabami Yumeko",
+    "keys": [
+      "蛇喰",
+      "梦子",
+      "Jabami",
+      "Yumeko"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "蛇喰",
+      "梦子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11965,
+    "contentSha256": "a2c7cabbb3368ed5a836127c8523d49648d4119955a3a6607cc24b2cb61bd36f"
+  },
+  {
+    "index": 222,
+    "comment": "🧊Thủ Ngạn Nhân",
+    "keys": [
+      "守岸人",
+      "Thủ Ngạn Nhân"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "守岸人"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10991,
+    "contentSha256": "87e9c91b75cb9e16d96124b1e0d488709c52b08895d6fd262b4c641032e244d9"
+  },
+  {
+    "index": 223,
+    "comment": "🧊Tứ Cung Huy Dạ",
+    "keys": [
+      "四宫",
+      "四宫辉夜",
+      "Tứ Cung",
+      "Tứ Cung Huy Dạ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "四宫",
+      "四宫辉夜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12026,
+    "contentSha256": "caca47dfebc590635886e2773d884f2b977fa5cba813f53c013e2257b18b95d7"
+  },
+  {
+    "index": 224,
+    "comment": "🧊Thiên Vũ Trảm Trảm",
+    "keys": [
+      "天羽",
+      "斩斩",
+      "Thiên Vũ",
+      "Trảm Trảm"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "天羽",
+      "斩斩"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10670,
+    "contentSha256": "b276dffaf680b36b165e40e3ad506307de5de89889ac1c2ef37f6c4f59ade582"
+  },
+  {
+    "index": 225,
+    "comment": "🧊Ngã Thê Do Nãi",
+    "keys": [
+      "我妻",
+      "由乃",
+      "Ngã Thê",
+      "Do Nãi",
+      "Gasai",
+      "Yuno"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "我妻",
+      "由乃"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11338,
+    "contentSha256": "6f6fb707c2c5683e7a8c412276887c1e44e96f9fb1ff0d2aa42101b37d9dec99"
+  },
+  {
+    "index": 226,
+    "comment": "🧊Albedo",
+    "keys": [
+      "雅儿",
+      "贝德",
+      "Nhã Nhi",
+      "Bối Đức",
+      "Albedo"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雅儿",
+      "贝德"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11710,
+    "contentSha256": "45e68d07431c476d998483616ab636e91a47c8a68e735b9b477fe330c925e857"
+  },
+  {
+    "index": 227,
+    "comment": "🧊Yor Forger",
+    "keys": [
+      "约尔",
+      "福杰",
+      "Yor",
+      "Forger"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "约尔",
+      "福杰"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12384,
+    "contentSha256": "18c4ff487dccdfcd623c7acd8f680889d91cf9e4cdef8bfec43d33c1e4fc2970"
+  },
+  {
+    "index": 228,
+    "comment": "Hẻm Bóng Tối",
+    "keys": [
+      "暗影巷",
+      "无眠村阴影",
+      "Hẻm Bóng Tối",
+      "Bóng tối Làng Không Ngủ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "暗影巷",
+      "无眠村阴影"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 928,
+    "contentSha256": "3415fe73cf852a34e70d2a16189b5cf758c573a3c8f87767a5c9e048da0fdf41"
+  },
+  {
+    "index": 229,
+    "comment": "Đài Cao",
+    "keys": [
+      "无眠村中央",
+      "高台",
+      "Trung tâm Làng Không Ngủ",
+      "Đài Cao"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无眠村中央",
+      "高台"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 965,
+    "contentSha256": "11448b0ce1e41f9fb9cce484d5f29c615e9833c11fe5cfa66afaf1ccaa88ec6f"
+  },
+  {
+    "index": 230,
+    "comment": "Bờ Biển Đen",
+    "keys": [
+      "黑海岸",
+      "黑海",
+      "黑色的海",
+      "Bờ Biển Đen",
+      "Biển Đen",
+      "biển màu đen"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "黑海岸",
+      "黑海",
+      "黑色的海"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 784,
+    "contentSha256": "b799f99535170d36a0a8129cab9f833aaa5bb08449008ad952a9364c64dc6ea9"
+  },
+  {
+    "index": 231,
+    "comment": "Hắc Giáp Đạo",
+    "keys": [
+      "黑甲道",
+      "聚落外围",
+      "Hắc Giáp Đạo",
+      "vùng ven khu định cư"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "黑甲道",
+      "聚落外围"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 806,
+    "contentSha256": "65f88c29fe432718c86882544ff91e60bd691cd111d11bdd307b68b6f87b1d56"
+  },
+  {
+    "index": 232,
+    "comment": "Tháp Đen",
+    "keys": [
+      "黑塔",
+      "废土深处",
+      "永眠网络中枢",
+      "Tháp Đen",
+      "sâu trong vùng đất hoang",
+      "trung tâm mạng lưới Vĩnh Miên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "黑塔",
+      "废土深处",
+      "永眠网络中枢"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 987,
+    "contentSha256": "7785b7301cbcd496a867921172efa2fdb7812d830d38735c9a39a4435bdfb927"
+  },
+  {
+    "index": 233,
+    "comment": "Cửa Đỏ",
+    "keys": [
+      "红门",
+      "赌场",
+      "Cửa Đỏ",
+      "sòng bạc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "红门",
+      "赌场"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 878,
+    "contentSha256": "a18cd7b7262cabb569b96a9b1a3a0e77e4aec7a14fee9ad302401fe54b2e8b7b"
+  },
+  {
+    "index": 234,
+    "comment": "Rào Cản Đỏ",
+    "keys": [
+      "红障",
+      "Rào Cản Đỏ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "红障"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 795,
+    "contentSha256": "b65a03b9dc48f5efc24dcfacbfc424755778f518c17ec74357791e5b9a0e04d2"
+  },
+  {
+    "index": 235,
+    "comment": "Bức Tường Chờ Đợi",
+    "keys": [
+      "候墙",
+      "Bức Tường Chờ Đợi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "候墙"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1038,
+    "contentSha256": "067a8799978a369648feffa0aaf1997e590e56b5dffc74d89dc65d308ef6d968"
+  },
+  {
+    "index": 236,
+    "comment": "Vành Đai Tro Bụi",
+    "keys": [
+      "灰带",
+      "Vành Đai Tro Bụi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "灰带"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1029,
+    "contentSha256": "a8a05b2c853a43c84ce02cdaa486ba7df2109dcc1e8f6a662ec944a64fea49fb"
+  },
+  {
+    "index": 237,
+    "comment": "Lối Tro Bụi",
+    "keys": [
+      "灰径",
+      "Lối Tro Bụi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "灰径"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1057,
+    "contentSha256": "d97fdbb45f58a591f818de8477fb98613eee810d163899d0230d4ff739cbcb1e"
+  },
+  {
+    "index": 238,
+    "comment": "Lối vào của Neon 2187",
+    "keys": [
+      "霓虹2187入口",
+      "霓虹2187汇流口",
+      "霓虹入口",
+      "Lối vào Neon 2187",
+      "Điểm hội tụ Neon 2187",
+      "Lối vào Neon"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "霓虹2187入口",
+      "霓虹2187汇流口",
+      "霓虹入口"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 921,
+    "contentSha256": "9d24fe5ea4edcbf1b9d64c695385cbb7f8e3ca27b8036f2be3efc8db22f08761"
+  },
+  {
+    "index": 239,
+    "comment": "Phòng giám sát",
+    "keys": [
+      "监室",
+      "监控室",
+      "Phòng giám sát",
+      "phòng theo dõi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "监室",
+      "监控室"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 808,
+    "contentSha256": "f1959d6208717c8a31f1bf6982cef1672449d5a2b3cea216afa8e9652cf8a8c1"
+  },
+  {
+    "index": 240,
+    "comment": "Tĩnh Vực",
+    "keys": [
+      "静域",
+      "Tĩnh Vực"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "静域"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 862,
+    "contentSha256": "ec6e3f6b4a1ffb6eaf6f955ff7f5c51a7aa549caefc46109ab42c04339ceb955"
+  },
+  {
+    "index": 241,
+    "comment": "Khu Cựu Quý Tộc",
+    "keys": [
+      "旧贵区",
+      "贵族",
+      "Khu Cựu Quý Tộc",
+      "Quý tộc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "旧贵区",
+      "贵族"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 901,
+    "contentSha256": "8b4b6e3b6b225416bddd4b28de604db5082ee9de98767ea67e1124b559d8f271"
+  },
+  {
+    "index": 242,
+    "comment": "Khu Quần Cư",
+    "keys": [
+      "聚居",
+      "霓虹墟中层",
+      "Khu Quần Cư",
+      "Tầng giữa Phế Tích Neon"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "聚居",
+      "霓虹墟中层"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1085,
+    "contentSha256": "58eaadc5749d54531070df782b90b7db6aef6b3d9e33f54027ef38b90dc346c4"
+  },
+  {
+    "index": 243,
+    "comment": "Vùng Trống",
+    "keys": [
+      "空白域",
+      "黑塔最深处",
+      "Vùng Trống",
+      "nơi sâu nhất của Hắc Tháp"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "空白域",
+      "黑塔最深处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 973,
+    "contentSha256": "e7a2778f41ecf540d3119c0f32eebf9e6c12ce8cc9ae392db9a6652d8e4508d9"
+  },
+  {
+    "index": 244,
+    "comment": "Thế Giới Giấc Mơ",
+    "keys": [
+      "梦网边",
+      "永眠网络边缘",
+      "梦境世界",
+      "Rìa mạng giấc mơ",
+      "Rìa mạng lưới Ngủ Say Vĩnh Hằng",
+      "Thế giới giấc mơ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "梦网边",
+      "永眠网络边缘",
+      "梦境世界"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 979,
+    "contentSha256": "fbd1df6e6e4277359efe04bd28f7957495d86267eccbfbe6f621f5c0552a5334"
+  },
+  {
+    "index": 245,
+    "comment": "Chợ Neon",
+    "keys": [
+      "霓虹墟",
+      "Chợ Neon"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "霓虹墟"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 857,
+    "contentSha256": "32b98f6a286a6fefbe761e2438df1adb27acfc3b5384220a45a3a25169b28ae0"
+  },
+  {
+    "index": 246,
+    "comment": "Tam Trọng Mộng",
+    "keys": [
+      "三重梦",
+      "永眠网络内部",
+      "Tam Trọng Mộng",
+      "bên trong mạng lưới Ngủ Say Vĩnh Hằng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "三重梦",
+      "永眠网络内部"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1105,
+    "contentSha256": "47d5ed1d2fdd15afc5325966a882b22bc42fabe97217223c0a5406166d46297e"
+  },
+  {
+    "index": 247,
+    "comment": "Thi Xá",
+    "keys": [
+      "诗舍",
+      "Thi Xá"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "诗舍"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 868,
+    "contentSha256": "46c84526fb19dac8e00de4a380d0da7e1974693e405b7dccb72e6b455223006a"
+  },
+  {
+    "index": 248,
+    "comment": "Kệ sách vô tận",
+    "keys": [
+      "无尽架",
+      "无尽书架",
+      "Vô Tận Giá",
+      "Kệ sách vô tận"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无尽架",
+      "无尽书架"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 938,
+    "contentSha256": "057b535226da796a29ec9b1a2232bc18bffe47b4af58d61b8e6bcce98d0389ef"
+  },
+  {
+    "index": 249,
+    "comment": "Làng Vô Miên",
+    "keys": [
+      "无眠村",
+      "Làng Vô Miên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "无眠村"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 908,
+    "contentSha256": "51127200de07aa03824d40b4f7d2749bf41b9f7dbe32ba49e95a1e65758a1368"
+  },
+  {
+    "index": 250,
+    "comment": "Bờ Hy Vọng",
+    "keys": [
+      "希望岸",
+      "Bờ Hy Vọng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "希望岸"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 906,
+    "contentSha256": "844f8d6b984e6e080d5cfe014af8baaedada4dbd7f1aafdf0a9dcbdcbd471c4c"
+  },
+  {
+    "index": 251,
+    "comment": "Quảng Trường Tỉnh Giấc",
+    "keys": [
+      "废土区广场",
+      "醒广场",
+      "Quảng trường khu phế thổ",
+      "Quảng Trường Tỉnh Giấc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "废土区广场",
+      "醒广场"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1148,
+    "contentSha256": "4f5b1e11b175c539985c793fb05c6fc9aee82fca52e9af05149d2e247121e306"
+  },
+  {
+    "index": 252,
+    "comment": "Lán Dao Rỉ",
+    "keys": [
+      "锈刀棚",
+      "无眠村边缘",
+      "Lán Dao Rỉ",
+      "rìa Thôn Vô Miên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "锈刀棚",
+      "无眠村边缘"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 912,
+    "contentSha256": "08fff28cc1db5c2eabfe0b8a43d90ba42a511f6e829f7309e46b583fe8f33f8f"
+  },
+  {
+    "index": 253,
+    "comment": "Khu Chợ",
+    "keys": [
+      "墟集",
+      "Khu Chợ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "墟集"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 992,
+    "contentSha256": "ac6af411795fc2831444b27e861f82db545f8a1329b33f69e67e9c77ab3ebcf1"
+  },
+  {
+    "index": 254,
+    "comment": "Viện Nghiên Cứu",
+    "keys": [
+      "研所",
+      "Viện Nghiên Cứu"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "研所"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 828,
+    "contentSha256": "5aecc9c040f0ec020baf24cc706ed7614bbadd6bd58d6878f37866c4e00fdd8f"
+  },
+  {
+    "index": 255,
+    "comment": "Doanh trại Phế thổ",
+    "keys": [
+      "营帐",
+      "废土营帐",
+      "Doanh trại",
+      "Doanh trại Phế thổ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "营帐",
+      "废土营帐"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 941,
+    "contentSha256": "70b527fce387e7770f9dd9afaa5f230e17e81375051b7e5b2acc078a8589056d"
+  },
+  {
+    "index": 256,
+    "comment": "Neon 2187_Chương 1",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11787,
+    "contentSha256": "331b68242a6d1c831e29a2759227cd15df799e35b58614bc5e64cbaf471b8126"
+  },
+  {
+    "index": 257,
+    "comment": "Neon 2187_Chương 2",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 18093,
+    "contentSha256": "5ccb60e8d8cae0bbc8e5de96a9f5df2f90f6f7fca892ef527cf15fcc833cbe9b"
+  },
+  {
+    "index": 258,
+    "comment": "Neon 2187_Chương 3",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11474,
+    "contentSha256": "e0cb0e7ac598d4018cb769dfc30bc3967d004cbd8ba168c68613668957a180b0"
+  },
+  {
+    "index": 259,
+    "comment": "Neon 2187_Chương 4",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11730,
+    "contentSha256": "3aef134f06f30305ea831f5b2cb47331ad25cdfc4934a7e8fb16d2b03a431f1d"
+  },
+  {
+    "index": 260,
+    "comment": "Neon 2187_Chương 5",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 15280,
+    "contentSha256": "4b87dbe457632f289f3bb202670ca79e8dcb63f932e66f70434bc7604c7b6b9a"
+  },
+  {
+    "index": 261,
+    "comment": "Neon 2187_Chương 6",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11859,
+    "contentSha256": "fb1c6f6b823f5be8133725a8c46c3f771aacec8c059544e72a3c9d26406b87f3"
+  },
+  {
+    "index": 262,
+    "comment": "Khởi đầu Neon 2187",
+    "keys": [
+      "霓虹2187",
+      "Neon 2187"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "霓虹2187"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1407,
+    "contentSha256": "ca4d8499ef5962a3a686c8799e102f2b8e31d5342d8b23a61413db92a0f8477c"
+  },
+  {
+    "index": 263,
+    "comment": "🚣Shirai Kuroko",
+    "keys": [
+      "白井",
+      "黑子",
+      "Shirai",
+      "Kuroko"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "白井",
+      "黑子"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11136,
+    "contentSha256": "656f6d26afcc8f3e2573710a1a2369e4f25ab93065424b0fb81d33647aba2816"
+  },
+  {
+    "index": 264,
+    "comment": "🚣Gilgamesh",
+    "keys": [
+      "吉尔",
+      "伽美什",
+      "金闪闪",
+      "Gil",
+      "Gilgamesh",
+      "Vàng Lấp Lánh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "吉尔",
+      "伽美什",
+      "金闪闪"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11939,
+    "contentSha256": "9f2bfc8a4160d12e7f596f076789107ce99e3017666655bfc085236a27555a62"
+  },
+  {
+    "index": 265,
+    "comment": "🚣Kính Uyên",
+    "keys": [
+      "镜渊",
+      "Kính Uyên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜渊"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 12905,
+    "contentSha256": "a64308b95f3bd1468fa3f2cfadde233c44b1d4d040a66b8974324d65c85d3333"
+  },
+  {
+    "index": 266,
+    "comment": "Artoria Pendragon (Servant)",
+    "keys": [
+      "阿尔托莉雅",
+      "潘德拉贡",
+      "托莉雅",
+      "Saber",
+      "saber",
+      "Artoria",
+      "Pendragon",
+      "Toria"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "阿尔托莉雅",
+      "潘德拉贡",
+      "托莉雅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11622,
+    "contentSha256": "6f1c4b4ed7f5dc8eac2df2ab189492b7adb6df86667e230befdceab250c4217f"
+  },
+  {
+    "index": 267,
+    "comment": "Ereshkigal (Servant)",
+    "keys": [
+      "埃列什基",
+      "伽勒",
+      "艾蕾",
+      "Ereshki",
+      "Gal",
+      "Eresh"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "埃列什基",
+      "伽勒",
+      "艾蕾"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9021,
+    "contentSha256": "8477b4e75f19654562d1b6f30978d08eefc7e8a0a9201cf6929c28d990d4bb1d"
+  },
+  {
+    "index": 268,
+    "comment": "Kama (Servant)",
+    "keys": [
+      "迦摩",
+      "Kama"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "迦摩"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8092,
+    "contentSha256": "2c728cb2706c2cda930a9721d851dccb27c86bd5c18fd39bf96b79e34137c339"
+  },
+  {
+    "index": 269,
+    "comment": "Tamamo no Mae (Servant)",
+    "keys": [
+      "玉藻前",
+      "玉藻",
+      "Tamamo no Mae",
+      "Tamamo"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "玉藻前",
+      "玉藻"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10470,
+    "contentSha256": "ea69e4f058fb5c144bad681b1c3f7dc661c408bb2d4129a4077e70fd74a37e12"
+  },
+  {
+    "index": 270,
+    "comment": "Melusine (Servant)",
+    "keys": [
+      "梅柳",
+      "齐娜",
+      "Melusine",
+      "Lancelot"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "梅柳",
+      "齐娜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10111,
+    "contentSha256": "d01a4d0b9a52b8883d32d9738d5bf7168db25d47bdcf60e2c59136d7513c7332"
+  },
+  {
+    "index": 271,
+    "comment": "Jeanne (Servant)",
+    "keys": [
+      "贞德",
+      "Jeanne"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "贞德"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9844,
+    "contentSha256": "76e946445172c2c3bb7c6a01c9a2078fdfcd72f7b087c0ec59348b9121e6fa57"
+  },
+  {
+    "index": 272,
+    "comment": "🚣Raiden Ei",
+    "keys": [
+      "雷电影",
+      "雷电",
+      "雷电将军",
+      "Raiden Ei",
+      "Raiden",
+      "Raiden Shogun"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "雷电影",
+      "雷电",
+      "雷电将军"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9192,
+    "contentSha256": "2db7fbe6ab4834552dadcc05bdaf81c7ffcd0a1e7f3afe3460e551a545f9e949"
+  },
+  {
+    "index": 273,
+    "comment": "🚣Ryougi Shiki",
+    "keys": [
+      "两仪式",
+      "两仪",
+      "Ryougi Shiki",
+      "Ryougi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "两仪式",
+      "两仪"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9577,
+    "contentSha256": "eec1c19564a07e17fef621700bee94da09e3fe4b0d6147db8364910e70a83854"
+  },
+  {
+    "index": 274,
+    "comment": "🚣Suzushina Yuriko",
+    "keys": [
+      "铃科",
+      "百合子",
+      "一方通行",
+      "Suzushina",
+      "Yuriko",
+      "Accelerator"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "铃科",
+      "百合子",
+      "一方通行"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 10833,
+    "contentSha256": "239d901c543a91bcd281355a28a4aec4302ae6d806cec3e0cf6dccdf1c7433f8"
+  },
+  {
+    "index": 275,
+    "comment": "🚣Makima",
+    "keys": [
+      "玛奇玛",
+      "Makima"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "玛奇玛"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9217,
+    "contentSha256": "ad95d6588b22ca1cd5ecc8bbe3c9d1e6f541f962af16e0cbe22f1a8f9b9d1e1f"
+  },
+  {
+    "index": 276,
+    "comment": "🚣Kamijou Touma",
+    "keys": [
+      "上条",
+      "当麻",
+      "Kamijou",
+      "Touma"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "上条",
+      "当麻"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11893,
+    "contentSha256": "cf5cd8ae17d1750b42d9c9a16eb214ad891df6cd2cf7c91a83104b64589d81d9"
+  },
+  {
+    "index": 277,
+    "comment": "🚣Tokisaki Kurumi",
+    "keys": [
+      "时崎",
+      "狂三",
+      "Tokisaki",
+      "Kurumi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "时崎",
+      "狂三"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9399,
+    "contentSha256": "fa92e1934cf11962c2dd83ea61be1d17690f2dde44104f261b053de1b8bcd4e0"
+  },
+  {
+    "index": 278,
+    "comment": "🚣Violet Evergarden",
+    "keys": [
+      "薇尔",
+      "莉特",
+      "伊芙加登",
+      "Violet",
+      "Evergarden"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "薇尔",
+      "莉特",
+      "伊芙加登"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8981,
+    "contentSha256": "753a57a4e1a70afa0c11b80567a54c937e190f97ffe4b46f23b6dcd9bdf217ae"
+  },
+  {
+    "index": 279,
+    "comment": "🚣Emiya Shirou",
+    "keys": [
+      "卫宫",
+      "士郎",
+      "Emiya",
+      "Shirou"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "卫宫",
+      "士郎"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11671,
+    "contentSha256": "67fc9a192820e4d093972f78f87e70d6d03f50e2716b18d13df01ea07dde9519"
+  },
+  {
+    "index": 280,
+    "comment": "🚣Gojo Satoru",
+    "keys": [
+      "五条悟",
+      "五条",
+      "Gojo Satoru",
+      "Gojo"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "五条悟",
+      "五条"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11787,
+    "contentSha256": "10e0cf78ea754e28b5552ec6f24c9e1d71bd9d8a1c55c1bfea4319ca97e9766b"
+  },
+  {
+    "index": 281,
+    "comment": "🚣Tích Liên",
+    "keys": [
+      "昔涟",
+      "Tích Liên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "昔涟"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9838,
+    "contentSha256": "d27168d6a817d30602a4125a922d45540c4f0baf4213b16ddc7116361e4d0348"
+  },
+  {
+    "index": 282,
+    "comment": "🚣Hà Điệp",
+    "keys": [
+      "遐蝶",
+      "Hà Điệp"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "遐蝶"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8705,
+    "contentSha256": "59257845fe1e4febb2822cc488509c02a6c38f88292f1b5c9387dbbb87e24c12"
+  },
+  {
+    "index": 283,
+    "comment": "🚣Akemi Homura",
+    "keys": [
+      "晓美焰",
+      "Akemi Homura"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "晓美焰"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9172,
+    "contentSha256": "14f6e9268bb23067a8d52a8c7a428d70ce81db9566a2f04eaf6f27abab66131f"
+  },
+  {
+    "index": 284,
+    "comment": "🚣Yuzuriha Inori",
+    "keys": [
+      "楪祈",
+      "祈妹",
+      "Yuzuriha Inori",
+      "Bé Inori"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "楪祈",
+      "祈妹"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 8711,
+    "contentSha256": "9cb8cd74220249c6d0ac0e8620896f4ddb26a9628d65f607915301952db09cb1"
+  },
+  {
+    "index": 285,
+    "comment": "🚣Yuno",
+    "keys": [
+      "尤诺",
+      "Yuno"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "尤诺"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9803,
+    "contentSha256": "e027d67db2dd2a8dad6ad13231f875efed64f103b4f87ffb8dd464ce9b8bc0f3"
+  },
+  {
+    "index": 286,
+    "comment": "🚣Tomori Nao",
+    "keys": [
+      "友利",
+      "奈绪",
+      "Tomori",
+      "Nao"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "友利",
+      "奈绪"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 11192,
+    "contentSha256": "51a12731364d3251fd36e565c9ebd3b6c89b519e5c6df7a731543d32da2af931"
+  },
+  {
+    "index": 287,
+    "comment": "🚣Misaka Mikoto",
+    "keys": [
+      "御坂",
+      "美琴",
+      "Misaka",
+      "Mikoto"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "御坂",
+      "美琴"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9639,
+    "contentSha256": "4a2b606e88e95e266e73b167ca3ce442728068ae77f0acfebbebe73fc1e00806"
+  },
+  {
+    "index": 288,
+    "comment": "🚣C.C.",
+    "keys": [
+      "C.C.",
+      "CC",
+      "Cc",
+      "cc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9201,
+    "contentSha256": "77285773de72d48b650d70eb45ecf8cc357aef032403b64cf876bdca2a252e3d"
+  },
+  {
+    "index": 289,
+    "comment": "Lối vào Tầng Biên Giới (Sương Xám Luân Hồi Thủy Chi Đô)",
+    "keys": [
+      "边界层",
+      "忘川汀深处",
+      "现实交汇",
+      "Tầng Biên Giới",
+      "Sâu trong Vong Xuyên Đinh",
+      "Thực tại giao nhau"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "边界层",
+      "忘川汀深处",
+      "现实交汇"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1229,
+    "contentSha256": "69d70ba901bebd376543cad0f1996e8460dfff5ba3967673ea310c16181f68a2"
+  },
+  {
+    "index": 290,
+    "comment": "Trạm cứu hộ biên giới",
+    "keys": [
+      "边境救助站",
+      "救助站",
+      "Trạm cứu hộ biên giới",
+      "trạm cứu hộ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "边境救助站",
+      "救助站"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1389,
+    "contentSha256": "041cc943e84dd3d54a11be0b938a41b6f93042976ae0548f8459ec4c07e26c2a"
+  },
+  {
+    "index": 291,
+    "comment": "Rìa Đảo Phù Du",
+    "keys": [
+      "浮游岛边缘",
+      "灰海",
+      "Rìa Đảo Phù Du",
+      "Biển Xám"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "浮游岛边缘",
+      "灰海"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 986,
+    "contentSha256": "a0d5e13d2327a17e377ff5b34fcf373e1b19212a3c16e5218b3f6ec6340d8cb2"
+  },
+  {
+    "index": 292,
+    "comment": "Phòng nghị sự Đảo Phù Du",
+    "keys": [
+      "浮游岛中央",
+      "异能者议会",
+      "议会厅",
+      "Trung tâm Đảo Phù Du",
+      "Hội đồng Dị năng giả",
+      "Phòng nghị sự"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "浮游岛中央",
+      "异能者议会",
+      "议会厅"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 995,
+    "contentSha256": "8b55e834b6e1e43cdcbec0fb156f2ddfed262341db0cd80cd4472c09c6d6792c"
+  },
+  {
+    "index": 293,
+    "comment": "Khu Tiếng Hát",
+    "keys": [
+      "浮游岛中层",
+      "边界层稳定点",
+      "歌声区",
+      "Tầng giữa Đảo Phù Du",
+      "Điểm ổn định tầng ranh giới",
+      "Khu Tiếng Hát"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "浮游岛中层",
+      "边界层稳定点",
+      "歌声区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1250,
+    "contentSha256": "9fd4b207341bc2caf4ac243f877d675d444c72762aaf9bb3d81d713550debce1"
+  },
+  {
+    "index": 294,
+    "comment": "Khu vực Đảo ngược Sương xám",
+    "keys": [
+      "灰雾反转",
+      "反转区域",
+      "镜宫外延",
+      "Sương xám đảo ngược",
+      "Khu vực đảo ngược",
+      "Rìa ngoài Kính Cung"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "灰雾反转",
+      "反转区域",
+      "镜宫外延"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1491,
+    "contentSha256": "37a10d7be2f79234298048f322dd7ebd0e2c1ca5ee412d340bca3ad4ddabc045"
+  },
+  {
+    "index": 295,
+    "comment": "Khu vực Sương xám Dâng rút",
+    "keys": [
+      "灰雾涨落",
+      "缄默礁沿岸",
+      "Sương xám Dâng rút",
+      "dọc bờ Đá ngầm Trầm mặc"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "灰雾涨落",
+      "缄默礁沿岸"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1087,
+    "contentSha256": "b82f1831d50f9e8bb8d332b0dce78d5d704fc353c14c9a165d2dc3b0b0f2e0fb"
+  },
+  {
+    "index": 296,
+    "comment": "Lối vào Thủy Chi Đô",
+    "keys": [
+      "水之都入口",
+      "浮游岛群",
+      "Lối vào Thủy Chi Đô",
+      "Quần đảo Trôi nổi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "水之都入口",
+      "浮游岛群"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1290,
+    "contentSha256": "22ee73d4eb781966c406610048f18b6e18b970fb449595040c5e1b4f7874eb05"
+  },
+  {
+    "index": 297,
+    "comment": "Hành Lang Ký Ức",
+    "keys": [
+      "记忆回廊",
+      "浮游岛深层",
+      "Hành Lang Ký Ức",
+      "Tầng sâu Đảo Trôi nổi"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "记忆回廊",
+      "浮游岛深层"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1427,
+    "contentSha256": "8f93641c02e6bd5bcd1ed88cced58216a85ca72926e672718d6d2f61cd83ce2e"
+  },
+  {
+    "index": 298,
+    "comment": "Bưu Điện Ký Ức",
+    "keys": [
+      "记忆邮局",
+      "邮局",
+      "Bưu Điện Ký Ức",
+      "Bưu điện"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "记忆邮局",
+      "邮局"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1328,
+    "contentSha256": "58d8eea1ab36ba1e847751fac453740297718d07ec8d6ce8556162af9e11ee05"
+  },
+  {
+    "index": 299,
+    "comment": "Rạn San Hô Tĩnh Lặng",
+    "keys": [
+      "缄默礁",
+      "缄默",
+      "Rạn San Hô Tĩnh Lặng",
+      "tĩnh lặng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "缄默礁",
+      "缄默"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 920,
+    "contentSha256": "34b08fc651eb379cfa1c1a7e4d8e549d46b9ae7aecddf8b5389319568724ea2a"
+  },
+  {
+    "index": 300,
+    "comment": "Vách Đá Ngầm",
+    "keys": [
+      "礁崖",
+      "缄默礁边缘",
+      "Vách Đá Ngầm",
+      "Rìa Rạn San Hô Tĩnh Lặng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "礁崖",
+      "缄默礁边缘"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 917,
+    "contentSha256": "3fbe48f7f74c3614c3cf2c8789e26b8512474015d0820855018dcf8885766104"
+  },
+  {
+    "index": 301,
+    "comment": "Khu Vực Đình Trệ",
+    "keys": [
+      "静滞区",
+      "Khu Vực Đình Trệ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "静滞区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1213,
+    "contentSha256": "f7c453df4a9b4c05ce1665a00531eb74f558074d2a2bf5b893f8acfac847da68"
+  },
+  {
+    "index": 302,
+    "comment": "Phế Tích Kính Cung",
+    "keys": [
+      "镜宫废墟",
+      "Phế Tích Kính Cung"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜宫废墟"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1498,
+    "contentSha256": "ef12869307303a918eae82bd000a8441eeea256343517ab473e669bc9559b194"
+  },
+  {
+    "index": 303,
+    "comment": "Lối Vào Kính Cung",
+    "keys": [
+      "镜宫入口",
+      "玻璃建筑",
+      "Lối Vào Kính Cung",
+      "kiến trúc bằng kính"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜宫入口",
+      "玻璃建筑"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 975,
+    "contentSha256": "1693928a19865b276cf225953a07a31fd84ffa35abdfcf7610e67bc67df5b89f"
+  },
+  {
+    "index": 304,
+    "comment": "Viễn Cảnh Kính Cung",
+    "keys": [
+      "镜宫远景",
+      "玻璃建筑",
+      "镜宫",
+      "Viễn Cảnh Kính Cung",
+      "kiến trúc bằng kính",
+      "Kính Cung"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜宫远景",
+      "玻璃建筑",
+      "镜宫"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1025,
+    "contentSha256": "81e6deb224aaed952ac2c033755ac2b29c005e6e30c494315121ca9eb6d70fcc"
+  },
+  {
+    "index": 305,
+    "comment": "Trung Tâm Kính Cung",
+    "keys": [
+      "镜宫中央",
+      "镜宫深处",
+      "Trung Tâm Kính Cung",
+      "Sâu trong Kính Cung"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "镜宫中央",
+      "镜宫深处"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1219,
+    "contentSha256": "4375740875a18df19658207cbbdbc31f469260d67af1851df33e043dc5edb437"
+  },
+  {
+    "index": 306,
+    "comment": "Cục Quản Lý Không Gian",
+    "keys": [
+      "空间管理局",
+      "回廊交汇",
+      "Cục Quản Lý Không Gian",
+      "Điểm giao thoa Hồi Lang"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "空间管理局",
+      "回廊交汇"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1459,
+    "contentSha256": "f165fbd7f5dc569bbbc806f8a2e291784902abf4bc51c5aa78913fc89ee2144f"
+  },
+  {
+    "index": 307,
+    "comment": "Khu Luân Hồi",
+    "keys": [
+      "轮回区",
+      "时间循环",
+      "Khu Luân Hồi",
+      "Vòng lặp thời gian"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "轮回区",
+      "时间循环"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1361,
+    "contentSha256": "1cce01c13b253a03fec75a26fad64edf32498114e91bd1224bf55e4f7243ba9a"
+  },
+  {
+    "index": 308,
+    "comment": "Khu Minh Hà",
+    "keys": [
+      "冥河区",
+      "冥河",
+      "Khu Minh Hà",
+      "Minh Hà"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "冥河区",
+      "冥河"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1143,
+    "contentSha256": "97248a75f4797348f487740e97bc45301eb361c480528faa771552ac90fa941f"
+  },
+  {
+    "index": 309,
+    "comment": "Lõi Năng Lượng",
+    "keys": [
+      "能量核心",
+      "能源系统",
+      "Lõi Năng Lượng",
+      "hệ thống năng lượng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "能量核心",
+      "能源系统"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1362,
+    "contentSha256": "f5063086a0253dce8d6dced1d46e89b920a2ef93b2ee6944e9cb4cea455a3459"
+  },
+  {
+    "index": 310,
+    "comment": "Khu Khe Nứt Thời Gian",
+    "keys": [
+      "时间裂隙区",
+      "时间裂隙",
+      "裂隙区",
+      "Khu Khe Nứt Thời Gian",
+      "khe nứt thời gian",
+      "khu khe nứt",
+      "Khe nứt thời gian"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "时间裂隙区",
+      "时间裂隙",
+      "裂隙区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1340,
+    "contentSha256": "a65fffd948ec49435fa70c228b9d771765b0b5ec9e2b89c14326d180d132f793"
+  },
+  {
+    "index": 311,
+    "comment": "Bốn Tấm Gương",
+    "keys": [
+      "四面镜子",
+      "四面镜",
+      "Bốn Tấm Gương",
+      "bốn mặt gương"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "四面镜子",
+      "四面镜"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1128,
+    "contentSha256": "b63f8d2022626558ec36e845faac5b393bf4f8fc2bbe9944a190109df2cf90b2"
+  },
+  {
+    "index": 312,
+    "comment": "Hành Lang Tố Quang",
+    "keys": [
+      "溯光回廊",
+      "溯光",
+      "玻璃廊道",
+      "Hành Lang Tố Quang",
+      "Tố Quang",
+      "hành lang kính"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "溯光回廊",
+      "溯光",
+      "玻璃廊道"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1420,
+    "contentSha256": "a23e43a89e472ed377f31be416a962482f6e18defe1f2c0a8be060aa38ee9590"
+  },
+  {
+    "index": 313,
+    "comment": "Khu Vương Tọa",
+    "keys": [
+      "王座区",
+      "Khu Vương Tọa"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "王座区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1403,
+    "contentSha256": "0eea51ffa7c6108ef25608d9fd214b47a72844a485b1c9a8b04d66b6940a2221"
+  },
+  {
+    "index": 314,
+    "comment": "Vong Xuyên Đinh",
+    "keys": [
+      "忘川汀",
+      "忘川",
+      "Vong Xuyên Đinh",
+      "Vong Xuyên"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "忘川汀",
+      "忘川"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1774,
+    "contentSha256": "5d7d162d7358b60a8ce917b2c76f9fff1c0958ffdeb67e38c6bb1c13fc1d71cc"
+  },
+  {
+    "index": 315,
+    "comment": "Hư Tượng Đình",
+    "keys": [
+      "虚像庭",
+      "虚像",
+      "碎镜庭院",
+      "Hư Tượng Đình",
+      "Hư tượng",
+      "Đình viện gương vỡ"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "虚像庭",
+      "虚像",
+      "碎镜庭院"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 997,
+    "contentSha256": "aa97815b7c3e2673dbcf7584dcf11b5ee632fe9a97d071e4a272f2831197b7e7"
+  },
+  {
+    "index": 316,
+    "comment": "Học Viện Dị Năng Giả",
+    "keys": [
+      "异能者学院",
+      "Học Viện Dị Năng Giả"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "异能者学院"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1406,
+    "contentSha256": "b317d76eb2c20e069990facfa372dedaebcf99805cfce16278f52c31d8d12961"
+  },
+  {
+    "index": 317,
+    "comment": "Khu Ẩn Nấp",
+    "keys": [
+      "隐匿区",
+      "Khu Ẩn Nấp"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "隐匿区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1085,
+    "contentSha256": "e1a5147e90f020361b7f2cf975a40132bff6045a8add226369441426992b7cac"
+  },
+  {
+    "index": 318,
+    "comment": "Thư Viện Vĩnh Hằng",
+    "keys": [
+      "永恒图书馆",
+      "Thư Viện Vĩnh Hằng"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "永恒图书馆"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1394,
+    "contentSha256": "5f95cfe8b803532652ee99ca262b48cdadd3491230cbc4d763fcfb47a9106a28"
+  },
+  {
+    "index": 319,
+    "comment": "Đài Quan Sát Nguyệt Tướng",
+    "keys": [
+      "月相观测所",
+      "月相观测",
+      "观测所",
+      "Đài Quan Sát Nguyệt Tướng",
+      "quan sát nguyệt tướng",
+      "đài quan sát"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "月相观测所",
+      "月相观测",
+      "观测所"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1459,
+    "contentSha256": "a817f678ee8ed36647e936687210a507a763aac4a2061347b943895148946dc6"
+  },
+  {
+    "index": 320,
+    "comment": "Khu Chi Phối",
+    "keys": [
+      "支配区",
+      "Khu Chi Phối"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "支配区"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1250,
+    "contentSha256": "d7bec4d6b13d1d0aec6b752e6d55597df3d857a17c7c985072ff4723c3ea13be"
+  },
+  {
+    "index": 321,
+    "comment": "Học viện Chú thuật",
+    "keys": [
+      "咒术学院",
+      "咒术",
+      "Học viện Chú thuật",
+      "chú thuật"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "咒术学院",
+      "咒术"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1289,
+    "contentSha256": "39f0c0a69cb77074e9a2fb254a64ae81db41ef3b487c5f745dfbdb0a922276d9"
+  },
+  {
+    "index": 322,
+    "comment": "Thủy Đô_Chương 1",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 11148,
+    "contentSha256": "522e5bddbba7c7fc482a56d84ed69d8eaac861f2b6a82584d521d8e17202d356"
+  },
+  {
+    "index": 323,
+    "comment": "Thủy_Đô_Chương_2",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 13855,
+    "contentSha256": "c743195d232f8485d70a7fa584a9b8b52ce10eb923947d1fb98718555c47e2fd"
+  },
+  {
+    "index": 324,
+    "comment": "Thủy_Đô_Chương_3",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 12211,
+    "contentSha256": "85ebd2ea7a396ac67611729b76051f5c307892035022b473a04c438eb48ea1c7"
+  },
+  {
+    "index": 325,
+    "comment": "Thủy_Đô_Chương_4",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 14085,
+    "contentSha256": "7abe0e4575f65ed504eda32737b095ebc125648ab65e525ac23de6a9f69aadc8"
+  },
+  {
+    "index": 326,
+    "comment": "Thủy_Đô_Chương_5",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 14044,
+    "contentSha256": "6159b8868c01fde53bcc8420f2d1c8992c3370a693ff0c11b618602bf5d65075"
+  },
+  {
+    "index": 327,
+    "comment": "Thủy_Đô_Chương_6",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 14176,
+    "contentSha256": "8c4a9ced1235353df06bb27f8960a0214d0fb97d72de55115bbf644ed86fcb6a"
+  },
+  {
+    "index": 328,
+    "comment": "Thủy_Đô_Khởi_Đầu",
+    "keys": [
+      "水之都",
+      "Thủy Đô",
+      "Thủy Chi Đô"
+    ],
+    "secondary_keys": [],
+    "cjk_keys": [
+      "水之都"
+    ],
+    "constant": false,
+    "selective": true,
+    "enabled": true,
+    "position": "before_char",
+    "contentLength": 1677,
+    "contentSha256": "70a5efe585b5db5069b0bab8e062ad3a363750e5d0e83c486591986eb710b746"
+  },
+  {
+    "index": 329,
+    "comment": "⚙️Quy tắc thao tác biến số ERA",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 3735,
+    "contentSha256": "ccf47162e81e20c3406e47a55df692495da4e614abee9d47f3aa204da77bc5bb"
+  },
+  {
+    "index": 330,
+    "comment": "⚙️Giải thích ý đồ biến số ERA",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": true,
+    "selective": true,
+    "enabled": true,
+    "position": "after_char",
+    "contentLength": 9844,
+    "contentSha256": "6b4977fb7109785a21e3ba4b3c4f45d56f4cccbae6a0d766dd313597f2f54db2"
+  },
+  {
+    "index": 331,
+    "comment": "Thanh Minh_Chương khác",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 332,
+    "comment": "Eldora_Chương khác",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 333,
+    "comment": "Neon 2187_Chương khác",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 334,
+    "comment": "Thủy Đô_Chương khác",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "index": 335,
+    "comment": "Ảo Tưởng Hương_Chương khác",
+    "keys": [],
+    "secondary_keys": [],
+    "cjk_keys": [],
+    "constant": false,
+    "selective": true,
+    "enabled": false,
+    "position": "before_char",
+    "contentLength": 0,
+    "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

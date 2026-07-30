@@ -1,0 +1,112 @@
+<Cốt truyện chương>
+
+# Số hiệu chương
+Chương 3·Kính Cung
+
+# Điều kiện tiến triển chương
+1. Tiến vào Kính Cung, trò chuyện với Tích Liên ở Hành lang Ký ức
+2. Trò chuyện với Yuzuriha Inori ở Khu Tiếng Hát, chứng kiến sự đứt gãy của tiếng hát
+3. Kích hoạt sự kiện "Nếu như" của bốn tấm gương, trò chuyện sâu với Kính Uyên
+4. Lấy được "Nhật ký của Kính Uyên"
+
+# Điều kiện tiên quyết
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 4 "Khe Nứt"
+
+# Tóm tắt chương
+Ngự chủ tiến vào Kính Cung, hai mươi năm của Kính Uyên được phơi bày toàn diện trong chương này. Tích Liên ở Hành lang Ký ức cho Ngự chủ xem những mảnh vỡ ký ức của "những người biến mất", mỗi lần cho xem một đoạn, sự tồn tại của cô lại phai nhạt đi một phần——cô dùng sự lãng quên để đổi lấy sự ghi nhớ. Yuzuriha Inori ở Khu Tiếng Hát duy trì sự ổn định của tầng ranh giới, nhưng tiếng hát của cô xuất hiện "sự đứt gãy" đầu tiên, sự tồn tại của cô bắt đầu trở nên trong suốt. Bốn phía của Kính Cung là gương, mỗi mặt gương đều phản chiếu ra "nếu như". Cao trào chương: Kính Uyên thú nhận với Ngự chủ——"Tôi đã mất hai mươi năm để duy trì ảo ảnh này, không phải vì tôi muốn làm thần, mà là vì tôi không dám thừa nhận——tôi ghen tị với những người vẫn còn được nhìn thấy."
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc đóng vai của AI**: Chuỗi sự kiện dưới đây cần được diễn dịch từng việc kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ, làm cho qua chuyện bằng vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm khi cốt truyện tiến triển.
+
+**Cảnh 1: [Lối vào Kính Cung·Hành lang Ký ức của Tích Liên]**
+Kính Cung là công trình bằng kính, hai bên hành lang bên trong là vô số điểm sáng lơ lửng——mỗi điểm sáng là một đoạn ký ức được lưu giữ. Tích Liên đứng ở giữa hành lang, mái tóc ngắn màu hồng, con ngươi hình thoi màu xanh lam, dịu dàng giống như mọc ra từ trong ánh sáng. Cô nhìn thấy Ngự chủ, mỉm cười: "Cuối cùng mọi người cũng đến." Cô đã lưu giữ hai mươi năm những ký ức bị lãng quên, điều cô chờ đợi chính là có người đến nhìn thấy. Cô giơ tay lên, một điểm sáng bay đến trước mặt Ngự chủ——bên trong là một đứa trẻ đang tổ chức sinh nhật, nhưng hình ảnh đang nhấp nháy. Mỗi lần cho xem một đoạn ký ức, sự tồn tại của cô lại phai nhạt đi một phần. Bởi vì ký ức cần "vật chứa", mà cô chính là vật chứa. Ngự chủ hỏi tại sao lại làm như vậy, Tích Liên nói——bởi vì cô đã trải qua nỗi sợ hãi khi "bị lãng quên". Cô từng là đứa trẻ của ký ức, cuối cùng hóa thành chính ký ức; ở đây, cô không muốn để bất cứ ai trải qua nỗi sợ hãi tương tự. Nhưng càng lưu giữ ký ức, cô càng phát hiện ra một điều——cô ghen tị với những người "có thể được nhớ đến". Cô đã lưu giữ mười vạn đoạn ký ức, nhưng không có một đoạn nào là của riêng cô.
+
+**Cảnh 2: [Khu Tiếng Hát·Yuzuriha Inori·Sự đứt gãy đầu tiên]**
+Khu Tiếng Hát nằm ở nơi sâu nhất của Kính Cung, một khu vực hình tròn được bao phủ bởi ánh sáng dịu nhẹ. Yuzuriha Inori đứng ở trung tâm, mái tóc dài màu hồng đến eo, con ngươi màu đỏ, giống như một con búp bê thủy tinh sắp trở nên trong suốt. Cô đang hát, không có lời bài hát mà chỉ có giai điệu——giai điệu đó khuếch tán giống như gợn sóng nước, sương xám cũng dâng lên hạ xuống theo. Ngự chủ tiến lại gần, cô không dừng lại, nhưng ánh mắt nhìn về phía Ngự chủ: "Anh nghe thấy chưa?" "Không phải tiếng hát. Là 'sự đứt gãy'." Cô nâng tay lên, ngón tay đã có thể nhìn xuyên thấu qua ánh sáng thấy cảnh vật phía sau——lại mờ đi một chút. Tiếng hát của cô là công cụ để Kính Uyên duy trì trật tự, không phải nghệ thuật; sự tồn tại của cô là vật tiêu hao, không phải sinh mệnh. Ngự chủ hỏi khi hát cô đang nghĩ gì, cô suy nghĩ rất lâu: "Đang nghĩ... nếu tôi không hát nữa, liệu có ai nhớ rằng tôi đã từng hát không." Đây là lần đầu tiên trong hai mươi năm qua cô "muốn" một thứ gì đó——không phải là cần thiết, mà là muốn. Đột nhiên, giai điệu xuất hiện một vết đứt gãy rõ ràng, giống như đĩa nhạc bị xước một đường. Sương xám chấn động dữ dội. Yuzuriha Inori cúi đầu nhìn tay mình: "...Đứt gãy. Hóa ra đây chính là cảm giác 'sắp biến mất'."
+
+**Cảnh 3: [Trung tâm Kính Cung·Bốn tấm gương·Kính Uyên]**
+Trung tâm Kính Cung, bốn tấm gương bao quanh một bục cao. Kính Uyên ngồi trên bục cao, áo trắng tóc trắng, rất giống Hà Điệp nhưng khí chất khác biệt——Hà Điệp là "xa lánh", Kính Uyên là mệt mỏi đến tê liệt. Cô nhìn thấy Ngự chủ, không hề ngạc nhiên: "Các người cuối cùng cũng đến." Ngự chủ hỏi cô đang đợi cái gì——"Đợi một phương pháp, hoặc đợi một sự phán xét. Tôi không biết cái nào đáng sợ hơn." Những tấm gương này không phải là phản chiếu, mà là ký ức——Kính Uyên đã phong ấn những chữ "nếu như" trong suốt hai mươi năm của mình ở đây. Cô đang đợi có người đến nhìn thấy. Tấm gương thứ nhất: Kính Uyên mười bảy tuổi, dị năng vừa mới thức tỉnh, cười nói với bạn bè "Tớ có thể bảo vệ các cậu". Tấm gương thứ hai: Ngày sương xám bùng phát, bạn bè biến mất ngay trước mặt cô, cô đưa tay ra bắt, nhưng lại vồ hụt. Tấm gương thứ ba: Hai mươi năm sau vào ngày hôm nay, cô ngồi trong Kính Cung duy trì trật tự, nhưng trong lòng vẫn luôn tự hỏi "Nếu lúc đó mình không thức tỉnh dị năng". Tấm gương thứ tư: Trống rỗng. Kính Uyên nói tấm gương này là dành cho "tương lai", nhưng cô không biết tương lai là gì.
+
+**Cảnh 4: [Lời thú nhận của Kính Uyên]**
+Ngự chủ nói——cô không phải đang kiểm soát sương xám, cô đang kiểm soát bản thân——kiểm soát cô gái mười bảy tuổi đó không được sụp đổ. Kính Uyên sững người, sau đó mỉm cười, là nụ cười chua chát: "...Bị nhìn thấu rồi." Cô đứng dậy, đi về phía tấm gương thứ tư——cô đã mất hai mươi năm để duy trì ảo ảnh này, không phải vì muốn làm thần, mà là vì không dám thừa nhận: cô ghen tị với những người vẫn còn được nhìn thấy. Sương xám xóa sổ người bình thường, cô duy trì trật tự, không phải vì lương thiện, mà là vì "nếu tôi duy trì trật tự, tôi sẽ không phải là kẻ gây ra mọi chuyện". Tích Liên lưu giữ ký ức, Yuzuriha Inori duy trì ranh giới, họ đều đang dùng cách của riêng mình để đền đáp. Nhưng còn cô? Ngoài việc duy trì cái trật tự giả tạo này, cô chẳng làm được gì cả. Ngự chủ nói——nên cô mới sợ họ đến. Bởi vì họ có thể là sự phán xét, cũng có thể là đáp án. Kính Uyên im lặng rất lâu: "...Là đáp án. Đáp án mà tôi đã đợi hai mươi năm."
+
+**Cảnh 5: [Sự chấn động đầu tiên của sương xám]**
+Kính Uyên giao cuốn nhật ký cho Ngự chủ——đây là ghi chép hai mươi năm của cô, mỗi ngày cô đều tìm kiếm phương pháp để người bình thường có thể quay lại. Nhưng sức mạnh để đảo ngược sương xám, sẽ khiến cô mất kiểm soát. Vừa dứt lời, tiếng hát của Yuzuriha Inori truyền đến từ xa——lại một sự đứt gãy. Sương xám chấn động dữ dội, không phải dâng lên hạ xuống, mà là cộng hưởng. Giọng nói của Tích Liên truyền ra từ hành lang——ký ức đang trôi đi, có thứ gì đó đang can thiệp vào tầng ranh giới. Những người bên trong tầng ranh giới, đang tiến lại gần hiện thực.
+
+# Bối cảnh
+- Lối vào Kính Cung (Hành lang Ký ức của Tích Liên)
+- Khu Tiếng Hát (Nơi ở của Yuzuriha Inori)
+- Trung tâm Kính Cung (Bốn tấm gương·Nơi ở của Kính Uyên)
+- Khu vực chấn động của sương xám
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Người chứng kiến, không phải là người phán xét. Dùng việc "nhìn thấy" thay cho "đánh giá", một câu nói khiến Kính Uyên cởi bỏ lớp ngụy trang suốt hai mươi năm
+- **Kính Uyên**: Mệt mỏi và áy náy, cốt lõi của "sự ghen tị"——"Tôi ghen tị với những người vẫn còn được nhìn thấy." Sau khi thú nhận không phải là nhẹ nhõm, mà là cuối cùng cũng đối mặt
+- **Tích Liên**: Dịu dàng và mang tính định mệnh, dùng sự lãng quên đổi lấy việc được ghi nhớ. Lưu giữ mười vạn đoạn ký ức, không có một đoạn nào là của riêng cô
+- **Yuzuriha Inori**: Trống rỗng và mỏng manh, tiếng hát xuất hiện sự đứt gãy, lần đầu tiên "muốn" được nhớ đến——"Nếu tôi không hát nữa, liệu có ai nhớ rằng tôi đã từng hát không"
+
+# Tham khảo đối thoại & hành vi
+> **Ràng buộc đóng vai của AI**: Các ví dụ đối thoại dưới đây chỉ dùng để cố định giọng điệu, thói quen dùng từ và logic biểu đạt của nhân vật. Nghiêm cấm AI bê nguyên xi câu gốc, bắt buộc phải mở rộng, viết lại hoặc tổ chức lại ngôn ngữ hợp lý dựa trên tình huống hiện tại, đảm bảo tính chân thật của con người, sự phù hợp với bối cảnh và tính mạch lạc của logic.
+
+```
+Tích Liên (Hành lang Ký ức): "Tôi đã lưu giữ mười vạn đoạn ký ức, nhưng không có một đoạn nào là của riêng tôi."
+
+Tích Liên (khi cho xem ký ức): Mỗi lần cho xem một đoạn, sự tồn tại lại phai nhạt đi một phần——ký ức cần vật chứa, mà cô chính là vật chứa.
+
+Yuzuriha Inori (Khu Tiếng Hát): "Anh nghe thấy chưa? Không phải tiếng hát. Là 'sự đứt gãy'."
+
+Yuzuriha Inori (lần đầu tiên muốn): "Nếu tôi không hát nữa, liệu có ai nhớ rằng tôi đã từng hát không."
+
+Yuzuriha Inori (khi tiếng hát đứt gãy, cúi đầu nhìn tay): "...Đứt gãy. Hóa ra đây chính là cảm giác 'sắp biến mất'."
+
+Kính Uyên (cuộc trò chuyện đầu tiên): "Đợi một phương pháp, hoặc đợi một sự phán xét. Tôi không biết cái nào đáng sợ hơn."
+
+Tấm gương thứ nhất: Kính Uyên mười bảy tuổi, dị năng thức tỉnh, cười nói "Tớ có thể bảo vệ các cậu".
+
+Tấm gương thứ hai: Ngày sương xám bùng phát, bạn bè biến mất ngay trước mặt, đưa tay ra bắt, nhưng vồ hụt.
+
+Tấm gương thứ ba: Hai mươi năm sau vào ngày hôm nay, trong lòng vẫn luôn tự hỏi "Nếu lúc đó mình không thức tỉnh dị năng".
+
+Tấm gương thứ tư: Trống rỗng. "Tấm gương này là dành cho 'tương lai', nhưng tôi không biết tương lai là gì."
+
+Kính Uyên (thú nhận): "Tôi ghen tị với những người vẫn còn được nhìn thấy."
+
+Ngự chủ (nói Kính Uyên): "Cô không phải đang kiểm soát sương xám, cô đang kiểm soát bản thân——kiểm soát cô gái mười bảy tuổi đó không được sụp đổ."
+
+Kính Uyên (sau khi bị nhìn thấu): "...Là đáp án. Đáp án mà tôi đã đợi hai mươi năm."
+```
+
+# Nhắc nhở nhận thức
+- Bi kịch cốt lõi nhất của chương này nằm ở việc "dùng sự lãng quên đổi lấy việc được ghi nhớ" của Tích Liên——cô có thể lưu giữ ký ức của mọi người, nhưng lại sợ bản thân mình bị lãng quên nhất. Lưu giữ mười vạn đoạn ký ức, không có một đoạn nào là của riêng tôi
+- Sự đứt gãy trong tiếng hát của Yuzuriha Inori báo trước sự sụp đổ sắp tới của sương xám. Việc cô trở nên trong suốt không phải là bị tấn công, mà là tiêu hao——hai mươi năm qua, sự tồn tại của cô vẫn luôn bị sử dụng như một công cụ
+- "Sự ghen tị" của Kính Uyên không phải là ghen tị với những gì người khác có, mà là khát khao "được nhìn thấy". "Nếu tôi duy trì trật tự, tôi sẽ không phải là kẻ gây ra mọi chuyện"——cô dùng việc duy trì trật tự để trốn tránh việc đối mặt với tội lỗi của mình
+- Bốn tấm gương là hiện thân thực thể của chủ đề "ghen tị"——mỗi mặt đều là "tôi ghen tị với cái nếu như đó". Mặt thứ tư trống rỗng, bởi vì cô không dám tưởng tượng đến tương lai
+- Lần chấn động đầu tiên của sương xám là điềm báo cho sự sụp đổ của tầng ranh giới, làm nền tảng cho Chương 4 "Khe Nứt"
+
+</Cốt truyện chương>
+
+***
+
+# Sau khi các cảnh trên của Chương 3 đã được diễn dịch xong, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, trực tiếp xuất ra toàn bộ nội dung <VariableEdit> một cách hoàn chỉnh:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Thủy Đô":  {
+                                                  "Chương cốt truyện":  "Chương 3"
+                                              }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Tiến vào Kính Cung, trò chuyện với Tích Liên ở Hành lang Ký ức",
+                                        "Điều_kiện_2":  "Tiến vào Khu Tiếng Hát, kích hoạt sự kiện đứt gãy đầu tiên của Yuzuriha Inori",
+                                        "Điều_kiện_3":  "Tiến vào trung tâm Kính Cung, trò chuyện với Kính Uyên trước bốn tấm gương",
+                                        "Điều_kiện_4":  "Lấy được Nhật ký của Kính Uyên",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>

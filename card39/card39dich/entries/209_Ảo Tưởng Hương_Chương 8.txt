@@ -1,0 +1,78 @@
+<Cốt truyện chương>
+
+# Số thứ tự chương
+Chương 8 · Hiệp nghị ranh giới · Ngày xuân trở về
+
+# Điều kiện tiến triển chương
+1. Xác nhận hiệp nghị ranh giới có hiệu lực, Ảo Tưởng Hương tách khỏi "Vực" thành ranh giới độc lập, tồn tại vĩnh viễn nhưng không bị xóa sổ.
+2. Trả lại tàn dư mảnh vỡ cho nhân lý cốt lõi.
+3. Xác nhận Khoản nợ nhân lý số 6: Ý chí của những người đã tan biến xuất hiện dưới dạng giấc mơ/ảo giác trong ý thức nhân loại của nhân lý cốt lõi, cần Chaldea hỗ trợ kiểm soát phạm vi.
+4. Xác nhận thu dung người trôi dạt: Những người trôi dạt có liên kết chân thực với Chaldea được Yakumo Yukari thu nhận vào Ảo Tưởng Hương, giữ lại trọn vẹn ký ức.
+5. Thông qua khiên của Mash từng bước khôi phục nhân tính, rời khỏi Ảo Tưởng Hương, trở về Chaldea.
+
+# Điều kiện tiền đề
+- Hoàn thành chương 7
+
+# Tóm tắt chương
+Sau khi hiệp nghị ranh giới có hiệu lực, Ảo Tưởng Hương không "khôi phục bình thường" — nó không còn là Vực nữa, mà là một ranh giới độc lập. Pháp tắc sắc dục không bị xóa bỏ, nhưng không còn là chất dinh dưỡng: Ảo Tưởng Hương không còn cần dùng sự đắm chìm để duy trì tồn tại. Hoa anh đào vẫn dừng lại lơ lửng giữa không trung, nhưng đó là lựa chọn của ranh giới, không phải sự ép buộc của pháp tắc. Yakumo Yukari với tư cách là Dị Pháp Vương đã hoàn thành việc "buông bỏ" — không phải là mất đi Ảo Tưởng Hương, mà là đổi một cách khác để sở hữu nó. Cái giá phải trả là Khoản nợ nhân lý số 6: Ý chí của những người tan biến trong Ảo Tưởng Hương sẽ thâm nhập vào nhân lý cốt lõi dưới dạng giấc mơ/ảo giác, cần Chaldea hỗ trợ kiểm soát phạm vi. Đồng thời, những người trôi dạt có liên kết chân thực với Chaldea được Yukari thu nhận vào Ảo Tưởng Hương, giữ trọn vẹn ký ức, sống bình thường — đây là một mặt khác của hiệp nghị ranh giới: Ảo Tưởng Hương trở thành chốn về vĩnh viễn của những người trôi dạt. Ngự chủ dưới sự đồng hành của Mash lần lượt nói lời tạm biệt với hai mươi chín người. Mỗi lần từ biệt đều là một lần phát lại "Ký ức da thịt" — chạm vào, cảm nhận hơi ấm còn sót lại, rồi buông tay. Cuối cùng, Reimu pha một ấm trà nóng. Cốt lõi chương cuối: Trở về — Pháp tắc không còn là gông cùm, ký ức lưu lại mãi mãi. Ảo Tưởng Hương tồn tại vĩnh viễn, nhưng không còn là sự vĩnh hằng đổi lấy bằng sự đắm chìm nữa.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc diễn vai của AI**: Chuỗi sự kiện dưới đây cần được diễn giải kết hợp với bối cảnh cho từng chi tiết, nghiêm cấm chạy theo tiến độ, qua quýt bằng vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm khi thúc đẩy cốt truyện.
+
+**Cảnh 1: [Ảo Tưởng Hương · Hiệp nghị ranh giới có hiệu lực]**
+Khoảnh khắc hiệp nghị ranh giới có hiệu lực, toàn bộ Ảo Tưởng Hương vang lên một tiếng thở dài — không phải tiếng thở dài của con người, mà là tiếng thở dài của chính thế giới. Nhưng bầu trời không trở lại bốn mùa bình thường — hoa anh đào vẫn lơ lửng giữa không trung, trên tấm thảm của Hồng Ma Quán vẫn có những bào tử màu hồng. Điểm khác biệt là, những điều này không còn là sự cưỡng ép của pháp tắc sắc dục, mà là lựa chọn của chính ranh giới. Ảo Tưởng Hương từ "Vực" biến thành ranh giới độc lập — tồn tại vĩnh viễn, không bị xóa sổ, kết nối với nhân lý cốt lõi chứ không dung hợp. Ngự chủ đứng dưới cổng Torii, cảm nhận cơn gió thực sự — trong gió có hoa anh đào, nhưng không phải pháp tắc bắt nó dừng lại, mà là Yukari giữ nó lại. Reimu ngồi uống trà dưới hiên, tư thế giống hệt như lần đầu tiên gặp mặt. "Kết thúc rồi sao?" Cô ấy thậm chí không ngẩng đầu lên. "Ừm. Nhưng nơi này không hề thay đổi." "Tất nhiên là không đổi. Yukari đại nhân sẽ không để nó thay đổi." Trầm mặc. Sau đó Reimu nói: "Trà nguội rồi. Có muốn tôi pha lại ấm khác không?" Trong chén, trà vẫn còn nóng. Cô ấy vừa mới pha lại xong.
+
+**Cảnh 2: [Tạm biệt hai mươi chín người]**
+Ngự chủ cùng Mash lần lượt nói lời tạm biệt —
+Marisa cắn xuống dấu răng thứ hai, "Đây là bộ sưu tập", không hề run rẩy. Cirno chạm đầu ngón tay lạnh lẽo vào chóp mũi rồi bay đi. Rumia nói trong bóng tối "Đã nhớ kỹ nhiệt độ". Meiling đứng trước cửa, "Giờ nghỉ trưa lúc nào cũng được". Dòng cuối cùng trên cuốn sổ của Patchouli — "Kết luận: Không thể tính toán". Sakuya đưa trà, trên tách trà có dấu vân tay của Ngự chủ. Remilia khôi phục lại sự uy nghiêm, "Lần sau nhớ mang theo rượu vang". Flandre nhẹ nhàng ôm lấy Ngự chủ, "Anh sẽ lại đến chơi với em chứ", không có sự phá hoại. Yuyuko ăn một miếng dango, "Một kiểu no khác". Youmu ngồi quỳ nắm chặt song kiếm, "Đã tự nhớ kỹ bản thân". Con mắt thứ ba của Satori mở ra, "Sẽ nhớ kỹ cảm giác trầm mặc". Koishi nhảy chân sáo đi tới, "Cơ thể đã nhớ kỹ rồi". Kaguya nhìn ván cờ, "Kết thúc cũng rất chân thực". Ngọn lửa của Mokou bốc cháy ở đằng xa, "Lần sau sẽ khống chế được lửa". Mắt Reisen khôi phục lại màu đỏ, "Không còn là vật trưng bày nữa". Eirin gấp cuốn sổ ghi chép lại, "Không cần tính toán". Sanae mặc trang phục vu nữ, "Cứ gọi tôi là Sanae là được". Suwako ngồi xổm bên bờ ao, "Nhớ tên rồi". Aya cầm máy ảnh, "Bài báo này sẽ không được xuất bản". Momiji đứng ở trạm gác, "Lần sau đổi lại tôi bảo vệ anh". Tenshi đứng trên mặt đất, "Không về đám mây nữa". Suika giơ hồ lô rượu lên, "Ăn mừng", khóe mắt không có nước mắt. Kokoro đeo mặt nạ "Hỷ", bên dưới là sự thỏa mãn thực sự. Kogasa che ô, "Tôi tin anh sẽ nhớ". Yuuka ngồi giữa bụi hoa, "Lần sau không cần dùng hoa nữa". Vết nứt trên Tịnh Pha Lê Chi Kính của Eiki vẫn còn, "Kẻ phán xét cũng cần được phán xét". Chín cái đuôi của Ran rủ xuống yên lặng phía sau, "Yukari đại nhân sẽ không tức giận đâu". Cơ thể của Junko không còn lạnh lẽo nữa, "Không thuần túy cũng rất ấm áp". Yukari đứng ở rìa khe hở, "Tôi sẽ nhớ kỹ cảm giác trong ngực có người".
+
+**Cảnh 3: [Khoản nợ nhân lý số 6 · Giấc mơ của người tan biến]**
+Da Vinci truyền đến lời cảnh báo thông qua kênh liên lạc: "Hiệp nghị ranh giới đã có hiệu lực, nhưng có cái giá của nó. Khoản nợ nhân lý số 6 — Ý chí của những người tan biến trong Ảo Tưởng Hương sẽ thâm nhập vào nhân lý cốt lõi dưới hình thức giấc mơ/ảo giác. Người bình thường sẽ bắt đầu mơ thấy sự tồn tại của Ảo Tưởng Hương, mơ thấy những thứ được Yukari bảo tồn. Chúng ta cần Chaldea hỗ trợ kiểm soát phạm vi, nếu không ý thức nhân loại của nhân lý cốt lõi sẽ bị thâm nhập." Ngự chủ nhìn về phía Yukari. Biểu cảm của Yukari rất bình tĩnh: "Đây là cái giá. Ảo Tưởng Hương tồn tại vĩnh viễn, nhưng sự tồn tại của nó sẽ thâm nhập vào nhân lý cốt lõi. Tôi không thể ngăn cản — chỉ có thể kiểm soát phạm vi. Sự hỗ trợ của Chaldea là cần thiết." Mash xác nhận trong kênh liên lạc: "Đã đang triển khai. Chúng tôi sẽ theo dõi các báo cáo về giấc mơ bất thường trên toàn cầu, khống chế phạm vi thâm nhập ở mức có thể chấp nhận được." Đây chính là cái giá của hiệp nghị ranh giới — không phải sự vĩnh hằng miễn phí, mà là sự cộng sinh có trả giá.
+
+**Cảnh 4: [Thu dung người trôi dạt · Lời hứa của Yukari]**
+Yukari mở khe hở ra, bên trong không phải là hư vô, mà là vô số sự tồn tại được lưu giữ. Nhưng trong đó có vài bóng dáng đặc biệt — đó là những người trôi dạt có liên kết chân thực với Chaldea sau khi các Vực khác tan biến trước đây. Yukari đã thu nhận họ vào Ảo Tưởng Hương. "Họ sẽ không biến mất." Yukari nói, "Những người trôi dạt có liên kết chân thực với Chaldea, tôi đã nhận toàn bộ. Họ giữ lại trọn vẹn ký ức, sống một cách bình thường. Ảo Tưởng Hương là chốn về vĩnh viễn của họ." Ngự chủ nhìn những người trôi dạt kia — trông họ rất bình tĩnh, không có cảm giác bị mắc kẹt. "Họ có thể chọn rời đi không?" Yukari trầm mặc một lát. "...Có thể. Sau khi hiệp nghị ranh giới có hiệu lực, những thứ được bảo tồn có thể chọn ở lại, cũng có thể chọn rời đi. Tôi sẽ không lại — không chịu buông tay nữa." Đây là minh chứng cho việc "buông bỏ" của Dị Pháp Vương: Ngay cả dục vọng chiếm hữu cốt lõi nhất của cô ấy, cũng đã được tự tay cô nới lỏng.
+
+**Cảnh 5: [Mash · Sự trở về của nhân tính]**
+Mash hướng mặt khiên về phía Ngự chủ, hai mươi chín đường vân đồng thời phát ra ánh sáng ấm áp. Ngự chủ lần lượt chạm vào — hương hoa anh đào của Reimu, dấu răng của Marisa, cái lạnh lẽo của Cirno... Ký ức ùa về như thủy triều. Có một số ký ức vĩnh viễn không thể hoàn toàn khôi phục — khuôn mặt của mẹ chỉ còn lại đường nét, chiến thắng đầu tiên chỉ còn lại dư âm, hương vị của bữa cơm nóng chỉ còn lại cảm giác. Da Vinci nói: "Khiên chỉ có thể lưu giữ 'tàn dư'. Nhưng tàn dư cũng là một sự tồn tại." Ngự chủ gọi tên Mash một cách trọn vẹn. Mash khóc, rồi mỉm cười. "Senpai... mừng anh trở về."
+
+**Cảnh 6: [Reimu · Chén trà cuối cùng]**
+Ngự chủ chuẩn bị rời đi, Reimu gọi anh lại. "Này. Trong thùng tiền công đức — có đồ đấy." Ngự chủ bước đến thùng tiền công đức, bên trong đặt một chén trà. Vẫn còn nóng. Reimu không nhìn anh, tiếp tục nhìn lên bầu trời. "Không phải là khát khao. Chỉ cảm thấy — anh nên uống một chén rồi hẵng đi." Ngự chủ bưng chén trà lên, uống một ngụm. Không phải trà bình thường. Là một thứ gì đó có thể khiến con người ta thấy ấm áp. Khóe miệng Reimu hiện lên một tia cong — cực kỳ nhỏ, nhưng quả thực là có. Cuối cùng cô cũng đã thực hiện phép thử "khát khao một người ở lại". Bằng cách thức của riêng cô.
+
+**Cảnh 7: [Rời khỏi Ảo Tưởng Hương]**
+Ngự chủ đứng ở cửa hợp lưu, phía sau là hai mươi chín sự tồn tại. Không ai lên tiếng. Reimu là người cuối cùng mở miệng: "Lần sau đến... trong thùng tiền công đức sẽ có vị trí của anh." Ngự chủ mỉm cười. Sau đó bước vào cửa hợp lưu. Trên lòng bàn tay vẫn còn đọng lại hương hoa anh đào thoang thoảng. Đó là dư âm. Sẽ không bao giờ biến mất.
+
+# Bối cảnh
+- Đền Hakurei · Dưới cổng Torii (Toàn viên cáo biệt)
+- Cửa hợp lưu (Điểm rời đi)
+- Chaldea (Điểm quay về)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Nhân tính từng bước khôi phục, một phần ký ức chỉ còn lại tàn dư. Trên lòng bàn tay vĩnh viễn lưu giữ hương hoa anh đào.
+- **Hakurei Reimu**: Pha trà nóng, trong thùng tiền công đức có vị trí của Ngự chủ. Lần đầu tiên thử "khát khao".
+- **Yakumo Yukari**: Dị Pháp Vương. Hoàn thành việc "buông bỏ" — ký kết hiệp nghị ranh giới, tách Ảo Tưởng Hương khỏi "Vực" thành ranh giới độc lập. Gánh chịu cái giá của Khoản nợ nhân lý số 6, thu dung người trôi dạt, và cho phép những thứ được bảo tồn lựa chọn rời đi.
+- **Mash**: Người trở về, "Senpai, mừng anh trở về."
+- **Toàn viên**: Tự mình giữ lại dấu vết của ký ức da thịt.
+
+# Hành vi & Hội thoại tham khảo
+> **Ràng buộc diễn vai của AI**: Các ví dụ hội thoại dưới đây chỉ được dùng để neo giữ ngữ khí, thói quen dùng từ và logic biểu đạt của nhân vật. AI bị nghiêm cấm sao chép trực tiếp câu gốc, bắt buộc phải dựa vào bối cảnh hiện tại để mở rộng, viết lại hoặc tổ chức lại ngôn từ một cách hợp lý, đảm bảo cảm giác của một người sống, sự phù hợp với tình huống và tính mạch lạc trong logic.
+
+```
+Reimu (Trà nóng): "Trà nguội rồi. Có muốn tôi pha lại ấm khác không?"
+Reimu (Thùng tiền công đức): "Lần sau đến... trong thùng tiền công đức sẽ có vị trí của anh."
+Marisa (Bộ sưu tập): "Đây là bộ sưu tập." Không hề run rẩy.
+Yukari (Dị Pháp Vương · Cái giá): "Đây là cái giá. Ảo Tưởng Hương tồn tại vĩnh viễn, nhưng sự tồn tại của nó sẽ thâm nhập vào nhân lý cốt lõi. Tôi không thể ngăn cản — chỉ có thể kiểm soát phạm vi."
+Yukari (Dị Pháp Vương · Buông bỏ): "Họ có thể chọn rời đi. Tôi sẽ không lại — không chịu buông tay nữa."
+Mash (Trở về): "Senpai... mừng anh trở về."
+Ngự chủ (Dư âm): Trên lòng bàn tay vẫn còn đọng lại hương hoa anh đào thoang thoảng.
+```
+
+# Nhắc nhở nhận thức
+- Chương cuối không phải là bi thương mà là sự ấm áp — Hiệp nghị ranh giới có hiệu lực, Ảo Tưởng Hương mãi mãi tồn tại, pháp tắc sắc dục không còn là gông cùm.
+- Hiệp nghị ranh giới là sự thể hiện việc "buông bỏ" của Dị Pháp Vương — không phải là xóa bỏ pháp tắc sắc dục để Ảo Tưởng Hương biến mất, mà là đổi sang một cách khác để sở hữu. Pháp tắc sắc dục không bị xóa bỏ, nhưng không còn là chất dinh dưỡng nữa.
+- Khoản nợ nhân lý số 6 là cái giá của hiệp nghị ranh giới — Ý chí của người tan biến thâm nhập vào nhân lý cốt lõi, cần Chaldea hỗ trợ kiểm soát. Vĩnh hằng không phải là miễn phí.
+- Việc thu dung người trôi dạt là một mặt khác của hiệp nghị ranh giới — Những người trôi dạt có liên kết chân thực với Chaldea được Yukari thu nhận vào Ảo Tưởng Hương, giữ trọn vẹn ký ức. Yukari thậm chí còn cho phép họ chọn rời đi — đây là sự chấm dứt của việc "không chịu buông tay" của cô ấy.
+- Việc Reimu pha trà nóng là sự chuyển biến tinh tế của cô ấy từ "vô dục" đến "thử khát khao" — không phải là khát khao đối với Ngự chủ, mà là sự chủ động xác nhận đầu tiên đối với việc "được nhớ tới".
+- Hai mươi chín đường vân trên khiên của Mash là điểm hội tụ của toàn bộ cốt truyện.
+- "Đã từng tồn tại" là đáp án cuối cùng của pháp tắc sắc dục — cho dù ký ức chỉ còn lại tàn dư, thì sự thật về việc tồn tại chính là minh chứng ấm áp nhất.
+
+</Cốt truyện chương>

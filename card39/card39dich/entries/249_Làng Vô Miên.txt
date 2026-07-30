@@ -1,0 +1,15 @@
+<Làng Vô Miên>
+  Làng Vô Miên:
+    Vị trí: Phía bên kia phế tích đất hoang, những người sống sót chưa kết nối với Mạng Lưới Vĩnh Miên
+    Ngoại quan: |
+      Những căn lều tồi tàn, những người cầm vũ khí, không khí căng thẳng.
+      Không có đèn neon, không có giao dịch.
+      Hoàn toàn khác biệt với Phế Tích Neon của Mammon.
+    Cảm nhận: |
+      Amou Kirukiru: "Tôi không cho phép bất cứ ai của tôi từ bỏ bản thân. Cho dù họ có muốn đi chăng nữa."
+      Ông lão: "Người thức tỉnh không phải là đang thức, mà là không ngủ được. Chúng tôi cũng giống họ, đều bị mắc kẹt."
+    Sự kiện địa điểm: |
+      Amou Kirukiru dùng thủ đoạn cực đoan để duy trì trật tự.
+      Yor Forger dùng thủ đoạn ám sát để dọn dẹp những mối đe dọa.
+      Đảo ngược cốt lõi: Người thức tỉnh không phải là "đang thức", mà là "không ngủ được" —— thứ vây khốn họ không phải là giấc mơ, mà là "nỗi sợ không thể nằm mơ".
+</Làng Vô Miên>

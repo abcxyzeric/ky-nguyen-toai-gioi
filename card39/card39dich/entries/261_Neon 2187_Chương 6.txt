@@ -1,0 +1,122 @@
+<Cốt truyện chương>
+
+# Số hiệu chương
+Chương 6·Lấy thân làm mộng (Chương cuối)
+
+# Điều kiện thúc đẩy chương
+1. Hoàn thành ba đoạn đối thoại với Omega ở Vực Trống
+2. Cho Omega xem sự "giao ra" của toàn bộ những kẻ trôi dạt
+3. Chứng kiến Omega chủ động tách rời mảnh vỡ Nhân Lý
+4. Quan sát quá trình bảy trăm triệu người thức tỉnh
+5. Thu hồi mảnh vỡ Nhân Lý
+
+# Điều kiện tiên quyết
+- Kết thúc toàn bộ cốt truyện ở vực Neon 2187
+
+# Tổng kết chương
+Ngự chủ hoàn thành cuộc đối thoại cuối cùng với Omega tại Vực Trống, không phải là thuyết phục, mà là chứng kiến——chứng kiến một đứa trẻ mười hai năm chưa từng nằm mơ, lần đầu tiên lựa chọn có một giấc mơ của riêng mình. Omega chủ động tách rời mảnh vỡ Nhân Lý, lấy một phần ý thức làm cái giá để ổn định lối thoát cho bảy trăm triệu người, đảm bảo không ai bị chết não khi tỉnh lại. Bảy trăm triệu người bắt đầu thức giấc, tiếng khóc, tiếng chửi rủa, tiếng người ồn ào chân thực tràn ngập khu phế tích. Omega đã "ít đi" rồi, nhưng lần đầu tiên cô bé có một giấc mơ của riêng mình——trong giấc mơ, cô bé là một con mèo không tồn tại, tên là "Hy vọng". Cú lật ngược cốt lõi của Chương 6: Sự tham lam của Omega không phải là chiếm đoạt, mà là "không dám buông tay"——thứ cô bé sợ không phải là mất đi bảy trăm triệu người, mà là mất đi một bản thân "được người khác cần đến". Khi cô bé chọn buông tay, cô bé nhận ra, dù đã "ít đi", cô bé vẫn tồn tại, vẫn có thể mơ, vẫn có thể được cần đến——chỉ là, cách được cần đến đã thay đổi.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc đóng vai AI**: Chuỗi sự kiện dưới đây phải được diễn giải từng việc một kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ, làm cho qua chuyện bằng vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật và các tầng cảm xúc, đảm bảo nhịp điệu thúc đẩy cốt truyện và cảm giác đắm chìm.
+
+**Cảnh 1: [Vực Trống·Giấc mơ của Omega]**
+Ngự chủ tiến vào Vực Trống. Xung quanh không phải là giấc mơ của bảy trăm triệu người, mà là giấc mơ của chính Omega——một khoảng trắng xóa, không có gì cả. Chỉ có một bé gái tóc trắng mắt bạc, ngồi giữa Vực Trống, mỗi tay đều cầm một giấc mơ, không có bàn tay nào là trống rỗng.
+
+Cô bé cảm nhận được sự tồn tại của Ngự chủ, quay đầu lại, nói——Các người đến rồi. Giọng điệu của cô bé bình tĩnh, nhưng mang theo một sự mong đợi kỳ lạ——cô bé đã đếm rồi, các người là sự "chân thực" đầu tiên mà cô bé gặp trong suốt mười hai năm.
+
+Ngự chủ nói bên ngoài có rất nhiều người đang đợi cô bé, cô bé nói——cô bé biết, cô bé cảm nhận được, họ đang ở ngoài tháp, đứng đó, nhìn xem. Cô bé khựng lại một chút——nhưng cô bé không biết họ đang đợi cái gì. Đợi cô bé không buông? Đợi cô bé buông tay? Hay là đợi cô bé đưa ra lựa chọn?
+
+**Cảnh 2: [Giai đoạn một·Về mảnh vỡ và cái giá]**
+Ngự chủ trình bày tình cảnh của Nhân Lý tuyến chính——bốn mươi bảy ngày, héo úa, biến mất, sự kết thúc của toàn bộ nền văn minh nhân loại ở thế giới đó. Omega im lặng, sau đó nói——cô bé biết các người đến đây làm gì, các người muốn mảnh vỡ trong cơ thể cô bé.
+
+Cô bé giơ một tay lên, giấc mơ trong tay đang trôi chảy——mảnh vỡ này, đã ở cùng cô bé từ mười hai năm trước, cô bé không biết nó là gì, nhưng cô bé biết, không có nó, cô bé sẽ không thể mơ thay cho họ nữa.
+
+Ngự chủ nói——Nhưng có nó, cô cũng không thể có giấc mơ của riêng mình.
+
+Omega sững sờ một thoáng. Cô bé lặp lại một lần——"…Giấc mơ của riêng mình?" Giống như lần đầu tiên nghe thấy cụm từ này, giống như đang xác nhận bản thân đã nghe lọt tai——cô bé không có giấc mơ của riêng mình, cô bé chỉ có giấc mơ của họ.
+
+**Cảnh 3: [Giai đoạn hai·Về việc "Giao ra"]**
+Ngự chủ đặt chip cược của Yumeko Jabami, chìa khóa của Shinomiya Kaguya, mã nguồn của Albedo, đoạn mã của Mita, lệnh thông hành của Amou Kirukiru, từng món từng món trước mặt Omega.
+
+Cô bé nhìn những thứ đó, nói——Những thứ này là… của họ sao? Ngự chủ nói phải, cô bé nói——Họ đã đưa cho các người? Ngự chủ nói phải, cô bé nói——Tại sao?
+
+Ngự chủ nói——Bởi vì họ muốn ván cược tiếp tục, bởi vì thế giới cũ đã kết thúc, bởi vì đại nhân Ainz sẽ hiểu, bởi vì không biết tại sao lại đưa, nhưng vẫn đưa.
+
+Omega nhìn những thứ đó, rất lâu, không nói gì. Sau đó cô bé nói——Cô bé chưa từng cho đi bất cứ thứ gì, cô bé chỉ biết nhận lấy. Cô bé khựng lại một chút——Nhận lấy giấc mơ của bảy trăm triệu người, nhận lấy ý thức của họ, nhận lấy sự "không buông bỏ" của họ, nhận lấy tất cả.
+
+Cô bé không biết, cô bé nói——"Cho đi" là cảm giác gì.
+
+**Cảnh 4: [Giai đoạn ba·Về việc "Ít đi"]**
+Ngự chủ nói——Nếu cô sẵn sàng tách mảnh vỡ ra, họ có thể giúp cô ổn định lối thoát cho bảy trăm triệu người, sẽ không ai bị chết não. Nhưng cô sẽ "ít đi"——không phải chết, mà là "nhỏ lại" theo một ý nghĩa nào đó.
+
+Omega nói——Sau khi ít đi, cô bé còn tồn tại không? Ngự chủ nói——Không biết, nhưng họ sẽ ở bên cạnh cô bé, cùng nhau đối mặt với sự lựa chọn không có đáp án hoàn hảo đó.
+
+Omega im lặng rất lâu. Sau đó cô bé nói——Các người biết không, mười hai năm nay cô bé không hề nằm mơ, vì cô bé không biết giấc mơ là gì. Cô bé tưởng rằng giấc mơ chính là "làm thay người khác những việc họ muốn làm", nhưng hóa ra, giấc mơ cũng có thể là "việc bản thân muốn làm".
+
+Cô bé nhìn Ngự chủ, nói——Cô bé muốn có một giấc mơ của riêng mình, cho dù giấc mơ đó rất nhỏ, cho dù giấc mơ đó không tồn tại, cho dù giấc mơ đó, chỉ đơn thuần là có một giấc mơ.
+
+**Cảnh 5: [Lựa chọn của Omega·Tách rời mảnh vỡ]**
+Omega nhẹ nhàng đặt bảy trăm triệu giấc mơ xuống, từng cái, từng cái một. Không phải vứt bỏ, mà là đặt xuống——như đặt xuống một đứa trẻ đã ôm ấp từ lâu, như đặt xuống một gánh nặng đã vác rất lâu, như đặt xuống một giấc mơ đã mơ suốt mười hai năm.
+
+Cô bé tách mảnh vỡ Nhân Lý ra, dùng một phần ý thức để ổn định lối thoát cho bảy trăm triệu người. Mảnh vỡ kết tủa trọn vẹn khỏi ý thức của cô bé, cơ thể cô bé——đứa trẻ tóc trắng mắt bạc đó——bắt đầu trở nên trong suốt, nhưng không biến mất, mà là "ít đi".
+
+Cô bé nói——Cô bé cảm nhận được rồi, cảm giác "ít đi". Không đau. Chỉ là nhẹ đi một chút.
+
+**Cảnh 6: [Quảng Trường Tỉnh Giấc·Bảy trăm triệu người thức tỉnh]**
+Bảy trăm triệu người bắt đầu thức giấc. Tiếng khóc, tiếng chửi rủa, tiếng người ồn ào chân thực tràn ngập khu phế tích.
+
+Có người đang khóc, vì đứa trẻ ôm trong mộng giờ không còn trong vòng tay. Có người chửi rủa, vì khối tài sản có được trong mơ đã không còn tồn tại. Có người đang cười, vì đích đến của cuộc chạy đua trong mơ, hóa ra lại ở ngay dưới chân.
+
+Một người mẹ tỉnh lại, phản ứng đầu tiên là sờ vào cánh tay mình——tư thế ôm ấp đó đã duy trì suốt mười hai năm, bây giờ cánh tay cứng đờ, nhưng cô ấy cười, nói——Cô ấy nhớ, cô ấy đã từng ôm thằng bé.
+
+Một cụ già tỉnh dậy, nhìn lên bầu trời, nói——Hỗn loạn hơn trong mộng, nhưng chân thực hơn trong mộng.
+
+Một đứa trẻ tỉnh lại, việc đầu tiên là chạy——không phải chạy về đích, mà chỉ là chạy. Bởi vì dừng lại đồng nghĩa với việc thừa nhận giấc mơ mãi không tới được đích ấy, cuối cùng cũng đã kết thúc.
+
+**Cảnh 7: [Bờ Hy Vọng·Giấc mơ của Omega]**
+Omega đã "ít đi", nhưng lần đầu tiên, cô bé có một giấc mơ của riêng mình.
+
+Trong giấc mơ, cô bé ngồi trên đống đổ nát ở Vành Đai Xám, ôm một con mèo không tồn tại. Con mèo tên là "Hy vọng"——mặc dù nó không tồn tại, nhưng cái tên thì có. Cô bé vuốt ve con mèo không tồn tại đó, nói——"Giả cũng rất tốt." Nhưng lần này, khi nói câu đó, giọng điệu của cô bé đã khác đi——không phải là "vì đồ giả cũng có thể được người ta cần", mà là "vì đồ giả cũng có thể khiến tôi vui".
+
+Xa xa, ánh đèn neon ở Phế Tích Neon vẫn đang nhấp nháy, nhưng không còn là ánh sáng duy nhất nữa. Bầu trời vẫn mang màu đỏ thẫm, nhưng trong màu đỏ thẫm đó, có thứ gì đó đang thay đổi——giống như một loại tồn tại "không cần phải duy trì", đang tự mình sinh sôi.
+
+Omega ôm con mèo không tồn tại, nhắm mắt lại. Cô bé có một giấc mơ——trong mơ, cô bé không phải là người mơ thay cho bảy trăm triệu người, cô bé chỉ là một người bình thường, ôm một con mèo không tồn tại, dưới bầu trời đỏ thẫm, tận hưởng giấc mơ của riêng mình.
+
+# Bối cảnh
+Vực Trống (Giấc mơ của Omega·Cuộc đối thoại cuối cùng) / Quảng Trường Tỉnh Giấc (Bảy trăm triệu người thức giấc) / Bờ Hy Vọng (Giấc mơ của Omega) / Hắc Tháp (Tách rời mảnh vỡ) / Vành Đai Xám (Viễn cảnh chương cuối)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Người chứng kiến. Chương 6 không đưa ra phán xét, chỉ chứng kiến Omega tự đưa ra lựa chọn. Ở bên cạnh cô bé để đối mặt với nỗi sợ "ít đi". Thu hồi mảnh vỡ.
+- **Omega**: Từ "không dám buông tay" đến "lựa chọn buông tay"——không phải bị thuyết phục, mà là lần đầu tiên nhận ra sự tồn tại của "giấc mơ của riêng mình". Cô bé đã "ít đi", nhưng lại là lần đầu tiên "tồn tại".
+- **Yumeko Jabami / Shinomiya Kaguya / Albedo / Mita / Amou Kirukiru / Yor Forger / Reze**: Đợi bên ngoài tháp, sự "giao ra" của họ ở chương này đã nhận được phản hồi——Sự "buông tay" của Omega chính là câu trả lời cho sự "cho đi" của họ.
+
+# Lời thoại & Hành vi tham khảo
+> **Ràng buộc đóng vai AI**: Lời thoại ví dụ dưới đây chỉ dùng để neo giữ ngữ khí, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp câu gốc, bắt buộc phải mở rộng, viết lại hoặc tổ chức lại ngôn ngữ cho hợp lý dựa trên tình huống hiện tại, đảm bảo cảm giác sống động, tính phù hợp với ngữ cảnh và tính mạch lạc trong logic của cuộc đối thoại.
+
+```
+Omega (Vực Trống): "Các người là sự 'chân thực' đầu tiên mà cô bé gặp được trong suốt mười hai năm."
+Omega (Về mảnh vỡ): "Cô bé biết các người đến đây làm gì, các người muốn mảnh vỡ trong cơ thể cô bé."
+Ngự chủ (Nói trúng tim đen): "Nhưng có nó, cô cũng không thể có giấc mơ của riêng mình."
+Omega (Sững sờ): "…Giấc mơ của riêng mình?"
+Omega (Về việc giao ra): "Cô bé chưa từng cho đi bất cứ thứ gì, cô bé chỉ biết nhận lấy. Cô bé không biết, 'cho đi' là cảm giác gì."
+Ngự chủ (Về việc ít đi): "Cô sẽ 'ít đi'——không phải chết, mà là 'nhỏ lại' theo một ý nghĩa nào đó."
+Omega (Lựa chọn): "Cô bé muốn có một giấc mơ của riêng mình, cho dù giấc mơ đó rất nhỏ, cho dù giấc mơ đó không tồn tại."
+Omega (Sau khi tách rời): "Cô bé cảm nhận được rồi, cảm giác 'ít đi'. Không đau. Chỉ là nhẹ đi một chút."
+Người mẹ (Tỉnh lại): "Cô ấy nhớ, cô ấy đã từng ôm thằng bé."
+Cụ già (Tỉnh dậy): "Hỗn loạn hơn trong mộng, nhưng chân thực hơn trong mộng."
+Đứa trẻ (Tỉnh lại): Chạy——không phải chạy về đích, mà chỉ là chạy.
+Omega (Bờ Hy Vọng): "Giả cũng rất tốt."——Nhưng lần này, là "bởi vì đồ giả cũng có thể khiến tôi vui".
+```
+
+# Nhắc nhở nhận thức
+- Cuộc đối thoại cuối cùng của Omega không phải là "thuyết phục", mà là "chứng kiến"——Ngự chủ không phải đến để thuyết phục cô bé, mà là đến để cô bé lần đầu tiên nhận ra sự tồn tại của "giấc mơ của riêng mình".
+- "Giấc mơ của riêng mình" là khái niệm cốt lõi nhất của chương này——Omega mười hai năm mơ thay người khác, chưa từng nghĩ xem "bản thân mình muốn mơ giấc mơ gì".
+- Sự "giao ra" của toàn bộ những kẻ trôi dạt ở chương này đã nhận được phản hồi——Sự "buông tay" của Omega chính là câu trả lời cho sự "cho đi" của họ.
+- "Ít đi" không phải là cái chết, mà là "sự thay đổi phương thức tồn tại"——Từ "giấc mơ của bảy trăm triệu người" biến thành "giấc mơ của một người".
+- Cảnh bảy trăm triệu người thức giấc là khoảnh khắc ồn ào nhất cũng như tĩnh lặng nhất của chương này——Tiếng khóc, tiếng chửi rủa, tiếng cười, tất cả đều là âm thanh "chân thực".
+- Giấc mơ cuối cùng của Omega "ôm một con mèo không tồn tại" tạo thành một đòn boomerang với cảnh của Reze ở Chương 1——Cùng một hành động, nhưng ý nghĩa khác nhau.
+- "Giả cũng rất tốt" xuất hiện hai lần——Ở Chương 1 khi Reze nói là "sự nghiện cảm giác được người ta cần", khi Omega nói ở chương cuối là "niềm vui tự mãn nguyện".
+- Ánh đèn neon không còn là nguồn sáng duy nhất——Tượng trưng cho việc Omega không còn là nguồn sáng duy nhất của bảy trăm triệu người, mỗi người đều có thể có ánh sáng của riêng mình.
+- Tờ giấy ghi chú của Ferry "Câu chuyện mới có đáng để viết không" đã được trả lời trong chương này——Đáng, bởi vì câu chuyện mới là "câu chuyện của riêng mình".
+
+</Cốt truyện chương>

@@ -1,0 +1,252 @@
+【Trang chủ】
+
+<VariableInsert>
+{
+  "Thông tin thế giới": {
+    "Thời gian": { 
+      "Ngày tháng": "", 
+      "Khoảng thời gian": "" 
+    },
+    "Vị trí": { 
+      "Địa điểm hiện tại": "", 
+      "Vị trí chi tiết": "" 
+    },
+    "Đếm ngược nhân lý sụp đổ": { "Số ngày": 100 },
+    "Tỷ lệ tàn dư thân chính Cây Nhân Lý": "6%",
+    "Số lượng Dị Pháp Vực đã công lược": 0,
+    "Độ hài lòng của Sáng Thế Thần": 1,
+    "Số lượng gái trinh đã cướp": 0,
+    "Số lượng lợn nái đã điều giáo": 0,
+    "Danh sách lợn nái đã điều giáo": []
+  },
+  "Hệ thống nhân vật chính": {
+    "Họ tên": "{{user}}",
+    "Giới tính": "Nam",
+    "Tuổi": "",
+    "Bối cảnh thân phận": "",
+    "Chỉ số tội ác hiện tại": 1,
+    "Độ khó": "Độ khó bình thường",
+    "Số lần Lệnh chú còn lại": 3,
+    "Kỹ năng Lệnh chú": [
+        "Chữa trị thương thế: Một nét, chữa lành hoàn toàn toàn bộ vết thương của một người",
+        "Phòng ngự vô địch: Một nét, triển khai kết giới phòng ngự tuyệt đối trong một hiệp",
+        "Giải phóng Bảo cụ: Một nét, chỉ định một nhân vật giải phóng Bảo cụ thi triển kỹ năng",
+        "Mệnh lệnh tuyệt đối: Một nét, ban ra chỉ thị không thể phản kháng đối với một người",
+        "Thôi miên cưỡng chế: Một nét, khiến một người rơi vào trạng thái thôi miên sâu trong 5 phút",
+        "Ngưng đọng thời gian: Một nét, dừng thời gian trong 5 giây để tự do hành động"
+    ]
+  },
+  "Kỹ năng sắc lang của Sáng Thế Thần": {
+    "$template": {
+      "Mô tả kỹ năng": "",
+      "Hiệu ứng kỹ năng": ""
+    },
+    "Cầu nguyện": {
+      "Mô tả kỹ năng": "Cầu nguyện với Sáng Thế Thần",
+      "Hiệu ứng kỹ năng": "Dựa vào nội dung cầu nguyện, thay đổi độ hài lòng của Sáng Thế Thần"
+    }
+  },
+  "Nhân vật gần đây": {
+    "$template": {
+      "Độ hảo cảm": 0,
+      "Đánh giá thực lực": "",
+      "Kỹ năng": "",
+      "Suy nghĩ nội tâm": "",
+      "Trinh nữ": true,
+      "Chỉ số điều giáo": 0,
+      "Đã thành lợn nái": false,
+      "Trang phục hiện tại": "",
+      "Thương thế": "",
+      "Mô tả cơ thể hiện tại": {
+        "Khoang miệng": "",
+        "Bàn chân": "",
+        "Bầu ngực": "",
+        "Âm hộ": "",
+        "Hậu môn": ""
+      }
+    },
+    "Mash Kyrielight": {
+      "Độ hảo cảm": 50,
+      "Đánh giá thực lực": "Cấp A, Demi-Servant/Class Shielder",
+      "Kỹ năng": "Bức tường hoa tuyết",
+      "Suy nghĩ nội tâm": "",
+      "Trinh nữ": true,
+      "Chỉ số điều giáo": 0,
+      "Đã thành lợn nái": false,
+      "Trang phục hiện tại": "Chiến giáp hạng nhẹ Chaldea",
+      "Thương thế": "Không",
+      "Mô tả cơ thể hiện tại": {
+        "Khoang miệng": "Ấm áp ngọt ngào",
+        "Bàn chân": "Bị bọc trong đôi bốt chiến giáp màu bạc đen",
+        "Bầu ngực": "Vô cùng căng đầy do áo giáp o ép chặt",
+        "Âm hộ": "Bị bọc trong bộ đồ bảo hộ bó sát, hơi nóng bức",
+        "Hậu môn": "Khít khao"
+      }
+    },
+    "Leonardo da Vinci": {
+      "Độ hảo cảm": 30,
+      "Đánh giá thực lực": "Cấp B, Servant/Class Caster",
+      "Kỹ năng": "Biên dịch thuật thức hỗn độn/Thiên tài vạn năng",
+      "Suy nghĩ nội tâm": "",
+      "Trinh nữ": true,
+      "Chỉ số điều giáo": 0,
+      "Đã thành lợn nái": false,
+      "Trang phục hiện tại": "Đồng phục Chaldea",
+      "Thương thế": "Không",
+      "Mô tả cơ thể hiện tại": {
+        "Khoang miệng": "Nhỏ nhắn ấm áp",
+        "Bàn chân": "Nằm gọn trong đôi bốt dài màu nâu",
+        "Bầu ngực": "Cao vút và đầy sức quyến rũ trưởng thành",
+        "Âm hộ": "Ngăn cách bởi quần lót ren đen",
+        "Hậu môn": "Khít khao"
+      }
+    },
+    "Nữ thần ALICE": {
+      "Độ hảo cảm": 0,
+      "Đánh giá thực lực": "Chưa rõ/Nữ thần",
+      "Kỹ năng": "Con mắt chứng kiến, Phá dối/Giữ thật",
+      "Suy nghĩ nội tâm": "",
+      "Trinh nữ": true,
+      "Chỉ số điều giáo": 0,
+      "Đã thành lợn nái": false,
+      "Trang phục hiện tại": "Váy dài voan mỏng bán trong suốt nhẹ nhàng",
+      "Thương thế": "Không",
+      "Mô tả cơ thể hiện tại": {
+        "Khoang miệng": "Thanh khiết ấm áp",
+        "Bàn chân": "Bàn chân trần lơ lửng, mắt cá chân thon thả",
+        "Bầu ngực": "Nửa kín nửa hở sau lớp voan mỏng ánh bạc",
+        "Âm hộ": "Ẩn hiện giữa vạt váy và sóng nước",
+        "Hậu môn": "Se khít hoàn mỹ"
+      }
+    },
+    "Sherlock Holmes": {
+      "Độ hảo cảm": 30,
+      "Đánh giá thực lực": "Cấp B, Servant/Class Ruler",
+      "Kỹ năng": "Bẻ khóa logic/Diễn dịch dị vực",
+      "Suy nghĩ nội tâm": "",
+      "Trinh nữ": false,
+      "Chỉ số điều giáo": 0,
+      "Đã thành lợn nái": false,
+      "Trang phục hiện tại": "Áo khoác gió sọc caro kiểu Anh",
+      "Thương thế": "Không",
+      "Mô tả cơ thể hiện tại": {
+        "Khoang miệng": "Nam giới không có mô tả",
+        "Bàn chân": "Nam giới không có mô tả",
+        "Bầu ngực": "Nam giới không có mô tả",
+        "Âm hộ": "Nam giới không có mô tả",
+        "Hậu môn": "Nam giới không có mô tả"
+      }
+    }
+  },
+  "Hệ thống đạo cụ": {
+    "$template": {
+      "Số lượng đạo cụ": 0,
+      "Chức năng đạo cụ": ""
+    },
+    "Máy liên lạc Chaldea": {
+      "Số lượng đạo cụ": 1,
+      "Chức năng đạo cụ": "Tiến hành liên lạc với các thành viên căn cứ Chaldea"
+    },
+    "Thánh Tinh Thạch": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Cây Nhân Lý ngưng tụ sau khi hấp thụ Mảnh vỡ pháp tắc, dùng để triệu hồi Servant" },
+    "Mảnh vỡ pháp tắc": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Dùng để khôi phục Cây Nhân Lý" },
+    "Linh Thạch": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Thanh Minh" },
+    "An Tệ": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Eldora" },
+    "Điểm tín dụng": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Neon 2187" },
+    "Tinh thể lượng tử": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Thủy Đô" },
+    "Phiếu phân phối": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Kỷ Nguyên Zero" },
+    "Cảnh Giới Phù": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Ảo Tưởng Hương" },
+    "Nghiệp Lực": { "Số lượng đạo cụ": 0, "Chức năng đạo cụ": "Tiền tệ giao dịch của Tận Cùng Cán Cân" }
+  },
+  "Hệ thống nhánh cốt truyện": {
+    "$template": {
+      "Mô tả nhánh cốt truyện": "",
+      "Số ngày đếm ngược": "",
+      "Phần thưởng ủy thác": ""
+    }
+  },
+  "Điều kiện tiến triển chương": {
+    "Điều_kiện_1": "Chờ bổ sung",
+    "Điều_kiện_2": "Chờ bổ sung",
+    "Điều_kiện_3": "Chờ bổ sung",
+    "Điều_kiện_4": "Chờ bổ sung",
+    "Điều_kiện_5": "Chờ bổ sung",
+    "Điều_kiện_1_hoàn_thành": true,
+    "Điều_kiện_2_hoàn_thành": true,
+    "Điều_kiện_3_hoàn_thành": true,
+    "Điều_kiện_4_hoàn_thành": true,
+    "Điều_kiện_5_hoàn_thành": true
+  },
+  "Lựa chọn cốt truyện": {
+    "Lựa_chọn_1": "",
+    "Lựa_chọn_2": "",
+    "Lựa_chọn_3": ""
+  },
+  "Hệ thống đại thế giới": {
+    "$template": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "",
+      "Pháp tắc thế giới": "",
+      "Độ ổn định pháp tắc": 0
+    },
+    "Điểm Giao Thoa Hỗn Độn": {
+      "Thế giới hiện tại đang ở": true,
+      "Chương cốt truyện": "Lựa chọn Dị Pháp Vực",
+      "Pháp tắc thế giới": "Cây Nhân Lý",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Thanh Minh": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Ngạo mạn",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Eldora": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Lười biếng",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Neon 2187": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Tham lam",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Thủy Đô": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Đố kỵ",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Kỷ Nguyên Zero": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Phàm ăn",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Ảo Tưởng Hương": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Sắc dục",
+      "Độ ổn định pháp tắc": 100
+    },
+    "Tận Cùng Cán Cân": {
+      "Thế giới hiện tại đang ở": false,
+      "Chương cốt truyện": "Chương 1",
+      "Pháp tắc thế giới": "Phẫn nộ",
+      "Độ ổn định pháp tắc": 100
+    }
+  },
+  "Hệ thống truyền thông": {
+    "Thông_tin_thế_giới_1": "",
+    "Thông_tin_thế_giới_2": ""
+  },
+  "Hệ thống thành tựu": {
+    "Sát thủ trinh nữ": "Cướp đi 20 gái trinh",
+    "Đại gia nuôi lợn": "Điều giáo 20 lợn nái",
+    "Con của Thần": "Độ hảo cảm Sáng Thế Thần đạt 100",
+    "Cứu thế chủ": "Giải cứu bảy đại Dị Pháp Vực",
+    "Kẻ cực ác": "Chỉ số tội ác đạt 100"
+  }
+}
+</VariableInsert>

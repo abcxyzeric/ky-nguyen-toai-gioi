@@ -1,0 +1,30 @@
+<Điều kiện tiến triển chương 1 Thủy Đô>
+# Điều kiện tiến triển chương
+1. Trò chuyện với Ryougi Shiki, thu thập tình báo về quy luật của Thủy Đô
+2. Quan sát sự lên xuống của sương xám, lấy manh mối về tầng biên giới
+3. Phát hiện vị trí bưu điện ký ức
+
+# Lần đầu tiến vào Thủy Đô, cốt truyện chương 1, bắt buộc xuất ra toàn bộ biến số dưới đây, trực tiếp xuất ra nguyên vẹn nội dung của toàn bộ <VariableEdit>:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Thủy Đô":  {
+                                                  "Chương cốt truyện":  "Chương 1"
+                                              }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Trò chuyện với Ryougi Shiki, thu thập tình báo về quy luật của Thủy Đô",
+                                        "Điều_kiện_2":  "Quan sát sự lên xuống của sương xám, lấy manh mối về tầng biên giới",
+                                        "Điều_kiện_3":  "Phát hiện vị trí bưu điện ký ức",
+                                        "Điều_kiện_4":  "Không có",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  true,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>
+</Điều kiện tiến triển chương 1 Thủy Đô>

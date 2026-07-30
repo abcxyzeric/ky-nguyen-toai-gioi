@@ -1,0 +1,18 @@
+{
+  "id": "308b7c2a-c4b2-4ac1-bcc9-b89ceef9a7e1",
+  "scriptName": "Ẩn dữ liệu ERA",
+  "disabled": false,
+  "runOnEdit": true,
+  "findRegex": "/<(variable(?:insert|edit|delete))>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/\\1>)((?:(?!<(?:era_data|variable(?:think|insert|edit|delete))>|<\\/\\1>)[\\s\\S])*?)\\s*<\\/\\1>/gi",
+  "trimStrings": [],
+  "replaceString": "",
+  "placement": [
+    1,
+    2
+  ],
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null,
+  "markdownOnly": true,
+  "promptOnly": true
+}

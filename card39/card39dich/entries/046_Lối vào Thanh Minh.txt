@@ -1,0 +1,17 @@
+<Điểm Hội Tụ Hỗn Độn·Lối Vào Thanh Minh>
+  Điểm Hội Tụ Hỗn Độn:
+    Vị trí: Điểm rơi của Chaldea khi bước nhảy từ điểm hội tụ hỗn độn vào Thanh Minh Giới
+    Ngoại quan: |
+      Bầu trời vĩnh viễn mang màu tím đen, không có sự luân phiên ngày đêm.
+      Linh khí thuần khiết nhưng tĩnh lặng, giống như bị nhốt trong một cái chai.
+      Ngay từ cái nhìn đầu tiên đã cảm nhận được thế giới này "có gì đó không đúng".
+    Cảm nhận: |
+      Da Vinci: "Linh khí ở đây rất thuần khiết, nhưng lại tĩnh lặng, giống như bị nhốt trong chai vậy."
+      Holmes quan sát khu phế tích tụ lạc ở bối cảnh:
+      "Dấu vết lưu chuyển của linh khí vẫn còn mới, có người luôn ở đây, ít nhất là ba ngàn năm."
+    Sự kiện địa điểm: |
+      Chaldea bước nhảy từ điểm hội tụ hỗn độn vào Thanh Minh Giới,
+      Điểm rơi nằm ở rìa khu tụ lạc bị bỏ hoang.
+      Bầu trời màu vàng vĩnh hằng, bầu không khí tĩnh lặng đến quá mức,
+      Ngay từ cái nhìn đầu tiên đã cảm nhận được thế giới này "có gì đó không đúng".
+</Điểm Hội Tụ Hỗn Độn·Lối Vào Thanh Minh>

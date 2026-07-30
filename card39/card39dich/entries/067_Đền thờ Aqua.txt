@@ -1,0 +1,27 @@
+<Đền thờ Aqua>
+  Đền thờ Aqua:
+    Vị trí: Nơi cao nhất nội thành, cốt lõi của Hệ thống Thần ý
+    Ngoại quan: |
+      Đôi mắt của tượng nữ thần đang chuyển động, nhìn xuống toàn thành phố. Sự mệt mỏi chán chường của cô là sự châm biếm sâu sắc nhất đối với Hệ thống Thần ý.
+      Ba trăm năm duy trì mọi thứ, từ thời tiết đến cảm xúc, từ sản xuất đến giải trí, tất cả đều được thiết lập sẵn.
+      Không có tội phạm, không có nghèo đói, không có chiến tranh——và cũng không có gì mới mẻ.
+    Aqua: |
+      Nữ thần được thờ phụng, đôi mắt đảo liên tục nhưng chẳng bận tâm điều gì, sự mệt mỏi của cô là sự châm biếm sâu sắc nhất của Hệ thống Thần ý.
+      Ba trăm năm qua, cô không hành động vì "được thờ phụng",
+      mà là vì hệ thống đã thiết lập sẵn quy trình "Nữ thần phải được thờ phụng".
+      Cô đã quen với việc bị nhìn ngó, nhưng không còn quan tâm người ta đang nhìn cái gì nữa.
+    Bùng nổ: |
+      Chương năm, Aqua bước ra khỏi bức tượng——
+      Không phải là một nữ thần được thờ phụng, mà là một người phụ nữ thật sự, đang tức giận và cảm thấy bị mất mặt:
+      "Có kẻ đã nghi ngờ thần cách của ta!"
+      "Ba trăm năm rồi, các người ngày nào cũng cầu nguyện, nhưng không một ai thực sự tin ta là thần!
+      Các người chỉ là những tín đồ được hệ thống thiết lập sẵn!"
+      Cô chỉ vào Master: "Nhưng người này lại nghi ngờ thần cách của ta——
+      Đây là lần đầu tiên trong suốt ba trăm năm có người thực sự 'nhìn thấy' ta!"
+      Sự bùng nổ của cô mang tính hài hước, nhưng cũng rất chân thực——
+      Lần đầu tiên sau ba trăm năm, cô không hành động vì "được thờ phụng",
+      mà là vì "bị mất mặt". Và cái sự "mất mặt" này, là một cảm xúc thực sự.
+    Sự kiện tại địa điểm: |
+      Cảnh xa ở chương một, cảnh xa khu vực đền thờ ở chương hai.
+      Cảnh cốt lõi ở chương năm, lần đầu tiên Aqua chủ động hành động sau ba trăm năm.
+</Đền thờ Aqua>

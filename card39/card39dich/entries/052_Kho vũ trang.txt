@@ -1,0 +1,19 @@
+<Kho Vũ Trang>
+  Kho vũ trang:
+    Vị trí: Nơi sâu nhất của Trung Thành, chỗ chờ của Chtholly
+    Ngoại quan: |
+      Trước cửa có một thanh kiếm khổng lồ cắm dưới đất, trên thân kiếm khắc đầy những cổ ngữ rune.
+      Chtholly ngồi cạnh thanh kiếm, ôm lấy đầu gối, ngước nhìn trần nhà.
+    Chtholly: |
+      "Các người đến để dùng tôi sao?" Giọng điệu của cô bình thản, giống như đang hỏi "Các người đến để ăn cơm sao".
+      "Tôi là kho dự trữ vũ lực cuối cùng của hệ thống, được chỉ định là 'phương thức cuối cùng để phòng ngự lãnh vực'.
+      Nếu hệ thống phán đoán là cần thiết, tôi sẽ được khởi động, sau đó bị tiêu hao."
+      Cô dừng lại một chút, "Nhưng tôi đã đợi ba trăm năm, hệ thống chưa từng phán đoán là cần thiết bao giờ."
+      Trong ánh mắt không phải là sự bi thương, mà là "trần thuật lại sự thật"——
+      "Tôi đang đợi, nhưng không biết là đang đợi điều gì, cũng không biết có thể đợi được hay không."
+    Sự kiện địa điểm: |
+      Tuyến phụ D chương hai.
+      Chtholly dùng việc chờ đợi để thay thế cho sự lựa chọn, đây là hình thái triệt để nhất của quy luật lười biếng.
+      Chương năm, khi Emilia từ chối lời tiên tri,
+      Chtholly không có phản ứng gì——"Không có trong kịch bản của tôi".
+</Kho Vũ Trang>

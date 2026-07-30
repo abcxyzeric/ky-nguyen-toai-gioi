@@ -1,0 +1,20 @@
+<Khu Vực Đình Trệ>
+  Khu Vực Đình Trệ:
+    Vị trí: Rìa Đảo Phù Du, khu vực bị đóng băng
+    Ngoại quan: |
+      Một khu vực bị đóng băng, mọi thứ bên trong khu vực này đều bị đóng băng tại một khoảnh khắc nhất định——
+      Chiếc lá đang rơi lơ lửng giữa không trung, giọt nước đang nhỏ xuống treo lơ lửng trên đầu ngón tay, người đang đi đường vẫn giữ nguyên tư thế cất bước.
+    Raiden Ei: |
+      Đứng ở giữa khu vực, nhắm nghiền hai mắt, giống như đang thiền định.
+      "Nơi này an toàn."
+      "Bởi vì thay đổi đồng nghĩa với mất mát."
+      "Ta đã đóng băng khoảnh khắc 'có thể mất đi', nhưng cũng đã đóng băng tương lai 'có thể đạt được'."
+    Đặc trưng môi trường: |
+      Mọi thứ trong khu vực đều bị đóng băng tại một khoảnh khắc nhất định.
+      Sương xám không thể xâm thực khu vực này, nhưng bên trong khu vực cũng không có bất kỳ sự "thay đổi" nào.
+    Sự kiện địa điểm: |
+      Bối cảnh nhánh D chương 2.
+      Raiden Ei dùng "đóng băng" để che đậy sự "sợ hãi mất mát", sự "vĩnh hằng" của cô ta là một lồng giam.
+      Một hình thái khác của "ghen tị"——"Ta ghen tị với những kẻ dám thay đổi, bởi vì ta quá sợ hãi việc mất mát".
+    Độ nguy hiểm: Trung bình · Đóng băng thời gian
+</Khu Vực Đình Trệ>

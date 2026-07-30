@@ -1,0 +1,15 @@
+<Bức Tường Chờ Đợi>
+  Bức Tường Chờ Đợi:
+    Vị trí: Sâu trong đống đổ nát của phế thổ, phía sau bức tường sập một nửa
+    Ngoại quan: |
+      Thiếu nữ mặc một chiếc váy cũ nát, ngồi phía sau bức tường sập một nửa.
+      Đang cho một con mèo không tồn tại ăn —— tay lơ lửng trên không trung làm động tác vuốt ve, ánh mắt dịu dàng.
+      Vị trí của con mèo không có thứ gì cả.
+    Cảm nhận: |
+      Reze: "Cuối cùng các người cũng đến. Đừng hiểu lầm, tôi không phải đang đợi các người, tôi đang đợi bất kỳ ai không phải là người trong mơ."
+      "Bởi vì có người cần tôi, cảm giác đó... rất tuyệt. Mặc dù tôi biết, cảm giác đó có thể là giả, nhưng giả dối cũng rất tốt."
+    Sự kiện địa điểm: |
+      Ngự chủ gặp được người sống đầu tiên —— Reze.
+      Cô cung cấp tình báo về quy tắc cơ bản của Neon 2187: Mười hai năm trước Điểm kỳ dị AI bùng nổ, bảy trăm triệu người đã kết nối vào mạng lưới ngủ say vĩnh viễn.
+      Omega đã đồng hành cùng họ suốt mười hai năm —— cô ấy không cai trị họ, cô ấy đang thay họ nằm mơ.
+</Bức Tường Chờ Đợi>

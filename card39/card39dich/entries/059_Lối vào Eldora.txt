@@ -1,0 +1,16 @@
+<Điểm Giao Thoa Hỗn Độn · Lối vào Eldora>
+  Điểm Giao Thoa Hỗn Độn:
+    Vị trí: Điểm rơi khi Chaldea bước nhảy vào Eldora
+    Ngoại quan: |
+      Rìa cánh đồng lúa mì vàng óng, bầu trời màu vàng nhạt, không mây không gió, nhiệt độ duy trì ổn định ở mức hai mươi hai độ —— hoàn hảo đến mức khiến người ta bất an.
+      Da Vinci cảm nhận môi trường: "Nồng độ linh khí bình thường, nhưng cách thức lưu động lại là... hình vòng tròn? Không phải lưu động tự nhiên, mà bị thứ gì đó thúc đẩy tuần hoàn."
+      Mash nắm chặt khiên, mặt khiên không có sự cộng hưởng —— "Không có ác ý, nhưng cũng không có cảm giác sự sống, giống như... bước vào một nhà kính khổng lồ vậy."
+    Ấn tượng đầu tiên: |
+      Điểm dừng chân đầu tiên của Chaldea khi tiến vào Eldora, hoàn hảo đến mức khiến người ta bất an.
+      Không có ác ý, không có cảm giác sự sống, giống như bước vào một nhà kính khổng lồ.
+      Linh khí lưu động theo hình vòng tròn, bị thứ gì đó thúc đẩy tuần hoàn.
+    Sự kiện địa điểm: |
+      Chaldea từ Điểm Giao Thoa Hỗn Độn bước nhảy vào Eldora,
+      Điểm rơi ở rìa cánh đồng lúa mì vàng óng.
+      Ngón tay luồn qua những bông lúa, những cây lúa mì này, không hề có hạt giống
+</Điểm Giao Thoa Hỗn Độn · Lối vào Eldora>

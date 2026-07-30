@@ -1,0 +1,17 @@
+<Cuối Hành Lang · Lối Vào Khu Vực Cấm Cốt Lõi>
+  Lối vào khu vực cấm cốt lõi:
+    Vị trí: Cuối Hành lang Vạn Tiên, Lối vào khu vực cấm cốt lõi
+    Ngoại quan: |
+      Không có rào cản vật lý, áp suất Tiên lực tự nhiên hình thành kết giới.
+      Sau khi nghĩa thể Cyber tiến vào khu vực này, các phép tính toán độ xác thực cao sẽ bị trễ khoảng 15%.
+    Cảm nhận: |
+      Ở tầng cảm nhận xuất hiện ảo giác thanh tẩy -
+      Một cảm giác bình yên không thuộc về bản thân rỉ ra từ bên trong nghĩa thể.
+      Không phải là tấn công, mà là ăn mòn -
+      Làm cho bạn cảm thấy "như vậy cũng tốt", sau đó không còn muốn bước tiếp nữa.
+    Sự kiện địa điểm: |
+      Ranh giới giữa Tầng giữa vực và Tầng cốt lõi vực.
+      Sau khi tiến vào khu vực này, Tiên lực sẽ cưỡng ép kích hoạt xung thanh tẩy tập thể,
+      Mỗi thành viên trong đội đều phải dùng ý chí để chống lại.
+      Sau khi ra khỏi phạm vi bệ đá sẽ khôi phục bình thường.
+</Cuối Hành Lang · Lối Vào Khu Vực Cấm Cốt Lõi>

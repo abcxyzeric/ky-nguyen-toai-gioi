@@ -1,0 +1,16 @@
+<Doanh Trại>
+  Doanh trại:
+    Vị trí: Cứ điểm tạm thời được dựng lên trên Phế thổ
+    Ngoại quan: |
+      Lều trại và thiết bị điện đơn sơ, trên bảng trắng viết kín các công thức và biểu đồ.
+      Da Vinci và Holmes đang bổ sung chuỗi logic ở bên cạnh.
+      Mash sắp xếp lại toàn bộ ghi chép cuộc trò chuyện với những Người trôi dạt.
+    Cảm quan: |
+      Da Vinci: "Vấn đề cốt lõi chỉ có một —— mảnh vỡ Nhân lý đã dung hợp với ý thức của Omega."
+      Holmes: "Nhưng nếu chúng ta có thể tìm ra một cách, để cô ấy 'tự nguyện' tách phần ý thức đó ra..."
+    Sự kiện địa điểm: |
+      Bối cảnh cốt lõi của chương 5, Chaldea tổng hợp toàn bộ tình báo.
+      Echidna mang đến toàn bộ dữ liệu giấc mơ trong mười hai năm.
+      Ruan Mei cung cấp phương án thoát ra an toàn dựa trên lý thuyết khoa học sự sống.
+      Tính toán được rằng Omega sẽ "đầy" sau bốn mươi bảy ngày nữa, đồng bộ với thời gian héo úa của nhánh Nhân lý chính.
+</Doanh Trại>

@@ -1,0 +1,1 @@
+/<variablethink>\s*(?=[\s\S]*?\S[\s\S]*?<\/variablethink>)((?:(?!<variablethink>)[\s\S])*?)\s*<\/variablethink>/gi

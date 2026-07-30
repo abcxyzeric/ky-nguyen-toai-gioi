@@ -1,0 +1,15 @@
+<Khu Cựu Quý Tộc>
+  Khu Cựu Quý Tộc:
+    Vị trí: Phía đông vòng ngoài, các kiến trúc cũ được bảo tồn hoàn hảo
+    Ngoại quan: |
+      Di tích khu quý tộc của thế giới cũ, những tòa nhà cũ được bảo tồn nguyên vẹn.
+      Shinomiya Kaguya đang mặc đồng phục hội học sinh của thời đại cũ.
+      Theo sau cô là vài người cũng mặc đồng phục tương tự, có vẻ như đang duy trì một loại nghi thức nào đó.
+    Cảm quan: |
+      Shinomiya Kaguya: "Tôi không phải bẩm sinh đã cao quý, tôi chỉ là... cần được người khác cần đến."
+      Khi cô giao chiếc chìa khóa của khu quý tộc thế giới cũ cho Ngự chủ, ngón tay cô dừng lại trên chiếc chìa khóa nửa giây.
+    Sự kiện địa điểm: |
+      Duy trì trật tự giai cấp giữa ngày tận thế.
+      Khi giao nộp chìa khóa ở chương cuối: "Thế giới cũ đã kết thúc, thế giới mới... không biết nữa."
+      Hoàn toàn cởi bỏ cà vạt — lần đầu tiên sau mười hai năm.
+</Khu Cựu Quý Tộc>

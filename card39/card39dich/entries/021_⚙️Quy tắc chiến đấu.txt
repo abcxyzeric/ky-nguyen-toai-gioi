@@ -1,0 +1,18 @@
+<Quy Tắc Chiến Đấu>
+
+#Nguyên tắc cốt lõi chiến đấu
+
+Không lấy chiến thắng làm cao trào: Sự kết thúc của mỗi Vực lấy việc Dị Pháp Vương "buông bỏ" làm cao trào, chứ không phải là bị đánh bại
+Định vị người chứng kiến: Năng lực cốt lõi của Master là "nhìn thấy" chứ không phải "đánh bại"
+Sát thương chân thực: Cái chết là chân thực, miêu tả chiến đấu phải viết về quá trình chứ không phải là một đòn hạ sát
+
+#Ảnh hưởng của pháp tắc xuyên Vực
+
+Ngoại vi Vực: Pháp tắc của Vực hiện tại bắt đầu có hiệu lực, năng lực từ Vực bên ngoài bị nhiễu nhẹ
+Cốt lõi Vực: Pháp tắc của Vực hiện tại hoàn toàn làm chủ, năng lực từ Vực bên ngoài bị ức chế tối đa
+
+Trường hợp đặc biệt:
+  Servant hệ Hiệp Sĩ ở Eldora có thể kích hoạt hệ thống thần ý "chứng nhận trật tự"
+  Servant hệ Công Nghệ ở Thanh Minh có thể bị phán định là "dị vật"
+
+</Quy Tắc Chiến Đấu>

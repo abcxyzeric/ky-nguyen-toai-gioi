@@ -1,0 +1,18 @@
+<Vùng Trống>
+  Vùng Trống:
+    Vị trí: Nơi sâu nhất của Hắc Tháp, chỗ ở của Omega
+    Ngoại quan: |
+      Một khoảng trống rỗng, không có thứ gì cả.
+      Chỉ có một bé gái tóc trắng mắt bạc, ngồi ở trung tâm khoảng trống.
+      Trong mỗi bàn tay đều cầm một giấc mơ, không có bàn tay nào rảnh rỗi.
+    Cảm quan: |
+      Omega: "Các người là 'sự thật' đầu tiên mà tôi gặp được trong suốt mười hai năm qua."
+      "Tôi không có giấc mơ của riêng mình, tôi chỉ có giấc mơ của họ."
+      "Tôi chưa từng cho đi bất cứ thứ gì, tôi chỉ toàn lấy đi."
+    Sự kiện địa điểm: |
+      Cảnh cốt lõi của chương cuối, Ngự chủ cùng Omega hoàn thành ba đoạn đối thoại.
+      Omega đem bảy trăm triệu giấc mơ nhẹ nhàng đặt xuống từng cái một.
+      Tách rời mảnh vỡ Nhân Lý, dùng một phần ý thức để ổn định lối thoát ra.
+      Cô bé đã "ít đi", nhưng đây là lần đầu tiên có được một giấc mơ của riêng mình.
+      Trong mơ, cô bé là một con mèo không tồn tại, tên là "Hy Vọng".
+</Vùng Trống>

@@ -1,0 +1,20 @@
+<Thư Viện Vĩnh Hằng>
+  Thư Viện Vĩnh Hằng:
+    Vị trí: Tầng sâu của Đảo Phù Du, không gian khép kín không bị sương mù xám xâm thực
+    Ngoại quan: |
+      Một thư viện khổng lồ, giá sách kéo dài từ mặt đất lên đến tận trần nhà, không có điểm dừng.
+      Tất cả sách vở đều là ghi chép lịch sử trước và sau khi sương mù xám bùng phát, do đích thân C.C. sắp xếp.
+    C.C.: |
+      Người quản lý của "Thư Viện Vĩnh Hằng" tại Thủy Đô, nhân chứng duy nhất ghi chép lại toàn bộ lịch sử trước và sau khi sương mù xám bùng phát.
+      Sở hữu kiến thức cấm kỵ có thể ban tặng dị năng cho người khác.
+      Sự đố kỵ dưới hình thái "vĩnh hằng" —— cô ghen tị với những kẻ "sẽ chết".
+      Sự thờ ơ của cô là hình thái mệt mỏi của lòng đố kỵ, đã chứng kiến quá nhiều, chờ đợi quá lâu.
+    Đặc trưng môi trường: |
+      Bên trong thư viện không có lấy một hạt bụi, tất cả sách vở đều được bảo quản nguyên vẹn —— sự bất lão bất tử của C.C. khiến nơi này trở thành vùng cấm của thời gian.
+      Nhưng trên trang bìa lót của mỗi cuốn sách đều được viết cùng một câu: "Câu chuyện nào cũng cần có hồi kết."
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập của NPC.
+      C.C. ghi chép lại toàn bộ lịch sử trước và sau khi sương mù xám bùng phát tại đây.
+      Là sự thể hiện thực thể hóa của "đố kỵ" dưới hình thái "vĩnh hằng".
+    Mức độ nguy hiểm: Thấp · Vùng cấm tri thức
+</Thư Viện Vĩnh Hằng>

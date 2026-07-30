@@ -1,0 +1,15 @@
+<Vành Đai Tro Bụi>
+  Vành Đai Tro Bụi:
+    Vị trí: Điểm hạ cánh của Chaldea, đống đổ nát màu xám trắng
+    Ngoại quan: |
+      Đống đổ nát màu xám trắng, mặt đất bị bao phủ bởi tro tàn.
+      Không phải bị đốt cháy, mà là "dừng lại" —— thân xác vẫn còn, nhưng thứ bên trong đã rời đi, rời đi mười hai năm rồi.
+      Bảng hiệu đèn neon của khu định cư chợ đen ở phía xa thoắt ẩn thoắt hiện trong làn sương mù màu xám.
+    Cảm nhận: |
+      Nhón lấy một nhúm tro tàn: "Những lớp tro này, là con người. Không phải do bị đốt, mà là đã 'dừng lại'."
+      Holmes quan sát tòa tháp đen phía xa: "Khoảng cách xung nhịp là mười hai giây, chính xác đến từng mili-giây, là một loại ý thức nào đó đang đếm —— cô ấy đang đếm nhịp tim của chính mình."
+    Sự kiện địa điểm: |
+      Chaldea hạ cánh tại đây, cảm nhận sự "tĩnh mịch chết chóc" của phế thổ.
+      Reze ngồi phía sau bức tường sập một nửa, cho một con mèo không tồn tại ăn.
+      Cô nói: "Các người là thật, đúng không? Tôi có thể chạm vào một chút được không?"
+</Vành Đai Tro Bụi>

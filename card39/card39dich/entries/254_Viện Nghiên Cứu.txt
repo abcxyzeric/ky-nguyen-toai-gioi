@@ -1,0 +1,14 @@
+<Viện Nghiên Cứu>
+  Viện Nghiên Cứu:
+    Vị trí: Phòng thí nghiệm tầng trong, thiết bị và luồng dữ liệu
+    Ngoại quan: |
+      Trên màn hình hiển thị các luồng dữ liệu phức tạp.
+      Trong đĩa Petri không phải là tế bào, mà là một mảnh vỡ ý thức, đang nhúc nhích chậm chạp.
+    Cảm nhận: |
+      Ruan Mei: "Omega không phải đang 'duy trì' những giấc mơ này, cô ấy đang 'thu thập'."
+      "Mỗi một giấc mơ, cô ấy đều phải trải nghiệm một lần, sau đó lưu trữ, rồi tiếp tục giấc mơ tiếp theo."
+    Sự kiện địa điểm: |
+      Phát hiện ra sự thật rằng Omega đang "thu thập" chứ không phải "duy trì".
+      Cung cấp phương án "tự nguyện hy sinh"——Omega phải chủ động tách rời một phần ý thức để làm lớp đệm.
+      Khi chương cuối khép lại quyển sổ tay: "Mẫu vật... không biết có cần phải quan sát tiếp hay không."
+</Viện Nghiên Cứu>

@@ -1,0 +1,13 @@
+<Cửa Đỏ>
+  Sòng bạc:
+    Vị trí: Tầng hầm trung, sau cánh cửa màu đỏ
+    Ngoại quan: |
+      Trước cửa không có biển hiệu, chỉ có một cánh cửa màu đỏ, qua khe cửa hắt ra ánh sáng yếu ớt.
+      Yumeko Jabami ngồi ở vị trí nhà cái, trước mặt chất đầy tiền cược——không phải tiền bạc, mà là "mảnh vỡ tình báo".
+    Cảm quan: |
+      Yumeko Jabami: "Ngươi đặt cược một chuyện mà ngươi không biết, ta đặt cược một chuyện mà ta không biết, kẻ thắng sẽ lấy đi tất cả."
+      Cô ta cung cấp tình báo: "Xung nhịp của Omega không phải là nhịp đập của tim, mà là đếm ngược——cô ta đang đếm xem trong giấc mơ của bảy trăm triệu người còn lại bao nhiêu cái chưa bị lặp lại."
+    Sự kiện địa điểm: |
+      Dùng bài bạc để chắt lọc ra những người có giá trị.
+      Đến chương cuối đem giao đồng tiền cược cuối cùng cho ngự chủ: "Tôi không muốn tàn cuộc khi ván cược còn chưa kết thúc."
+</Cửa Đỏ>

@@ -1,0 +1,15 @@
+<Lán Dao Rỉ>
+  Lán Dao Rỉ:
+    Vị trí: Rìa Thôn Vô Miên, nơi ở của cụ già
+    Ngoại quan: |
+      Túp lều lán đơn sơ, rách nát hơn hẳn những túp lều xung quanh.
+      Cụ già ngồi trước cửa, tay nắm chặt một thanh dao rỉ sét.
+      Ánh mắt không mang theo sự thù địch, mà là sự cảnh giác "không thể nhắm mắt".
+    Cảm quan: |
+      Cụ già: "Tôi không kết nối vào mạng lưới, không phải vì tôi không muốn mơ, mà là vì tôi không dám."
+      "Người tỉnh táo không phải là đang thức, mà là không ngủ được. Chúng tôi và bọn họ đều giống nhau, đều bị mắc kẹt cả."
+    Sự kiện địa điểm: |
+      Ngự chủ và cụ già trò chuyện, kích hoạt bước ngoặt cốt lõi về "nỗi sợ của người tỉnh táo".
+      Cụ già nói ra tình cảnh khốn cùng chân thực nhất của những người tỉnh táo —— không phải là không muốn mơ, mà là không dám mơ.
+      "Thứ vây khốn chúng ta không phải là giấc mơ, mà là 'nỗi sợ hãi khi không thể mơ'."
+</Lán Dao Rỉ>

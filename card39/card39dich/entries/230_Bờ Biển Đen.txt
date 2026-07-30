@@ -1,0 +1,14 @@
+<Bờ Biển Đen>
+  Bờ Biển Đen:
+    Vị trí: Một vùng biển đen kịt, bên bờ biển có một người đang đứng
+    Ngoại quan: |
+      Không có hình ảnh giấc mơ, chỉ có vùng biển màu đen.
+      Người Gác Bờ đứng bên bờ, nhìn về phương xa.
+    Cảm quan: |
+      Người Gác Bờ: "Omega không phải không muốn buông tay, cô ấy là 'không biết sau khi buông tay thì nên làm gì'."
+      "Mười hai năm trước cô ấy đã đáp lại tiếng gọi của bảy trăm triệu người, sau đó cô ấy luôn ở đây, chưa từng rời đi."
+    Sự kiện địa điểm: |
+      Người duy nhất trong hệ thống còn giữ lại ký ức chân thực.
+      Omega để cô giữ lại sự chân thực, bởi vì cô ấy cần có người nhớ rõ "sự thật trông như thế nào".
+      Chờ đợi trong giấc mơ của Omega, chứng kiến cô ấy lần đầu tiên nói ra hai chữ "của mình".
+</Bờ Biển Đen>

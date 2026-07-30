@@ -1,0 +1,20 @@
+<Khu Vương Tọa>
+  Khu Vương Tọa:
+    Vị trí: Tầng cao nhất của Đảo Phù Du, lĩnh vực tuyệt đối nằm trên sương xám
+    Ngoại quan: |
+      Một cung điện nguy nga tráng lệ, được xây dựng từ di sản của cựu thế giới trước khi sương xám bùng phát.
+      Ngay giữa cung điện có một chiếc vương tọa, nhưng Gilgamesh hiếm khi ngồi lên đó —— hắn thích đứng trên cao nhìn xuống hơn.
+    Gilgamesh: |
+      Kẻ cai trị "Khu Vương Tọa" của Thủy Chi Đô, tự xưng là "Vua Sương Xám".
+      Nắm giữ phần lớn di sản của cựu thế giới trước đợt bùng phát sương xám.
+      Sự đố kỵ tồn tại dưới hình thái "sở hữu" —— hắn có được mọi thứ trên thế gian, nhưng lại ghen tị với những kẻ "không cần sở hữu cũng thấy thỏa mãn".
+      Bảo khố của hắn chính là sự thực thể hóa của lòng đố kỵ: "Ta bắt buộc phải có", bởi hắn ghen tị với sự tự do của việc "có thể không cần đến".
+    Đặc trưng môi trường: |
+      Bên trong Khu Vương Tọa trưng bày vô số nguyên mẫu bảo khí, mỗi một món đều là minh chứng cho sự "sở hữu".
+      Thế nhưng sâu trong cung điện lại có một căn phòng trống —— đó là vị trí được giữ lại cho "người bạn duy nhất".
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập của NPC.
+      Gilgamesh cai trị tầng lớp dị năng giả cổ xưa nhất của Thủy Chi Đô tại đây.
+      Là hiện thân thực thể hóa của sự "đố kỵ" dưới hình thái "sở hữu".
+    Mức độ nguy hiểm: Cực cao · Lĩnh vực Vương giả
+</Khu Vương Tọa>

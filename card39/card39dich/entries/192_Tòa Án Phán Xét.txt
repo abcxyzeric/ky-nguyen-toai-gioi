@@ -1,0 +1,21 @@
+<Tòa Án Phán Xét>
+  Tòa Án Phán Xét:
+    Vị trí: Ranh giới giao nhau giữa Ảo Tưởng Hương và Địa Ngục, lĩnh vực của Shikieiki
+    Ngoại quan: |
+      Chiếc gương của tòa án là Gương Tịnh Pha Lê, soi rõ mọi tội lỗi.
+      Dưới quy tắc sắc dục, tấm gương bắt đầu xuất hiện những vết nứt —
+      không phải bị đập vỡ, mà là tự rạn nứt sau khi người phán xét thừa nhận bản thân có tội.
+      Đó là sự khởi đầu cho việc nới lỏng đi tính "tuyệt đối".
+    Shikieiki: |
+      Diêm Ma của tòa án phán xét, kẻ tuyệt đối.
+      Gương Tịnh Pha Lê là linh hồn của chương này —
+      tấm gương xuất hiện những vết nứt không phải bị đập vỡ,
+      mà là tự rạn nứt sau khi người phán xét thừa nhận bản thân có tội.
+      Sự đảo ngược của phán xét, khởi đầu cho việc nới lỏng đi tính "tuyệt đối".
+    Sự kiện địa điểm: |
+      Bối cảnh cốt lõi chương 5.
+      Sự đảo ngược trong phán xét của Eiki.
+      Người phán xét thừa nhận bản thân có tội, tấm gương tự rạn nứt.
+      Đó là sự khởi đầu cho việc nới lỏng đi tính "tuyệt đối".
+    Mức độ nguy hiểm: Cao · Lĩnh vực phán xét
+</Tòa Án Phán Xét>

@@ -1,0 +1,25 @@
+<Nơi El Hát>
+  Nơi El hát:
+    Vị trí: Trên một tảng đá ở giữa cánh đồng lúa mì
+    Ngoại quan: |
+      Một chàng trai trẻ ngồi trên tảng đá, cầm một cây đàn cũ,
+      hát sai nhịp lạc điệu cực kỳ nghiêm trọng, nhưng anh hát rất chân thành, từng chữ từng câu, giống như đang hoàn thành một loại nghi thức nào đó.
+      Ngồi bên cạnh là một thiếu nữ tóc xanh, yên lặng nghe anh hát xong,
+      sau đó nói: "Hôm nay El đại nhân cũng hát rất hay."
+    El: |
+      Vị ngâm du thi nhân duy nhất trong ba trăm năm, dùng cách sửa lời bài hát cũ để duy trì chút "chuyện của riêng mình" cuối cùng.
+      "Bài hát cũ, từ ba trăm năm trước. Tôi chỉ sửa lời, nhưng giai điệu không đổi——
+      Bởi vì hệ thống cảm thấy như vậy là tốt nhất, nên tôi cứ hát như thế mãi.
+      Nhưng lời tôi sửa, hệ thống lại không ngăn cản. Đây là 'chuyện của riêng mình' duy nhất tôi có thể làm ở nơi này."
+    Rem: |
+      Thiếu nữ tóc xanh, phương thức tồn tại mang một loại "cảm giác phụ thuộc" kỳ lạ——
+      Không phải thấp hèn, mà là "vị trí của cô ấy vốn dĩ ở đó", ba trăm năm qua chưa từng thay đổi.
+      Nhưng ánh mắt của cô khi El hát lại vô cùng chân thật.
+    Sự kiện địa điểm: |
+      Chương một, El đưa cho Chaldea manh mối then chốt:
+      "Nếu các người muốn tìm hiểu nơi này, hãy đến Thành phố Thần Ý.
+      Nhưng đừng trực tiếp hỏi chuyện về hệ thống——hãy hỏi 'Ở đây từng có ai viết bài hát mới chưa', rồi quan sát phản ứng của họ."
+      Chương bốn, El đã hát một bài hát hoàn toàn mới tại quảng trường——
+      Giai điệu hỗn loạn, ca từ ứng biến, có những chỗ sai nhịp lạc điệu vô cùng nghiêm trọng,
+      nhưng anh hát rất chân thành, từng chữ từng câu, giống như đang hoàn thành một loại nghi thức nào đó.
+</Nơi El Hát>

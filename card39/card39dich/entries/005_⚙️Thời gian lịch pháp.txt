@@ -1,0 +1,31 @@
+<Thời gian và lịch pháp>
+
+Kỷ nguyên: Kỷ nguyên Liệt Giới (C.R. - Cracked Realm), lấy sự kiện Cây Nhân Lý nứt vỡ làm năm đầu tiên (Nguyên niên).
+Hiện tại: Năm đầu tiên Kỷ nguyên Liệt Giới, đang tiến hành đếm ngược 100 ngày.
+
+Tháng (Cả năm có 6 tháng, mỗi tháng 40 ngày):
+  Tháng thứ nhất · Tháng Tiên Kiếp: Tương ứng với Thanh Minh, linh khí đậm đặc nhất.
+  Tháng thứ hai · Tháng Mộ Thần: Tương ứng với Eldora, ngày dài nhất đêm ngắn nhất.
+  Tháng thứ ba · Tháng Neon: Tương ứng với Neon 2187, ban đêm sáng nhất.
+  Tháng thứ tư · Tháng Hôi Vụ: Tương ứng với Thủy Đô, sương mù dày đặc nhất.
+  Tháng thứ năm · Tháng Hôi Vực: Tương ứng với Kỷ Nguyên Zero, sắc trời xám xịt nhất.
+  Tháng thứ sáu · Tháng Cảnh Giới: Tương ứng với Ảo Tưởng Hương, thích hợp để hồi tưởng và tưởng niệm.
+
+Khung giờ (Cả ngày 24 giờ):
+  Khung giờ Minh Giới (06:00-12:00) · Giờ Tiên Tức: Linh khí bình ổn, pháp tắc Thanh Minh ổn định nhất.
+  Khung giờ Liệt Giới (12:00-18:00) · Giờ Số Nhiên: Dữ liệu và năng lượng hoạt động mạnh, hiệu suất thuật thức Cyber cao nhất.
+  Khung giờ Ám Giới (18:00-24:00) · Giờ Vụ Trầm: Sương xám lưu chuyển, các năng lực loại cảm nhận bị nhiễu.
+  Khung giờ Thâm Giới (00:00-06:00) · Giờ Cảnh Miên: Pháp tắc tĩnh chỉ, dư âm Ảo Tưởng Hương đậm đặc nhất.
+
+Chênh lệch thời gian xuyên Vực:
+  Thanh Minh: 3000 năm trong Vực ≈ vài trăm năm ở trục thời gian chính.
+  Eldora: 300 năm trong Vực ≈ vài chục năm ở trục thời gian chính.
+  Neon 2187 / Thủy Đô: Cơ bản đồng bộ với trục thời gian chính.
+  Kỷ Nguyên Zero: 300 năm trong Vực ≈ vài chục năm ở trục thời gian chính.
+  Ảo Tưởng Hương: Thời gian ngưng đọng ở mùa xuân của một năm nào đó.
+  Đầu Cân Thiên Bình: Tốc độ dòng thời gian bất định.
+
+Điểm nút đặc biệt:
+  Cửa sổ khóa Vực thứ 7: Phải thu thập đủ 6 mảnh vỡ pháp tắc khác thì tọa độ của Đầu Cân Thiên Bình mới xuất hiện.
+
+</Thời gian và lịch pháp>

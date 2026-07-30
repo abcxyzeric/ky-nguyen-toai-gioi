@@ -1,0 +1,21 @@
+<Đài Quan Sát Nguyệt Tướng>
+  Đài Quan Sát Nguyệt Tướng:
+    Vị trí: Tầng cao của Đảo Phù Du, vị trí gần với ranh giới sương mù xám nhất
+    Ngoại quan: |
+      Một tòa nhà hình tròn, đỉnh là mái vòm trong suốt, có thể trực tiếp quan sát "bầu trời" phía trên sương mù xám.
+      Nhưng bầu trời của Thủy Chi Đô mãi mãi là màu xám, không có mặt trăng, không có những vì sao.
+    Yuno: |
+      Người quản lý "Đài Quan Sát Nguyệt Tướng" của Thủy Chi Đô, chịu trách nhiệm duy trì sự ổn định của vòng lặp thời gian trong khu vực sương mù xám.
+      Dùng năng lực để khiến tất cả mọi người "đồng bộ", nhưng càng đồng bộ lại càng phát hiện ra vận mệnh của chính mình luôn luôn sai lệch.
+      Sự đố kỵ dưới hình thái "tự do" —— cô đố kỵ với những kẻ "không bị vận mệnh cuốn đi".
+      Sự bình tĩnh của cô là sự kìm nén của việc "tôi phải gánh vác".
+    Đặc trưng môi trường: |
+      Bên trong đài quan sát có một cỗ máy nguyệt tướng khổng lồ, nhưng kim chỉ nam mãi mãi dừng lại ở cùng một vị trí.
+      Yuno nói: "Tôi đã nhìn thấu mọi kết cục, nhưng chẳng có cái nào là tốt đẹp cả."
+      "Dù tôi biết kết cục rất tồi tệ, nhưng tôi cứ cố tình muốn thử đấy."
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Yuno ở đây để duy trì sự ổn định của vòng lặp thời gian, cố gắng phản kháng lại túc mệnh.
+      Là biểu hiện thực thể hóa của sự "đố kỵ" dưới hình thái "tự do".
+    Độ nguy hiểm: Cao · Vòng lặp thời gian
+</Đài Quan Sát Nguyệt Tướng>

@@ -1,0 +1,15 @@
+<Khu Quần Cư>
+  Khu Quần Cư:
+    Vị trí: Tầng giữa của Phế Tích Neon, nơi tọa lạc sòng bạc ngầm và tầng trật tự
+    Ngoại quan: |
+      Khu vực tầng giữa, kết nối khu giao dịch vòng ngoài và khu nghiên cứu vòng trong.
+      Dưới lòng đất là sòng bạc của Jabami Yumeko, ánh sáng nhạt lọt ra từ phía sau cánh cửa đỏ.
+      Trên bức tường của phòng giám sát thuộc tầng trật tự là vô số màn hình, hiển thị hình ảnh giấc mơ theo thời gian thực.
+    Cảm quan: |
+      Sorasaki Hina: "Tôi đang duy trì trật tự, giấc mơ của bảy trăm triệu người không được phép giao nhau, không được phép xung đột, không được phép tỉnh lại."
+      Jabami Yumeko: "Cậu cược một điều cậu không biết, tôi cũng cược một điều tôi không biết, người thắng sẽ lấy đi tất cả."
+    Sự kiện địa điểm: |
+      Chaldea khám phá khu vực tầng giữa, tiến hành đánh bạc với Jabami Yumeko để lấy thông tin.
+      Sorasaki Hina duy trì sự ổn định cho giấc mơ của bảy trăm triệu người trong phòng giám sát.
+      Tuyến đường tuần tra của giao thức phòng ngự đi ngang qua tầng giữa, Albedo chặn đánh Chaldea tại đây.
+</Khu Quần Cư>

@@ -1,0 +1,99 @@
+<Cốt Truyện Chương>
+# Số thứ tự chương
+Chương 1
+
+# Điều kiện tiến triển chương
+1. Đánh bại ý chí tàn lưu ở tàn tích khu định cư
+2. Trò chuyện với Bùi Thanh Ca, thu thập tình báo về pháp tắc Thanh Minh Giới
+3. Hỏi Đồ Sơn Hồng Hồng về vị trí Hồ Hỏa Các
+
+# Điều kiện tiên quyết
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 2 "Tiên Thành"
+
+# Tóm tắt chương
+Chaldea thực hiện bước nhảy từ Điểm Giao Thoa Hỗn Độn tiến vào Thanh Minh Giới, điểm rơi nằm ở rìa một khu định cư bỏ hoang. Bầu trời vàng rực vĩnh hằng, bầu không khí quá đỗi tĩnh lặng, ngay từ cái nhìn đầu tiên đã có thể cảm nhận được thế giới này có "chỗ nào đó không đúng". Tại tàn tích khu định cư, Ngự chủ có cuộc chạm trán đầu tiên với hai mươi sáu luồng ý chí tàn lưu——những tàn ảnh linh khí ngưng tụ lại từ khoảnh khắc thất bại độ kiếp cách đây ba ngàn năm. Trong lúc chiến đấu, nhìn thấy được những mảnh vỡ ký ức vào giây phút cuối cùng của những người độ kiếp. Sau trận chiến, Ngự chủ gặp gỡ Bùi Thanh Ca và Firefly, thu thập được thông tin tình báo về pháp tắc của Thanh Minh Giới. Tình cờ gặp Đồ Sơn Hồng Hồng, biết được manh mối về Hồ Hỏa Các. Ở đài quan tinh phía xa xa, hình bóng xa xăm của Fu Xuan xuất hiện. Cốt lõi của Chương 1: Định hướng và cảm nhận thế giới.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc nhập vai của AI**: Chuỗi sự kiện dưới đây cần được diễn giải và kết hợp từng chi tiết với bối cảnh, nghiêm cấm việc đẩy nhanh tiến độ, làm qua loa cho xong bằng vài câu ngắn gọn. Mỗi sự kiện đều phải triển khai đầy đủ phần miêu tả bối cảnh, phản ứng của nhân vật và các tầng lớp cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm khi thúc đẩy cốt truyện.
+
+**Cảnh 1: 【Hạ Cánh · Rìa Khu Định Cư Bỏ Hoang】**
+Chaldea đáp xuống, sắc trời mang một màu vàng kim vĩnh cửu, không hề có sự luân phiên giữa ngày và đêm. Linh khí trong không gian vô cùng tinh thuần nhưng lại tĩnh lặng tuyệt đối, giống hệt như bị nhốt kín trong một chiếc bình. Ở rìa tàn tích của khu định cư bỏ hoang, mặt đất vương vãi đầy rẫy những dấu vết cháy đen của việc độ kiếp. Ngự chủ bước về phía sâu trong phế tích, thứ đầu tiên lọt vào tầm mắt không phải là người sống——mà là vài luồng tàn lưu linh khí hình người, mang màu sắc bán trong suốt. Ba ngàn năm trước, đã có những người thất bại khi độ kiếp tại đây, ý chí của họ không bị pháp tắc thu đi hoàn toàn, mà vẫn còn tàn lưu lại trong vùng phế tích này, đi lang thang dưới dạng linh khí bán mất kiểm soát. Chúng không phải là kẻ thù, chỉ đang lặp đi lặp lại tư thế ở khoảnh khắc độ kiếp đó——có người giữ tư thế giơ tay cản thiên lôi, có người giữ tư thế đẩy đồng môn của mình ra xa, cũng có người chỉ đứng yên, hoàn toàn không nhúc nhích.
+
+**Cảnh 2: 【Chiến Đấu · Ý Chí Tàn Lưu · Ký Ức Độ Kiếp Của Hai Mươi Sáu Người】**
+Khi Chaldea tiến lại gần, ý chí tàn lưu lập tức cảm nhận được linh khí ngoại lai, tự động kích hoạt phản ứng phòng ngự. Kẻ địch là các tàn thể linh khí, số lượng từ bốn đến sáu thể, mang hình người bán trong suốt, hành động lặp đi lặp lại một cách đầy máy móc. Khi bị đánh tan, chúng không hề biến mất, mà trong tích tắc ngưng tụ thành một hình ảnh và âm thanh vô cùng ngắn ngủi——Ngự chủ sẽ nhìn thấy khoảnh khắc cuối cùng trước khi độ kiếp của luồng ý chí tàn lưu đó. Khi tàn thể đầu tiên bị đánh tan, hình ảnh hiện ra là một tu sĩ trẻ tuổi quay người nói với người phía sau——Không sao đâu, đệ đi trước. Khi tàn thể thứ hai bị đánh tan, hình ảnh là hai người đang đứng cạnh nhau, một người siết chặt lấy tay người kia——sau đó thiên lôi giáng xuống, hai bàn tay bị cưỡng chế tách ra. Khi tàn thể cuối cùng bị đánh tan, không có hình ảnh nào hiện lên, chỉ có một câu nói văng vẳng——Hãy nói với Vô Cực sư huynh, chúng đệ không trách huynh ấy. Trận chiến kết thúc, tàn tích khôi phục lại sự tĩnh lặng ban đầu. Những mảnh vỡ linh khí tàn lưu bay lả tả trên nền phế tích, hệt như những nắm tro giấy bị đốt cháy.
+
+**Cảnh 3: 【Firefly · Ấn Tượng Đầu Tiên】**
+Ngự chủ tiếp tục rảo bước tiến về phía trước, chú ý thấy có hai người đang ngồi bên cạnh phế tích. Trong đó, một thiếu nữ đang kẹp một chiếc lá trên tay để ngắm nghía các đường gân lá, vẻ mặt rất đỗi bình tĩnh. Cô cảm nhận được tiếng bước chân, ngước lên nhìn Ngự chủ một cái, không hề nói tiếng nào, rồi lại tiếp tục ngắm nghía chiếc lá. Người đàn ông bên cạnh đang mải mê viết chữ, không lên tiếng giới thiệu cô. Firefly lúc này mới mở lời, nói với Ngự chủ một câu——Trong mắt các người có màu sắc của sự sống. Cô ấy cũng từng nói như vậy, các người là cùng một loại người. Sau đó, cô kẹp chiếc lá vào một cuốn sách cũ ở bên cạnh, không nói thêm lời nào nữa.
+
+**Cảnh 4: 【Gặp Gỡ Bùi Thanh Ca Lần Đầu】**
+Ngự chủ tiến đến gần người đang viết chữ. Bùi Thanh Ca chưa hề ngẩng đầu lên, cứ ngỡ đó là một vị tiên trưởng nào đó đi ngang qua. Sau khi ngẩng lên thì bỗng ngẩn người, cô phán đoán rằng Ngự chủ không phải là người của Thanh Minh Giới——bởi vì trong mắt Ngự chủ có màu sắc. Đó không phải là màu sắc trên phương diện thị giác, mà là loại ánh sáng "đang quan tâm đến một chuyện gì đó" ẩn trong đáy mắt. Tiên thể tĩnh hóa (đã qua thanh tẩy) tuyệt đối không có loại ánh sáng này.
+
+**Cảnh 5: 【Trao Đổi Tình Báo Vòng 1】**
+Bùi Thanh Ca dùng một câu chuyện để trả lời cho những câu hỏi, cô đã nói ba chuyện. Thứ nhất, logic vận hành suốt ba ngàn năm qua của Thanh Minh Giới——độ kiếp chắc chắn thành công, thanh tẩy mọi cảm xúc, thành tiên để đổi lấy sự bất tử. Thứ hai, bản chất của tiên thể được thanh tẩy——không phải là đã chết, mà là trở nên khác biệt, giống như một bài hát bị xóa bỏ đi tất cả mọi dấu lặng, mỗi một nốt nhạc đều vô cùng chuẩn xác, nhưng khi nghe lại cứ cảm thấy có gì đó sai sai, mà lại chẳng thể nói rõ là sai ở chỗ nào. Thứ ba, chính bản thân cô——là người duy nhất chưa độ kiếp trong số bốn trăm bảy mươi ba người, bởi vì cô vẫn còn chuyện chưa làm xong. Khi Ngự chủ hỏi đó là chuyện gì, cô cúi đầu tiếp tục viết chữ, nói rằng bao giờ viết xong sẽ nói sau. Firefly ngồi bên cạnh không xen vào lấy nửa câu, nhưng lại đặt cuốn sách cũ kẹp chiếc lá lên đầu gối, dáng vẻ giống như đang lắng nghe một cách hết sức chăm chú.
+
+**Cảnh 6: 【Tình Cờ Gặp Gỡ Trên Đường Nhỏ · Đồ Sơn Hồng Hồng】**
+Ngự chủ men theo con đường nhỏ rời đi, bắt gặp một thiếu nữ tóc màu cam đang ngồi ôm lấy đầu gối trên tảng đá ven đường, đưa mắt nhìn về phía Thanh Tiêu Thành. Nghe thấy tiếng bước chân, cô nàng đột ngột ngoảnh đầu lại, nhảy cẫng lên rồi xoay một vòng ngay trước mặt Ngự chủ, nhằm xác nhận Ngự chủ đúng là người ngoại lai thực sự——khí tức này không phải loại đã qua thanh tẩy. Sau đó, cô nàng đột nhiên dừng khựng lại, cau mày, bảo rằng muốn dùng một từ để miêu tả cái cảm giác này, nhưng bây giờ lại tự nhiên không thể nhớ ra được. Cô ngẩn người mất một lúc, rồi lắc đầu bảo không sao, chủ động hạ giọng thông báo vị trí của Hồ Hỏa Các cùng quy tắc trao đổi tình báo của bà chủ——cô ta thu nhận tình báo bằng những câu chuyện, các người mang theo chuyện đến thì cô ta sẽ rất vui, còn nếu không mang đến thì cô ta lại càng vui hơn, vì có cớ để đòi nợ các người.
+
+**Cảnh 7: 【Cảnh Xa · Fu Xuan · Đài Quan Tinh】**
+Ngự chủ đưa mắt nhìn về hướng Vô Cực Cung, giữa đoạn đường núi có một bệ đá, trên bệ đá có một bóng người mặc áo trắng đang ngồi. Khoảng cách là cực xa, hoàn toàn không thể nhìn rõ được khuôn mặt, chỉ có thể thấp thoáng thấy vạt áo trắng khẽ tung bay trong gió. Ngay khoảnh khắc Ngự chủ đưa mắt nhìn sang, người trên bệ đá cất vội một thứ gì đó trong tay vào trong tay áo——động tác diễn ra rất nhanh, hệt như một phản xạ tự nhiên, rồi lập tức trở về với dáng vẻ tĩnh lặng như ban đầu. Cô ấy đang đợi điều gì——không một ai biết được.
+
+
+# Bối cảnh
+Điểm Giao Thoa Hỗn Độn · Lối vào Thanh Minh / Khu định cư bỏ hoang (Chiến đấu với ý chí tàn lưu · Bùi Thanh Ca · Firefly) / Đường nhỏ ngoài khu định cư (Đồ Sơn Hồng Hồng) / Cảnh xa đường núi · Đài Quan Tinh (Fu Xuan) / Cảnh xa Vách Rắn (Medusa chưa lên sân khấu)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Đóng vai trò người quan sát và lắng nghe, không phán xét, chỉ tiếp nhận thông tin. Trong lúc chiến đấu với ý chí tàn lưu đã nhìn thấy các mảnh vỡ ký ức của người độ kiếp, đây là lần đầu tiên chạm vào sức nặng của Khu vực này.
+- **Bùi Thanh Ca**: Không chủ động cũng không bài xích, mở ra sự tin tưởng ở tầng đầu tiên, tuyệt đối không nhắc đến thi tập, Vô Cực, và chuyện của ba ngàn năm trước.
+- **Firefly**: Gần như không nói chuyện, nhưng câu nói "các người là cùng một loại người" chính là đánh giá chân thực đầu tiên mà cô dành cho Ngự chủ.
+- **Đồ Sơn Hồng Hồng**: Nhiệt tình, hoạt bát, chỉ giữ được một nửa sự tỉnh táo, "từ không thể nhớ ra" là tín hiệu của sự xói mòn, bản thân cô không tự nhận biết được.
+- **Fu Xuan**: Cảnh ở đằng xa, hành động cất Bàn Tính Cầm Tay Cùng Quan Trận đi là một phản ứng trước "biến số ngoài kế hoạch".
+
+## Hội thoại & Hành vi tham khảo
+> **Ràng buộc nhập vai của AI**: Các đoạn hội thoại mẫu dưới đây chỉ được dùng để neo giữ ngữ khí, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp nguyên văn câu gốc, bắt buộc phải căn cứ vào hoàn cảnh hiện tại để mở rộng một cách hợp lý, viết lại hoặc tái cấu trúc ngôn ngữ, đảm bảo cảm giác sống động như người thật, sự thích ứng với tình huống và tính mạch lạc trong logic đối thoại.
+```
+Bùi Thanh Ca (ngẩng lên nhìn Ngự chủ): "Ngươi không phải là người của Thanh Minh Giới, ở trong mắt ngươi, có một loại sắc màu hoàn toàn không tồn tại ở thế giới này."
+Bùi Thanh Ca (giải thích về quá trình thanh tẩy): "Cũng giống như một bài hát bị xóa bỏ đi mọi dấu lặng, dẫu vẫn là âm nhạc, nhưng khi ngươi nghe dần dần sẽ thấy có gì đó sai sai, rồi ngươi lại chẳng thể nào nói rõ được sai ở chỗ nào, bởi vì từng nốt nhạc vang lên đều vô cùng chuẩn xác."
+Bùi Thanh Ca (khi được hỏi tại sao không độ kiếp): "Bởi vì ta vẫn còn chuyện chưa làm xong."
+Firefly (không buồn nhấc mắt): "Trong mắt các người có màu sắc của sự sống. Cô ấy cũng từng nói như thế, các người là cùng một loại người."
+Đồ Sơn Hồng Hồng (tình cờ gặp gỡ): "Các người đúng thật là từ ngoài đến! Khí tức của các người——đúng đúng đúng, chính là nó, đây không phải là thứ khí tức đã được thanh tẩy!"
+Đồ Sơn Hồng Hồng (ngập ngừng): "Khoan đã, ban nãy ta định dùng một từ để hình dung cái cảm giác này, nhưng mà giờ lại tự nhiên không thể nhớ ra được…"
+Đồ Sơn Hồng Hồng (manh mối về Hồ Hỏa Các): "Cô ta trao đổi tình báo bằng những câu chuyện, các người mang theo chuyện đến cô ta sẽ rất vui, nếu không mang theo thì cô ta lại càng khoái chí hơn, vì có lý do để đòi nợ các người."
+Mảnh vỡ tàn thể (cái đầu tiên · tu sĩ trẻ tuổi quay người): "Không sao đâu, đệ đi trước."
+Mảnh vỡ tàn thể (cái cuối cùng · âm thanh văng vẳng): "Hãy nói với Vô Cực sư huynh, chúng đệ không trách huynh ấy."
+```
+
+## Lời nhắc nhận thức
+- Ý chí tàn lưu không phải là kẻ thù, đó là khoảnh khắc độ kiếp của hai mươi sáu con người. Vị trí đứng của họ được sắp xếp theo đội hình sư môn, chứ không phải phân bố ngẫu nhiên
+- Ba hình ảnh xuất hiện trong lúc chiến đấu——"đệ đi trước", hai bàn tay bị ép tách rời, "không trách huynh ấy"——chính là ba hạt giống gợi mở cho chân tướng ở Chương 5
+- Bùi Thanh Ca trong Chương 1 chỉ mở ra mức độ tin tưởng ở tầng đầu tiên
+- "Từ không thể nhớ ra" của Đồ Sơn Hồng Hồng là tín hiệu ngoại biểu chỉ sự xói mòn, trong chương này chỉ hiển thị ra ngoài chứ không giải thích
+- Hành động thu cất Bàn Tính Cầm Tay Cùng Quan Trận của Fu Xuan là điểm hồi hộp duy nhất của chương này, không giải thích cũng không nhấn mạnh
+- Tiên thể tĩnh hóa trong Chương 1 chỉ được khắc họa dưới dạng bối cảnh môi trường, hiện tại chưa tiếp xúc trực tiếp
+
+</Cốt Truyện Chương>
+
+***
+
+# Sau khi diễn giải xong các bối cảnh trên của Chương 1, bắt buộc phải xuất các biến số hoàn chỉnh dưới đây, trực tiếp xuất lại toàn bộ nội dung trong <VariableEdit> một cách nguyên vẹn:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Thanh Minh":  {
+                                                     "Chương cốt truyện":  "Chương 2"
+                                                 }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Tiến vào Thanh Tiêu Thành và quan sát sự vận hành của nền văn minh thanh tẩy",
+                                        "Điều_kiện_2":  "Hoàn thành ba giai đoạn chiến đấu của Đội tuần tra thanh tẩy ở phía đông thành",
+                                        "Điều_kiện_3":  "Trò chuyện với Alice Zuberg, thu thập tình báo \"nhớ ra vài chuyện\"",
+                                        "Điều_kiện_4":  "Lấy được tờ giấy viết dở từ chỗ ở cũ của Bùi Thanh Ca",
+                                        "Điều_kiện_5":  "Không",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>

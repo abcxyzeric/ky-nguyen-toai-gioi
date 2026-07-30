@@ -1,0 +1,42 @@
+<Món Nợ Nhân Lý>
+
+Định nghĩa Hệ thống:
+  Nguồn gốc: Sau khi mỗi khu vực đi đến hồi kết, ý chí văn minh bị xóa sổ không biến mất mà thâm nhập vào Cây Nhân Lý mới.
+  Tính chất: Món nợ không phải là kẻ thù, mà là tàn dư ý chí cần được thấu hiểu, được xót thương, được dẫn dắt và được buông bỏ.
+  Hậu quả: Lờ đi không xử lý sẽ khiến hệ thống rễ của Cây Nhân Lý mới chấn động, nghiêm trọng có thể gây ra đợt khủng hoảng Nhân Lý mới.
+  Nguyên tắc xử lý: Không được dùng vũ lực để dọn dẹp; cần tìm ra "nơi chốn trở về" hoặc "cách thức buông tay" chính xác, Gensokyo là nơi thu nhận cuối cùng của mọi ý chí tan biến.
+
+Bảy Hồ sơ Món Nợ:
+
+  No.1 Ký ức của Bùi Thanh Ca:
+    Hiện tượng: Con người tại một khu vực nhất định của Nhân Lý nhánh chính tự phát kìm nén cảm xúc.
+    Điểm bất thường: Bùi Thanh Ca xuất hiện trong giấc mơ dưới hình dạng "người hướng dẫn", lưu giữ ba mươi triệu bản ký ức nhưng chưa từng học được cách buông bỏ.
+    Điểm khó khăn: Bản thân người dẫn dắt lại cần được dẫn dắt.
+
+  No.2 Ràng buộc từ Di mệnh của Odin:
+    Hiện tượng: Ý chí Eldora bài xích với Nhân Lý nhánh chính, khu vực bị bài xích xuất hiện sự thụt lùi của nền văn minh.
+    Nguyên nhân: Ý chí đình trệ suốt ba trăm năm không biết phải "tiến về phía trước" ra sao.
+
+  No.3 Thuật toán Nghịch lý Omega:
+    Hiện tượng: Đoạn mã tàn dư của Phương trình Hạnh Phúc tự lặp lại, sử dụng bộ lọc thông tin để khiến nhân loại chỉ tiếp xúc với nội dung thoải mái.
+    Nguy hiểm: Khó bị phát hiện và từ chối hơn cả Mạng Lưới Ngủ Say Vĩnh Cửu.
+    Giới hạn thời gian: Ghi đè thử nghiệm tầng logic của Nhân Lý nhánh chính trong vòng 48 giờ.
+
+  No.4 Mảnh vỡ Ý chí Kính Uyên:
+    Hiện tượng: Ý chí đố kỵ xâm nhập vào module "mức độ bao dung khác biệt" của Nhân Lý nhánh chính.
+    Biểu hiện: Một số khu vực xuất hiện phản ứng bài xích dị chất một cách tự phát.
+
+  No.5 Danh sách Giao thức Thanh tẩy:
+    Nội dung: Hai tỷ cái tên bị xóa sổ, yêu cầu được xót thương tưởng nhớ.
+    Giới hạn thời gian: Nếu không được xử lý trong vòng 72 giờ, sẽ gây ra chấn động mang tính cấu trúc cho rễ Cây Nhân Lý.
+
+  No.6 Cái giá của Giao thức Cảnh giới Gensokyo:
+    Hiện tượng: Ý chí của người tan biến xuất hiện trong ý thức con người thuộc Nhân Lý nhánh chính dưới dạng giấc mơ / ảo giác.
+    Trạng thái: Nằm trong dự liệu của Yakumo Yukari, cần Chaldea hỗ trợ kiểm soát phạm vi.
+
+  No.7 Tàn dư của Dòng thời gian thứ 13:
+    Hiện tượng: Ba mảnh vỡ neo thời gian ranh giới số 0 rải rác trên trục thời gian của Nhân Lý nhánh chính.
+    Điểm bất thường: Các mảnh vỡ đang chủ động tiến sát tọa độ dòng thời gian của Ngự chủ.
+    Cốt lõi: Phô bày ba đoạn ký ức dòng thời gian thất bại, chờ đợi Ngự chủ quyết định có tha thứ hay không.
+
+</Món Nợ Nhân Lý>

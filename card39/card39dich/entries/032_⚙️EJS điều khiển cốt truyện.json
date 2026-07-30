@@ -1,0 +1,52 @@
+{
+    "id":  32,
+    "keys":  [
+
+             ],
+    "secondary_keys":  [
+
+                       ],
+    "comment":  "⚙️EJS điều khiển cốt truyện",
+    "content":  "<%_\n  // Thế giới Thanh Minh\n  const thanhMinhDangO = getvar('stat_data.Hệ thống đại thế giới.Thanh Minh.Thế giới hiện tại đang ở') || false;\n  const thanhMinhChuong = getvar('stat_data.Hệ thống đại thế giới.Thanh Minh.Chương cốt truyện') || '';\n_%>\n<%_ if (thanhMinhDangO === true) { _%>\n  <%- await getwi(null, 'Thế giới quan Thanh Minh') %>\n  <%_ if (thanhMinhChuong === 'Chương 1') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 1') %>\n  <%_ } else if (thanhMinhChuong === 'Chương 2') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 2') %>\n  <%_ } else if (thanhMinhChuong === 'Chương 3') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 3') %>\n  <%_ } else if (thanhMinhChuong === 'Chương 4') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 4') %>\n  <%_ } else if (thanhMinhChuong === 'Chương 5') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 5') %>\n  <%_ } else if (thanhMinhChuong === 'Chương 6') { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương 6') %>\n  <%_ } else { _%>\n    <%- await getwi(null, 'Thanh Minh_Chương khác') %>\n  <%_ } _%>\n<%_ } _%>\n\n<%_\n  // Thế giới Eldora\n  const eldoraDangO = getvar('stat_data.Hệ thống đại thế giới.Eldora.Thế giới hiện tại đang ở') || false;\n  const eldoraChuong = getvar('stat_data.Hệ thống đại thế giới.Eldora.Chương cốt truyện') || '';\n_%>\n<%_ if (eldoraDangO === true) { _%>\n  <%- await getwi(null, 'Thế giới quan Eldora') %>\n  <%_ if (eldoraChuong === 'Chương 1') { _%>\n    <%- await getwi(null, 'Idola_Chương 1') %>\n  <%_ } else if (eldoraChuong === 'Chương 2') { _%>\n    <%- await getwi(null, 'Idola_Chương 2') %>\n  <%_ } else if (eldoraChuong === 'Chương 3') { _%>\n    <%- await getwi(null, 'Eldora_Chương 3') %>\n  <%_ } else if (eldoraChuong === 'Chương 4') { _%>\n    <%- await getwi(null, 'Idola_Chương 4') %>\n  <%_ } else if (eldoraChuong === 'Chương 5') { _%>\n    <%- await getwi(null, 'Idola_Chương 5') %>\n  <%_ } else if (eldoraChuong === 'Chương 6') { _%>\n    <%- await getwi(null, 'Eldora_Chương 6') %>\n  <%_ } else { _%>\n    <%- await getwi(null, 'Eldora_Chương khác') %>\n  <%_ } _%>\n<%_ } _%>\n\n<%_\n  // Thế giới Neon 2187\n  const neon2187DangO = getvar('stat_data.Hệ thống đại thế giới.Neon 2187.Thế giới hiện tại đang ở') || false;\n  const neon2187Chuong = getvar('stat_data.Hệ thống đại thế giới.Neon 2187.Chương cốt truyện') || '';\n_%>\n<%_ if (neon2187DangO === true) { _%>\n  <%- await getwi(null, 'Thế giới quan Neon 2187') %>\n  <%_ if (neon2187Chuong === 'Chương 1') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 1') %>\n  <%_ } else if (neon2187Chuong === 'Chương 2') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 2') %>\n  <%_ } else if (neon2187Chuong === 'Chương 3') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 3') %>\n  <%_ } else if (neon2187Chuong === 'Chương 4') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 4') %>\n  <%_ } else if (neon2187Chuong === 'Chương 5') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 5') %>\n  <%_ } else if (neon2187Chuong === 'Chương 6') { _%>\n    <%- await getwi(null, 'Neon 2187_Chương 6') %>\n  <%_ } else { _%>\n    <%- await getwi(null, 'Neon 2187_Chương khác') %>\n  <%_ } _%>\n<%_ } _%>\n\n\n<%_\n  // Thế giới Thủy Đô\n  const thuyDoDangO = getvar('stat_data.Hệ thống đại thế giới.Thủy Đô.Thế giới hiện tại đang ở') || false;\n  const thuyDoChuong = getvar('stat_data.Hệ thống đại thế giới.Thủy Đô.Chương cốt truyện') || '';\n_%>\n<%_ if (thuyDoDangO === true) { _%>\n  <%- await getwi(null, 'Thế giới quan Thủy Chi Đô') %>\n  <%_ if (thuyDoChuong === 'Chương 1') { _%>\n    <%- await getwi(null, 'Thủy Đô_Chương 1') %>\n  <%_ } else if (thuyDoChuong === 'Chương 2') { _%>\n    <%- await getwi(null, 'Thủy_Đô_Chương_2') %>\n  <%_ } else if (thuyDoChuong === 'Chương 3') { _%>\n    <%- await getwi(null, 'Thủy_Đô_Chương_3') %>\n  <%_ } else if (thuyDoChuong === 'Chương 4') { _%>\n    <%- await getwi(null, 'Thủy_Đô_Chương_4') %>\n  <%_ } else if (thuyDoChuong === 'Chương 5') { _%>\n    <%- await getwi(null, 'Thủy_Đô_Chương_5') %>\n  <%_ } else if (thuyDoChuong === 'Chương 6') { _%>\n    <%- await getwi(null, 'Thủy_Đô_Chương_6') %>\n  <%_ } else { _%>\n    <%- await getwi(null, 'Thủy Đô_Chương khác') %>\n  <%_ } _%>\n<%_ } _%>\n\n\n<%_\n  // Thế giới Ảo Tưởng Hương\n  const aoTuongHuongDangO = getvar('stat_data.Hệ thống đại thế giới.Ảo Tưởng Hương.Thế giới hiện tại đang ở') || false;\n  const aoTuongHuongChuong = getvar('stat_data.Hệ thống đại thế giới.Ảo Tưởng Hương.Chương cốt truyện') || '';\n_%>\n<%_ if (aoTuongHuongDangO === true) { _%>\n\n  <%- await getwi(null, 'Thế giới quan Ảo Tưởng Hương') %>\n\n  <%_ if (aoTuongHuongChuong === 'Chương 1') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 1') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 2') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 2') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 3') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 3') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 4') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 4') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 5') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 5') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 6') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 6') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 7') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 7') %>\n  <%_ } else if (aoTuongHuongChuong === 'Chương 8') { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương 8') %>\n  <%_ } else { _%>\n    <%- await getwi(null, 'Ảo Tưởng Hương_Chương khác') %>\n  <%_ } _%>\n\n<%_ } _%>\n\n\n\n\n<%_\n  // Điểm Giao Thoa Hỗn Độn\n  const diemGiaoThoaDangO = getvar('stat_data.Hệ thống đại thế giới.Điểm Giao Thoa Hỗn Độn.Thế giới hiện tại đang ở') || false;\n_%>\n<%_ if (diemGiaoThoaDangO === true) { _%>\n  <%- await getwi(null, 'Thế giới quan Điểm Giao Thoa Hỗn Độn') %>\n<%_ } _%>\n\n\n\n\n<%_\n  // Xét độ khó\n  const doKho = getvar('stat_data.Hệ thống nhân vật chính.Độ khó') || 'Độ khó bình thường';\n_%>\n\n<%_ if (doKho === 'Độ khó dễ') { _%>\n  <%- await getwi(null, 'Độ khó Dễ') %>\n<%_ } else if (doKho === 'Độ khó bình thường') { _%>\n  <%- await getwi(null, 'Độ khó Bình Thường') %>\n<%_ } else if (doKho === 'Độ khó khó') { _%>\n  <%- await getwi(null, 'Độ khó Khó') %>\n<%_ } _%>\n",
+    "constant":  true,
+    "selective":  true,
+    "insertion_order":  102,
+    "enabled":  true,
+    "position":  "before_char",
+    "use_regex":  true,
+    "extensions":  {
+                       "position":  0,
+                       "exclude_recursion":  true,
+                       "display_index":  3,
+                       "probability":  100,
+                       "useProbability":  true,
+                       "depth":  4,
+                       "selectiveLogic":  0,
+                       "outlet_name":  "",
+                       "group":  "",
+                       "group_override":  false,
+                       "group_weight":  100,
+                       "prevent_recursion":  true,
+                       "delay_until_recursion":  false,
+                       "scan_depth":  null,
+                       "match_whole_words":  null,
+                       "use_group_scoring":  false,
+                       "case_sensitive":  null,
+                       "automation_id":  "",
+                       "role":  0,
+                       "vectorized":  false,
+                       "sticky":  0,
+                       "cooldown":  0,
+                       "delay":  0,
+                       "match_persona_description":  false,
+                       "match_character_description":  false,
+                       "match_character_personality":  false,
+                       "match_character_depth_prompt":  false,
+                       "match_scenario":  false,
+                       "match_creator_notes":  false,
+                       "triggers":  [
+
+                                    ],
+                       "ignore_budget":  false
+                   }
+}

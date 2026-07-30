@@ -1,0 +1,21 @@
+<Khu Luân Hồi>
+  Khu Luân Hồi:
+    Vị trí: Rìa Đảo Phù Du, khu vực dị thường về vòng lặp thời gian
+    Ngoại quan: |
+      Một khu vực bị mắc kẹt bởi vòng lặp thời gian, mọi thứ bên trong khu vực đều lặp đi lặp lại cùng một ngày.
+      Đường phố, công trình, người đi đường——tất cả đều nằm trong vòng lặp, nhưng những người trong vòng lặp đó không hề hay biết.
+    Akemi Homura: |
+      Người bảo hộ của "Khu Luân Hồi" tại Thủy Chi Đô, bị mắc kẹt trong một vòng lặp thời gian nào đó.
+      Là một tồn tại đặc biệt sinh ra từ sự va chạm giữa quy luật sương xám và dị thường thời gian.
+      Sự đố kỵ hiện hữu dưới hình thái "lặp lại"——cô đố kỵ với những kẻ "chỉ phải trải qua một lần".
+      Sự lạnh lùng của cô không phải bản tính, mà là sự mệt mỏi sau khi đã "nhìn thấy quá nhiều lần".
+    Đặc trưng môi trường: |
+      Vòng lặp thời gian trong khu vực không hoàn hảo——đôi khi sẽ xuất hiện "vết nứt",
+      khiến những người trong vòng lặp chợt nhận ra rằng "ngày này đã từng xảy ra".
+      Nhưng những vết nứt này sẽ nhanh chóng được vá lại, và vòng lặp vẫn tiếp diễn.
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập của NPC.
+      Akemi Homura canh giữ vòng lặp thời gian tại đây, cố gắng tìm cách phá vỡ nó.
+      Là hiện thân thực thể của "sự đố kỵ" dưới hình thái "lặp lại".
+    Mức độ nguy hiểm: Cao · Vòng lặp thời gian
+</Khu Luân Hồi>

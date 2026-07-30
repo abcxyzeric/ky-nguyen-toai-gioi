@@ -1,0 +1,30 @@
+{
+  "type": "script",
+  "enabled": true,
+  "name": "自动更新",
+  "id": "bd4f4dc9-8953-4e15-a86b-d08a2f3a5968",
+  "content": "import 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/自动更新角色卡/index.js'",
+  "info": "# 自动更新角色卡\n\n- **作者:** 青空莉想做舞台少女的狗\n- **版本:** 2025/02/11\n- **源文件:** [点此跳转](https://github.com/StageDog/tavern_resource/tree/main/src)\n\n在角色卡面板中加载你要自动更新的角色卡, 将这个脚本添加到酒馆助手 \"角色脚本\" 中, 编辑脚本, 在`变量列表`中填入角色卡名称、角色卡链接和更新日志链接.\n\n例如:\n\n```yaml\n{\n  角色卡名称: 自动更新角色卡示例\n  角色卡链接: https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/自动更新角色卡/示例角色卡.png\n  更新日志链接: https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/src/酒馆助手/自动更新角色卡/示例更新日志.md\n}\n```\n\n其中,\n\n- 角色卡名称要和角色卡在酒馆中的名称一样, 确定好后不能再更改\n- 角色卡链接和更新日志链接必须是固定的, 而且访问的是最新版本角色卡和更新日志文件.\n\n比如, 你可以把角色卡和更新日志文件上传到 github, 然后使用 `https://testingcf.jsdelivr.net/gh/用户名/仓库名/文件路径` 作为角色卡链接和更新日志链接 (不清楚怎么做可以搜索一下或者问 AI).\n\n而更新日志应该按下面这样填写:\n\n```md\n# 更新日志\n\n## 这里填的会是角色卡版本号, 最上面一个版本是最新版本\n\n- 最新版本更新了啥……\n\n## 新春版\n\n- 这个版本更新了啥……\n\n## 1.0.0\n\n- 这个版本更新了啥……\n```\n\n这样一来, 只要你更新链接所访问到的角色卡和更新日志, 玩家就能在酒馆中直接更新角色卡, 不需要去帖子查看更新, 不需要再下载、导入新角色卡了!\n\n另外, 你可以配合[实时编写角色卡、世界书或角色卡](https://stagedog.github.io/青空莉/工具经验/实时编写角色卡、世界书或角色卡/)来做到: 在 VSCode 中对角色卡进行一些修改, 上传到 github, 玩家在酒馆中自动收到更新.\n",
+  "button": {
+    "enabled": true,
+    "buttons": [
+      {
+        "name": "更新角色卡: _碎界纪元",
+        "visible": true
+      },
+      {
+        "name": "更新日志",
+        "visible": true
+      }
+    ]
+  },
+  "data": {
+    "角色卡名称": "_碎界纪元",
+    "角色卡链接": "https://raw.githubusercontent.com/abcxyzeric/ky-nguyen-toai-gioi/refs/heads/master/card39/card39dich/_K%E1%BB%B7_Nguy%C3%AAn_To%C3%A1i_Gi%E1%BB%9Bi_vi.png",
+    "更新日志链接": "https://raw.githubusercontent.com/abcxyzeric/ky-nguyen-toai-gioi/refs/heads/master/card39/card39dich/audit_card39_vi_report.md"
+  },
+  "export_with": {
+    "data": true,
+    "button": true
+  }
+}

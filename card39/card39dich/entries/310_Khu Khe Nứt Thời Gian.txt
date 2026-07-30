@@ -1,0 +1,20 @@
+<Khu Khe Nứt Thời Gian>
+  Khu Khe Nứt Thời Gian:
+    Vị trí: Rìa Đảo Phù Du, nơi giao thoa giữa sương xám và sự dị thường của thời gian
+    Ngoại quan: |
+      Tồn tại ổn định duy nhất tại nơi giao thoa giữa sương xám và sự dị thường của thời gian.
+      Dòng chảy thời gian trong khu vực không đồng nhất——có nơi nhanh, có nơi chậm, có nơi hoàn toàn tĩnh lặng.
+    Tokisaki Kurumi: |
+      Người giám hộ "Khu Khe Nứt Thời Gian" của Thủy Chi Đô.
+      Dùng phân thân để duy trì sự cân bằng của khe nứt.
+      Sự đố kỵ mang hình thái "thời gian"——cô đố kỵ với những kẻ chỉ sống trong "hiện tại".
+      Mỗi một phân thân đều là một mảnh vỡ đố kỵ của cô: đố kỵ với bản thân có thể biết yêu, đố kỵ với bản thân có thể nổi giận, đố kỵ với bản thân có thể rơi lệ.
+    Đặc trưng môi trường: |
+      Trong khu vực thỉnh thoảng có thể nhìn thấy "tàn ảnh thời gian"——những phân đoạn của quá khứ hoặc tương lai lóe lên trong làn sương xám.
+      Lưu lại quá lâu sẽ dẫn đến sự rối loạn trong cảm nhận thời gian.
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Tokisaki Kurumi dùng phân thân duy trì sự cân bằng của khe nứt, còn bản thể thì độc hành cô độc giữa dòng sông dài của thời gian.
+      Là sự hiện thực hóa của "đố kỵ" dưới hình thái "thời gian".
+    Độ nguy hiểm: Cao · Dị thường thời gian
+</Khu Khe Nứt Thời Gian>

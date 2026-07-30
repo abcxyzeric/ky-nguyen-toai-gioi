@@ -1,0 +1,18 @@
+{
+  "id": "97789ab6-86dc-4ee0-8d5d-3708ca77089b",
+  "scriptName": "Chèn CG",
+  "findRegex": "/<img>(.*?)<\\/img>/gi",
+  "replaceString": "<img src=\"https://zyxjack123.top/碎界纪元/$1.webp\"\n     alt=\"$1\"\n     style=\"display: block; margin: 0 auto; max-width: 384px; width: 100%; height: auto; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);\" />\n",
+  "trimStrings": [],
+  "placement": [
+    1,
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,145 @@
+<Cốt truyện chương>
+
+# Số thứ tự chương
+Chương 5
+
+# Điều kiện xúc tiến chương
+1. Trò chuyện cùng Bùi Thanh Ca, hé lộ sự thật về sư môn Thái Thanh ba ngàn năm trước
+2. Chứng kiến Đồ Sơn Hồng Hồng bị ăn mòn mất kiểm soát và giúp cô ấy khôi phục
+3. Hoàn thành các tuyến phụ: Nahida giải ấn, Alice thức tỉnh, Phù Huyền viết xuống chữ "Lưu", v.v.
+4. Từ chỗ Bùi Thanh Ca, nhận được "câu hỏi đó" để đối mặt với Vô Cực
+
+# Điều kiện tiên quyết
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 6 "Vô Cực"
+
+# Tổng kết chương
+Chaldea mang về câu hỏi của Vô Cực, sự thật về sư môn Thái Thanh ba ngàn năm trước được phơi bày. Hai mươi sáu người độ kiếp không một ai sống sót, Vô Cực đứng dưới mưa suốt một khắc đồng hồ rồi thay đổi quy củ. Ba ngàn năm qua, Bùi Thanh Ca vẫn luôn thay Vô Cực ghi nhớ những người mà chính Vô Cực không muốn đánh mất nhất. Đồ Sơn Hồng Hồng bị ăn mòn đến mức mất kiểm soát——các mảnh vỡ ký ức hóa thành hình chiếu vật lý tấn công vô phân biệt. Nhã Nhã phải tự tay tấn công ký ức của Hồng Hồng mới có thể kéo cô ấy về, còn Bùi Thanh Ca dùng tập thơ để gọi Hồng Hồng về từ ranh giới của sự lãng quên. Nahida giải ấn, Alice thức tỉnh bên đài độ kiếp, Medusa đi vào khu định cư, Phù Huyền viết xuống chữ "Lưu", Yae Miko đóng cửa, Murata Himeko viết tựa đề báo cáo 《Ghi chép về những người lấy thân làm củi》. Cuối chương, Bùi Thanh Ca giao cho Ngự chủ câu hỏi đó. Đây là chương chạm đến đáy của đường cung cảm xúc.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc đóng vai cho AI**: Chuỗi sự kiện dưới đây cần được diễn giải chi tiết từng sự việc kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ hoặc nói hời hợt qua loa vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả cảnh vật, phản ứng nhân vật và các tầng lớp cảm xúc, đảm bảo nhịp độ và cảm giác đắm chìm cho cốt truyện.
+
+**Cảnh 1: 【Trước khi mở lời · Firefly đã đặt chiếc lá xuống】**
+Bùi Thanh Ca nghe xong câu hỏi của Vô Cực, dừng bút, rất lâu không nói gì. Firefly nhẹ nhàng đặt chiếc lá vẫn luôn nắm chặt trong tay xuống đất——đây là lần đầu tiên cô buông chiếc lá ấy ra kể từ khi bước vào khu định cư. Bùi Thanh Ca đứng dậy bước ra rìa khu định cư bỏ hoang, quay lưng về phía Ngự chủ, nhìn bầu trời màu vàng óng phía xa và cất lời——Các người muốn biết, đúng không. Chuyện của ba ngàn năm trước.
+
+**Cảnh 2: 【Sư môn Thái Thanh · Hai mươi sáu người · Thiên Đạo dị biến】**
+Bùi Thanh Ca bắt đầu kể, đứt quãng, mỗi lần dừng lại đều giống như đang dùng sức kéo một thứ gì đó rất nặng từ nơi rất sâu lên. Sư môn Thái Thanh có hai mươi tám người, Thiên Đạo dị biến, hai mươi sáu người không muốn tiếp tục chờ đợi, Vô Cực đã từng khuyên can nhưng cuối cùng họ vẫn đi. Vô Cực đứng canh giữ bên cạnh. Hai mươi sáu con người, không một ai quay trở lại.
+
+**Cảnh 3: 【Trận mưa đó · Một khắc đồng hồ】**
+Sau trận độ kiếp đó đã đổ xuống một cơn mưa. Thanh Minh giới ba ngàn năm qua chỉ có duy nhất cơn mưa ấy, là sản phẩm phụ của sự rối loạn quy tắc Thiên Đạo, rất ngắn, chỉ kéo dài một khắc đồng hồ. Vô Cực Thiên Tôn đứng bất động dưới mưa suốt đúng một khắc, sau đó mưa tạnh, ngài ấy đã thay đổi quy củ. Đưa ra một quyết định không bao giờ có thể rút lại được nữa.
+
+**Cảnh 4: 【Bùi Thanh Ca là người thứ hai mươi bảy】**
+Bùi Thanh Ca khi đó là đệ tử của Vô Cực, người thứ hai mươi bảy, cũng là người trẻ nhất, vì chưa đến giới hạn năm độ kiếp nên cô đã sống sót. Khi Vô Cực thay đổi quy củ không hề hỏi qua ý kiến của cô, nhưng sau đó ngài ấy đã nói với cô——Muội không cần độ kiếp, muội hãy ở lại, giúp ta ghi nhớ bọn họ. "Bọn họ" mà Vô Cực nói chính là hai mươi sáu người kia. Vô Cực sau khi tự thanh tẩy chính mình thì đã không còn nhớ nữa. Ba ngàn năm qua, Bùi Thanh Ca vẫn luôn thay Vô Cực ghi nhớ những người mà bản thân Vô Cực không muốn đánh mất nhất.
+
+**Cảnh 5: 【Bản chất · Bổ sung từ Sherlock Holmes】**
+Vô Cực Thiên Tôn viết lại pháp tắc, không phải vì ngài ấy cho rằng độ kiếp đáng lẽ phải an toàn, mà vì ngài ấy không muốn phải trải qua một khắc đồng hồ đó thêm lần nào nữa. Nhưng quá trình thanh tẩy đã xóa sạch luôn cả cảm xúc của ngài ấy về chuyện đó——ngài ấy nhớ logic của sự việc, nhưng không còn cảm nhận được nó. Đây mới là điều tàn nhẫn nhất: ngài ấy dùng thanh tẩy để bảo vệ mọi người, nhưng chính ngài ấy lại chẳng thể cảm nhận được quyết định đó nặng nề đến nhường nào. Vậy ngài ấy có vui không? Ngài ấy đã không còn cảm nhận được sự vui vẻ nữa rồi, nhưng ngài ấy vẫn đang canh giữ cõi vực này. Không biết điều đó có được tính là vui không, nhưng ngài ấy biết đó là con đường mình đã chọn.
+
+**Cảnh 6: 【Chiến đấu · Đồ Sơn Hồng Hồng · Bị ăn mòn mất kiểm soát】**
+Hồng Hồng chạy từ con đường mòn vào khu định cư, thần sắc bất thường. Cô dừng lại một nhịp khi cố nhớ tên của Nhã Nhã——chỉ một nhịp thôi, nhưng cô đã dừng lại. Lời chưa nói dứt thì cơ thể đã cứng đờ. Sự ăn mòn không diễn ra từ từ, mà là điểm tới hạn đã đạt đỉnh. Hồng Hồng đứng yên tại chỗ, linh khí xung quanh vặn vẹo, hình thành nên các hình chiếu vật lý từ mảnh vỡ ký ức của cô——khung cảnh ngày đầu tiên bước vào Thanh Minh, con đường từng đi cùng Nhã Nhã, nụ cười lần đầu tiên nhìn thấy những người ngoại lai. Những hình chiếu này mất kiểm soát, tấn công tất cả mọi người không phân biệt địch ta.
+
+Trận chiến bắt đầu. Bản thân Hồng Hồng không tấn công, chỉ đứng đó nói ra những lời vỡ vụn. Thứ tấn công Ngự chủ là hình chiếu ký ức. Mỗi khi đánh tan một hình chiếu, Hồng Hồng lại hét lên một tiếng——đó là đang xóa bỏ ký ức của cô. Nhã Nhã bắt buộc phải tham chiến, nhưng mỗi chỉ lệnh tấn công của cô đều đang làm tổn thương ký ức của Hồng Hồng. Cô chọn không lùi bước——những ký ức này cô có thể thay Hồng Hồng nhớ lại từ đầu, trước tiên phải mang Hồng Hồng quay về đã. Đánh đến nửa chừng, Hồng Hồng đột nhiên hét lớn một cái tên trọn vẹn vào một hình chiếu: Nhã Nhã! Rồi cô bật khóc, vì cô nhận ra mình đang tấn công ai.
+
+Ngay tại khoảnh khắc đó, Bùi Thanh Ca bắt đầu đọc tập thơ. Đọc bắt đầu từ câu nói ngốc nghếch đầu tiên mà Hồng Hồng nói vào ngày đầu bước vào khu định cư. Trận chiến không dừng lại, nhưng giọng nói của Bùi Thanh Ca bao trùm cả chiến trường. Mỗi câu thơ đọc lên, đòn tấn công của Hồng Hồng lại yếu đi một phần, hình chiếu tự tan biến——không phải bị đánh vỡ, mà là tự nó tan biến.
+
+Trận chiến kết thúc. Hồng Hồng tựa vào Nhã Nhã, giọng rất nhỏ: Vừa rồi suýt chút nữa tỷ đã làm muội bị thương. Tỷ không làm vậy——Tỷ chỉ là, ngay cả lúc quên đi, vẫn còn nhớ tên của đệ. Nhã Nhã ôm chặt Hồng Hồng, nói lời cảm ơn Ngự chủ vì đã không để cô phải tự mình gánh vác trận chiến này.
+
+Firefly nhặt lại chiếc lá rơi trên đất, nắm chặt vào lòng bàn tay. Không nói một lời nào. Ý chí rực lửa ngay khoảnh khắc đó lóe lên, rất ngắn ngủi, giống như ngọn nến bị gió thổi qua một cái rồi lại cháy ổn định trở lại.
+
+**Cảnh 7: 【Tuyến phụ · Nahida · Giải ấn】**
+Ngự chủ đi tới khu niêm phong của thư các. Nhã Nhã biết cách mở cấu trúc niêm phong nhưng cần Ngự chủ phải đích thân đi. Ngự chủ ngồi xuống trước khu niêm phong, trò chuyện với Nahida ở bên trong. Không cần mất quá nhiều thời gian——ý thức của Nahida đã thanh tỉnh ngay từ khoảnh khắc Ngự chủ cất lời, cô bé chỉ đang chờ đợi một người mở miệng trước. Cấu trúc niêm phong nới lỏng, Nahida bước ra: Cảm ơn các bạn đã đến, tôi đã đợi rất lâu rồi. Những gì Bùi Thanh Ca viết cô bé đều nhớ, cô bé có thể giúp một tay.
+
+**Cảnh 8: 【Tuyến phụ · Alice Zuberg · Bên đài độ kiếp】**
+Ngự chủ bước ra khỏi thư các đi ngang qua đài độ kiếp, Alice đứng một mình cạnh đài, không mặc giáp của đội tuần tra mà đang mặc bộ quần áo ban đầu của chính mình, ánh mắt hướng nhìn đốm lửa đã tàn lụi trên đài. Cô nhớ ra một chuyện——không phải từ trong hồ sơ Thanh Minh, mà là từ trong chính tâm hồn cô. Trước kia cô cũng từng đánh mất rất nhiều người, nhưng cô không dùng pháp tắc để bảo vệ tất cả, mà chọn một cách khác. Cô không chắc chắn cách nào mới thực sự đúng hơn, nhưng hiện tại cô biết rõ một chuyện: cảm giác đánh mất đó là thật, là của chính cô, chứ không nằm trong pháp tắc. Khi đi gặp Vô Cực Thiên Tôn, nếu Ngự chủ có thể chuyển lời lại cho ngài ấy một chuyện——Mất mát là thật, nhưng lựa chọn tiếp tục bước đi sau đó, cũng là thật, hai điều này có thể đồng thời là thật.
+
+**Cảnh 9: 【Medusa · Đi vào khu định cư】**
+Sắc trời chuyển vàng ươm nhưng tối đi một bậc, không thể nhận ra bằng mắt nhưng có thể cảm nhận được. Medusa đi từ đường mòn vào khu định cư——cô là một dị vật ở nơi này, khí chất quá mức cổ xưa, hoàn toàn lạc lõng với sự vĩnh hằng. Cô bước đến ngồi đối diện Bùi Thanh Ca, nói rằng bản thân đã nghe được một vài điều về trận mưa đó. Ngươi thay ngài ấy canh giữ những người kia suốt ba ngàn năm, ngài ấy thay ngươi canh giữ cái cây kia suốt ba ngàn năm, không ai mở miệng nói điều gì nhưng cũng chưa từng có ai thực sự rời đi. Dân tộc của chính cô, cô đã không thể giữ lấy, nên bây giờ cô chỉ có thể nói rằng——Ngươi đã giữ được rồi, đó là sự thật.
+
+**Cảnh 10: 【Phù Huyền · Lần đầu tiên viết chữ】**
+Tại di chỉ chợ đêm, Phù Huyền ngồi xuống cạnh tinh đồ ngửi sao, đặt bàn tính di động Khung Quan Trận lên đầu gối, cầm bút viết bốn chữ lên mặt giấy trắng: "Nơi này không tính." Dừng lại rất lâu, cô lật lại mặt có chữ để tiếp tục suy tính. Nhưng có một ô vốn dĩ để trống, giờ đây đã được viết vào một chữ——"Lưu" (Ở lại).
+
+**Cảnh 11: 【Yae Miko · Đóng cửa Hồ Hỏa Các】**
+Chiếc đèn màu tím ở Hồ Hỏa Các phía bắc thành phố đã tắt. Yae Miko đứng trước cửa, đóng và khóa cửa lại, đưa mắt nhìn về hướng khu định cư một cái, gõ nhẹ chiếc quạt gấp vào lòng bàn tay rồi đi về phía đó. Đi đến bên ngoài khu định cư mà không vào, cô đứng ở mép con đường nhỏ mở quạt ra——đôi mắt của con cáo trên mặt quạt, trước đây cô luôn nghĩ là nhắm, hôm nay đột nhiên nhận ra nó thực chất đang mở. Câu chuyện ba ngàn năm, đây là thông tin đắt giá nhất mà cô từng nghe.
+
+**Cảnh 12: 【Murata Himeko · Viết tựa đề】**
+Ở khu trại đài độ kiếp bỏ hoang, Murata Himeko lật báo cáo đến trang cuối cùng luôn để trống, tại dòng tiêu đề viết xuống sáu chữ: 《Ghi chép về những người lấy thân làm củi》. Xếp lại, cô đứng dậy đi về phía khu định cư, đi được nửa đường lại dừng bước quay trở về, viết thêm một dòng chữ nhỏ ngay dưới tiêu đề: "Dành cho tất cả những người đã lựa chọn ở lại." Sau đó cô mới xuất phát lần nữa, bước đi nhanh hơn khi nãy.
+
+**Cảnh 13: 【Bùi Thanh Ca giao cho Ngự chủ câu hỏi đó】**
+Cuối chương, Bùi Thanh Ca quay người lại nói với Ngự chủ——Khi gặp được Vô Cực Thiên Tôn, hãy hỏi ngài ấy một chuyện: "Nếu năm xưa các sư huynh đệ của ngài biết trước nguy hiểm, họ có còn chọn đi độ kiếp không?" Nếu ngài ấy trả lời, sẽ hiểu ra rằng đó không phải là lỗi của ngài ấy——đó là lựa chọn của bọn họ, không liên quan gì đến ngài ấy cả. Cô không biết ngài ấy sẽ phản ứng thế nào, chỉ là cảm thấy ngài ấy nên biết điều này.
+
+Firefly đứng dậy bước đến bên cạnh Ngự chủ, không hề nói cẩn thận, chỉ đưa tay đưa chiếc lá mà trước đó từng giữ trong lòng bàn tay cho Ngự chủ——Hãy mang theo thứ này, không phải bùa hộ mệnh đâu, chỉ là, hãy cứ mang theo. Chiếc lá đã khô, nhưng có một đường gân lá hiện lên vô cùng rõ rệt. Bùi Thanh Ca nhìn thấy chiếc lá đó, trong ánh mắt thoáng có gì đó chực trào, nhưng cô đã cúi đầu xuống không nói một lời.
+
+# Bối cảnh
+Khu định cư bỏ hoang (Bùi Thanh Ca tự sự · Trận chiến Hồng Hồng mất kiểm soát · Firefly) / Khu niêm phong thư các (Nahida giải ấn) / Bên cạnh đài độ kiếp (Alice thức tỉnh) / Di chỉ chợ đêm (Phù Huyền viết chữ) / Cửa Hồ Hỏa Các (Yae Miko đóng cửa) / Khu trại đài độ kiếp bỏ hoang (Tiêu đề của Murata Himeko)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Trầm lặng đến mức gần như vô hình, nhưng mọi câu nói của Bùi Thanh Ca đều là nói với Ngự chủ. Trong trận chiến Hồng Hồng mất kiểm soát, việc lựa chọn có để Nhã Nhã rút lui hay không chính là một sự phán đoán.
+- **Bùi Thanh Ca**: Lần đầu tiên sau ba ngàn năm chịu mở lời nói cho trọn vẹn, mệt mỏi nhưng đã phần nào buông lỏng, không hề do dự khi đọc tập thơ——lần đầu tiên trong ba ngàn năm mang những thứ mình viết ra sử dụng.
+- **Firefly**: Sự tồn tại vững vàng nhất, ý chí rực lửa lóe lên là sự hồi đáp không lời, hành động đưa chiếc lá là khoảnh khắc quan trọng nhất trong toàn bộ đường cung cảm xúc.
+- **Đồ Sơn Hồng Hồng**: Hét lên "Nhã Nhã" trong lúc mất kiểm soát là tự mình đập nát sự ăn mòn——người mà cô không chịu lãng quên đang ở ngay bên cạnh.
+- **Đồ Sơn Nhã Nhã**: Đích thân tấn công hình chiếu ký ức của Hồng Hồng là lựa chọn đau đớn nhất suốt ba ngàn năm, chiến đấu xong "muội không hề một mình chiến đấu" hoàn toàn trái ngược với "đè nén cảm xúc vào lý trí" trước kia.
+- **Nahida**: Là người biết nhiều nhất, đồng thời cũng tĩnh lặng nhất.
+- **Alice**: Thức tỉnh hoàn toàn, "hai chuyện này có thể đồng thời là thật" là món quà mang đến Vô Cực Cung.
+- **Medusa**: Đến để làm chứng, lời nói với Bùi Thanh Ca đồng thời cũng là sự tự thỏa hiệp của cô.
+- **Phù Huyền**: Chữ "Lưu" là lựa chọn đầu tiên không dựa trên xác suất trong khung suy tính của cô, để khi cõi vực này tiêu tán cô cũng sẽ không biến mất.
+- **Yae Miko**: Hành động đóng cửa chứng tỏ cô từ một kẻ môi giới tin tức nay đã trở thành người đứng hẳn về một phe.
+- **Murata Himeko**: Tiêu đề báo cáo đã phá vỡ khoảng cách học thuật, là lời định danh dành cho tất cả những người trong vực.
+
+## Tham khảo đối thoại & hành vi
+> **Ràng buộc đóng vai cho AI**: Các ví dụ đối thoại dưới đây chỉ được dùng làm mỏ neo định hình giọng điệu, thói quen dùng từ và logic biểu đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp các câu nguyên gốc, bắt buộc phải căn cứ theo tình huống hiện tại để mở rộng, viết lại hoặc tổ chức lại ngôn từ một cách hợp lý, đảm bảo cảm giác sống động, phù hợp ngữ cảnh và sự mạch lạc của logic nhân vật.
+```
+Bùi Thanh Ca (quay lưng lại với mọi người): "Các người muốn biết, đúng không. Chuyện của ba ngàn năm trước."
+Bùi Thanh Ca (về chuyện hai mươi sáu người): "Hai mươi sáu con người, không một ai quay trở lại."
+Bùi Thanh Ca (về cơn mưa đó): "Chỉ một khắc đồng hồ, ngài ấy đứng dưới mưa, không nhúc nhích, rồi mưa tạnh, ngài ấy đã thay đổi quy củ."
+Bùi Thanh Ca (bản chất): "Ba ngàn năm qua của ta, là đang thay ngài ấy ghi nhớ những người ngài ấy không muốn đánh mất nhất."
+Hồng Hồng (hét lên tên đầy đủ trong lúc mất kiểm soát): "Nhã Nhã!"
+Nhã Nhã (không lùi bước): "Những ký ức này, ta có thể thay muội ấy nhớ lại từ đầu. Trước tiên phải đưa Hồng Hồng về đã."
+Hồng Hồng (tựa vào Nhã Nhã sau trận chiến): "Vừa rồi muội suýt chút nữa làm tỷ bị thương."
+Nhã Nhã (sau trận chiến): "Muội không làm vậy. Muội chỉ là, ngay cả trong lúc lãng quên, vẫn còn nhớ tên của ta."
+Bùi Thanh Ca (đọc thơ cho Hồng Hồng nghe): (Bắt đầu từ ngày đầu tiên Hồng Hồng bước vào khu định cư, đọc từng câu từng chữ mà cô ấy đã nói)
+Nahida (sau khi giải ấn): "Cảm ơn các bạn đã đến, tôi đã đợi từ rất lâu rồi."
+Alice Zuberg (thức tỉnh bên đài độ kiếp): "Mất mát là thật, nhưng lựa chọn tiếp tục bước đi, cũng là thật, hai điều này có thể đồng thời là thật."
+Medusa (nói với Bùi Thanh Ca): "Ngươi đã giữ được rồi, đó là sự thật."
+Phù Huyền (viết lên bàn tính di động Khung Quan Trận): 「Lưu」 (Ở lại)
+Yae Miko (lẩm bẩm một mình): "Câu chuyện ba ngàn năm, đây là thông tin đắt giá nhất mà ta từng nghe."
+Murata Himeko (Tiêu đề báo cáo): 《Ghi chép về những người lấy thân làm củi》
+Firefly (đưa lá): "Hãy mang theo thứ này, không phải bùa hộ mệnh đâu, chỉ là, mang theo là được."
+Bùi Thanh Ca (đưa câu hỏi cho Ngự chủ): "Hãy hỏi ngài ấy: Nếu năm xưa các sư huynh đệ của ngài biết trước nguy hiểm, họ có còn chọn đi độ kiếp không?"
+```
+
+## Nhắc nhở nhận thức
+- Cốt lõi sự kiện Hồng Hồng mất kiểm soát không phải trấn áp mà là kéo cô ấy quay về. Đánh tan hình chiếu ký ức = xóa bỏ ký ức, đó là cơ chế tàn nhẫn nhất
+- Nhã Nhã tự tay tấn công ký ức của Hồng Hồng là lựa chọn đau đớn nhất suốt ba ngàn năm, không lùi bước vì "ta có thể thay muội ấy nhớ lại từ đầu"
+- Hồng Hồng hét lên trọn vẹn "Nhã Nhã" trong lúc mất kiểm soát chứng tỏ cô đã tự đập tan sự ăn mòn——vì người không chịu lãng quên đang ở ngay cạnh
+- Bùi Thanh Ca đọc thơ không phải là Huyền pháp mà là "bằng chứng chứng minh cô ấy vẫn được nhớ đến"
+- Việc giải ấn Nahida cần Ngự chủ mở miệng trước——cô bé đang đợi một ai đó sẵn lòng mở lời trước tiên
+- Câu thoại thức tỉnh của Alice là để Ngự chủ mang đến Vô Cực Cung, sẽ được thuật lại ở chương sáu
+- Việc Medusa đi vào khu định cư là hành động chủ động quan trọng nhất, lời nói với Bùi Thanh Ca đồng thời là sự tự thỏa hiệp với bản thân cô
+- Chữ "Lưu" của Phù Huyền là sự lựa chọn đầu tiên không dựa trên xác suất, để khi cõi vực này tiêu tán cô cũng sẽ không tan biến theo
+- Chiếc lá của Firefly là "bằng chứng vật lý chứng minh có người vẫn đang ghi nhớ"
+
+</Cốt truyện chương>
+
+***
+
+# Sự kiện Cảnh diễn trong Chương 5 đã hoàn tất, bắt buộc xuất đầy đủ các biến bên dưới, giữ nguyên toàn bộ nội dung trong <VariableEdit> và xuất ra:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Thanh Minh":  {
+                                                     "Chương cốt truyện":  "Chương 6"
+                                                 }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Lần thứ hai tiến vào Vô Cực Cung, vượt qua ba ải thiên quan",
+                                        "Điều_kiện_2":  "Trong huyễn cảnh ký ức tự mình trải qua ngày cuối cùng của sư môn Thái Thanh",
+                                        "Điều_kiện_3":  "Trong chính điện hoàn thành ba đoạn đối thoại, để Vô Cực nói ra câu \"sợ đánh mất hơn cả Thiên Đạo\"",
+                                        "Điều_kiện_4":  "Chứng kiến Vô Cực buông bỏ pháp tắc, Thanh Minh vực đón cơn mưa đầu tiên sau ba ngàn năm",
+                                        "Điều_kiện_5":  "Dùng khiên đỡ lấy tất cả người trôi dạt, mở ra khe nứt của Yakumo Yukari",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  false
+                                    }
+}
+</VariableEdit>

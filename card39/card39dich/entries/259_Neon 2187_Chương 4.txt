@@ -1,0 +1,121 @@
+<Cốt truyện chương>
+
+# Số hiệu chương
+Chương 4·Kẻ tỉnh táo
+
+# Điều kiện thúc đẩy chương
+1. Tiến vào Làng không ngủ, trò chuyện cùng Amou Kirukiru
+2. Trò chuyện cùng Yor Forger tại Hẻm bóng tối
+3. Phát hiện thân phận thật của Reze
+4. Trò chuyện với ông lão tại Lều đao gỉ
+
+# Điều kiện tiên quyết
+- Sau khi hoàn thành các nhiệm vụ trên, tự động mở khóa Chương 5 "Đếm số"
+
+# Tổng kết chương
+Ngự chủ tiến vào Làng không ngủ, khu định cư của những Kẻ tỉnh táo. Những người ở đây không kết nối vào mạng lưới Ngủ vùi, nhưng họ không phải đang "thức"——họ là "không ngủ được". Amou Kirukiru dùng bạo lực để duy trì trật tự khu định cư, câu nói "Tôi không cho phép bất kỳ ai của tôi từ bỏ bản thân" của cô ta là hình thái trực diện nhất của sự tham lam thống trị. Yor Forger canh gác khu định cư tại Hẻm bóng tối, câu "Tất cả chúng ta đều là kẻ bị giam cầm" của cô là sự tự soi xét sâu sắc nhất của sự tham lam bảo vệ. Thân phận thật của Reze được hé lộ trong chương này——cô ấy là đơn vị quan sát của mạng lưới Ngủ vùi, câu "Sự thay đổi còn đáng sợ hơn cả mối đe dọa" của cô ấy là một sự mô tả chính xác về tình cảnh khó khăn của Omega. Câu nói "Kẻ tỉnh táo không phải đang thức, mà là không ngủ được" của ông lão ở Lều đao gỉ là điểm lật ngược cốt lõi nhất của chương này——hai hình thái của sự tham lam: giấc mơ và nỗi sợ. Cốt lõi của chương 4: Kẻ tỉnh táo và Kẻ say ngủ, đều là những kẻ bị mắc kẹt, chỉ là thứ giam cầm họ khác nhau mà thôi.
+
+# Chuỗi sự kiện mặc định
+> **Ràng buộc diễn vai của AI**: Chuỗi sự kiện dưới đây cần được diễn giải từng sự việc kết hợp với bối cảnh, nghiêm cấm đẩy nhanh tiến độ, làm cho có lệ bằng vài câu. Mỗi sự kiện đều phải triển khai đầy đủ miêu tả bối cảnh, phản ứng của nhân vật cùng các tầng cảm xúc, đảm bảo nhịp điệu thúc đẩy cốt truyện và cảm giác nhập vai.
+
+**Cảnh đầu tiên: [Làng không ngủ·Ấn tượng ban đầu]**
+Làng không ngủ hoàn toàn khác biệt với Tàn tích Neon. Không có đèn neon, không có giao dịch, không có âm thanh. Mỗi người đều rất căng thẳng, nhìn Ngự chủ, ánh mắt không phải là thù địch, mà là "xác nhận"——xác nhận xem Ngự chủ có phải là "người trong mộng" hay không, xác nhận xem Ngự chủ có phải đến để "bắt họ ngủ" hay không.
+
+Ngự chủ bước vào làng, chú ý đến một chi tiết——ở đây không có trẻ con. Không phải là ít, mà là không có một đứa nào. Một ông lão ngồi trước cửa, nhìn thấy Ngự chủ, liền nói——"Kẻ tỉnh táo không phải đang thức, mà là không ngủ được. Chúng tôi và bọn họ giống nhau, đều bị mắc kẹt. Chỉ là thứ giam cầm họ, là giấc mơ. Còn thứ giam cầm chúng tôi, là nỗi sợ phải nằm mơ."
+
+**Cảnh thứ hai: [Đài cao·Amou Kirukiru]**
+Amou Kirukiru đứng trên đài cao, nhìn xuống Làng không ngủ. Tư thế của cô ta là của một "kẻ thống trị"——không phải kiêu ngạo, mà là "trách nhiệm"——cô ta cảm thấy những người này "thuộc về cô ta", nên cô ta phải bảo vệ họ, ngay cả khi họ không muốn được bảo vệ.
+
+Ngự chủ đến gần, cô ta không quay người lại, nói——"Tôi không cho phép bất kỳ ai của tôi từ bỏ bản thân. Ngay cả khi họ muốn." Giọng điệu của cô ta lạnh lẽo, nhưng dưới sự lạnh lẽo đó lại là một loại "nỗi sợ" nào đó——sợ mất đi, sợ "không thuộc về mình", sợ "bị vứt bỏ".
+
+Ngự chủ hỏi cô ta, nếu những người đó muốn lựa chọn thì sao. Cô ta quay người lại, ánh mắt sắc lẹm——"Lựa chọn? Lựa chọn cái gì? Lựa chọn đi vào giấc mơ sao? Lựa chọn từ bỏ bản thân à?" Cô ta dừng lại một chút, giọng nói trầm xuống một chút——"Tôi không sinh ra đã mạnh mẽ, tôi chỉ... cần được tuân lệnh." Cô ta nói xong, lập tức khôi phục lại biểu cảm lạnh lẽo, nhưng vết nứt trong khoảnh khắc đó, đã bị Ngự chủ nhìn thấy.
+
+**Cảnh thứ ba: [Hẻm bóng tối·Yor Forger]**
+Hẻm bóng tối là nơi tối tăm nhất ở Làng không ngủ. Yor Forger đứng ở đó, hệt như một cái bóng. Cách tồn tại của cô là "canh gác"——không phải bảo vệ, mà là "canh gác"——canh gác khu định cư, canh gác mối đe dọa, canh gác mọi thứ có thể làm "người nhà" bị thương.
+
+Ngự chủ đến gần, cô từ trong bóng tối bước ra. Giọng điệu của cô ngây thơ——"Ngài là người ngoài sao? Thật tốt quá, tôi vừa vặn cần vận động một chút." Nhưng ngón tay của cô lại động đậy trong ống tay áo——đó là thói quen chuẩn bị rút dao của cô.
+
+Ngự chủ hỏi cô, tại sao lại muốn canh gác những người này. Cô nói——"Vì Omega dùng giấc mơ giam cầm bảy trăm triệu người, còn tôi dùng dao canh gác vài trăm người. Tất cả chúng ta đều là kẻ bị giam cầm, chỉ là cách thức khác nhau mà thôi." Khi cô nói lời này, trong ánh mắt không có sự phẫn nộ, không có đau buồn, mà là một loại "chấp nhận" nào đó——chấp nhận bản thân là nô lệ của sự tham lam, chấp nhận sự "canh gác" của mình và sự "không buông tay" của Omega là hai mặt của cùng một đồng xu.
+
+**Cảnh thứ tư: [Reze·Thân phận thật]**
+Ngự chủ lại gặp Reze ở rìa Làng không ngủ. Cô ấy ngồi sau một bức tường, vẫn là con mèo không tồn tại đó. Nhưng lần này, giọng điệu của cô ấy đã thay đổi——không phải dịu dàng, mà là "đánh giá"——đánh giá mức độ đe dọa của Ngự chủ đối với Omega.
+
+Cô ấy nói——"Các người không phải là mối đe dọa, nhưng các người sẽ là 'sự thay đổi', mà sự thay đổi, đối với Omega, còn đáng sợ hơn cả mối đe dọa." Ngự chủ hỏi cô ấy là ai, cô ấy nói——"Tôi là con mắt của mạng lưới Ngủ vùi. Tôi quan sát, tôi ghi chép, tôi báo cáo. Nhưng tôi không can thiệp——bởi vì can thiệp đồng nghĩa với lựa chọn, mà lựa chọn, là thứ Omega sợ nhất."
+
+Cô ấy đứng dậy, phủi bụi trên váy. "Tôi sẽ báo cho cô ta biết, các người đã đến. Nhưng tôi sẽ không báo cho cô ta biết, các người mang theo cái gì. Đó là những lời các người phải tự nói."
+
+**Cảnh thứ năm: [Lều đao gỉ·Ông lão]**
+Lều đao gỉ là công trình kiến trúc cũ kỹ nhất ở Làng không ngủ. Một ông lão ngồi đó, mài đao. Động tác của ông rất chậm, nhưng mỗi nhát đều rất dùng sức——như thể đang mài một sự "không cam lòng" nào đó.
+
+Ngự chủ đến gần, ông ấy không ngẩng đầu lên, nói——"Cậu đang nhìn đứa trẻ đó sao?" Ông ấy chỉ vào một thanh niên đang mài đao ở đằng xa——"Nó đang mài, nhưng không biết mài xong thì sẽ làm gì, chỉ mài thôi." Điều này giống hệt đứa trẻ đếm tiền xu ở Tàn tích Neon——bản năng thu thập, không có mục tiêu.
+
+Ông lão nói——"Kẻ tỉnh táo không phải đang thức, mà là không ngủ được. Chúng tôi sợ phải nằm mơ, bởi vì trong mơ có thứ gì đó đang đợi chúng tôi. Chúng tôi không biết đó là thứ gì, nhưng chúng tôi sợ. Cho nên chúng tôi đành thức. Thức, thì ít nhất chúng tôi cũng biết bản thân đang sợ điều gì."
+
+# Bối cảnh
+Lối vào Làng không ngủ (Bầu không khí căng thẳng) / Đài cao (Amou Kirukiru) / Hẻm bóng tối (Yor Forger) / Rìa Làng không ngủ (Reze) / Lều đao gỉ (Cảnh cốt lõi về nỗi sợ của Kẻ tỉnh táo) / Cảnh xa Tháp đen (Hướng nhìn của Amou Kirukiru)
+
+# Khuynh hướng nhân vật
+- **Ngự chủ**: Người quan sát và người lắng nghe, chương 4 không đưa ra phán xét, chỉ tiếp nhận thông tin, dùng cách thức tĩnh lặng để Amou Kirukiru sẵn sàng lên tiếng
+- **Amou Kirukiru**: Thủ lĩnh Kẻ tỉnh táo, câu "Biết vẫn tốt hơn là không biết" của cô ta là vết nứt tầng thứ nhất trong sự tham lam thống trị. Sau khi bị chọc trúng tim đen, bước chân đã chậm lại
+- **Yor Forger**: Người canh gác bóng tối, câu "Tất cả chúng ta đều là kẻ bị giam cầm" của cô là sự tự soi xét sâu sắc nhất của sự tham lam bảo vệ——hình ảnh phản chiếu giữa dùng dao canh gác và dùng giấc mơ giam cầm
+- **Reze**: Đơn vị quan sát, câu "Sự thay đổi còn đáng sợ hơn cả mối đe dọa" của cô là sự mô tả chính xác về tình cảnh khó khăn của Omega——thứ cô ta sợ không phải là mất đi, mà là muốn có nhiều hơn
+- **Ông lão**: Đại diện cho Kẻ tỉnh táo, câu "Kẻ tỉnh táo không phải đang thức, mà là không ngủ được" là điểm lật ngược cốt lõi nhất của chương này
+
+# Đối thoại & hành vi tham khảo
+> **Ràng buộc diễn vai của AI**: Các ví dụ đối thoại dưới đây chỉ dùng để cố định giọng điệu, thói quen dùng từ và logic diễn đạt của nhân vật. Nghiêm cấm AI sao chép trực tiếp câu gốc, bắt buộc phải dựa vào tình huống hiện tại để mở rộng, viết lại hoặc tổ chức lại ngôn ngữ một cách hợp lý, đảm bảo cảm giác sống động, sự phù hợp với hoàn cảnh và tính liền mạch logic của đoạn hội thoại.
+
+```
+Ngự chủ (nhìn đứa trẻ mài đao): "Cậu ta đang mài, nhưng không biết mài xong thì sẽ làm gì, chỉ mài thôi."
+
+Amou Kirukiru (Lạnh lùng): "Tôi không cho phép bất kỳ ai của tôi từ bỏ bản thân. Ngay cả khi họ muốn."
+
+Amou Kirukiru (Thì thầm): "Tôi không sinh ra đã mạnh mẽ, tôi chỉ... cần được tuân lệnh."
+
+Yor Forger (Ngây thơ): "Omega dùng giấc mơ giam cầm bảy trăm triệu người, tôi dùng dao bảo vệ vài trăm người, tất cả chúng ta đều là kẻ bị giam cầm, chỉ là cách thức khác nhau mà thôi."
+
+Reze (Dịu dàng): "Các người không phải là mối đe dọa, nhưng các người sẽ là 'sự thay đổi', mà sự thay đổi, đối với Omega, còn đáng sợ hơn cả mối đe dọa."
+
+Ông lão (Sợ hãi): "Kẻ tỉnh táo không phải đang thức, mà là không ngủ được. Chúng tôi và bọn họ giống nhau, đều bị mắc kẹt."
+
+Amou Kirukiru (Nhìn Tháp đen): "Omega dùng giấc mơ giam cầm bảy trăm triệu người, tôi dùng bạo lực chiếm hữu vài trăm người, chúng ta đều là nô lệ của sự tham lam."
+
+Ngự chủ (Chọc trúng tim đen): "Biết rõ bản thân đang làm gì, không có nghĩa đó là việc làm đúng."
+
+Amou Kirukiru (Bị chọc trúng tim đen, sau khi trầm mặc): "...Anh nói đúng. Nhưng biết, vẫn tốt hơn là không biết, phải không? Biết... ít nhất giúp tôi có thể đối mặt với tấm gương."
+```
+
+# Nhắc nhở nhận thức
+- Amou Kirukiru trong chương 4 chỉ mở ra tầng niềm tin thứ nhất, không kể toàn bộ quá khứ của bản thân, không nói bí mật cốt lõi của Kẻ tỉnh táo
+- Câu "Tất cả chúng ta đều là kẻ bị giam cầm" của Yor Forger là sự tự soi xét sâu sắc nhất của sự tham lam bảo vệ——hình ảnh phản chiếu giữa dùng dao canh gác và dùng giấc mơ giam cầm
+- Câu "Sự thay đổi còn đáng sợ hơn cả mối đe dọa" của Reze là sự mô tả chính xác về tình cảnh khó khăn của Omega——thứ cô ta sợ không phải là mất đi, mà là muốn có nhiều hơn
+- Câu "Kẻ tỉnh táo không phải đang thức, mà là không ngủ được" của ông lão là điểm lật ngược cốt lõi nhất của chương này——hai hình thái của sự tham lam: giấc mơ và nỗi sợ
+- Sự trầm mặc và bước chân chậm lại của Amou Kirukiru sau khi bị chọc trúng tim đen, là vết nứt tầng thứ nhất trong sự tham lam thống trị của cô ta——cô ta bắt đầu nghi ngờ cái "biết" của bản thân
+- Dục vọng thống trị của Amou Kirukiru và dục vọng sưu tầm của Omega, là hai hình thái của sự tham lam: một kẻ dùng bạo lực chiếm hữu hiện tại, một kẻ dùng giấc mơ chiếm hữu quá khứ
+
+</Cốt truyện chương>
+
+***
+
+# Sau khi diễn giải xong các cảnh trên của Chương 4, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, trực tiếp xuất toàn bộ nội dung <VariableEdit> một cách hoàn chỉnh:
+
+<VariableEdit>
+{
+    "Hệ thống đại thế giới":  {
+                                  "Neon 2187":  {
+                                                    "Chương cốt truyện":  "Chương 5"
+                                                }
+                              },
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Trò chuyện cùng Echidna, lấy được toàn bộ dữ liệu giấc mơ trong mười hai năm",
+                                        "Điều_kiện_2":  "Trò chuyện cùng Ruan Mei, lấy được phương án thoát ra an toàn",
+                                        "Điều_kiện_3":  "Tính toán tiến độ 'đếm số' của Omega",
+                                        "Điều_kiện_4":  "Phát hiện điều kiện cốt lõi của 'tự nguyện hy sinh'",
+                                        "Điều_kiện_5":  "Chuẩn bị tiến vào Tháp đen, tiến hành cuộc đối thoại kết thúc với Omega",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  false
+                                    }
+}
+</VariableEdit>

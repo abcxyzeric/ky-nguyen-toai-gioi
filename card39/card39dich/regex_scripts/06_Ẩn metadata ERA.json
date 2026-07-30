@@ -1,0 +1,18 @@
+{
+  "id": "e8d61883-ca16-4bac-8410-4362c1d8b64a",
+  "scriptName": "Ẩn metadata ERA",
+  "disabled": false,
+  "runOnEdit": true,
+  "findRegex": "/<era_data>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/era_data>)((?:(?!<(?:era_data|variable(?:think|insert|edit|delete))>|<\\/era_data>)[\\s\\S])*?)\\s*<\\/era_data>/gi",
+  "trimStrings": [],
+  "replaceString": "",
+  "placement": [
+    1,
+    2
+  ],
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null,
+  "markdownOnly": true,
+  "promptOnly": true
+}

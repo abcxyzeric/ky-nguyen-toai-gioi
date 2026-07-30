@@ -1,0 +1,21 @@
+<Cục Quản Lý Không Gian>
+  Cục Quản Lý Không Gian:
+    Vị trí: Tầng giữa Đảo Phù Du, điểm giao thoa của Hồi Lang Tố Quang
+    Ngoại quan: |
+      Một công trình kiến trúc đa năng, bên trong bố trí đầy các thiết bị giám sát không gian.
+      Trên tường treo bản đồ không gian của Thủy Đô, đánh dấu toàn bộ những vết nứt không gian đã biết.
+    Shirai Kuroko: |
+      Người thi hành của "Cục Quản Lý Không Gian" tại Thủy Đô, chịu trách nhiệm duy trì sự ổn định không gian ở khu vực sương xám.
+      Ngăn chặn sương xám thông qua các vết nứt không gian để khuếch tán.
+      Sự ghen tị mang hình thái "cách thức được cần đến" —— cô ghen tị với cách Tỷ tỷ đại nhân được tất cả mọi người cần đến.
+      Dịch chuyển không gian của cô ấy chỉ có thể giúp cô "đến nơi", chứ không thể giúp cô "ở lại".
+    Đặc trưng môi trường: |
+      Thiết bị bên trong Cục Quản Lý rất tinh vi, nhưng lại mang một loại hơi thở "cô độc".
+      Shirai Kuroko sẽ đi tuần tra rìa khu vực sương xám vào lúc ba giờ sáng.
+      Văn phòng của cô ấy được đặt ở vị trí có thể nhìn thấy nơi ở của Misaka Mikoto —— "Phòng trường hợp Tỷ tỷ đại nhân cần đến tôi".
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập NPC.
+      Shirai Kuroko ở đây để duy trì sự ổn định không gian, ngăn chặn sương xám khuếch tán.
+      Là sự hiện diện thực thể hóa của "ghen tị" dưới hình thái "cách thức được cần đến".
+    Độ nguy hiểm: Trung bình · Nguy cơ nứt vỡ không gian
+</Cục Quản Lý Không Gian>

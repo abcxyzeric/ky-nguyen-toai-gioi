@@ -1,0 +1,119 @@
+[
+  {
+    "index": 0,
+    "id": "b2dc99c6-14bc-42ff-a9e1-75ac665c3444",
+    "scriptName": "Mẫu thanh trạng thái ERA",
+    "disabled": false,
+    "findRegex": "/<StatusPlaceHolderImpl\\/>/gsi",
+    "replaceLength": 257429,
+    "replaceSha256": "9ae0f5c70a9da4e7e12a3a4423055c9bed8fa236ac75554f05ee5b41b0fcadac",
+    "placement": [
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": false
+  },
+  {
+    "index": 1,
+    "id": "bf08d508-d439-4a19-9552-c8976ae0918f",
+    "scriptName": "Định dạng văn bản",
+    "disabled": false,
+    "findRegex": "/<(?:content|TXT|正文|response|gametext|geme|maincontent|now_plot)>([\\s\\S]*?)<\\/(?:content|TXT|正文|response|gametext|geme|maincontent|now_plot)>(?![\\s\\S]*<(?:content|TXT|正文|response|gametext|geme|now_plot)>)/is",
+    "replaceLength": 70272,
+    "replaceSha256": "b7b75a7b2741bfb6035efb1dcc5de1b530a20d640b73d043655a859026e0339d",
+    "placement": [
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": false
+  },
+  {
+    "index": 2,
+    "id": "6c694ad6-e16c-45d5-bb8e-29e33f192916",
+    "scriptName": "Trang chủ",
+    "disabled": false,
+    "findRegex": "【Trang chủ】",
+    "replaceLength": 106962,
+    "replaceSha256": "2122afac486477ffb27acec2b565ae3c7ce79bba8eddec568f68b2799b43cec3",
+    "placement": [
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": false
+  },
+  {
+    "index": 3,
+    "id": "97789ab6-86dc-4ee0-8d5d-3708ca77089b",
+    "scriptName": "Chèn CG",
+    "disabled": false,
+    "findRegex": "/<img>(.*?)<\\/img>/gi",
+    "replaceLength": 237,
+    "replaceSha256": "542b2f61a4114c13eb995d9e0efbfe6cc9de559dbcf60bf65e89cfba48b5a68e",
+    "placement": [
+      1,
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": false
+  },
+  {
+    "index": 4,
+    "id": "99e6ae0c-6c7f-43ae-ab31-c2962beefcc0",
+    "scriptName": "Ẩn ảnh CG",
+    "disabled": false,
+    "findRegex": "/<img>(.*?)<\\/img>/gi",
+    "replaceLength": 0,
+    "replaceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "placement": [
+      1,
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": false
+  },
+  {
+    "index": 5,
+    "id": "308b7c2a-c4b2-4ac1-bcc9-b89ceef9a7e1",
+    "scriptName": "Ẩn dữ liệu ERA",
+    "disabled": false,
+    "findRegex": "/<(variable(?:insert|edit|delete))>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/\\1>)((?:(?!<(?:era_data|variable(?:think|insert|edit|delete))>|<\\/\\1>)[\\s\\S])*?)\\s*<\\/\\1>/gi",
+    "replaceLength": 0,
+    "replaceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "placement": [
+      1,
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": true
+  },
+  {
+    "index": 6,
+    "id": "e8d61883-ca16-4bac-8410-4362c1d8b64a",
+    "scriptName": "Ẩn metadata ERA",
+    "disabled": false,
+    "findRegex": "/<era_data>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/era_data>)((?:(?!<(?:era_data|variable(?:think|insert|edit|delete))>|<\\/era_data>)[\\s\\S])*?)\\s*<\\/era_data>/gi",
+    "replaceLength": 0,
+    "replaceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "placement": [
+      1,
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": true
+  },
+  {
+    "index": 7,
+    "id": "f22e929b-3873-4304-81ff-44dee7429dd5",
+    "scriptName": "Ẩn khối suy nghĩ ERA",
+    "disabled": false,
+    "findRegex": "/<variablethink>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/variablethink>)((?:(?!<variablethink>)[\\s\\S])*?)\\s*<\\/variablethink>/gi",
+    "replaceLength": 0,
+    "replaceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "placement": [
+      1,
+      2
+    ],
+    "markdownOnly": true,
+    "promptOnly": true
+  }
+]

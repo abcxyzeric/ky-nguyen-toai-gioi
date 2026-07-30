@@ -1,0 +1,44 @@
+{
+  "source": "F:\\mvu card\\card39\\_碎界纪元_vi.png",
+  "label": "vi",
+  "sourceLength": 5931704,
+  "sourceSha256": "27e1769dd3a9ce10630693ebda0e3726d3dc964f79c1552fbc4b99e2e151d8ad",
+  "chunks": [
+    {
+      "index": 0,
+      "type": "IHDR",
+      "length": 13,
+      "offset": 8
+    },
+    {
+      "index": 1,
+      "type": "tEXt",
+      "length": 5134362,
+      "offset": 33
+    },
+    {
+      "index": 2,
+      "type": "IDAT",
+      "length": 797273,
+      "offset": 5134407
+    },
+    {
+      "index": 3,
+      "type": "IEND",
+      "length": 0,
+      "offset": 5931692
+    }
+  ],
+  "extracted": [
+    {
+      "index": 1,
+      "type": "tEXt",
+      "keyword": "chara",
+      "sourceLength": 5134362,
+      "output": "png_text_chunks\\001_chara.txt",
+      "decodedLength": 5134356,
+      "encoding": "latin1-text; base64->utf8-json",
+      "decodedJsonOutput": "sillytavern_chara.json"
+    }
+  ]
+}

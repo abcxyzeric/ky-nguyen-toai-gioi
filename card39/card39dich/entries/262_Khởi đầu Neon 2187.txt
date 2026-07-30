@@ -1,0 +1,25 @@
+<Điều kiện thúc đẩy chương 1 Neon 2187>
+# Điều kiện thúc đẩy chương
+1. Trò chuyện cùng Reze, thu thập thông tin quy luật cơ bản của Neon 2187
+2. Phát hiện quy luật xung điện của Hắc Tháp
+3. Lấy được lộ trình đi đến Phế Tích Neon
+
+# Lần đầu tiến vào Neon 2187, cốt truyện Chương 1, bắt buộc phải xuất ra toàn bộ biến số hoàn chỉnh dưới đây, trực tiếp xuất toàn bộ nội dung <VariableEdit> một cách hoàn chỉnh:
+
+<VariableEdit>
+{
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Trò chuyện cùng Reze, thu thập thông tin quy luật cơ bản của Neon 2187",
+                                        "Điều_kiện_2":  "Phát hiện quy luật xung điện của Hắc Tháp",
+                                        "Điều_kiện_3":  "Lấy được lộ trình đi đến Phế Tích Neon",
+                                        "Điều_kiện_4":  "Không có",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  true,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>
+</Điều kiện thúc đẩy chương 1 Neon 2187>

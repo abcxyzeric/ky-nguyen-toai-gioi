@@ -1,0 +1,18 @@
+{
+  "id": "f22e929b-3873-4304-81ff-44dee7429dd5",
+  "scriptName": "Ẩn khối suy nghĩ ERA",
+  "disabled": false,
+  "runOnEdit": true,
+  "findRegex": "/<variablethink>\\s*(?=[\\s\\S]*?\\S[\\s\\S]*?<\\/variablethink>)((?:(?!<variablethink>)[\\s\\S])*?)\\s*<\\/variablethink>/gi",
+  "trimStrings": [],
+  "replaceString": "",
+  "placement": [
+    1,
+    2
+  ],
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null,
+  "markdownOnly": true,
+  "promptOnly": true
+}

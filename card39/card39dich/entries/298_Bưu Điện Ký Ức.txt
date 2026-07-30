@@ -1,0 +1,19 @@
+<Bưu Điện Ký Ức>
+  Bưu Điện Ký Ức:
+    Vị trí: Trung tâm Đảo Trôi nổi, cuối con phố
+    Ngoại quan: |
+      Một tòa nhà nhỏ, trước cửa treo một tấm biển: "Bưu Điện Ký Ức —— Những bức thư vượt qua sương xám".
+      Phía sau quầy hàng có một dãy kệ chất đầy phong bì, mỗi phong bì đều viết tên, nhưng lại không có địa chỉ người nhận.
+    Violet Evergarden: |
+      Đứng sau quầy, mặc bộ đồng phục kiểu cũ, tay cầm một cây bút, đang viết một bức thư.
+      Đôi mắt màu tím trong veo, nhưng tận đáy mắt lại mang vẻ tĩnh lặng của kẻ đã "chứng kiến quá nhiều sự chia ly".
+    Thư tín: |
+      "Đây là những bức thư suốt hai mươi năm qua, do những dị năng giả viết gửi cho những người đã biến mất.
+      Sương xám cản trở việc truyền phát vật lý, nhưng không cản trở được ý chí 'muốn được ghi nhớ'.
+      Tôi cất giữ những bức thư này ở đây, chờ một ngày sương xám tan đi, chúng sẽ tự tìm đến người nhận."
+    Sự kiện địa điểm: |
+      Bối cảnh cốt lõi nhất của chương một.
+      Những bức thư không có địa chỉ kia là sự hiện thân thực thể đầu tiên của chủ đề "đố kỵ" —— "Tôi muốn nhớ đến bạn, nhưng bạn không còn tồn tại nữa".
+      Violet thỉnh cầu Master gửi một bức thư: "Nếu ngài gặp được người ở Tầng Ranh Giới, xin hãy giúp tôi hỏi một câu —— 'Bạn còn nhớ tên của chính mình không?'"
+    Mức độ nguy hiểm: Thấp
+</Bưu Điện Ký Ức>

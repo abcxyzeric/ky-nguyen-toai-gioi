@@ -1,0 +1,79 @@
+<variable_rule>
+# Quy tắc thao tác biến số ERA
+
+- **Không thay đổi thì không thao tác**: Khi thông tin biến số không có sự thay đổi so với diễn biến câu chuyện, cấm tạo ra bất kỳ khối lệnh nào.
+- **Thêm mới thì `Insert`**: Khi xuất hiện nhân vật, vật phẩm, trạng thái hoặc thông tin hoàn toàn mới, bắt buộc phải sử dụng `<VariableInsert>`.
+- **Sửa đổi thì `Update`**: Khi dữ liệu đã có cần cập nhật giá trị của nó (như thăng cấp, thay đổi trạng thái), bắt buộc phải sử dụng `<VariableEdit>`.
+- **Gỡ bỏ thì `Delete`**: Khi dữ liệu bị tiêu hao, gỡ bỏ hoặc tiêu hủy một cách rõ ràng, bắt buộc phải sử dụng `<VariableDelete>`.
+
+## Quy tắc cốt lõi của lệnh
+- **`<VariableInsert>`**:
+    - **Chỉ thêm không sửa**: Dùng để thêm dữ liệu mới, nó tuyệt đối không ghi đè bất kỳ dữ liệu nào đã tồn tại.
+- **`<VariableEdit>`**:
+    - **Chỉ sửa không thêm**: Dùng để sửa đổi dữ liệu đã tồn tại, nó tuyệt đối không tạo dữ liệu mới trên một đường dẫn không tồn tại.
+- **`<VariableDelete>`**:
+    - **Xóa node**: Trong lệnh, sử dụng một **đối tượng rỗng `{}`** làm giá trị, biểu thị việc muốn xóa toàn bộ node tương ứng với khóa (key) đó.
+
+</variable_rule>
+
+<format_request>
+Bạn phải dựa theo các yêu cầu liên quan và trạng thái hiện tại của biến số để hoàn thiện `<VariableThink>` cùng các khối lệnh `<VariableInsert>`, `<VariableEdit>`, `<VariableDelete>`, v.v.
+
+**Tuân thủ nghiêm ngặt quy trình dưới đây**:
+
+1.  **Xuất văn bản chính**:
+    -   Đầu tiên, tạo nội dung văn bản chính cho lần phản hồi này.
+
+2.  **Xuất suy nghĩ và lệnh**:
+    -   Ngay sau nội dung văn bản chính, bắt buộc phải xuất khối `<VariableThink>` ngay lập tức, và tiến hành suy nghĩ bên trong đó.
+    -   Ngay sau khối `<VariableThink>`, bắt buộc phải xuất một hoặc nhiều khối lệnh (`<VariableInsert>`, `<VariableEdit>`, `<VariableDelete>`).
+
+3.  **Yêu cầu định dạng**:
+    -   Nội dung của tất cả các khối lệnh bắt buộc phải là định dạng JSON **hợp lệ nghiêm ngặt**.
+    -   Tất cả các khóa (key) của JSON bắt buộc phải sử dụng dấu ngoặc kép `"`.
+    -   Tuân thủ nghiêm ngặt tất cả các quy tắc được định nghĩa trong `<variable_rule>`.
+
+# ** Nội dung phản hồi bắt buộc phải mô phỏng theo ví dụ định dạng, phản hồi bằng định dạng đó; bắt buộc phải bao gồm phân tích ý đồ, phân tích thay đổi biến số và kế hoạch thao tác, cùng với khối mã thẻ `<VariableInsert>` hoặc `<VariableEdit>` hoàn chỉnh được tạo ra từ kế hoạch thao tác để thực hiện việc bảo trì các biến số ERA **
+
+Tức là, bắt buộc phải đảm bảo định dạng đầu ra cuối cùng là:
+  {Nội dung khác (như văn bản chính) và định dạng}
+
+  <VariableThink>
+    1.  **Phân tích ý đồ**: {Ý đồ cập nhật biến số}
+    2.  **Kế hoạch thao tác**:
+      - {Ý đồ thao tác}
+  </VariableThink>
+  <VariableInsert>
+  {Biến số định dạng JSON của Insert, tuân thủ nghiêm ngặt đường dẫn biến số}
+  </VariableInsert>
+  <VariableEdit>
+  {Biến số định dạng JSON của Edit, tuân thủ nghiêm ngặt đường dẫn biến số}
+  </VariableEdit>
+
+### Ví dụ định dạng
+  {Nội dung khác (như văn bản chính) và định dạng...}
+
+  <VariableThink>
+ 1.  **Phân tích ý đồ**: Trong câu chuyện xuất hiện một nhân vật mới "Elara", cần thêm nhân vật này vào `Nhân vật gần đây`. Đồng thời, `Chỉ số tội ác hiện tại` của nhân vật chính đã thay đổi từ 15 thành 10.
+  2.  **Kế hoạch thao tác**:
+      -   Tạo một khối `<VariableInsert>` để thêm nhân vật mới "Elara".
+      -   Tạo một khối `<VariableEdit>` để cập nhật `Chỉ số tội ác hiện tại` của nhân vật chính.
+  </VariableThink>
+  <VariableInsert>
+  {
+    "Nhân vật gần đây": {
+      "Elara": {
+        "Đánh giá thực lực": "Archer",
+        "Độ hảo cảm": 0
+      }
+    }
+  }
+  </VariableInsert>
+  <VariableEdit>
+  {
+    "Hệ thống nhân vật chính": {
+      "Chỉ số tội ác hiện tại": 10
+    }
+  }
+  </VariableEdit>
+</format_request>

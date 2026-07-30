@@ -1,0 +1,73 @@
+[
+  {
+    "index": 0,
+    "id": "e28b3ac3-9ae4-4568-94c2-411308cb2987",
+    "name": "ERA变量框架1.4.11",
+    "enabled": true,
+    "contentLength": 148106,
+    "contentSha256": "ef99cf8bec5f1e358d1c3c3d1d84e1b750d74eae50fa9472c7bdd534d2cbfae6",
+    "importUrls": [
+      "https://testingcf.jsdelivr.net/npm/opencc-js/+esm",
+      "https://testingcf.jsdelivr.net/npm/pinia/+esm",
+      "https://github.com/RockingSisyphus/ERA-EfficientRollbackArchitecture/tree/master",
+      "https://discord.com/channels/1134557553011998840/1423319849400270928",
+      "https://github.com/RockingSisyphus/ERA-EfficientRollbackArchitecture/blob/master/doc/%E4%BD%A0%E6%9C%80%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9C%8B%E4%B8%80%E9%81%8D%E7%9A%84era%E5%8D%A1%E5%AE%8C%E6%95%B4%E5%88%B6%E4%BD%9C%E6%96%87%E6%A1%A3%EF%BC%88%E5%8C%85%E5%90%AB%E5%8F%98%E9%87%8F%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E4%B8%96%E7%95%8C%E4%B9%A6%E6%8F%90%E7%A4%BA%E8%AF%8D%EF%BC%89/%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E5%92%8C%E8%AF%B4%E6%98%8E%E4%BD%A0%E7%9A%84%E5%8F%98%E9%87%8F%E7%B3%BB%E7%BB%9F.md",
+      "https://github.com/RockingSisyphus/ERA-EfficientRollbackArchitecture/tree/master/doc/%E9%80%82%E5%90%88%E6%8F%90%E4%BE%9B%E7%BB%99ai%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8Fhtml%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%EF%BC%88%E5%8F%AA%E5%8C%85%E5%90%ABhtml%E7%8A%B6%E6%80%81%E6%A0%8F%E4%BB%A3%E7%A0%81%E4%B9%A6%E5%86%99%E9%83%A8%E5%88%86%EF%BC%89",
+      "https://github.com/RockingSisyphus/ERA-EfficientRollbackArchitecture/tree/master",
+      "https://discord.com/channels/1134557553011998840/1423319849400270928"
+    ],
+    "buttonNames": []
+  },
+  {
+    "index": 1,
+    "id": "bd4f4dc9-8953-4e15-a86b-d08a2f3a5968",
+    "name": "自动更新",
+    "enabled": true,
+    "contentLength": 94,
+    "contentSha256": "4df5aecb6bad8dd8051686576b0265ce3a1e4de788c5e54afd163dbeba0644fb",
+    "importUrls": [
+      "https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/自动更新角色卡/index.js"
+    ],
+    "buttonNames": [
+      "更新角色卡: _碎界纪元",
+      "更新日志"
+    ]
+  },
+  {
+    "index": 2,
+    "id": "e98167fe-bde3-4bdc-927c-c553726a97d8",
+    "name": "外置手机",
+    "enabled": false,
+    "contentLength": 45,
+    "contentSha256": "896a9a03ac08498fd3c52aa971bfae3266c925d21466fa4118b8d2debc2249b4",
+    "importUrls": [
+      "https://phone-ctn.pages.dev/index.js"
+    ],
+    "buttonNames": [
+      "手机",
+      "删最后一块",
+      "复位",
+      "刷新"
+    ]
+  },
+  {
+    "index": 3,
+    "id": "b5772137-9ac4-414d-bc85-6f2e4c04fdd3",
+    "name": "（非开发者别开）零层标签检测",
+    "enabled": false,
+    "contentLength": 6276,
+    "contentSha256": "a79b8f9b5f63eea8383c925434fdda2fedcd673b7896d06b427d9c0bada0ec70",
+    "importUrls": [],
+    "buttonNames": []
+  },
+  {
+    "index": 4,
+    "id": "e2362cc1-b110-4b3c-ab97-67b62bf7809a",
+    "name": "（非开发者别开）隐藏楼层",
+    "enabled": false,
+    "contentLength": 318,
+    "contentSha256": "5a5e52b8cae22bd479c6dae359a9f75ffdc0a007ae1b626f8b5bde0d7a0c199d",
+    "importUrls": [],
+    "buttonNames": []
+  }
+]

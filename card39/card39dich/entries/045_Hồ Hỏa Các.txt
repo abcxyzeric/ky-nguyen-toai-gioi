@@ -1,0 +1,18 @@
+<Hồ Hỏa Các>
+  Hồ Hỏa Các:
+    Vị trí: Phía bắc Thanh Tiêu Thành, dưới một ngọn đèn màu tím
+    Ngoại quan: |
+      Một cửa tiệm không lớn, trước cửa treo ba chữ "Hồ Hỏa Các",
+      Nét chữ viết có vẻ lơ đãng, nhưng bút lực rất vững vàng.
+    Yae Miko: |
+      Điểm trao đổi tình báo: "Ngươi kể cho ta nghe một chuyện bên ngoài, ta sẽ nói cho ngươi một chuyện của Thanh Minh."
+      Cô ấy biết rằng pháp tắc có một khoảng trống lấy cái cây khô làm tâm, bán kính ba mươi bước chân ở hướng khu phế tích tụ lạc.
+      Khoảng trống đó là nơi pháp tắc né tránh —— chỗ của Bùi Thanh Ca.
+    Sự kiện địa điểm: |
+      Điểm trao đổi tình báo chương hai.
+      Cách tồn tại của Yae Miko hoàn toàn không ăn nhập gì với toàn bộ Thanh Minh ——
+      Cô ấy không tuân thủ pháp tắc, pháp tắc cũng không bao trùm lên cô ấy.
+      Giống như Medusa, cô ấy là "ngoại lệ" trong Thanh Minh vực.
+      Trước lúc quyết chiến, Yakumo Yukari đã ở lại Hồ Hỏa Các một mình với Yae Miko một khoảng thời gian,
+      Bọn họ đã nói những gì với nhau, không một ai biết cả.
+</Hồ Hỏa Các>

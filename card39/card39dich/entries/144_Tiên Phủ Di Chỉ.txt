@@ -1,0 +1,20 @@
+<Tiên Phủ Di Chỉ>
+  Tiên Phủ Di Chỉ:
+    Vị trí: Góc đông nam Thanh Tiêu Thành, một công trình kiến trúc cũ được bảo tồn nguyên vẹn
+    Ngoại quan: |
+      Bức hoành phi đã phong hóa, nền đá xanh không dính một hạt bụi.
+      Kamisato Ayaka đang luyện kiếm trong sân.
+    Bia đá: |
+      Bia đá trong góc có vết khắc mới——chỉ có một ngày tháng, không có tên, cũng không có bất kỳ chữ nào khác.
+      Ayaka: "Đó là ngày đầu tiên tôi đến đây, tôi cảm thấy... nên lưu lại thứ gì đó."
+    Kamisato Ayaka: |
+      Đang luyện kiếm trong sân, động tác chuẩn mực, nhưng kiếm ý lại trống rỗng——
+      Không phải là không có sức mạnh, mà là không có "thứ muốn chém đứt".
+      Ba ngàn năm qua, cô ấy ngày nào cũng luyện kiếm ở đây,
+      không phải vì muốn luyện, mà vì "nên luyện".
+    Sự kiện địa điểm: |
+      Cảnh trong chương hai.
+      Ngày tháng mà Ayaka khắc trên bia đá là "thứ mới mẻ" duy nhất——
+      Trong một thành phố đã ba ngàn năm không hề thay đổi,
+      ngày tháng đó là minh chứng duy nhất cho việc: đã từng có người đến đây.
+</Tiên Phủ Di Chỉ>

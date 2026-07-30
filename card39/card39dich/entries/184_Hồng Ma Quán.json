@@ -1,0 +1,53 @@
+{
+    "id":  184,
+    "keys":  [
+                 "红魔馆",
+                 "Hồng Ma Quán"
+             ],
+    "secondary_keys":  [
+
+                       ],
+    "comment":  "Hồng Ma Quán",
+    "content":  "<Hồng Ma Quán>\n  Hồng Ma Quán:\n    Vị trí: Phía tây Ảo Tưởng Hương, lãnh địa của ma cà rồng\n    Ngoại quan: |\n      Lãnh địa ma cà rồng chưa từng được con người khao khát suốt năm trăm năm.\n      Cường độ ảnh hưởng của mảnh vỡ lớn gấp ba lần Bác Lệ Thần Xã.\n      Mọi tồn tại trong quán đều khơi lên dục vọng với Ngự chủ.\n      Kiến trúc mang phong cách Gothic, tường ngoài màu đỏ dưới pháp tắc sắc dục chuyển thành sắc đỏ như da thịt.\n    Hong Meiling: |\n      Người gác cổng ở đại môn, tựa lưng vào cửa.\n      Lối chiến đấu của cô là \"ngăn chặn chứ không gây thương tích\" - không muốn làm hại Ngự chủ, nhưng cũng không muốn thất trách.\n      Một câu \"ngươi không phải kẻ xâm nhập\" của Ngự chủ đã khiến cô buông bỏ hàng rào.\n      Sự thức tỉnh của người gác cổng, tựa lưng vào đại môn mà làm tình.\n    Patchouli Knowledge: |\n      Chủ nhân thư viện, tri thức chính là sự chạm vào.\n      Ma pháp thất diệu dưới pháp tắc sắc dục bị vặn thành thứ màu sắc ám muội.\n      Chiến đấu là chiến đấu tri thức, làm tình là sự sụp đổ của thí nghiệm -\n      Đến giây thứ 97, cô khép cuốn sách trống rỗng lại, thừa nhận \"không đủ\".\n      Sau khi mở sách ra, trang giấy vẫn trống, nhưng khi ngón tay chạm vào sẽ hiện lên những hình ảnh ký ức của việc đã từng làm tình.\n    Izayoi Sakuya: |\n      Servant dừng thời gian ở hành lang.\n      Trong thời gian ngưng đọng, cùng Ngự chủ hoàn thành nghi thức, chứng kiến giây thứ 301 của một Servant hoàn mỹ.\n      Làm tình trong thời gian ngưng đọng là hình thái sắc dục của cô -\n      Trong khoảng thời gian bị dừng lại, lần đầu tiên cô \"quên khôi phục\".\n    Remilia Scarlet: |\n      Kẻ cao quý nơi đại sảnh, sự bùng nổ của năm trăm năm khao khát.\n      Sự thao túng vận mệnh trước sắc dục biến thành lời nguyền -\n      Có thể dự đoán mọi tiếp xúc, nhưng lại không thể ngăn cản khao khát của chính mình.\n      Tự mình thu lại đạn mạc là khoảnh khắc dũng cảm nhất của kẻ cao quý.\n    Flandre Scarlet: |\n      Kẻ phá hoại ở nơi phong ấn dưới lòng đất, nỗi cô độc của 495 năm.\n      Bàn tay phun ra từ Levatin là \"muốn chạm vào nhưng chỉ biết hủy diệt\".\n      Sau ba lần chạm, học được sự nhẹ nhàng, là lần trưởng thành đầu tiên của cô trong 495 năm.\n      Hoàn thành sự giao hòa chạm vào mà không hủy diệt.\n    Sự kiện địa điểm: |\n      Cảnh cốt lõi của Chương 2, năm lớp phòng tuyến lần lượt bị phá vỡ.\n      Hong Meiling vượt ngưỡng cửa, Patchouli Knowledge kiểm chứng tri thức, Izayoi Sakuya hoàn thành nghi thức dừng thời gian giây thứ 301,\n      Remilia Scarlet sụp đổ vì cao quý, Flandre Scarlet chạm vào mà không hủy diệt.\n      Mọi người trong Hồng Ma Quán đều là sự lựa chọn chủ động -\n      Hong Meiling buông rào chắn, Patchouli Knowledge khép sách lại, Izayoi Sakuya quên khôi phục,\n      Remilia Scarlet thu lại đạn mạc, Flandre Scarlet thu lại ngọn lửa.\n    Độ nguy hiểm: Cao · Ảnh hưởng mảnh vỡ gấp ba lần\n</Hồng Ma Quán>\n",
+    "constant":  false,
+    "selective":  true,
+    "insertion_order":  316,
+    "enabled":  true,
+    "position":  "before_char",
+    "use_regex":  true,
+    "extensions":  {
+                       "position":  0,
+                       "exclude_recursion":  true,
+                       "display_index":  126,
+                       "probability":  100,
+                       "useProbability":  true,
+                       "depth":  4,
+                       "selectiveLogic":  0,
+                       "outlet_name":  "",
+                       "group":  "",
+                       "group_override":  false,
+                       "group_weight":  100,
+                       "prevent_recursion":  true,
+                       "delay_until_recursion":  false,
+                       "scan_depth":  null,
+                       "match_whole_words":  null,
+                       "use_group_scoring":  false,
+                       "case_sensitive":  null,
+                       "automation_id":  "",
+                       "role":  0,
+                       "vectorized":  false,
+                       "sticky":  0,
+                       "cooldown":  0,
+                       "delay":  0,
+                       "match_persona_description":  false,
+                       "match_character_description":  false,
+                       "match_character_personality":  false,
+                       "match_character_depth_prompt":  false,
+                       "match_scenario":  false,
+                       "match_creator_notes":  false,
+                       "triggers":  [
+
+                                    ],
+                       "ignore_budget":  false
+                   }
+}

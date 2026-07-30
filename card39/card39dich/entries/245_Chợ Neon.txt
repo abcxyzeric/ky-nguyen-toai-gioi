@@ -1,0 +1,16 @@
+<Chợ Neon>
+  Chợ Neon:
+    Vị trí: Nơi duy nhất có ánh sáng trên phế thổ, bảng hiệu đèn neon nhấp nháy
+    Ngoại quan: |
+      Tiếng người ồn ào, các cuộc giao dịch đang diễn ra.
+      Có người bán thức ăn, có người bán tình báo, có người bán "trải nghiệm giấc mơ".
+      Quảng trường trung tâm dựng bức tượng của Mammon——một người mẹ ôm đứa trẻ.
+    Cảm nhận: |
+      Khu chợ của Mammon, nơi duy nhất trên phế thổ còn diễn ra giao dịch.
+      Cái giá của cô ta không phải là tiền, mà là "ngươi cần gì".
+      Đế tượng khắc dòng chữ: "Một phần năm trăm ngàn, mỗi một thứ đều đáng giá."
+    Sự kiện địa điểm: |
+      Chaldea tiến vào Chợ Neon, cảm nhận "sức sống" trên phế thổ.
+      Dòng cuối cùng trong sổ sách: "Đứa trẻ thứ 499,999, vẫn còn cần một đứa nữa."
+      Mammon không trực tiếp xuất hiện, nhưng sổ sách của cô ta là manh mối cốt lõi.
+</Chợ Neon>

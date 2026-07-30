@@ -1,0 +1,25 @@
+<Điều kiện thúc đẩy chương Eldora>
+1. Trò chuyện với Kazuma, thu thập thông tin về quy tắc cơ bản của Eldora
+2. Lắng nghe El hát, lấy manh mối về Thành phố Thần Ý
+3. Quan sát nghi thức cầu nguyện tại thần điện, phát hiện điểm bất thường
+4. Lấy mảnh giấy từ căn nhà cũ của Feli, đọc nội dung ở cả hai mặt trước và sau
+
+# Lần đầu tiến vào Eldora, chương một của cốt truyện, bắt buộc phải xuất ra các biến số hoàn chỉnh dưới đây, trực tiếp xuất ra toàn bộ nội dung trong <VariableEdit> một cách nguyên vẹn:
+
+<VariableEdit>
+{
+    "Điều kiện tiến triển chương":  {
+                                        "Điều_kiện_1":  "Trò chuyện với Kazuma, thu thập thông tin về quy tắc cơ bản của Eldora",
+                                        "Điều_kiện_2":  "Lắng nghe El hát, lấy manh mối về Thành phố Thần Ý",
+                                        "Điều_kiện_3":  "Quan sát nghi thức cầu nguyện tại thần điện, phát hiện điểm bất thường",
+                                        "Điều_kiện_4":  "Lấy mảnh giấy từ căn nhà cũ của Feli, đọc nội dung ở cả hai mặt trước và sau",
+                                        "Điều_kiện_5":  "Không có",
+                                        "Điều_kiện_1_hoàn_thành":  false,
+                                        "Điều_kiện_2_hoàn_thành":  false,
+                                        "Điều_kiện_3_hoàn_thành":  false,
+                                        "Điều_kiện_4_hoàn_thành":  false,
+                                        "Điều_kiện_5_hoàn_thành":  true
+                                    }
+}
+</VariableEdit>
+</Điều kiện thúc đẩy chương một Eldora>

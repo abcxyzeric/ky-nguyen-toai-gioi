@@ -1,0 +1,22 @@
+<Hành Lang Ký Ức>
+  Hành Lang Ký Ức:
+    Vị trí: Tầng sâu Đảo Trôi nổi, khu phố cũ trước khi sương xám bùng phát
+    Ngoại quan: |
+      Một hành lang dài dằng dặc, hai bên là vô số cánh cửa.
+      Đằng sau mỗi cánh cửa là ký ức của một "người bị lãng quên".
+      Cuối hành lang là một tấm gương, nhưng thứ phản chiếu trong gương không phải là hiện tại, mà là quá khứ.
+    Tích Liên: |
+      Người bảo hộ "Hành Lang Ký Ức" của Thủy Chi Đô, chịu trách nhiệm lưu giữ ký ức của tất cả "những người bị lãng quên" trước khi sương xám bùng phát.
+      Là sự tồn tại bi kịch "dùng sự lãng quên để đổi lấy sự ghi nhớ".
+      Sự đố kỵ mang hình hài "ghi nhớ" —— cô đố kỵ với những kẻ "được ghi nhớ một cách tự nhiên".
+      Sự dịu dàng của cô là sự thanh thản khi "biết rằng bản thân rồi sẽ biến mất".
+    Đặc trưng môi trường: |
+      Ký ức bên trong Hành Lang Ký Ức không hề tĩnh lặng —— chúng đang "thất thoát".
+      Tích Liên càng cất giữ, càng nhận ra ký ức của chính mình cũng đang trôi đi.
+      "Ta đang cất giữ ký ức của người khác, nhưng lại đang đánh mất ký ức của chính mình."
+    Sự kiện địa điểm: |
+      Địa điểm thường trú trong thiết lập của NPC.
+      Tích Liên ở đây lưu giữ ký ức của những người bị lãng quên, nhưng mỗi lần lưu giữ lại khiến bản thân cô bị lãng quên thêm một phần.
+      Là sự hiện thân thực thể của "đố kỵ" dưới hình thái "ghi nhớ".
+    Mức độ nguy hiểm: Cao · Thất thoát ký ức
+</Hành Lang Ký Ức>

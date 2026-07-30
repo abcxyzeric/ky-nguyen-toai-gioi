@@ -1,0 +1,20 @@
+<Lối vào Tầng Biên Giới>
+  Lối vào Tầng Biên Giới:
+    Vị trí: Sâu trong Vong Xuyên Đinh, nơi Sương Xám và thực tại giao nhau
+    Ngoại quan: |
+      Điểm giao thoa giữa Sương Xám và tầng thực tại, lối về của những người bình thường.
+      Sương Xám ở đây không dày đặc, mà "luân chuyển"——giống như một cánh cửa.
+    Đặc trưng môi trường: |
+      Ryougi Shiki: "Phía bắc Bưu Cục Ký Ức, có một bãi cạn bị Sương Xám bao phủ, đó là Vong Xuyên Đinh——lối vào của Tầng Biên Giới.
+      Nếu các người muốn hiểu cảm giác 'biến mất' là như thế nào, có thể đến đó.
+      Nhưng trước khi vào, hãy suy nghĩ cho kỹ——có những người vào rồi, lại không muốn ra nữa."
+    Ba kết cục trở về: |
+      Đoàn tụ: Có những người tìm được người đang chờ đợi họ.
+      Hụt hẫng: Có những người phát hiện ra người đợi họ đã không còn nữa.
+      Sai lệch: Có những người ở lại Tầng Biên Giới quá lâu, nhận thức xuất hiện sai lệch.
+    Sự kiện địa điểm: |
+      Khung cảnh trọng yếu trong chương 4.
+      Lối về của những người bình thường, cũng là nơi thể hiện tàn khốc nhất của chủ đề "Ghen tị".
+      Có những người chờ đợi quá lâu, đã không còn nhớ bản thân đang đợi ai nữa.
+    Độ nguy hiểm: Cực cao · Giao thoa Tầng Biên Giới
+</Lối vào Tầng Biên Giới>

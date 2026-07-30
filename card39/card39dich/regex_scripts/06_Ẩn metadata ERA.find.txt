@@ -1,0 +1,1 @@
+/<era_data>\s*(?=[\s\S]*?\S[\s\S]*?<\/era_data>)((?:(?!<(?:era_data|variable(?:think|insert|edit|delete))>|<\/era_data>)[\s\S])*?)\s*<\/era_data>/gi

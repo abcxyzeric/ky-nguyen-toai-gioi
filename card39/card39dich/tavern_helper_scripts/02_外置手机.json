@@ -1,0 +1,34 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "外置手机",
+  "id": "e98167fe-bde3-4bdc-927c-c553726a97d8",
+  "content": "import 'https://phone-ctn.pages.dev/index.js'",
+  "info": "",
+  "button": {
+    "enabled": true,
+    "buttons": [
+      {
+        "name": "手机",
+        "visible": true
+      },
+      {
+        "name": "删最后一块",
+        "visible": true
+      },
+      {
+        "name": "复位",
+        "visible": true
+      },
+      {
+        "name": "刷新",
+        "visible": true
+      }
+    ]
+  },
+  "data": {},
+  "export_with": {
+    "data": true,
+    "button": true
+  }
+}

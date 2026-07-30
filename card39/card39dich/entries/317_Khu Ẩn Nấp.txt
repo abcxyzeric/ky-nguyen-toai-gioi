@@ -1,0 +1,17 @@
+<Khu Ẩn Nấp>
+  Khu Ẩn Nấp:
+    Vị trí: Rìa Đảo Phù Du, khu vực bị sương mù xám che phủ một nửa
+    Ngoại quan: |
+      Rìa Đảo Phù Du, một khu vực bị sương mù xám che phủ một nửa.
+      Sương mù xám ở đây không dày đặc, mà "bán trong suốt" —— giống như một loại màn che nào đó.
+    Tomori Nao: |
+      Đứng ở rìa sương mù xám, quay lưng về phía Chaldea, đang nói chuyện với một "người vô hình" nào đó.
+      "Các người không nhìn thấy cô ấy, đúng chứ? Tôi cũng không nhìn thấy, nhưng tôi biết cô ấy đang ở đây."
+      "Năng lực của tôi là khiến một người cụ thể không thể nhìn thấy tôi, nhưng tôi đã sử dụng nó ở đây suốt hai mươi năm, bây giờ tôi không biết ——
+      Là tôi khiến họ không thể nhìn thấy, hay là chính tôi đã lựa chọn biến mất."
+    Sự kiện địa điểm: |
+      Bối cảnh nhánh B của chương hai.
+      Tomori Nao dùng "tàng hình" để che giấu nỗi "sợ bị phớt lờ".
+      "Là tôi khiến họ không thể nhìn thấy, hay là chính tôi đã lựa chọn biến mất" là mệnh đề triết học đầu tiên của chủ đề "đố kỵ".
+    Mức độ nguy hiểm: Trung bình · Sương mù xám che phủ một nửa
+</Khu Ẩn Nấp>

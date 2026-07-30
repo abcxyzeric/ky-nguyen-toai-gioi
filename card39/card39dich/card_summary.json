@@ -1,0 +1,17 @@
+{
+  "label": "vi",
+  "name": "_Kỷ Nguyên Toái Giới",
+  "dataName": "_Kỷ Nguyên Toái Giới",
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "tags": [],
+  "dataTags": [],
+  "first_mes_length": 8736,
+  "alternate_greetings_count": 0,
+  "group_only_greetings_count": 0,
+  "entry_count": 336,
+  "regex_count": 8,
+  "tavern_helper_script_count": 5,
+  "has_character_book": true,
+  "has_tavern_helper": true
+}
