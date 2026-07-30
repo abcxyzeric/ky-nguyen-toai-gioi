@@ -3392,14 +3392,6 @@ const CHAR_NAME_AV=(function(){
   return m;
 })();
 
-/* Key ảnh tiếng Việt: cho phép dùng luôn nhãn hiển thị đã Việt hóa làm alias ảnh */
-Object.keys(CG_CHAR_LABEL_TO_ASSET).forEach(function(label){
-  var asset=CG_CHAR_LABEL_TO_ASSET[label];
-  if(asset&&CHAR_NAME_AV[asset]&&!CHAR_NAME_AV[label]){
-    CHAR_NAME_AV[label]=CHAR_NAME_AV[asset];
-  }
-});
-
 const CG_DOMAIN_LABEL={
   '星穹花园':'Vườn Tinh Khung',
   '青冥':'Thanh Minh',
@@ -3566,6 +3558,14 @@ const CG_CHAR_LABEL_TO_ASSET=(function(){
   for(var k in CG_CHAR_LABEL){m[CG_CHAR_LABEL[k]]=k;}
   return m;
 })();
+
+/* Key ảnh tiếng Việt: cho phép dùng luôn nhãn hiển thị đã Việt hóa làm alias ảnh */
+Object.keys(CG_CHAR_LABEL_TO_ASSET).forEach(function(label){
+  var asset=CG_CHAR_LABEL_TO_ASSET[label];
+  if(asset&&CHAR_NAME_AV[asset]&&!CHAR_NAME_AV[label]){
+    CHAR_NAME_AV[label]=CHAR_NAME_AV[asset];
+  }
+});
 
 const CHAR_ASSET_ALIAS={
   'Mash':'玛修·基列莱特',
@@ -4682,6 +4682,8 @@ window.cgScanChat=cgScanChat;
 window.cgRecord=cgRecord;
 window.cgGetCache=cgGetCache;
 window.cgParseAndRecord=cgParseAndRecord;
+window.displayCgCharName=displayCgCharName;
+window.resolveCharAvatar=resolveCharAvatar;
 /* Phơi ra hàm trình chiếu video lập họa trung tâm: để window.onload bên ngoài IIFE gọi */
 window.startSpiritVideoRotation=startSpiritVideoRotation;
 })();
