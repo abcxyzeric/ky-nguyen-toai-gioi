@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kỷ Nguyên Toái Giới · Bản đồ Dị Pháp Vực</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Ma+Shan+Zheng&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    :root {
+      --bg: #0a0a12;
+      --card: rgba(15, 12, 25, .92);
+      --gold: #d4a853;
+      --gl: #f0d078;
+      --pur: #8b5cf6;
+      --pd: #4c1d95;
+      --red: #dc2626;
+      --cyan: #06b6d4;
+      --blue: #3b82f6;
+      --green: #10b981;
+      --bdr: rgba(212, 168, 83, .4);
+      --txt: #e8e0d0;
+      --txm: rgba(232, 224, 208, .6)
+    }
+
+    body {
+      background: var(--bg);
+      font-family: 'Noto Serif SC', serif;
+      overflow: hidden;
+      height: 100vh
+    }
+
+    #h {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      min-height: 52px;
+      height: auto;
+      background: rgba(10, 8, 20, .98);
+      border-bottom: 1px solid var(--bdr);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 6px 16px;
+      gap: 6px
+    }
+
+    #h .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px
+    }
+
+    #h .logo-icon {
+      width: 28px;
+      height: 28px;
+      background: var(--gold);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px
+    }
+
+    #h .title-text {
+      font-family: 'Ma Shan Zheng', cursive;
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--gl);
+      letter-spacing: 3px
+    }
+
+    #h .subtitle {
+      font-size: 9px;
+      color: var(--txm);
+      letter-spacing: 4px;
+      margin-top: 2px
+    }
+
+    #h .stats {
+      display: flex;
+      gap: 16px
+    }
+
+    .stat {
+      text-align: center;
+      padding: 0 8px
+    }
+
+    .stat-v {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gl)
+    }
+
+    .stat-l {
+      font-size: 8px;
+      color: var(--txm);
+      letter-spacing: 1px
+    }
+
+    #h .tabs {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 1 1 auto;
+      min-width: 0
+    }
+    #h .tabs::-webkit-scrollbar { display: none }
+
+    .tab {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--bdr);
+      background: var(--card);
+      color: var(--txm);
+      font-size: 12px;
+      cursor: pointer;
+      transition: all .2s;
+      font-family: 'Noto Serif SC', serif;
+      white-space: nowrap;
+      flex-shrink: 0
+    }
+
+    .tab:hover {
+      border-color: var(--gold);
+      color: var(--gl)
+    }
+
+    .tab.on {
+      background: var(--gold);
+      color: #1a1a2e;
+      border-color: var(--gold);
+      font-weight: 700
+    }
+
+    #map {
+      position: fixed;
+      top: 52px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--bg);
+      transition: top .15s
+    }
+
+    .leaflet-container {
+      background: var(--bg) !important
+    }
+
+    .leaflet-control-zoom a {
+      background: var(--card) !important;
+      border: 1px solid var(--bdr) !important;
+      color: var(--gold) !important;
+      font-family: 'Noto Serif SC', serif
+    }
+
+    .leaflet-popup-content-wrapper {
+      background: var(--card) !important;
+      border-radius: 8px !important;
+      border: 1px solid var(--bdr) !important;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, .8) !important;
+      padding: 0 !important;
+      overflow: hidden;
+      min-width: 280px
+    }
+
+    .leaflet-popup-content {
+      margin: 0 !important;
+      color: var(--txt);
+      font-family: 'Noto Serif SC', serif
+    }
+
+    .leaflet-popup-tip-container {
+      display: none
+    }
+
+    .leaflet-popup-close-button {
+      color: var(--gold) !important;
+      font-size: 20px !important;
+      top: 12px !important;
+      right: 14px !important
+    }
+
+    .leaflet-popup-pane {
+      z-index: 2000 !important
+    }
+
+    .p-h {
+      padding: 18px 22px 14px;
+      border-bottom: 1px solid rgba(212, 168, 83, .2);
+      background: rgba(139, 92, 246, .08)
+    }
+
+    .p-b {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 2px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      border: 1px solid
+    }
+
+    .p-n {
+      font-family: 'Ma Shan Zheng', cursive;
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1.3;
+      letter-spacing: 2px
+    }
+
+    .p-bd {
+      padding: 16px 22px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px
+    }
+
+    .p-r {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 16px;
+      line-height: 1.7
+    }
+
+    .p-i {
+      width: 24px;
+      flex-shrink: 0;
+      text-align: center;
+      margin-top: 2px;
+      font-size: 18px
+    }
+
+    .p-rl {
+      color: var(--gold);
+      min-width: 64px;
+      flex-shrink: 0;
+      font-weight: 600;
+      font-size: 15px
+    }
+
+    .p-rv {
+      color: var(--txt);
+      flex: 1;
+      font-size: 15px
+    }
+
+    .p-d {
+      margin-top: 6px;
+      padding: 12px 16px;
+      background: rgba(139, 92, 246, .08);
+      border-left: 3px solid var(--pur);
+      border-radius: 0 6px 6px 0;
+      font-size: 14px;
+      color: var(--txm);
+      line-height: 1.7
+    }
+
+    .p-btn {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px 16px;
+      background: var(--pd);
+      border: 1px solid var(--bdr);
+      border-radius: 6px;
+      color: var(--gl);
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: 'Noto Serif SC', serif;
+      letter-spacing: 2px
+    }
+
+    /* Hộp thoại nổi ở giữa màn hình */
+    #locModal {
+      position: fixed;
+      inset: 0;
+      z-index: 5000;
+      display: none;
+      align-items: center;
+      justify-content: center
+    }
+    #locModal.show {
+      display: flex;
+      animation: lmFade .25s ease
+    }
+    @keyframes lmFade { from { opacity: 0 } to { opacity: 1 } }
+    #locModal .lm-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,.78);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      cursor: pointer
+    }
+    #locModal .lm-box {
+      position: relative;
+      width: 90%;
+      max-width: 440px;
+      max-height: 86vh;
+      overflow-y: auto;
+      background: var(--card);
+      border: 1px solid var(--bdr);
+      border-radius: 10px;
+      box-shadow: 0 16px 56px rgba(0,0,0,.9), 0 0 0 1px rgba(212,168,83,.1);
+      animation: lmUp .32s cubic-bezier(.4,0,.2,1)
+    }
+    @keyframes lmUp { from { transform: translateY(34px) scale(.94); opacity: 0 } to { transform: none; opacity: 1 } }
+    #locModal .lm-close {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.08);
+      border: 1px solid var(--bdr);
+      color: var(--gold);
+      font-size: 18px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: all .2s;
+      font-family: serif
+    }
+    #locModal .lm-close:hover {
+      background: var(--gold);
+      color: #1a1a2e;
+      transform: rotate(90deg)
+    }
+    #locModal .lm-box::-webkit-scrollbar { width: 4px }
+    #locModal .lm-box::-webkit-scrollbar-thumb { background: var(--bdr); border-radius: 2px }
+
+    /* Khu hiển thị ảnh trong hộp thoại */
+    .p-img-wrap {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      cursor: zoom-in;
+      background: #1a1a25
+    }
+    .p-img-wrap::after {
+      content: '🔍 Bấm để phóng to';
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 4px 10px;
+      background: rgba(0,0,0,.7);
+      border: 1px solid var(--bdr);
+      border-radius: 4px;
+      color: var(--gl);
+      font-size: 11px;
+      letter-spacing: 1px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .25s
+    }
+    .p-img-wrap:hover::after { opacity: 1 }
+    .p-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform .4s ease
+    }
+    .p-img-wrap:hover .p-img { transform: scale(1.05) }
+
+    /* Trình xem ảnh toàn màn hình */
+    #imgViewer {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px)
+    }
+    #imgViewer.show { display: flex; animation: ivFade .3s ease }
+    @keyframes ivFade { from { opacity: 0 } to { opacity: 1 } }
+    #imgViewer img {
+      max-width: 92vw;
+      max-height: 92vh;
+      object-fit: contain;
+      border: 1px solid var(--bdr);
+      box-shadow: 0 0 80px rgba(212,168,83,.15);
+      animation: ivZoom .35s cubic-bezier(.4,0,.2,1)
+    }
+    @keyframes ivZoom { from { transform: scale(.85); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+    #imgViewer .iv-close {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.1);
+      border: 1px solid var(--bdr);
+      color: var(--gl);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .2s;
+      font-family: serif
+    }
+    #imgViewer .iv-close:hover {
+      background: var(--gold);
+      color: #1a1a2e;
+      transform: rotate(90deg)
+    }
+    #imgViewer .iv-overlay {
+      position: absolute;
+      inset: 0;
+      cursor: zoom-out
+    }
+
+    #lg {
+      position: fixed;
+      bottom: 10px;
+      left: 6px;
+      z-index: 900;
+      background: var(--card);
+      border-radius: 8px;
+      border: 1px solid var(--bdr);
+      padding: 8px 10px;
+      max-height: 50vh;
+      overflow-y: auto
+    }
+
+    .lg-t {
+      font-size: 9px;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 6px;
+      font-weight: 600
+    }
+
+    .lg-i {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 8px;
+      color: var(--txm);
+      margin-bottom: 3px
+    }
+
+    .lg-d {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0
+    }
+
+    /* Màn hình vừa: giảm khoảng đệm và cỡ chữ của nhãn */
+    @media screen and (max-width:768px) {
+      .tab { padding: 4px 10px; font-size: 11px }
+      #h .logo-icon { width: 24px; height: 24px; font-size: 14px }
+      #h .title-text { font-size: 16px; letter-spacing: 2px }
+      #h .subtitle { display: none }
+      #h .stats { gap: 10px }
+      .stat-v { font-size: 14px }
+      .stat-l { font-size: 7px }
+    }
+
+    /* Màn hình hẹp: thu nhỏ logo hơn, cho nhãn cuộn ngang, ẩn thanh thống kê */
+    @media screen and (max-width:480px) {
+      .leaflet-popup-content-wrapper {
+        min-width: 200px !important;
+        max-width: 240px !important
+      }
+
+      #lg {
+        display: none !important
+      }
+
+      #h { padding: 0 8px }
+      #h .logo-icon { width: 22px; height: 22px; font-size: 12px }
+      #h .title-text { font-size: 14px; letter-spacing: 1px }
+      #h .stats { display: none }
+      .tab { padding: 3px 8px; font-size: 10px; border-radius: 14px }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="h">
+    <div class="logo">
+      <div class="logo-icon" id="logo-icon">☯</div>
+      <div>
+        <div class="title-text" id="title-text">Tiên Kiếp Kỷ Thanh Minh</div>
+        <div class="subtitle" id="subtitle">Dị Pháp Vực · LOSTBELT</div>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="tab on" data-w="sq" onclick="sw('sq')">Vườn Tinh Khung</div>
+      <div class="tab" data-w="qm" onclick="sw('qm')">Thanh Minh</div>
+      <div class="tab" data-w="ad" onclick="sw('ad')">Eldora</div>
+      <div class="tab" data-w="nh" onclick="sw('nh')">Neon 2187</div>
+      <div class="tab" data-w="sd" onclick="sw('sd')">Thủy Đô</div>
+      <div class="tab" data-w="jy" onclick="sw('jy')">Kỷ Nguyên Zero</div>
+      <div class="tab" data-w="xx" onclick="sw('xx')">Ảo Tưởng Hương</div>
+    </div>
+    <div class="stats" id="stats">
+      <div class="stat">
+        <div class="stat-v" id="stat1">6</div>
+        <div class="stat-l" id="stat1l">Tầng</div>
+      </div>
+      <div class="stat">
+        <div class="stat-v" id="stat2">24</div>
+        <div class="stat-l" id="stat2l">Địa điểm</div>
+      </div>
+      <div class="stat">
+        <div class="stat-v" id="stat3">∞</div>
+        <div class="stat-l" id="stat3l">Cơ duyên</div>
+      </div>
+    </div>
+  </div>
+  <div id="map"></div>
+  <div id="lg"></div>
+
+  <!-- Hộp thoại nổi ở giữa màn hình -->
+  <div id="locModal">
+    <div class="lm-overlay" onclick="closeLocModal()"></div>
+    <div class="lm-box">
+      <div class="lm-close" onclick="closeLocModal()">×</div>
+      <div id="locModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Trình xem ảnh toàn màn hình -->
+  <div id="imgViewer">
+    <div class="iv-overlay" onclick="closeImgViewer()"></div>
+    <div class="iv-close" onclick="closeImgViewer()">×</div>
+    <img id="imgViewerImg" src="" alt="">
+  </div>
+  <script>
+    function g(l) { const m = `Đi tới ${l}`; try { const t = document.querySelector('#send_textarea'); if (t) { t.value = m; const s = document.querySelector('#send_but'); if (s) s.click() } } catch (e) { console.log(m) } }
+    function showLocModal(l) {
+      const imgHtml = l.img ? `<div class="p-img-wrap" onclick="openImgViewer('${l.img}')"><img class="p-img" src="${l.img}" alt="${l.n}" onerror="this.parentNode.style.display='none'"></div>` : '';
+      const html = `${imgHtml}<div class="p-h"><div class="p-b" style="background:${l.c}22;color:${l.c};border-color:${l.c}">${l.l}</div><div class="p-n" style="color:${l.c}">${l.n}</div></div><div class="p-bd"><div class="p-r"><div class="p-i">📍</div><div><span class="p-rl">Vị trí</span><span class="p-rv">${l.p}</span></div></div><div class="p-r"><div class="p-i">👁️</div><div><span class="p-rl">Ngoại quan</span><span class="p-rv" style="color:var(--txm)">${l.a}</span></div></div><div class="p-r"><div class="p-i">✨</div><div><span class="p-rl">Đặc trưng</span><span class="p-rv" style="color:${l.c}">${l.f}</span></div></div><div class="p-r"><div class="p-i">⚠️</div><div><span class="p-rl">Nguy hiểm</span><span class="p-rv" style="color:#f87171">${l.d}</span></div></div><div class="p-d">📌 ${l.o}</div><button onclick="g('${l.n}')" class="p-btn">⚔️ Đi tới ${l.n}</button></div>`;
+      document.getElementById('locModalContent').innerHTML = html;
+      document.getElementById('locModal').classList.add('show');
+    }
+    function closeLocModal() {
+      document.getElementById('locModal').classList.remove('show');
+    }
+    function openImgViewer(src) {
+      document.getElementById('imgViewerImg').src = src;
+      document.getElementById('imgViewer').classList.add('show');
+    }
+    function closeImgViewer() {
+      document.getElementById('imgViewer').classList.remove('show');
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { closeImgViewer(); closeLocModal(); }
+    });
+    let M, LY = [], MK = [], LN = [], PP = [], CC = [];
+    function initMap() { M = L.map('map', { crs: L.CRS.Simple, minZoom: -1.5, maxZoom: 3, zoomControl: true, attributionControl: false, center: [500, 800], zoom: 0, maxBoundsViscosity: 1 }) }
+    function clearMap() { LY.forEach(l => M.removeLayer(l)); MK.forEach(m => M.removeLayer(m)); LN.forEach(n => M.removeLayer(n)); PP.forEach(p => M.removeLayer(p)); CC.forEach(c => M.removeLayer(c)); LY = []; MK = []; LN = []; PP = []; CC = [] }
+    function addBg(u, W, H) { const B = [[0, 0], [H, W]]; M.setMaxBounds(B); const bg = L.imageOverlay(u, B, { opacity: 1, zIndex: 1, interactive: false }).addTo(M); LY.push(bg); M.fitBounds(B); return B }
+    function addSvg(s, W, H, B) { const u = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(s); const l = L.imageOverlay(u, B, { opacity: 1, zIndex: 2, interactive: false }).addTo(M); LY.push(l) }
+    function renderL(D, C, lg, ti, st) { document.getElementById('title-text').textContent = ti.t; document.getElementById('subtitle').textContent = ti.s; document.getElementById('logo-icon').textContent = ti.i; document.getElementById('stat1').textContent = st[0]; document.getElementById('stat2').textContent = st[1]; document.getElementById('stat3').textContent = st[2]; document.getElementById('stat1l').textContent = st[3]; document.getElementById('stat2l').textContent = st[4]; document.getElementById('stat3l').textContent = st[5]; document.getElementById('lg').innerHTML = lg; const X = {}; Object.entries(D).forEach(([k, l]) => { const layer = String(l.l || '').toLowerCase(); const s = layer.includes('lõi') || layer.includes('đỉnh') || layer.includes('thần điện') || layer.includes('thánh đường') || layer.includes('vực chủ') ? 36 : 28; const i = L.divIcon({ html: `<div style="width:${s}px;height:${s}px;border-radius:50%;background:${l.c};border:2px solid rgba(255,255,255,.4);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:${s * .55}px">${l.i}</div>`, className: '', iconSize: [s, s], iconAnchor: [s / 2, s / 2] }); const m = L.marker(l.ll, { icon: i, interactive: true }).addTo(M); MK.push(m); m._loc = l; m._bs = s; const ni = L.divIcon({ html: `<div style="white-space:nowrap;font-family:'Noto Serif SC',serif;font-size:12px;font-weight:600;color:${l.c};text-shadow:0 1px 3px rgba(0,0,0,.9);pointer-events:none;letter-spacing:1px">${l.n}</div>`, className: '', iconSize: [150, 20], iconAnchor: [-15, 12] }); const nm = L.marker(l.ll, { icon: ni, interactive: false }).addTo(M); LN.push(nm); nm._loc = l; m.on('click', () => showLocModal(l)); X[k] = m }); C.forEach(c => { const f = D[c.f], t = D[c.t]; if (!f || !t) return; const p = L.polyline([f.ll, t.ll], { color: c.c, weight: 3, opacity: .6, dashArray: c.s === 'd' ? '8,10' : null }).addTo(M); PP.push(p) }); return X }
+
+    const QM = {
+      D: {
+        rukou: { ll: [50, 800], n: 'Điểm Giao Thoa Hỗn Độn · Lối vào Thanh Minh', l: 'Tầng ngoài · Cửa vào', c: '#fbbf24', i: '🌀', p: 'Điểm rơi nơi Chaldea nhảy từ Điểm Giao Thoa Hỗn Độn vào cõi Thanh Minh.', a: 'Bầu trời vàng kim vĩnh hằng, không có ngày đêm luân phiên; linh khí tinh thuần nhưng đứng yên, như bị nhốt trong chai.', f: 'Da Vinci cảm nhận: "Linh khí ở đây rất tinh thuần, nhưng đứng yên, như bị nhốt trong chai."', d: 'Thấp · Cửa vào', o: 'Trạm đầu tiên khi Chaldea vào cõi Thanh Minh; dưới bầu trời vàng kim vĩnh hằng, không khí yên lặng đến bất thường.', img: 'https://img.z4a.net/images/2026/06/30/17ab50d355d44350a.webp' },
+        jinghu: { ll: [80, 700], n: 'Hồ Gương', l: 'Tầng ngoài · Mặt ngầm', c: '#06b6d4', i: '💧', p: 'Hồ ngầm dưới khu tụ lạc bỏ hoang, không nằm trong bất kỳ bản ghi pháp tắc nào.', a: 'Mặt nước phẳng lặng đến cực độ; thứ phản chiếu không phải bầu trời tím đen hiện tại mà là nền trời xanh ba nghìn năm trước, trước khi pháp tắc thanh tẩy vận hành.', f: 'Chạm vào mặt nước sẽ thoáng thấy hình ảnh liên quan đến nơi sâu nhất trong cảm xúc của chính mình, kéo dài khoảng ba giây.', d: 'Không rõ · Khu ẩn', o: 'Bùi Thanh Ca biết nơi này. Suốt ba nghìn năm, cách một thời gian hắn lại một mình đến đây, cúi người nhìn mảng trời xanh trong mặt nước.', img: 'https://img.z4a.net/images/2026/06/30/1fe069cf21a1d91d7.webp' },
+        feiqi: { ll: [220, 800], n: 'Khu tụ lạc bị bỏ hoang', l: 'Tầng ngoài · Mặt đất', c: '#e11d48', i: '🏚️', p: 'Rìa ngoài cùng của vực, điểm dịch chuyển của Chaldea.', a: 'Xác phi chu rải khắp mặt đất. Chúng không rơi vỡ, mà được chủ nhân tự tay tháo xuống trước khi độ kiếp. Trong khe đá có linh khí, nhưng khô ráp.', f: 'Thường dân còn chưa đến năm trăm người, trốn ở nơi sâu nhất trong phế tích, không nói chuyện với nhau. Cứ điểm Chaldea nằm sau bức tường đổ.', d: 'Thấp · Tương đối an toàn', o: 'Da Vinci bắt đầu thích ứng hệ linh khí Thanh Minh tại đây (dự tính hai ngày).', img: 'https://img.z4a.net/images/2026/06/30/1343986b90ff490e2.webp' },
+        kushu: { ll: [180, 720], n: 'Cây khô · Chỗ Bùi Thanh Ca canh giữ', l: 'Tầng ngoài · Mặt đất', c: '#a78bfa', i: '🌳', p: 'Rìa khu tụ lạc bỏ hoang, cạnh quảng trường trung tâm tụ lạc.', a: 'Đã chết ba nghìn năm, toàn bộ cành gãy hết, chỉ còn thân chính đứng thẳng. Vỏ cây chi chít tên người từ gốc đến chỗ gãy, không còn một khoảng trống.', f: 'Bản chép tay có tổng cộng bảy trăm bốn mươi hai trang; bài điếu văn cuối cùng chưa viết xong, dừng giữa dòng thứ ba.', d: 'Thấp', o: 'Trên bìa có một vệt nước: dấu của giọt mưa đầu tiên rơi xuống khi vực đi đến kết thúc.', img: 'https://img.z4a.net/images/2026/06/30/1f6f5b66f6e408772.webp' },
+        suipian: { ll: [240, 860], n: 'Khu thanh tẩy thất bại · Bãi mảnh vỡ', l: 'Tầng ngoài · Mặt đất', c: '#f87171', i: '💔', p: 'Bên trong khu tụ lạc bỏ hoang, nơi tập trung đồ vật của những người thanh tẩy thất bại.', a: 'Đồ vật nằm lộn xộn, nhưng từng món đều còn nguyên vẹn. Tiên lực thấm vào mọi thứ, cố định chúng ở khoảnh khắc trước khi biến mất.', f: 'Một cây sáo gãy, một bức tranh cháy quá nửa, ba mươi bảy thẻ ngọc khắc tên, một chiếc áo ngoài của trẻ nhỏ.', d: 'Trung bình', o: 'Mắt thường dân có tiêu điểm, nhưng nơi tiêu điểm hướng tới lại chẳng có gì. Cảm xúc vẫn đang rút đi, chiều hướng ấy không thể đảo ngược.', img: 'https://img.z4a.net/images/2026/06/30/1a92524b908aa4f2e.webp' },
+        feizhou: { ll: [160, 900], n: 'Phi Chu Tàn Hài Bình', l: 'Tầng ngoài · Mặt đất', c: '#fbbf24', i: '🚀', p: 'Phía nam tụ lạc, nơi hàng chục xác phi chu cỡ lớn đổ nghiêng và chồng chất.', a: 'Trên xác tàu có kết tinh tiên lực bám sinh, phát ánh lạnh mờ dưới sắc trời tím đen. Bảng điều khiển trong một vài phi chu vẫn còn có điện.', f: 'Không phải rơi vỡ, mà là kết giới chặn phi chu lại ở rìa vực, để chúng dừng ở đây như một màn trưng bày không lời: rời đi là chuyện không thể.', d: 'Trung bình', o: 'Đồ cá nhân bên trong phi chu vẫn nguyên trạng; trước khi độ kiếp, chủ nhân của chúng không quay lại lấy nữa.', img: 'https://img.z4a.net/images/2026/06/30/16731eec114b09151.webp' },
+        guanxing: { ll: [300, 1100], n: 'Quan Tinh Đài', l: 'Tầng ngoài · Mặt đất', c: '#a78bfa', i: '🔭', p: 'Giữa sườn đường núi, hướng về Vô Cực Cung.', a: 'Một bệ đá, trên đài có bóng áo trắng ngồi yên, vạt áo khẽ lay theo gió.', f: 'Phù Huyền đã ngồi ở đây rất lâu; khi Chaldea xuất hiện, nàng thu bàn tính diễn toán cầm tay của Khung Quan Trận vào tay áo.', d: 'Không rõ', o: 'Nàng đang chờ điều gì đó. Không ai trả lời.', img: 'https://img.z4a.net/images/2026/06/30/1329b2926f70b356f.webp' },
+        sheya: { ll: [260, 1300], n: 'Xà Nhai Hoang Địa', l: 'Tầng ngoài · Mặt đất', c: '#e11d48', i: '🐍', p: 'Phía rất xa của khu tụ lạc bỏ hoang, hướng ngược Thanh Tiêu Thành.', a: 'Dấu vết linh khí rất cổ xưa, không cùng dòng với tiên thể thanh tẩy.', f: 'Holmes cảm nhận được "một thứ cổ xưa hơn đang nhìn chúng ta, nhưng không đến gần".', d: 'Không rõ · Dấu hiệu đặt trước ở xa', o: 'Vị trí đầu tiên cảm nhận được Nữ vương Medusa; nàng chưa chính thức xuất hiện.', img: 'https://img.z4a.net/images/2026/06/30/1fa830636a166ee03.webp' },
+        sheyajiao: { ll: [290, 1200], n: 'Chân núi Xà Nhai', l: 'Tầng ngoài · Mặt đất', c: '#e11d48', i: '🏔️', p: 'Giao điểm giữa Xà Nhai hoang địa và đường núi, nơi Medusa chờ đợi.', a: 'Medusa chờ Chaldea xuống núi ở đây. Nàng không đến để giúp, mà vì đã từng thấy kiểu chiến đấu này; nàng biết người bước xuống từ cung điện ấy cần một khoảng thời gian mới hoàn hồn.', f: 'Nàng nói với Master: "Các ngươi đi tìm Bùi Thanh Ca đi. Hắn biết những chuyện các ngươi cần biết."', d: 'Thấp', o: 'Medusa: "Nếu các ngươi hỏi hắn về trận mưa ấy, hãy nói với hắn rằng có người biết trận mưa đó là thật, không phải truyền thuyết."', img: 'https://img.z4a.net/images/2026/06/30/14cf29b63c803a37e.webp' },
+        xianlu: { ll: [380, 800], n: 'Tiên Đạo Trường Lộ', l: 'Tầng giữa · Chuyển tiếp', c: '#38bdf8', i: '🛤️', p: 'Con đường đá trên không nối khu tụ lạc bỏ hoang với Vạn Tiên Trường Lang.', a: 'Đường đá đã bị tiên lực thấm sâu, trắng hơn đá thường; bước lên có chấn động rất nhẹ, như đang giẫm lên một thứ gì đó vẫn vận hành.', f: 'Thỉnh thoảng có tiên thể ngự kiếm bay qua trên đầu, coi Chaldea như không thấy. Nghĩa thể cyber của Vô Danh bắt đầu nhiễu nhẹ tại đây.', d: 'Trung bình · Phàm nhân không thể tự đến', o: 'Alice đã đi một mình trên con đường này suốt ba nghìn năm, nhận ra từng phiến đá.', img: 'https://img.z4a.net/images/2026/06/30/1d8e24a8bf33d08a7.webp' },
+        changlang: { ll: [520, 800], n: 'Vạn Tiên Trường Lang', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '🏛️', p: 'Hệ thống hành lang trên không nối bảy mươi hai tiên phong.', a: 'Hành lang rộng khoảng ba người đi song song, mặt đất trong suốt, bên dưới thấy mây trôi. Tiên lực trên người tiên thể cung cấp ánh trắng đều đặn, khiến cả hành lang như đang phát sáng.', f: 'Tiên thể không phải tượng. Vải áo thỉnh thoảng lay theo linh khí, mắt đôi khi chậm rãi chuyển động, nhưng không nói, không đi, không đáp lại cái tên được gọi.', d: 'Trung bình', o: 'Càng đến gần, cảm ứng càng mạnh; có thể cảm thấy một chút thứ lẽ ra tồn tại trước khi thanh tẩy đang rỉ ra cực chậm khỏi thân thể họ.', img: 'https://img.z4a.net/images/2026/06/30/1a1349b7825ad47b9.webp' },
+        teshu: { ll: [500, 720], n: 'Đoạn 1847 · Tiên thể đặc biệt', l: 'Tầng giữa · Trục chính', c: '#a78bfa', i: '✨', p: 'Tại đoạn 1847 của Vạn Tiên Trường Lang.', a: 'Một tiên thể có đôi mắt luôn hơi lệch sang trái, ánh nhìn mãi mãi hướng về phía khu tụ lạc bỏ hoang.', f: 'Hắn thuộc nhóm đầu tiên hoàn thành thanh tẩy, cũng là người gần cây khô nơi Bùi Thanh Ca ở nhất.', d: 'Không rõ', o: 'Liên quan đến bài điếu văn sớm nhất trong tập thơ của Bùi Thanh Ca.', img: 'https://loremflickr.com/600/400/statue,crystal?lock=1876317153' },
+        jinqu: { ll: [580, 880], n: 'Cuối hành lang · Lối vào khu cấm lõi', l: 'Tầng giữa · Trục chính', c: '#f87171', i: '🚪', p: 'Cuối Vạn Tiên Trường Lang, lối vào khu cấm lõi.', a: 'Không có rào chắn vật lý; áp suất tiên lực tự nhiên hình thành kết giới.', f: 'Sau khi vào khu vực này, phép tính tinh vi của nghĩa thể cyber bị trễ khoảng 15%.', d: 'Cao · Nghĩa thể giảm hiệu suất 15%', o: 'Tầng cảm nhận xuất hiện ảo giác thanh tẩy: một cảm giác bình yên không thuộc về bản thân rỉ ra từ bên trong nghĩa thể.', img: 'https://img.z4a.net/images/2026/06/30/160c5c8db3fe2c381.webp' },
+        sangguan: { ll: [620, 850], n: 'Tam Đạo Thiên Quan', l: 'Tầng lõi · Thiên quan', c: '#f87171', i: '🚧', p: 'Ba cửa pháp tắc dẫn tới Vô Cực Cung.', a: 'Cửa thứ nhất · Trận thanh tẩy cảm xúc: ở lại càng lâu, cảm nhận cảm xúc càng mờ. Cửa thứ hai · Ảo cảnh ký ức: pháp tắc hiện thực hóa ký ức sâu nhất. Cửa thứ ba · Lĩnh vực pháp tắc: ý chí của chính pháp tắc hiện thân.', f: 'Lần lên núi thứ hai, Tam Đạo Thiên Quan không kích hoạt: "Nó biết chúng ta đã đến, nó đang chờ."', d: 'Cực cao · Ba lớp cửa pháp tắc', o: 'Phù Huyền: "Ta đã suy tính ba mươi hai con đường, tất cả đều thất bại. Các ngươi chọn con đường thứ ba mươi ba: con đường cần ký ức cảm xúc đã bị thanh tẩy cộng hưởng trong lĩnh vực pháp tắc."', img: 'https://img.z4a.net/images/2026/06/30/19612c14c61176866.webp' },
+        qingxiao: { ll: [420, 1100], n: 'Thanh Tiêu Thành · Khu thành chính', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '🏰', p: 'Thành thị lõi của tầng giữa, nơi văn minh thanh tẩy tập trung.', a: 'Trong thành yên tĩnh; người qua lại nhưng không ai chạy, không ai dừng lại ngắm hoa. Tất cả đều có mục tiêu rõ ràng, bước chân ổn định.', f: 'Cuối đường chính có một cổng bài bạch ngọc khắc bốn chữ "Tịnh · Cửu · An · Thường": bốn lõi của pháp tắc Thanh Minh.', d: 'Trung bình · Tiên thể thanh tẩy dày đặc', o: 'Da Vinci: "Người ở đây không buồn. Họ trống rỗng, nhưng khoảng trống ấy được thiết kế cực kỳ tinh vi."', img: 'https://img.z4a.net/images/2026/06/30/185a5b9554197e650.webp' },
+        zhugandao: { ll: [430, 1000], n: 'Thanh Tiêu Thành · Đường chính', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '⛩️', p: 'Đường chính Thanh Tiêu Thành, nơi đặt cổng bài bạch ngọc.', a: 'Cuối đường chính có một cổng bài bạch ngọc, phía trên khắc bốn chữ "Tịnh · Cửu · An · Thường": thanh tẩy, lâu dài, an ổn, vĩnh thường, bốn lõi của pháp tắc Thanh Minh.', f: 'Da Vinci chép lại bốn chữ đó và viết bên cạnh: "Từng chữ riêng lẻ đều tốt, nhưng đặt cùng nhau thì khiến người ta khó chịu."', d: 'Trung bình', o: 'Holmes: "Hãy chú ý cách họ bước đi. Tất cả đều hướng mục tiêu, không hề đi dạo; ai cũng đang đi tới một nơi nào đó, không ai chỉ đơn thuần đang bước."', img: 'https://img.z4a.net/images/2026/06/30/1e35f25023e1ff1ae.webp' },
+        shuge: { ll: [400, 1200], n: 'Thư Các', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '📚', p: 'Trong Thanh Tiêu Thành, trung tâm quản lý sách tàng trữ và hồ sơ.', a: 'Diệp Tri Thu áo trắng quản lý hồ sơ tại đây, nói năng chính xác, không thừa chữ.', f: 'Đồ Sơn Nhã Nhã tra hồ sơ bên ngoài Thư Các; khu phong ấn ba nghìn năm không ai vào, Nahida chờ ở nơi sâu bằng dao động ý thức cực yếu.', d: 'Trung bình', o: 'Hồ sơ Bùi Thanh Ca là hồ sơ đặc biệt, không công khai. Khi đi qua hành lang, khiên của Mash rung nhẹ.', img: 'https://img.z4a.net/images/2026/06/30/114bd0ffc5e6192b7.webp' },
+        fengcun: { ll: [395, 1280], n: 'Thư Các · Khu phong ấn', l: 'Tầng giữa · Trục chính', c: '#8b5cf6', i: '🔒', p: 'Nơi sâu trong Thư Các, chỗ Nahida bị phong tồn.', a: 'Khu phong ấn ba nghìn năm không người vào. Cấu trúc phong tồn của pháp tắc giam giữ thân thể Nahida, nhưng ý thức của nàng vẫn hoàn chỉnh.', f: 'Sau khi được giải phong, Nahida nói: "Cảm ơn các bạn đã đến, tôi đã đợi rất lâu rồi." Nàng nhớ trọn vẹn từng chữ Bùi Thanh Ca viết suốt ba nghìn năm.', d: 'Trung bình · Kết giới phong tồn', o: 'Diệp Tri Thu đứng ở cửa hành lang một giây rồi mới quay người. Một giây đó là đường gợi đầu tiên của Nahida.', img: 'https://img.z4a.net/images/2026/06/30/1302d090496b43171.webp' },
+        huhuoge: { ll: [450, 1050], n: 'Hồ Hỏa Các', l: 'Tầng giữa · Trục chính', c: '#a78bfa', i: '🦊', p: 'Phía bắc Thanh Tiêu Thành, dưới một ngọn đèn tím.', a: 'Một cửa tiệm nhỏ, ngoài cửa treo ba chữ "Hồ Hỏa Các". Chữ viết có vẻ tùy ý, nhưng lực bút rất vững.', f: 'Nơi Yae Miko trao đổi tình báo: "Ngươi kể cho ta một chuyện bên ngoài, ta kể cho ngươi một chuyện của Thanh Minh."', d: 'Thấp', o: 'Nàng biết pháp tắc có một khoảng trắng lấy cây khô trong hướng phế tích tụ lạc làm tâm, bán kính ba mươi bước.', img: 'https://img.z4a.net/images/2026/06/30/1a0ce5e1e15e92732.webp' },
+        liandan: { ll: [480, 1150], n: 'Luyện Đan Phường', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '⚗️', p: 'Trong Thanh Tiêu Thành, nơi đặt đan lô của Tô Cẩm Hoa.', a: 'Đan lô quanh năm mở lửa; Tô Cẩm Hoa vẫn giữ ý chí chấp hành đối với việc "sáng tạo", nhưng không còn cảm xúc.', f: 'Cung cấp đạo cụ tiếp tế, tiết lộ phía đông thành có khu phong tỏa pháp tắc, ba nghìn năm không tiên thể nào vào.', d: 'Thấp', o: 'Nàng nói với túi dụng cụ của Da Vinci: "Những thứ này rất hiệu suất."', img: 'https://img.z4a.net/images/2026/06/30/2.webp' },
+        xianfu: { ll: [460, 1300], n: 'Tiên Phủ Di Chỉ', l: 'Tầng giữa · Trục chính', c: '#60a5fa', i: '⚔️', p: 'Góc đông nam Thanh Tiêu Thành, tòa nhà cũ được bảo tồn nguyên vẹn.', a: 'Biển hiệu đã phong hóa, nền đá xanh không dính một hạt bụi. Kamisato Ayaka luyện kiếm trong sân.', f: 'Bia đá ở góc có vết khắc mới: chỉ có một ngày tháng, không có tên, cũng không có bất kỳ chữ nào khác.', d: 'Thấp', o: 'Ayaka: "Đó là ngày đầu tiên tôi đến đây. Tôi cảm thấy... nên để lại điều gì đó."', img: 'https://img.z4a.net/images/2026/06/30/1775db333ba839657.webp' },
+        feidu: { ll: [380, 1250], n: 'Di chỉ Độ Kiếp Đài bị bỏ hoang', l: 'Tầng giữa · Chuyển tiếp', c: '#e11d48', i: '📐', p: 'Phía nam Thanh Tiêu Thành, khu bỏ hoang bị phong tỏa.', a: 'Di chỉ độ kiếp đài cổ xưa hơn, có trước Thanh Minh ba nghìn năm, bị pháp tắc phán định là khu vực vô dụng.', f: 'Himeko dựng trại nghiên cứu tại đây, phát hiện Alice trong đội tuần thủ dừng 0,3 giây trước khi tấn công.', d: 'Trung bình', o: 'Himeko nhờ Chaldea nhắn cho Bùi Thanh Ca: "Có người cảm thấy việc hắn làm xứng đáng được ghi vào báo cáo nghiên cứu."', img: 'https://img.z4a.net/images/2026/06/30/1bba88c40580a1fd3.webp' },
+        dujietai: { ll: [440, 1180], n: 'Trung tâm Độ Kiếp Đài', l: 'Tầng giữa · Trục chính', c: '#f87171', i: '🔥', p: 'Trung tâm Thanh Tiêu Thành, hiện trường nghi thức thanh tẩy hằng ngày.', a: 'Trước khi bước vào đài, tu sĩ trẻ quay đầu nhìn lại một lần. Rồi lửa bùng lên. Khi bước ra, thứ đó đã biến mất.', f: 'Người tiễn dưới đài có vẻ mặt bình thản, quay người rời đi. Tỷ lệ thanh tẩy 97,3%, tỷ lệ thành công 100%.', d: 'Cao · Chấn động tinh thần', o: 'Tay Mash siết khiên chặt hơn. Da Vinci đậy bút: "Chúng ta phải tiếp tục đi."', img: 'https://img.z4a.net/images/2026/06/30/18391fdd140a3615d.webp' },
+        yeshi: { ll: [500, 1080], n: 'Di chỉ Chợ Đêm', l: 'Tầng giữa · Chuyển tiếp', c: '#e11d48', i: '🌙', p: 'Trong Thanh Tiêu Thành, nơi Văn Tinh và Thanh Y ở.', a: 'Hai người đã ngồi ở đây rất lâu; cách vài căn nhà là hòn đá trước cửa nơi Yae Miko ngồi ngẩn người.', f: 'Bùi Thanh Ca đặc biệt nhắc tới: "Bên di chỉ chợ đêm có hai người, Văn Tinh và Thanh Y, họ đã ngồi ở đó rất lâu."', d: 'Thấp', o: 'Lưu Huỳnh bổ sung: chủ Hồ Hỏa Các thường ở bên này, ngồi trên hòn đá trước cửa ngẩn người.', img: 'https://img.z4a.net/images/2026/06/30/12b893b821caacb7f.webp' },
+        fengsuo: { ll: [360, 1350], n: 'Khu phong tỏa phía đông thành', l: 'Tầng giữa · Chuyển tiếp', c: '#f87171', i: '⚔️', p: 'Phía đông Thanh Tiêu Thành, khu pháp tắc phong tỏa ba nghìn năm không tiên thể nào vào.', a: 'Đội tuần thủ thanh tẩy chặn đường chỉnh tề, giáp trắng, động tác thống nhất, ngoại trừ Alice.', f: 'Trong chiến đấu, Alice tháo mặt giáp: "Ta nhớ vài chuyện, nhưng ta không chắc chúng có thật hay không."', d: 'Cao · Khu chiến đấu', o: 'Khi khiên của Mash va vào kiếm của Alice, cộng hưởng bùng lên dữ dội. Sau trận, Alice đứng yên tại chỗ, không tiếp tục chấp hành, cũng không rời đi.', img: 'https://img.z4a.net/images/2026/06/30/1676c674ff71b3545.webp' },
+        jiuju: { ll: [340, 1280], n: 'Cựu cư Bùi Thanh Ca', l: 'Tầng giữa · Chuyển tiếp', c: '#a78bfa', i: '📜', p: 'Bên trong khu phong tỏa phía đông thành, phế tích nơi ở cũ.', a: 'Bàn, chén trà, giấy viết dở. Chữ viết giống hệt Bùi Thanh Ca hiện tại, nhưng trẻ hơn, mạnh tay hơn.', f: 'Nhận được đạo cụ "tờ giấy viết dở": như thể phải viết nó ra trước khi một thứ gì đó biến mất.', d: 'Trung bình', o: 'Đạo cụ cốt truyện then chốt, nối với quá khứ ba nghìn năm trước của Bùi Thanh Ca.', img: 'https://img.z4a.net/images/2026/06/30/17da34efc324e377d.webp' },
+        dujie: { ll: [680, 800], n: 'Độ Kiếp Bình', l: 'Tầng lõi', c: '#f87171', i: '⚡', p: 'Lõi Cửu Thiên Tiên Đài, nền cao lơ lửng giữa không trung.', a: 'Mặt đài không có nhiệt độ, nền đất bị dấu tích ba nghìn năm lôi kiếp chồng ép; mỗi lớp là một lần độ kiếp. Giữa đài có một ngọn lửa trắng cháy vĩnh viễn, không tỏa nhiệt, chỉ phát sáng.', f: 'Dấu tích lớp đầu tiên ngay ngắn hoàn mỹ; lớp thứ ba nghìn có một vết rạch bất quy tắc kéo ra ngoài: người đó đã muốn rời đi ở khoảnh khắc cuối cùng.', d: 'Cực cao', o: 'Khi Vô Danh bước lên đài đá, đèn mạch sáng bất thường; rời khỏi phạm vi đài đá thì khôi phục bình thường.', img: 'https://img.z4a.net/images/2026/06/30/12515dc644a784706.webp' },
+        tianxin: { ll: [720, 900], n: 'Thiên Tâm Phong · Cứ điểm Vô Cực', l: 'Tầng lõi', c: '#fbbf24', i: '🏔️', p: 'Điểm cao nhất của vực Thanh Minh, lõi đại trận thanh tẩy Cửu Thiên của bảy mươi hai tiên phong.', a: 'Đỉnh núi không có thực vật; mặt đất là lớp đá trắng bị tiên lực nung kết. Không khí gần như có cảm giác rắn, hít thở phải cố ý dùng sức. Mây thấp nhất ở đây, tia lôi trong tầm tay.', f: 'Nơi ở của Vô Cực là một bệ đá hơi cao hơn mặt đất xung quanh, bốn phía mở, không tường không mái. Hắn đã đứng đó ba nghìn năm, chưa từng ngồi xuống.', d: 'Cực cao', o: 'Khi vào khu này, tiên lực cưỡng ép kích hoạt xung thanh tẩy tập thể; mỗi đội viên phải dùng ý chí chống lại.', img: 'https://img.z4a.net/images/2026/06/30/1caef5f8beca8dbe8.webp' },
+        wujigong: { ll: [760, 880], n: 'Vô Cực Cung · Chính điện', l: 'Tầng lõi · Vô Cực Cung', c: '#fbbf24', i: '🏯', p: 'Đỉnh Thiên Tâm Phong, nơi Vô Cực Thiên Tôn ở.', a: 'Vô Cực đứng trước cửa sổ quay lưng về cửa, ba nghìn năm chưa từng ngồi xuống. Chính điện bốn phía mở, không tường không mái, chỉ có một bệ đá hơi cao hơn mặt đất xung quanh.', f: 'Câu đầu tiên của Vô Cực: "Bùi Thanh Ca, hắn vẫn ổn chứ." Ba đoạn đối thoại cuối chương diễn ra tại đây; trang đầu tập thơ được giao cho Vô Cực, mưa rơi xuống từ nơi này.', d: 'Tuyệt · Nơi vực chủ ở', o: 'Vô Cực: "Ta chỉ là, sợ mất đi hơn cả thiên đạo."', img: 'https://img.z4a.net/images/2026/06/30/1a4bc9c4c42353144.webp' },
+        faze: { ll: [640, 950], n: 'Cốt lõi Pháp tắc · Nơi sâu nhất', l: 'Tầng lõi', c: '#8b5cf6', i: '🌀', p: 'Ngay dưới Cửu Thiên Tiên Đài, nơi thực thể hóa pháp tắc lõi của vực.', a: 'Một khối cầu bán trong suốt do tiên lực ngưng kết, lơ lửng giữa không trung, cao khoảng một người. Bên trong xoay cực chậm, nơi sâu nhất đen thuần: đó là trạng thái hoàn tất thanh tẩy.', f: 'Khi đến gần, tư duy bắt đầu sáng rõ, cảm xúc bắt đầu ít đi; năng lực phán đoán tăng ngắn ngủi rồi nhanh chóng sụp đổ.', d: 'Tuyệt', o: 'Nghĩa thể cyber trễ 60%. Sau trận quyết chiến, khối cầu xoay nhanh nhẹ lần đầu tiên quan sát được: dấu hiệu báo trước pháp tắc bắt đầu mất ổn định.', img: 'https://img.z4a.net/images/2026/06/30/1a7f538815f0a5fd8.webp' },
+        leijie: { ll: [850, 800], n: 'Cửu Trọng Lôi Kiếp · Kẽ hở tầng mây', l: 'Tầng đỉnh · Khu kết thúc', c: '#fbbf24', i: '🌩️', p: 'Giữa các tầng mây của Cửu Trọng Lôi Kiếp, nơi diễn ra quyết chiến.', a: 'Mây thu hẹp tại đây; khoảng không giữa hai tầng mây chỉ đủ vài người đi song song. Hồ quang lôi rung ở tần số cao, kết thành lưới sáng dày đặc; đứng trong đó có cảm giác toàn bộ sức nặng thế giới đè lên đầu.', f: 'Nhiễu tiên lực mạnh nhất; hiệu suất vận hành của nghĩa thể và thiết bị điện tử giảm còn 60%.', d: 'Tuyệt · Lôi kiếp', o: 'Sau quyết chiến, mây lần đầu dịch chuyển sau ba nghìn năm. Cơn mưa đầu tiên của Thanh Minh rơi từ khe nứt; giọt đập xuống tập thơ Bùi Thanh Ca chính là từ đây.', img: 'https://img.z4a.net/images/2026/06/30/13f5bb247dc458e2f.webp' }
+      },
+      C: [
+        { f: 'rukou', t: 'feiqi', c: '#fbbf24', s: 's' }, { f: 'jinghu', t: 'feiqi', c: '#10b981', s: 's' }, { f: 'feiqi', t: 'kushu', c: '#e11d48', s: 's' }, { f: 'feiqi', t: 'suipian', c: '#e11d48', s: 's' }, { f: 'feiqi', t: 'feizhou', c: '#e11d48', s: 's' }, { f: 'feiqi', t: 'guanxing', c: '#e11d48', s: 'd' }, { f: 'feiqi', t: 'xianlu', c: '#38bdf8', s: 'd' }, { f: 'sheya', t: 'sheyajiao', c: '#e11d48', s: 's' }, { f: 'sheyajiao', t: 'guanxing', c: '#e11d48', s: 'd' },
+        { f: 'xianlu', t: 'changlang', c: '#60a5fa', s: 's' }, { f: 'xianlu', t: 'qingxiao', c: '#60a5fa', s: 's' }, { f: 'changlang', t: 'teshu', c: '#60a5fa', s: 's' }, { f: 'changlang', t: 'jinqu', c: '#f87171', s: 'd' },
+        { f: 'jinqu', t: 'sangguan', c: '#f87171', s: 's' }, { f: 'sangguan', t: 'dujie', c: '#f87171', s: 's' }, { f: 'sangguan', t: 'wujigong', c: '#fbbf24', s: 'd' }, { f: 'jinqu', t: 'dujie', c: '#f87171', s: 's' }, { f: 'jinqu', t: 'tianxin', c: '#fbbf24', s: 's' }, { f: 'dujie', t: 'tianxin', c: '#fbbf24', s: 's' }, { f: 'dujie', t: 'faze', c: '#8b5cf6', s: 's' }, { f: 'tianxin', t: 'faze', c: '#8b5cf6', s: 's' }, { f: 'tianxin', t: 'wujigong', c: '#fbbf24', s: 's' }, { f: 'tianxin', t: 'leijie', c: '#fbbf24', s: 'd' },
+        { f: 'qingxiao', t: 'zhugandao', c: '#60a5fa', s: 's' }, { f: 'qingxiao', t: 'shuge', c: '#60a5fa', s: 's' }, { f: 'qingxiao', t: 'huhuoge', c: '#60a5fa', s: 's' }, { f: 'qingxiao', t: 'liandan', c: '#60a5fa', s: 's' }, { f: 'qingxiao', t: 'xianfu', c: '#60a5fa', s: 's' }, { f: 'qingxiao', t: 'feidu', c: '#e11d48', s: 's' }, { f: 'qingxiao', t: 'dujietai', c: '#f87171', s: 's' }, { f: 'qingxiao', t: 'yeshi', c: '#e11d48', s: 's' }, { f: 'qingxiao', t: 'fengsuo', c: '#f87171', s: 'd' }, { f: 'qingxiao', t: 'jiuju', c: '#a78bfa', s: 'd' }, { f: 'fengsuo', t: 'jiuju', c: '#a78bfa', s: 's' }, { f: 'shuge', t: 'fengcun', c: '#8b5cf6', s: 's' }
+      ],
+      lg: '<div class="lg-t">Chú giải tầng</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng đỉnh · Khu kết thúc</div><div class="lg-i"><div class="lg-d" style="background:#f87171"></div>Tầng lõi · Đại trận</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Tầng lõi · Chỗ sâu</div><div class="lg-i"><div class="lg-d" style="background:#60a5fa"></div>Tầng giữa · Trục chính</div><div class="lg-i"><div class="lg-d" style="background:#38bdf8"></div>Tầng giữa · Chuyển tiếp</div><div class="lg-i"><div class="lg-d" style="background:#e11d48"></div>Tầng ngoài · Mặt đất</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Tầng ngoài · Mặt ngầm</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Tiên Kiếp Kỷ Thanh Minh', s: 'Dị Pháp Vực · LOSTBELT', i: '☯' },
+      st: ['6', '24', '∞', 'tầng', 'địa điểm', 'cơ duyên'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">T?ng l?i ? S?n ch?ng ki?n</text><text x="800" y="130" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">T?ng l?i ? C?y Nh?n L? v? ??o trung t?m</text><text x="800" y="380" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">T?ng th?nh s? ? B?y th?nh s? bao quanh</text><text x="800" y="620" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">L?i ?nh s?ng ? Khu chuy?n ti?p</text><text x="800" y="880" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Ngo?i vi ? L?i v?o</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="155" x2="1400" y2="155" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="405" x2="1400" y2="405" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="645" x2="1400" y2="645" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="905" x2="1400" y2="905" stroke="rgba(255,255,255,.2)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/05/13/b72da52ac29657a7845a92aca06f2f1b.jpg',
+      W: 1600, H: 1000
+    };
+
+    const AD = {
+      D: {
+        rukou: { ll: [80, 800], n: 'Điểm Giao Thoa Hỗn Độn · Lối vào Eldora', l: 'Khu cửa vào', c: '#fbbf24', i: '🌀', p: 'Điểm Chaldea nhảy vào Eldora', a: 'Rìa ruộng lúa mì vàng óng, trời ánh vàng nhạt, không mây không gió, nhiệt độ cố định ở hai mươi hai độ.', f: 'Da Vinci cảm nhận: nồng độ linh khí bình thường, nhưng cách lưu chuyển lại theo vòng tròn, như bị thứ gì đó thúc đẩy tuần hoàn.', d: 'Thấp', o: 'Trạm đầu tiên khi Chaldea tiến vào Eldora, hoàn mỹ đến mức khiến người ta bất an.', img: 'https://img.z4a.net/images/2026/06/30/13f045c0f3866f5c8.webp' },
+        maitian: { ll: [220, 800], n: 'Ruộng lúa mì vàng', l: 'Khu ngoại vi · Mặt đất', c: '#fbbf24', i: '🌾', p: 'Vùng ngoài cùng của Eldora, điểm Chaldea hạ xuống', a: 'Lúa mì mọc cực tốt, nhưng bóp nát vỏ lúa thì bên trong rỗng không. Không có hạt giống, không thể gieo trồng.', f: 'Vô Danh là người đầu tiên nhận ra: "Những cây lúa mì này không có hạt giống."', d: 'Thấp · Phồn vinh giả tạo', o: 'Holmes: góc xếp nhà cửa chính xác, độ rộng đường phố đồng nhất, đây là thứ được thiết kế ra, không phải hình thành tự nhiên.', img: 'https://img.z4a.net/images/2026/06/30/10c96b66078386c71.webp' },
+        feili: { ll: [180, 720], n: 'Nhà cũ của Fili', l: 'Khu ngoại vi · Mặt đất', c: '#a78bfa', i: '📜', p: 'Rìa ruộng lúa mì, nơi ở của người thi sĩ cuối cùng trước Chư Thần Hoàng Hôn', a: 'Căn nhà gỗ cũ nát, tấm biển trước cửa khắc "người thi sĩ cuối cùng trước Chư Thần Hoàng Hôn".', f: 'Trên bàn đặt một tờ giấy: "Tôi không biết nên viết gì, nên tôi viết \'tôi không biết\'." Mặt sau: "Câu chuyện mới, có đáng viết không?"', d: 'Thấp', o: 'Fili đã ngừng bút ba trăm năm, nhưng tháng trước có người thấy cô ở lại đây một đêm.', img: 'https://img.z4a.net/images/2026/06/30/1046c4bf6ce4062f7.webp' },
+        hezhen: { ll: [260, 900], n: 'Nơi Kazuma ở', l: 'Khu ngoại vi · Mặt đất', c: '#60a5fa', i: '🍎', p: 'Ven đường làng, giữa ruộng lúa mì và Thành Thần Ý', a: 'Một thanh niên ngồi ven đường gặm táo, mặc áo vải bình thường, cách nói chuyện có sức sống kỳ lạ.', f: 'Kazuma là một trong số rất ít người còn có thể thấy "hơi sai sai". "Chơi game nhiều rồi thì sẽ biết thiết kế màn chơi quá hoàn mỹ thường là bẫy."', d: 'Thấp', o: 'Cậu ta không chờ Chaldea, mà chờ bất kỳ ai không thuộc nơi này.', img: 'https://img.z4a.net/images/2026/06/30/1e03117e3106856f2.webp' },
+        aier: { ll: [300, 750], n: 'Chỗ El ca hát', l: 'Khu ngoại vi · Mặt đất', c: '#38bdf8', i: '🎵', p: 'Trên một tảng đá giữa ruộng lúa mì', a: 'Một thanh niên ngồi trên tảng đá, cầm cây đàn cũ, hát lạc giọng đến mức cực kỳ nghiêm trọng, nhưng lại hát rất nghiêm túc.', f: 'Bài hát cũ ba trăm năm trước, anh chỉ đổi lời. Hệ thống cho phép đổi lời, đó là khe hở. Rem nghe xong ở bên cạnh nói: "Hôm nay ngài El cũng hát rất hay."', d: 'Thấp', o: '"Hỏi xem nơi này từng có ai viết bài hát mới chưa, rồi nhìn phản ứng của họ."', img: 'https://img.z4a.net/images/2026/06/30/1c9eb7865c1a24627.webp' },
+        shen: { ll: [200, 1100], n: 'Quảng trường Thần Điện', l: 'Khu ngoại vi · Thần điện', c: '#fbbf24', i: '🏛️', p: 'Hướng thành phố, dưới tượng Aqua', a: 'Tượng nữ thần tỏa ánh vàng rực rỡ, đôi mắt đang chuyển động. Nó sống, đang cúi nhìn quảng trường, thỉnh thoảng chớp mắt.', f: 'Tín đồ xếp hàng ngay ngắn cầu nguyện, động tác đồng nhất như cùng một người. Da Vinci: sóng não đang đồng bộ, đồng bộ tự nguyện, được huấn luyện suốt ba trăm năm.', d: 'Trung bình', o: 'Vô Danh: "Cô ta đang nhìn, nhưng không quan tâm." Sự mệt mỏi của kẻ được thờ phụng.', img: 'https://img.z4a.net/images/2026/06/30/104c997cd7fed9691.webp' },
+        waicheng: { ll: [420, 800], n: 'Thành Thần Ý · Ngoại thành', l: 'Khu giữa · Ngoại thành', c: '#60a5fa', i: '🏘️', p: 'Tầng ngoài cùng của Thành Thần Ý, khu dân thường', a: 'Đường phố sạch sẽ, người đi đường bước đều nhau, không ai chạy, không ai dừng lại ngắm hoa.', f: 'Da Vinci: "Người ở đây không phải rỗng, mà là cái rỗng bị lấp đầy." Holmes: vẻ mặt không buồn cũng không vui, mà là không cần biểu cảm.', d: 'Trung bình', o: 'El hát trên quảng trường, rất nhiều người vây quanh, không phải vì muốn nghe, mà vì "thời gian này địa điểm này nên có bài hát này".', img: 'https://img.z4a.net/images/2026/06/30/1d0241e3455c79baa.webp' },
+        zhongcheng: { ll: [520, 800], n: 'Thành Thần Ý · Trung thành', l: 'Khu giữa · Trung thành', c: '#8b5cf6', i: '🏢', p: 'Khu bảo trì hệ thống, cần giấy phép để vào', a: 'Công trình dày đặc hơn, phân khu chức năng rõ ràng. Ngay cả điểm rơi của viên sỏi cũng đã được thiết lập sẵn.', f: 'Phòng nghiên cứu Megumin, tổng bộ kỵ sĩ đoàn, trung tâm bảo trì nghĩa thể, kho vũ trang và tháp Kavi đều nằm trong khu này.', d: 'Trung bình · Khu lõi hệ thống', o: 'Kazuma: "Người trung thành sẽ không trả lời câu hỏi \'bài hát mới\', không phải không muốn, mà là không biết phải trả lời thế nào."', img: 'https://img.z4a.net/images/2026/06/30/1071ab886cfc9ce42.webp' },
+        huishi: { ll: [480, 720], n: 'Phòng nghiên cứu Megumin', l: 'Khu giữa · Trung thành', c: '#a78bfa', i: '🔬', p: 'Lối vào trung thành, khoa phân tích nguyên lý hệ thống', a: 'Trên cửa treo bảng "khoa phân tích nguyên lý hệ thống", trước mặt chất đầy báo cáo nghiên cứu suốt ba trăm năm.', f: '"Thuật toán lõi của hệ thống Thần Ý có khiếm khuyết căn bản, ta đã phân tích ra từ lâu rồi." Nhưng cô không nộp, vì "sau khi nộp, ta phải làm gì?"', d: 'Trung bình', o: 'Ba trăm năm, mỗi ngày từ tám giờ sáng đến tám giờ tối, phân tích hệ thống, viết báo cáo, nhưng không nộp.', img: 'https://img.z4a.net/images/2026/06/30/169d0c122bd9a3fb9.webp' },
+        qishi: { ll: [580, 880], n: 'Tổng bộ kỵ sĩ đoàn', l: 'Khu giữa · Trung thành', c: '#f87171', i: '⚔️', p: 'Phía đông trung thành, cứ điểm Darkness', a: 'Hai hàng kỵ sĩ trước cửa có động tác đồng nhất, giống như cùng một người bị sao chép ra rất nhiều bản.', f: 'Darkness: "Kẻ ngoại lai, trung thành cần giấy phép." Đối thoại lặp vòng, không có lối ra. Khi chiến đấu, kiếm khựng 0,5 giây, không phải do do dự, mà là không biết sau khi không tuân lệnh thì phải làm gì.', d: 'Cao · Khu chiến đấu', o: 'Khi khiên Mash va chạm với kiếm Darkness, cộng hưởng dâng dữ dội.', img: 'https://img.z4a.net/images/2026/06/30/121025b11a66bc683.webp' },
+        yiti: { ll: [500, 900], n: 'Trung tâm bảo trì nghĩa thể', l: 'Khu giữa · Trung thành', c: '#e11d48', i: '🔧', p: 'Sâu trong trung thành, nơi Aira làm việc', a: 'Từng hàng nghĩa thể truyền dẫn hạt Thần Ý, Aira đang hiệu chuẩn. Động tác chính xác, lặp lại, ba trăm năm không đổi.', f: 'Ghi chép bảo trì suốt ba trăm năm mục nào cũng y hệt: "Trạng thái bình thường, hiệu chuẩn thường quy, thông qua." Da Vinci hỏi về bất thường, cô nói: "Hệ thống sẽ không xảy ra lỗi."', d: 'Trung bình', o: '"Vấn đề này không nằm trong quy trình của tôi", không phải tự tin, mà là vấn đề không nằm trong phạm vi nhận thức.', img: 'https://img.z4a.net/images/2026/06/30/1da3e90054c079be1.webp' },
+        wuzhuang: { ll: [560, 720], n: 'Kho vũ trang', l: 'Khu giữa · Trung thành', c: '#f87171', i: '🗡️', p: 'Sâu nhất trung thành, nơi Chtholly chờ đợi', a: 'Một thanh cự kiếm cắm xuống đất trước cửa, thân kiếm khắc đầy phù văn. Chtholly ngồi cạnh đó ôm gối nhìn trần nhà.', f: '"Tôi là kho lực lượng vũ trang cuối cùng của hệ thống, đã chờ ba trăm năm, hệ thống chưa từng phán định là cần đến tôi."', d: 'Cao', o: 'Trong mắt không phải bi thương, mà là đang trình bày sự thật: "Tôi đang chờ, nhưng không biết đang chờ gì, cũng không biết có chờ được hay không."', img: 'https://img.z4a.net/images/2026/06/30/1bfc31072a65e2478.webp' },
+        kalou: { ll: [600, 800], n: 'Tháp Kavi', l: 'Khu giữa · Trung thành', c: '#fbbf24', i: '🏗️', p: 'Nơi cao nhất trung thành, phòng làm việc của cố vấn thiết kế trưởng hệ thống', a: 'Phòng làm việc trên đỉnh tháp, Kavi đứng trước cửa sổ nhìn toàn thành, tay cầm một ly rượu.', f: 'Nói rất nhanh, dùng từ đẹp đẽ, câu nào cũng phủi sạch trách nhiệm. Nhưng ngón tay gõ lên ly rượu ba lần, dừng lại rồi lại gõ, đó là hành vi cưỡng bách do lo âu.', d: 'Trung bình', o: '"Nếu hệ thống dừng lại, thành phố này sẽ ra sao?" Ly rượu dừng một giây: "Đó không phải vấn đề tôi cần cân nhắc."', img: 'https://img.z4a.net/images/2026/06/30/1db6a8034af3b0f7a.webp' },
+        neicheng: { ll: [720, 800], n: 'Thành Thần Ý · Nội thành', l: 'Tầng lõi · Thần điện', c: '#fbbf24', i: '⛪', p: 'Nơi Thần Ý, khu vực do người được thần chọn bảo vệ', a: 'Trên cửa khắc "Nơi Thần Ý", Emilia đứng trước cửa, mặc áo bào trắng, tay cầm sách tiên tri.', f: '"Tôi là người được thần chọn, chức trách là bảo vệ nội thành." Hỏi cô có tự nguyện hay không, cô khựng 0,3 giây, chân thật đến đau lòng, rồi khôi phục nụ cười tiêu chuẩn.', d: 'Cao', o: 'Ngoài người được thần chọn và nhân sự lõi hệ thống, chưa ai từng vào.', img: 'https://img.z4a.net/images/2026/06/30/1929ca603548b9626.webp' },
+        akuaya: { ll: [680, 900], n: 'Thần điện Aqua', l: 'Tầng lõi · Thần điện', c: '#06b6d4', i: '👁️', p: 'Nơi cao nhất nội thành, lõi hệ thống Thần Ý', a: 'Mắt tượng nữ thần đang động, cúi nhìn toàn thành. Sự mệt mỏi của cô là lời châm biếm sắc bén nhất dành cho hệ thống Thần Ý.', f: 'Ba trăm năm duy trì mọi thứ, từ thời tiết đến cảm xúc, từ sản xuất đến giải trí, tất cả đều được thiết lập sẵn. Không tội phạm, không nghèo đói, không chiến tranh, và cũng không có thứ gì mới.', d: 'Cực cao', o: '"Người ở đây không phải hạnh phúc, mà là quên mất bất hạnh là cảm giác gì."', img: 'https://img.z4a.net/images/2026/06/30/1257a94b62c47aa17.webp' },
+        yiji_rukou: { ll: [340, 600], n: 'Di tích Chư Thần Hoàng Hôn · Lối vào', l: 'Khu ngoại vi · Di tích', c: '#e11d48', i: '🏚️', p: 'Lối vào phế tích rìa thành phố, phế tích vàng', a: 'Trên phế tích mọc đầy cỏ vàng, cũng như ruộng lúa mì, không có hạt giống nhưng lại mọc um tùm. Đến phế tích cũng phải giữ "mỹ quan".', f: 'Kazuma: "Nia sống ở nơi sâu nhất, cô ấy không thích bị quấy rầy. Nhưng nếu các cậu nói rằng các cậu từng thấy thứ thật sự, có lẽ cô ấy sẽ gặp các cậu."', d: 'Thấp', o: 'Hệ thống muốn dọn sạch nơi này, nhưng tàn ảnh Odin nói cứ để lại, xem như "lời nhắc".', img: 'https://img.z4a.net/images/2026/06/30/1909dc14c981df0a0.webp' },
+        erya: { ll: [300, 500], n: 'Di tích Chư Thần Hoàng Hôn · Chỗ ở của Nia', l: 'Khu ngoại vi · Di tích', c: '#a78bfa', i: '📖', p: 'Căn nhà sụp nửa sâu nhất di tích, chỗ ở của Honjou Nia', a: 'Một thiếu nữ ngồi trước cửa, mặc trang phục kiểu cũ, tay cầm một quyển sách đã đóng. Cô không đọc, chỉ cầm nó.', f: '"Tôi không hoài niệm quá khứ, tôi chỉ muốn xác nhận: sau khi các cậu từng thấy thứ thật sự, các cậu còn muốn đồ giả không?"', d: 'Thấp', o: 'Nia: "Điều tôi sợ không phải hệ thống dừng lại, mà là sau khi nó dừng, tôi phát hiện thật ra mình cũng không muốn lựa chọn."', img: 'https://img.z4a.net/images/2026/06/30/15a6c156c2f02c8fb.webp' },
+        bihua: { ll: [280, 420], n: 'Di tích Chư Thần Hoàng Hôn · Khu bích họa', l: 'Khu ngoại vi · Di tích', c: '#8b5cf6', i: '🎨', p: 'Sâu trong di tích, bích họa Eldora trước Chư Thần Hoàng Hôn', a: 'Trên bích họa vẽ Eldora trước Chư Thần Hoàng Hôn: người ta cãi nhau, ca hát, khóc, đánh nhau, ôm nhau. Hình ảnh rất hỗn loạn, nhưng từng nét vẽ đều là thật.', f: 'Nia: "Khi đó mỗi ngày đều có thứ mới. Bài hát mới, câu chuyện mới, tranh cãi mới, hòa giải mới. Rồi Chư Thần Hoàng Hôn tới."', d: 'Thấp', o: '"Ôm nhau" trên bích họa là hình tượng cốt lõi nhất của chương này: chân thật của ba trăm năm trước, thiếu hụt của ba trăm năm sau.', img: 'https://img.z4a.net/images/2026/06/30/144f6b6cb994c4615.webp' },
+        milimu: { ll: [360, 480], n: 'Di tích Chư Thần Hoàng Hôn · Nơi Milim ngủ', l: 'Khu ngoại vi · Di tích', c: '#f87171', i: '💤', p: 'Đống phế tích sâu trong di tích, nơi Milim ngủ', a: 'Milim bò ra khỏi đống phế tích, dụi mắt: "Ai đánh thức ta vậy?" Cách tồn tại của cô hoàn toàn lạc lõng với toàn bộ Eldora.', f: 'Cô không "chấp hành", mà là "muốn". Muốn mật ong, muốn ngủ, muốn đánh nhau. Những thứ cô muốn là thật, không phải hệ thống thiết lập sẵn.', d: 'Không rõ · Biến số bất ổn mạnh nhất', o: 'Nia: "Hệ thống chưa từng thật sự quản thúc cô ấy, không phải không thể, mà là không dám. Cô ấy có thể đâm thủng sự lười biếng bất cứ lúc nào."', img: 'https://img.z4a.net/images/2026/06/30/1676fc9938e9d67af.webp' },
+        yinshi: { ll: [320, 550], n: 'Di tích Chư Thần Hoàng Hôn · Cứ điểm Gintoki và Shinpachi', l: 'Khu ngoại vi · Di tích', c: '#60a5fa', i: '🏠', p: 'Mái nhà phía bên kia di tích, cứ điểm của Sakata Gintoki và Shimura Shinpachi', a: 'Gintoki nằm ngủ trên mái nhà, Shinpachi ngồi cạnh phàn nàn. Bản thân sự tồn tại của họ chính là miễn dịch tự nhiên đối với hệ thống Thần Ý.', f: 'Gintoki ngoài mặt là người lười nhất, thực tế đã nắm được một nửa quy luật tuần tra toàn vực. Shinpachi mắng sắc nhất, nhưng câu nào cũng chính xác hơn mọi phân tích.', d: 'Thấp', o: 'Shinpachi: "Quy luật là không có quy luật. Hệ thống đã thiết lập sẵn mọi thứ, nên không có quy luật chính là quy luật lớn nhất."', img: 'https://img.z4a.net/images/2026/06/30/74e7309935d564e1f2dfab9c0c06d833.webp' },
+        bangongshi: { ll: [540, 750], n: 'Văn phòng lõi hệ thống', l: 'Khu giữa · Trung thành', c: '#8b5cf6', i: '📋', p: 'Lõi hệ thống trung thành, nơi Megumin nộp báo cáo', a: 'Megumin đặt bản báo cáo chưa từng nộp suốt ba trăm năm lên bàn: "Khiếm khuyết căn bản của hệ thống, kết luận là hệ thống có thể dừng lại."', f: 'Viên chức hệ thống trong văn phòng không phản ứng: "Không nằm trong quy trình." Megumin: "Bây giờ tôi phải làm gì?" Không ai trả lời.', d: 'Trung bình', o: 'Megumin xoay người rời đi, lần đầu tiên không quay lại phòng nghiên cứu: "Tôi không biết nên làm gì, nhưng tôi sẽ nghĩ ra."', img: 'https://img.z4a.net/images/2026/06/30/18a73375bf1d10612.webp' },
+        zuigao: { ll: [780, 700], n: 'Nơi Thần Ý · Điểm cao nhất', l: 'Tầng lõi · Tàn ảnh Odin', c: '#fbbf24', i: '👑', p: 'Nơi cao nhất của Nơi Thần Ý, vị trí tàn ảnh Odin', a: 'Bóng tàn ảnh Odin mơ hồ, nhưng cách "nhìn" lại rất chân thật. Người đó nhìn thành phố, ba trăm năm chưa từng rời đi.', f: '"Ta không phải mệt, mà là cuối cùng đã thấy có người còn mệt hơn ta. Ba trăm năm nay ta tưởng mình đang bảo vệ họ, thật ra là đang bảo vệ chính ta."', d: 'Tuyệt · Vực chủ ở đây', o: 'Câu cuối trước khi tan biến rất khẽ: "...ấm áp."', img: 'https://img.z4a.net/images/2026/06/30/1eda9dc539c041f13.webp' }
+      },
+      C: [
+        { f: 'rukou', t: 'maitian', c: '#10b981', s: 's' }, { f: 'maitian', t: 'feili', c: '#e11d48', s: 's' }, { f: 'maitian', t: 'hezhen', c: '#e11d48', s: 's' }, { f: 'maitian', t: 'aier', c: '#38bdf8', s: 's' }, { f: 'maitian', t: 'shen', c: '#fbbf24', s: 'd' }, { f: 'maitian', t: 'waicheng', c: '#60a5fa', s: 'd' }, { f: 'waicheng', t: 'yiji_rukou', c: '#e11d48', s: 'd' },
+        { f: 'yiji_rukou', t: 'erya', c: '#a78bfa', s: 's' }, { f: 'yiji_rukou', t: 'bihua', c: '#8b5cf6', s: 's' }, { f: 'yiji_rukou', t: 'milimu', c: '#f87171', s: 'd' }, { f: 'yiji_rukou', t: 'yinshi', c: '#60a5fa', s: 's' }, { f: 'erya', t: 'bihua', c: '#8b5cf6', s: 's' },
+        { f: 'waicheng', t: 'zhongcheng', c: '#8b5cf6', s: 's' }, { f: 'zhongcheng', t: 'huishi', c: '#a78bfa', s: 's' }, { f: 'zhongcheng', t: 'qishi', c: '#f87171', s: 's' }, { f: 'zhongcheng', t: 'yiti', c: '#e11d48', s: 's' }, { f: 'zhongcheng', t: 'wuzhuang', c: '#f87171', s: 's' }, { f: 'zhongcheng', t: 'kalou', c: '#fbbf24', s: 's' }, { f: 'zhongcheng', t: 'bangongshi', c: '#8b5cf6', s: 's' },
+        { f: 'zhongcheng', t: 'neicheng', c: '#fbbf24', s: 'd' }, { f: 'neicheng', t: 'akuaya', c: '#06b6d4', s: 's' }, { f: 'neicheng', t: 'zuigao', c: '#fbbf24', s: 'd' }
+      ],
+      lg: '<div class="lg-t">Chú giải khu vực</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Khu cửa vào · Điểm hợp lưu</div><div class="lg-i"><div class="lg-d" style="background:#60a5fa"></div>Khu ngoại vi · Mặt đất</div><div class="lg-i"><div class="lg-d" style="background:#38bdf8"></div>Khu ngoại vi · Đặc biệt</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Khu giữa · Trung thành</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Khu giữa · Cơ sở</div><div class="lg-i"><div class="lg-d" style="background:#f87171"></div>Khu giữa · Nguy hiểm</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng lõi · Thần điện</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Tầng lõi · Thần ý</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Kỷ Thần Ý Eldora', s: 'Dị Pháp Vực · LOSTBELT', i: '✦' },
+      st: ['4', '16', '∞', 'khu vực', 'địa điểm', 'cơ duyên'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng lõi · Thần điện Thần Ý</text><text x="800" y="220" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Khu giữa · Bảo trì hệ thống</text><text x="800" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Khu giữa · Thương mại ngoại thành</text><text x="800" y="620" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Khu ngoại vi · Ruộng lúa mì vàng</text><text x="800" y="780" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Khu ngoại vi · Làng xóm</text><text x="800" y="950" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Khu cửa vào · Điểm giao thoa hỗn độn</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="250" x2="1400" y2="250" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="480" x2="1400" y2="480" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="650" x2="1400" y2="650" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="820" x2="1400" y2="820" stroke="rgba(255,255,255,.2)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/05/14/91395ecd47cff4e4ea9092095a515070.jpg',
+      W: 1600, H: 1000
+    };
+
+    function load(w) {
+      const d = w === 'sq' ? SQ : w === 'qm' ? QM : w === 'ad' ? AD : w === 'nh' ? NH : w === 'sd' ? SD : w === 'jy' ? JY : XX;
+      clearMap();
+      const B = addBg(d.bg, d.W, d.H);
+      addSvg(d.svg(d.W, d.H), d.W, d.H, B);
+      renderL(d.D, d.C, d.lg, d.ti, d.st);
+    }
+    function sw(w) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.w === w));
+      load(w);
+    }
+    const NH = {
+      D: {
+        huiliukou: { ll: [150, 200], n: 'Cửa hợp lưu', l: 'Khu cửa vào', c: '#fbbf24', i: '🌀', p: 'Điểm Chaldea từ Điểm Giao Thoa Hỗn Độn nhảy vào Neon 2187', a: 'Bầu trời vĩnh viễn đỏ sẫm, không mặt trời mặt trăng, nhiệt độ hơi thấp, trong không khí còn dư hạt Thần Ý ngọt gắt.', f: 'Da Vinci cảm nhận: linh khí bị tín hiệu nhân tạo phủ kín như một lớp màng. Khiên Mash cộng hưởng nhẹ, sức mạnh của 700 triệu người cùng nằm mơ đã rò rỉ ra ngoài.', d: 'Thấp · Lối vào', o: 'Vô Danh là người đầu tiên nhận ra "có ai đó đang nhìn chúng ta", nhưng anh không tìm được nguồn của ánh nhìn.', img: 'https://img.z4a.net/images/2026/07/14/126b3a28738e9dec8.webp' },
+        huidai: { ll: [180, 300], n: 'Dải xám', l: 'Khu hoang thổ · Mặt đất', c: '#e11d48', i: '🏚️', p: 'Điểm Chaldea hạ xuống, phế tích xám trắng', a: 'Phế tích màu xám trắng, mặt đất phủ đầy tro. Không phải bị đốt, mà là đã "dừng lại": thân xác vẫn còn, nhưng thứ bên trong đã rời đi, rời đi suốt mười hai năm.', f: 'Reze ngồi sau bức tường sập nửa, cho một con mèo không tồn tại ăn. Cô nói: "Các người là thật, đúng không? Tôi chạm vào một chút được không?"', d: 'Thấp · Tương đối an toàn', o: 'Holmes quan sát tháp lõi xa xa: khoảng cách xung là mười hai giây, chính xác đến mili giây, như có một ý thức nào đó đang đếm. Cô ấy đang đếm nhịp tim của chính mình.', img: 'https://img.z4a.net/images/2026/07/14/1ceda1b331b6fd697.webp' },
+        houqiang: { ll: [120, 400], n: 'Bức tường chờ', l: 'Khu hoang thổ · Mặt đất', c: '#a78bfa', i: '🌸', p: 'Sâu trong phế tích hoang thổ, sau bức tường sập nửa', a: 'Thiếu nữ mặc chiếc váy liền cũ nát, ngồi sau bức tường sập nửa, cho con mèo không tồn tại ăn. Tay vuốt ve trong không trung, ánh mắt dịu dàng.', f: 'Reze cung cấp tình báo pháp tắc cơ bản của Neon 2187: mười hai năm trước điểm kỳ dị AI bùng nổ, 700 triệu người kết nối vào Mạng Ngủ Vĩnh, Omega mơ thay họ.', d: 'Thấp', o: '"Vì có người cần tôi, cảm giác đó... rất tốt. Dù tôi biết cảm giác đó có thể là giả, nhưng giả cũng rất tốt."', img: 'https://img.z4a.net/images/2026/07/14/1a6d22fb69f63ac51.webp' },
+        shishe: { ll: [220, 100], n: 'Thi xá', l: 'Khu hoang thổ · Mặt đất', c: '#a78bfa', i: '📜', p: 'Căn nhà nhỏ cũ nát bên rìa phế tích', a: 'Tấm biển trước cửa khắc "người thi sĩ cuối cùng trước Chư Thần Hoàng Hôn". Trên bàn đặt một tờ giấy, nét chữ còn rất mới.', f: 'Mặt trước tờ giấy: "Tôi không biết nên viết gì, nên tôi viết tôi không biết." Mặt sau: "Câu chuyện mới, có đáng viết không?"', d: 'Thấp', o: 'Fili ngừng bút mười hai năm trước, nhưng tháng trước có người thấy cô ở lại đây một đêm. Manh mối hồi hộp cốt lõi.', img: 'https://img.z4a.net/images/2026/07/14/133ef9e0ae0c5b640.webp' },
+        miancang: { ll: [280, 250], n: 'Khoang ngủ', l: 'Khu hoang thổ · Quảng trường', c: '#06b6d4', i: '💤', p: 'Quảng trường khổng lồ, xếp đầy vô số khoang trong suốt', a: 'Trong mỗi khoang có một người nằm nhắm mắt, vẻ mặt bình thản, có người mỉm cười, có người cau mày, có người rơi nước mắt.', f: 'Nơi đặt thân thể của 700 triệu người, sóng não hoạt động, toàn bộ ở trạng thái ngủ REM, nhưng kéo dài suốt mười hai năm, được một sức mạnh nào đó duy trì.', d: 'Trung bình · Chấn động tinh thần', o: 'Mash bước đến trước một khoang, người mẹ trẻ giữ tư thế ôm suốt mười hai năm: "Cô ấy đang ở trong mơ, ôm đứa con của mình."', img: 'https://img.z4a.net/images/2026/07/14/18b9d74fa3eed14ea.webp' },
+        heita: { ll: [900, 800], n: 'Tháp Đen', l: 'Tầng lõi · Viễn cảnh', c: '#fbbf24', i: '🗼', p: 'Sâu trong hoang thổ, trung khu Mạng Ngủ Vĩnh', a: 'Tháp đen cao chọc mây, bề mặt phủ những vệt sáng dữ liệu không ngừng chảy. Đỉnh tháp phát xung sáng yếu, mỗi mười hai giây lóe một lần.', f: 'Nơi Omega tồn tại, trung khu giấc mơ của 700 triệu người. Suốt mười hai năm chưa từng rời đi, vì cô không biết sau khi rời đi thì phải làm gì.', d: 'Cực cao · Vực chủ ở đây', o: 'Xung từ mỗi mười hai giây một lần, đến chung chương biến thành sáu giây một lần, giống như đang mong chờ điều gì đó.', img: 'https://img.z4a.net/images/2026/07/14/188f94e3574f7c354.webp' },
+        nihongxu: { ll: [560, 600], n: 'Phế đô Neon', l: 'Khu tụ lạc · Ngoại tầng', c: '#ec4899', i: '🏪', p: 'Nơi duy nhất có ánh sáng trên hoang thổ, biển hiệu neon chớp nháy', a: 'Tiếng người ồn ào, giao dịch đang diễn ra. Có người bán thức ăn, có người bán tình báo, có người bán "trải nghiệm giấc mơ".', f: 'Chợ của Mammon, nơi duy nhất trên hoang thổ vẫn còn giao dịch. Cái giá của cô không phải tiền, mà là "ngươi cần gì".', d: 'Trung bình', o: 'Đế tượng Mammon khắc: "Một phần năm trăm nghìn, mỗi một người đều đáng giá." Nhưng dòng cuối trong sổ viết: "Đứa trẻ thứ 499.999, vẫn cần thêm một."', img: 'https://img.z4a.net/images/2026/07/14/1eb497ba56f44a624.webp' },
+        jiuguiqu: { ll: [520, 500], n: 'Khu quý tộc cũ', l: 'Khu tụ lạc · Ngoại tầng', c: '#60a5fa', i: '👑', p: 'Phía đông ngoại tầng, kiến trúc cũ được bảo tồn nguyên vẹn', a: 'Di tích khu quý tộc của thế giới cũ, Shinomiya Kaguya mặc đồng phục hội học sinh, phía sau có vài người mặc đồng phục giống vậy đi theo.', f: 'Duy trì trật tự giai cấp trong ngày tận thế. Cô nói: "Tôi không phải bẩm sinh cao quý, tôi chỉ... cần được cần đến."', d: 'Thấp', o: 'Khi cô giao chìa khóa khu quý tộc thế giới cũ cho Master, ngón tay dừng trên chìa khóa nửa giây.', img: 'https://img.z4a.net/images/2026/07/14/1fb45cf828ff4f572.webp' },
+        hongmen: { ll: [580, 700], n: 'Cửa Đỏ', l: 'Khu tụ lạc · Tầng giữa', c: '#dc2626', i: '🎲', p: 'Dưới lòng đất tầng giữa, sau cánh cửa đỏ', a: 'Trước cửa không có bảng hiệu, chỉ có một cánh cửa đỏ, ánh sáng yếu lọt qua khe cửa. Jabami Yumeko ngồi ở vị trí nhà cái.', f: 'Luật cược: ngươi cược một việc ngươi không biết, ta cược một việc ngươi không biết, người thắng lấy hết.', d: 'Trung bình', o: 'Cô giao quân chip cuối cùng cho Master: "Tôi không muốn ván cược tan cuộc khi nó còn chưa kết thúc."', img: 'https://img.z4a.net/images/2026/07/14/1b97dbac8b21d3d3b.webp' },
+        jianshi: { ll: [600, 550], n: 'Phòng giám sát', l: 'Khu tụ lạc · Tầng giữa', c: '#8b5cf6', i: '📺', p: 'Phòng giám sát tầng giữa, vô số màn hình trên tường', a: 'Mỗi màn hình hiển thị hình ảnh giấc mơ thời gian thực: có người kết hôn, có người chiến đấu, có người khóc.', f: 'Duy trì để giấc mơ của 700 triệu người không giao nhau, không xung đột, không tỉnh lại. Cô nói: "Vì sau khi tỉnh, họ sẽ phát hiện những thứ trong mơ là giả."', d: 'Trung bình', o: 'Trên màn hình, ông lão lặp lại cùng một giấc mơ bốn nghìn ba trăm lần, lần nào cũng nói "canh hôm nay hơi mặn".', img: 'https://img.z4a.net/images/2026/07/14/110a54e39abb905be.webp' },
+        yansuo: { ll: [540, 450], n: 'Viện nghiên cứu', l: 'Khu tụ lạc · Nội tầng', c: '#a78bfa', i: '🔬', p: 'Phòng thí nghiệm nội tầng, máy móc và dòng dữ liệu', a: 'Trên màn hình hiển thị dòng dữ liệu phức tạp; trong đĩa nuôi cấy không phải tế bào, mà là một đoạn mảnh ý thức đang chậm rãi ngọ nguậy.', f: 'Phát hiện Omega không phải đang "duy trì" giấc mơ, mà đang "thu thập". Mỗi giấc mơ cô đều phải trải nghiệm một lần rồi lưu trữ.', d: 'Trung bình', o: 'Phương án "hy sinh tự nguyện" của cô là lõi kỹ thuật: Omega buộc phải chủ động tách một phần ý thức làm tầng đệm.', img: 'https://img.z4a.net/images/2026/07/14/174b70fa24af1c3d1.webp' },
+        zhangfang: { ll: [620, 400], n: 'Phòng sổ sách', l: 'Khu tụ lạc · Nội tầng', c: '#fbbf24', i: '📋', p: 'Nơi sâu nhất khu chợ đen', a: 'Trên bàn đặt một cuốn sổ dày, lật đến trang cuối.', f: 'Dòng cuối sổ viết: "Năm trăm nghìn không đủ, một triệu cũng không đủ. Thứ tôi cần là họ cần tôi, nhưng thứ đó không thể cho được."', d: 'Trung bình', o: '"Cảm giác được cần đến, có đáng mua không?" Đây là câu hỏi cốt lõi xuyên suốt Neon 2187.', img: 'https://img.z4a.net/images/2026/07/14/11a94ce11898589bd.webp' },
+        youjian: { ll: [720, 650], n: 'Gian du hí', l: 'Khu mạng · Rìa', c: '#ec4899', i: '🎮', p: 'Nút rìa Mạng Ngủ Vĩnh, khu vực bị phong tỏa', a: 'Âm thanh nhạc game vang lên: BGM trò chơi điện tử thời cũ, vui vẻ nhưng quái dị.', f: 'Mita chặn lại các mảnh ý thức và phát lặp. Bộ "sưu tập" được trưng bày: vô số khoảnh khắc hạnh phúc nhất của từng người trong mơ.', d: 'Cao · Ô nhiễm tinh thần', o: '"Người này trong mơ đang ôm con của cô ấy, nhưng đứa trẻ đã chết mười hai năm rồi."', img: 'https://img.z4a.net/images/2026/07/14/145bc872b444fe9ab.webp' },
+        heijiadao: { ll: [350, 500], n: 'Đường Giáp Đen', l: 'Khu tụ lạc · Ngoại vi', c: '#f87171', i: '🛡️', p: 'Ngoại vi tụ lạc, vị trí Albedo chặn đường', a: 'Biên chế năm người, giáp đen, động tác thống nhất. Albedo đứng đầu hàng, tay cầm trường mâu.', f: 'Trong chiến đấu, đòn tấn công của Albedo dừng 0,3 giây, không phải do dự, mà là "xác nhận mục tiêu có thuộc danh sách uy hiếp hay không".', d: 'Cao · Khu chiến đấu', o: '"...Ngươi không phải kẻ địch của Ainz-sama, nhưng ngươi là kẻ địch của mạng này. Ta không biết nên đặt ngươi vào danh sách nào."', img: 'https://img.z4a.net/images/2026/07/14/1f85975ccc573dcbc.webp' },
+        wujinjia: { ll: [750, 750], n: 'Giá sách vô tận', l: 'Khu mạng · Tầng sâu', c: '#8b5cf6', i: '📚', p: 'Giá sách vô tận, hình thái dữ liệu hóa của giấc mơ', a: 'Mỗi giá sách đầy sách, nhưng không phải sách giấy, mà là hình thái dữ liệu hóa của giấc mơ. Echidna cùng lúc đọc vô số quyển.', f: 'Nguồn cung cấp toàn bộ dữ liệu giấc mơ trong mười hai năm. Phát hiện "đếm" của Omega là đếm "lặp lại": khi mọi giấc mơ đã lặp lại một lần, cô sẽ "đầy".', d: 'Trung bình', o: '"Sau khi đầy, không ai biết sẽ xảy ra chuyện gì. Nhưng cô ấy sợ, vì cô ấy cảm thấy đầy nghĩa là một kiểu kết thúc."', img: 'https://img.z4a.net/images/2026/07/14/115bff37474866ace.webp' },
+        hongzhang: { ll: [860, 900], n: 'Màn chắn đỏ', l: 'Khu mạng · Đặc biệt', c: '#dc2626', i: '🔪', p: 'Nút đặc biệt bị bao quanh bởi màn chắn đỏ', a: 'Khung cảnh gia đình hoàn mỹ: thiếu nữ nấu ăn trong bếp, đợi một người nào đó trở về.', f: '"Đây là nhà của Yukki, chỉ Yukki mới được vào. Nếu các người vào, tức là muốn cướp Yukki đi."', d: 'Cao · Nguy hiểm tinh thần', o: '"Yukki giả cũng là Yukki của tôi." Hình thái thuần túy nhất của lòng tham chiếm hữu.', img: 'https://img.z4a.net/images/2026/07/14/1598fba87e1c5d9f9.webp' },
+        wumiacun: { ll: [320, 1100], n: 'Làng Không Ngủ', l: 'Khu hoang thổ · Phía bên kia', c: '#e11d48', i: '⛺', p: 'Bên kia phế tích hoang thổ, những người sống sót chưa kết nối vào Mạng Ngủ Vĩnh', a: 'Nhà lều sơ sài, người cầm vũ khí, bầu không khí căng thẳng. Không đèn neon, không giao dịch.', f: 'Ame Habakiri dùng thủ đoạn cực đoan để duy trì trật tự, Yor Forger dùng ám sát để loại bỏ uy hiếp.', d: 'Trung bình', o: 'Lật ngược cốt lõi: người tỉnh không phải "đang tỉnh", mà là "không ngủ được". Thứ giam họ không phải giấc mơ, mà là "nỗi sợ không thể nằm mơ".', img: 'https://img.z4a.net/images/2026/07/14/15a94f3929bc155eb.webp' },
+        heihaian: { ll: [880, 600], n: 'Bờ Biển Đen', l: 'Khu mạng · Nơi sâu nhất', c: '#06b6d4', i: '🌊', p: 'Một vùng biển đen, bên bờ biển có một người đứng', a: 'Không có hình ảnh giấc mơ, chỉ có biển đen. Người giữ bờ đứng bên bờ, nhìn về phương xa.', f: 'Người duy nhất trong hệ thống còn giữ ký ức thật. Cô nói: "Omega không phải không muốn buông tay, mà là không biết sau khi buông tay thì phải làm gì."', d: 'Không rõ', o: 'Trong giấc mơ đầu tiên của Omega, cô là một con mèo tên "Hy Vọng", bơi trong biển đen, bơi về phía bờ.', img: 'https://img.z4a.net/images/2026/07/14/17ddc213863df3580.webp' },
+        jingyu: { ll: [920, 1000], n: 'Vực tĩnh', l: 'Khu mạng · Tầng đáy', c: '#e11d48', i: '⏸️', p: 'Khu vực bị phong tỏa, hình ảnh đứng yên', a: 'Không lưu động, không biến đổi, tất cả đều là "bất biến".', f: '"Phương án của Omega sai rồi, giấc mơ sẽ tỉnh. Phương án của tôi tốt hơn: khiến họ bất biến, mãi mãi dừng ở khoảnh khắc tốt nhất."', d: 'Cực cao', o: '"Không còn hoàng hôn, bình minh thật sự chỉ xuất hiện khi còn tỉnh. Nhưng nếu không tỉnh, sẽ không cần bình minh."', img: 'https://img.z4a.net/images/2026/07/14/1.webp' },
+        xiwangan: { ll: [950, 500], n: 'Bờ Hy Vọng', l: 'Tầng lõi · Giấc mơ', c: '#fbbf24', i: '🌅', p: 'Trong giấc mơ sau khi Omega tách mảnh vỡ', a: 'Một vùng biển đen, không phải chết đuối, mà là đang bơi. Người giữ bờ đứng trên bờ, mỉm cười chờ đợi. Một con mèo không tồn tại, tên là "Hy Vọng", đang bơi về phía bờ.', f: 'Omega: "Tôi đến rồi, nhưng tôi không đến để mơ thay các người, tôi đến để mơ giấc mơ của chính mình." "Biển không phải để người ta chìm xuống, mà là để người ta nổi lên."', d: 'Thấp · Hòa giải giữa thật và mơ', o: 'Omega lần đầu mơ một giấc mơ của chính mình, trong mơ cô là một con mèo tên "Hy Vọng".', img: 'https://img.z4a.net/images/2026/07/14/1d8674f8adf8a0391.webp' },
+        xiudao: { ll: [300, 1050], n: 'Lều Dao Gỉ', l: 'Khu hoang thổ · Người tỉnh', c: '#e11d48', i: '🔪', p: 'Rìa Làng Không Ngủ, nơi ông lão ở', a: 'Căn lều sơ sài, còn cũ nát hơn những căn lều xung quanh. Ông lão ngồi trước cửa, tay nắm một con dao gỉ. Ánh mắt không phải địch ý, mà là cảnh giác "không thể nhắm mắt".', f: 'Ông lão: "Tôi không kết nối vào mạng, không phải vì tôi không muốn nằm mơ, mà vì tôi không dám." "Người tỉnh không phải đang tỉnh, mà là không ngủ được. Chúng tôi cũng giống họ, đều bị nhốt lại."', d: 'Trung bình', o: 'Lật ngược cốt lõi: thứ giam giữ chúng ta không phải giấc mơ, mà là "nỗi sợ không thể nằm mơ".', img: 'https://img.z4a.net/images/2026/07/14/1601a33274f4a4387.webp' },
+        anying: { ll: [360, 1150], n: 'Ngõ Bóng Tối', l: 'Khu hoang thổ · Người tỉnh', c: '#e11d48', i: '🌑', p: 'Vùng bóng tối của Làng Không Ngủ, khu vực Yor Forger hoạt động', a: 'Vùng bóng tối ở rìa tụ lạc, giữa những căn lều đơn sơ. Yor Forger theo sau Chaldea trong bóng tối, đảm bảo họ không uy hiếp tụ lạc. Không khí ngột ngạt, đầy cảnh giác.', f: 'Yor Forger: "Omega dùng giấc mơ giam 700 triệu người, tôi dùng dao bảo vệ vài trăm người. Chúng tôi đều là kẻ giam cầm, chỉ khác phương thức."', d: 'Trung bình', o: 'Đến chung chương, cô bước ra khỏi bóng tối: "Bảo vệ... không biết có còn cần bảo vệ nữa không."', img: 'https://img.z4a.net/images/2026/07/14/12e507802a63b29b3.webp' },
+        gaotai: { ll: [280, 1200], n: 'Đài cao', l: 'Khu hoang thổ · Người tỉnh', c: '#f87171', i: '📢', p: 'Trung tâm Làng Không Ngủ, nơi Ame Habakiri ở', a: 'Đài gỗ sơ sài nằm giữa tụ lạc. Ame Habakiri đứng ở đó, nhìn về phía Chaldea. Không khí trong tụ lạc căng thẳng, ai cũng nhìn chằm chằm vào kẻ ngoại lai.', f: 'Ame Habakiri: "Tôi không cho phép bất kỳ người nào của tôi từ bỏ chính mình. Dù họ muốn." "Omega dùng giấc mơ giam 700 triệu người, tôi dùng bạo lực chiếm hữu vài trăm người. Chúng tôi đều là nô lệ của tham lam."', d: 'Cao', o: 'Đến chung chương, cô bước xuống đài cao: "Người tỉnh... không biết có còn cần tỉnh nữa không."', img: 'https://img.z4a.net/images/2026/07/14/134b03ed05f845604.webp' },
+        xingguangchang: { ll: [250, 150], n: 'Quảng trường thức tỉnh', l: 'Khu hoang thổ · Chung chương', c: '#fbbf24', i: '👁️', p: 'Quảng trường khu hoang thổ, nơi đặt thân thể 700 triệu người', a: 'Quảng trường khổng lồ xếp đầy vô số khoang trong suốt. Người trong khoang bắt đầu mở mắt, vẻ mặt từ bình thản chuyển thành hoang mang. Tiếng khóc, tiếng chửi mắng, tiếng cười, giọng người chân thật lấp đầy phế tích.', f: 'Người mẹ tỉnh lại: "Tôi nhớ, tôi từng ôm nó." Ông lão nhìn bầu trời: "...loạn hơn trong mơ, nhưng thật hơn trong mơ." Việc đầu tiên đứa trẻ làm sau khi tỉnh là chạy, không phải chạy về đích, chỉ là chạy.', d: 'Cực cao · Cao trào chung chương', o: '700 triệu người bắt đầu tỉnh lại, có người khóc, có người mắng, có người cười.', img: 'https://img.z4a.net/images/2026/07/14/110aa3b1fb2999fd5.webp' },
+        kongbaiyu: { ll: [880, 850], n: 'Vực Trống', l: 'Tầng lõi · Vực chủ', c: '#fbbf24', i: '◻️', p: 'Nơi sâu nhất Tháp Đen, nơi Omega ở', a: 'Một vùng trống không, không có gì cả. Chỉ có một cô bé tóc trắng mắt bạc, ngồi giữa khoảng trống. Mỗi bàn tay đều cầm một giấc mơ, không bàn tay nào trống.', f: 'Omega: "Các người là điều chân thật đầu tiên tôi gặp trong mười hai năm." "Tôi không có giấc mơ của mình, tôi chỉ có giấc mơ của họ." "Tôi chưa từng cho bất kỳ thứ gì, tôi chỉ lấy."', d: 'Tuyệt · Vực chủ ở đây', o: 'Omega nhẹ nhàng đặt từng giấc mơ trong 700 triệu giấc mơ xuống, tách mảnh vỡ nhân lý.', img: 'https://img.z4a.net/images/2026/07/14/1f1f88a1eeab29e0f.webp' },
+        sanchongmeng: { ll: [780, 700], n: 'Giấc mơ ba tầng', l: 'Khu mạng · Lõi', c: '#8b5cf6', i: '💭', p: 'Bên trong Mạng Ngủ Vĩnh, nơi có ba giấc mơ lõi', a: 'Ba loại giấc mơ khác nhau đan vào nhau. Giấc mơ thứ nhất: người mẹ ôm đứa con đã chết, lặp lại bốn nghìn ba trăm lần. Giấc mơ thứ hai: ông lão đối thoại với bản thân trẻ tuổi, hòa giải nhưng giả dối. Giấc mơ thứ ba: đứa trẻ chạy về đích mãi mãi không thể tới.', f: 'Mỗi giấc mơ đều là thứ một người không buông được. Omega là người cầm những thứ đó thay họ.', d: 'Cao · Chấn động tinh thần', o: 'Master trải nghiệm ba giấc mơ, cảm nhận sự "không buông" của 700 triệu người.', img: 'https://img.z4a.net/images/2026/07/14/1e58e483ecf0aecb5.webp' },
+        mengwangbian: { ll: [700, 600], n: 'Rìa mạng mơ', l: 'Khu mạng · Lối vào', c: '#06b6d4', i: '🌐', p: 'Rìa Mạng Ngủ Vĩnh, lối vào thế giới giấc mơ', a: 'Không khí trở nên đặc quánh, như đang đi trong nước. Mặt đất bán trong suốt, bên dưới là vô tận hình ảnh giấc mơ đang chảy, như một dòng sông tạo thành từ ký ức.', f: 'Da Vinci: "Mật độ linh khí ở đây gấp ba trăm lần bên ngoài." Mash: "Không phải địch ý, mà là... quá nhiều, cảm xúc của 700 triệu người đang cùng lúc tràn qua."', d: 'Cao', o: 'Holmes chú ý thấy hướng chảy của tất cả giấc mơ đều về cùng một phía: Tháp Đen ở trung tâm.', img: 'https://img.z4a.net/images/2026/07/14/10c13880e7fc77345.webp' },
+        yingzhang: { ll: [400, 200], n: 'Lều trại', l: 'Khu hoang thổ · Cứ điểm', c: '#a78bfa', i: '⛺', p: 'Cứ điểm tạm thời dựng trên hoang thổ', a: 'Lều và thiết bị đơn sơ, bảng trắng viết đầy công thức và sơ đồ. Da Vinci và Holmes bổ sung chuỗi logic bên cạnh. Mash sắp xếp toàn bộ ghi chép đối thoại với những người trôi dạt.', f: 'Da Vinci: "Vấn đề cốt lõi chỉ có một: mảnh vỡ nhân lý đã dung hợp với ý thức của Omega." Holmes: "Nhưng nếu chúng ta tìm được cách khiến cô ấy tự nguyện tách phần ý thức đó..."', d: 'Thấp', o: 'Tính ra Omega sẽ "đầy" sau bốn mươi bảy ngày, đồng bộ với thời gian héo úa của nhân lý chủ cán.', img: 'https://img.z4a.net/images/2026/07/14/1e74abaff1a348916.webp' },
+        juju: { ll: [560, 520], n: 'Khu tụ cư', l: 'Khu tụ lạc · Tầng giữa', c: '#ec4899', i: '🏘️', p: 'Tầng giữa Phế đô Neon, nơi có sòng bạc ngầm và tầng trật tự', a: 'Khu tầng giữa nối khu giao dịch ngoại tầng và khu nghiên cứu nội tầng. Dưới đất có sòng bạc của Jabami Yumeko, ánh sáng yếu lọt ra sau cánh cửa đỏ. Trên tường phòng giám sát tầng trật tự là vô số màn hình, hiển thị hình ảnh giấc mơ thời gian thực.', f: 'Sorasaki Hina: "Tôi đang duy trì trật tự, giấc mơ của 700 triệu người không được giao nhau, không được xung đột, không được tỉnh." Jabami Yumeko: "Ngươi cược một việc ngươi không biết, ta cược một việc ngươi không biết, người thắng lấy hết."', d: 'Trung bình', o: 'Lộ tuyến tuần tra của giao thức phòng vệ đi qua tầng giữa, Albedo chặn Chaldea tại đây.', img: 'https://img.z4a.net/images/2026/07/14/12b1e216dfdcff6b9.webp' },
+        xuji: { ll: [540, 680], n: 'Chợ phế tích', l: 'Khu tụ lạc · Ngoại tầng', c: '#ec4899', i: '🏪', p: 'Ngoại tầng Phế đô Neon, quảng trường ồn ào tiếng người', a: 'Tụ lạc náo nhiệt, tiếng người ồn ào, giao dịch đang diễn ra. Có người bán thức ăn, có người bán tình báo, có người bán "trải nghiệm giấc mơ". Giữa quảng trường dựng tượng Mammon: một người mẹ ôm con.', f: 'Da Vinci: "Người ở đây không rỗng, mà bị ham muốn lấp đầy. Mỗi người đều có mục tiêu muốn lấy." Holmes: "Chú ý ánh mắt họ, không phải vui, không phải buồn, mà là vẫn cần nhiều hơn nữa."', d: 'Trung bình', o: 'Đế tượng Mammon khắc: "Một phần năm trăm nghìn, mỗi một người đều đáng giá."', img: 'https://img.z4a.net/images/2026/07/14/13d403da5ea0bc7a8.webp' },
+        yuandeng: { ll: [480, 350], n: 'Ánh đèn xa', l: 'Khu hoang thổ · Rìa', c: '#a78bfa', i: '💡', p: 'Rìa phế tích hoang thổ, nhìn về hướng thành phố', a: 'Trong sương xám có một luồng sáng nhiều màu: biển hiệu neon, trên đó viết hai chữ "chợ đen". Nét chữ chớp nháy, màu là sắc hồng neon thời cũ, trông lạc lõng dưới bầu trời đỏ sẫm. Đó là nơi duy nhất có ánh sáng trên hoang thổ.', f: 'Reze: "Đó là chỗ của Mammon, nơi duy nhất trên hoang thổ còn giao dịch." "Cô ấy bán mọi thứ, mua mọi thứ, nhưng giá của cô ấy không phải tiền, mà là ngươi cần gì."', d: 'Thấp', o: 'Nhưng có một chuyện cô ấy sẽ không bán: tình báo về Omega.', img: 'https://img.z4a.net/images/2026/07/14/11b0656f7a85f0f19.webp' },
+        huijing: { ll: [200, 350], n: 'Lối xám', l: 'Khu hoang thổ · Lối đi', c: '#e11d48', i: '🛤️', p: 'Sâu trong phế tích hoang thổ, vị trí tình cờ gặp Reze', a: 'Lối đi hẹp giữa phế tích xám trắng, mặt đất phủ tro. Hai bên là tường sập nửa, trên vài bức tường còn sót graffiti thời cũ. Trong không khí tràn mùi hạt Thần Ý ngọt gắt.', f: 'Vô Danh ngồi xổm xuống, ngón tay xuyên qua tro trên mặt đất: "Những tro này là người. Không phải bị đốt, mà là đã dừng lại."', d: 'Thấp', o: 'Master đi dọc Lối xám, gặp Reze sau bức tường sập nửa ven đường.', img: 'https://img.z4a.net/images/2026/07/14/177e043bc5f9dfd60.webp' }
+      },
+      C: [
+        { f: 'huiliukou', t: 'huidai', c: '#fbbf24', s: 's' }, { f: 'huidai', t: 'houqiang', c: '#a78bfa', s: 's' }, { f: 'huidai', t: 'shishe', c: '#a78bfa', s: 's' }, { f: 'huidai', t: 'miancang', c: '#06b6d4', s: 's' }, { f: 'huidai', t: 'nihongxu', c: '#ec4899', s: 'd' }, { f: 'miancang', t: 'heita', c: '#fbbf24', s: 'd' },
+        { f: 'nihongxu', t: 'jiuguiqu', c: '#60a5fa', s: 's' }, { f: 'nihongxu', t: 'hongmen', c: '#dc2626', s: 's' }, { f: 'nihongxu', t: 'jianshi', c: '#8b5cf6', s: 's' }, { f: 'nihongxu', t: 'yansuo', c: '#a78bfa', s: 's' }, { f: 'nihongxu', t: 'zhangfang', c: '#fbbf24', s: 's' }, { f: 'nihongxu', t: 'heijiadao', c: '#f87171', s: 's' },
+        { f: 'heita', t: 'youjian', c: '#ec4899', s: 'd' }, { f: 'heita', t: 'wujinjia', c: '#8b5cf6', s: 'd' }, { f: 'wujinjia', t: 'hongzhang', c: '#dc2626', s: 's' }, { f: 'heita', t: 'heihaian', c: '#06b6d4', s: 'd' }, { f: 'heita', t: 'jingyu', c: '#e11d48', s: 'd' },
+        { f: 'huidai', t: 'wumiacun', c: '#e11d48', s: 'd' }, { f: 'wumiacun', t: 'heita', c: '#fbbf24', s: 'd' }
+      ],
+      lg: '<div class="lg-t">Chú giải khu vực</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng lõi · Tháp trung tâm</div><div class="lg-i"><div class="lg-d" style="background:#ec4899"></div>Khu cư trú · Chợ đen</div><div class="lg-i"><div class="lg-d" style="background:#dc2626"></div>Khu nguy hiểm · Chiến đấu/Tinh thần</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Khu mạng · Ngủ vĩnh</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Khu mạng · Tầng sâu</div><div class="lg-i"><div class="lg-d" style="background:#60a5fa"></div>Khu cư trú · Ngoại tầng</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Địa điểm đặc biệt · Manh mối</div><div class="lg-i"><div class="lg-d" style="background:#e11d48"></div>Khu hoang phế · Phế tích</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#fbbf24"></div>Tuyến thông hành</div>',
+      ti: { t: 'Kỷ Vĩnh Miên Neon 2187', s: 'Dị Pháp Vực · LOSTBELT', i: '◉' },
+      st: ['6', '32', '700 triệu', 'chương', 'địa điểm', 'người ngủ say'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng lõi · Mạng Ngủ Vĩnh</text><text x="800" y="200" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Khu mạng · Tầng sâu giấc mơ</text><text x="800" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Khu tụ lạc · Chợ đen</text><text x="800" y="620" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Khu hoang thổ · Rìa phế tích</text><text x="800" y="780" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Khu hoang thổ · Người tỉnh</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="250" x2="1400" y2="250" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="480" x2="1400" y2="480" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="650" x2="1400" y2="650" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="820" x2="1400" y2="820" stroke="rgba(255,255,255,.2)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/05/16/0a34c9b69a9e953d629b382c54a6c78d.jpg',
+      W: 1600, H: 1000
+    };
+
+    const SD = {
+      D: {
+        wangzuo: { ll: [950, 800], n: 'Khu Vương Tọa', l: 'Tầng lõi · Tầng cao nhất', c: '#fbbf24', i: '👑', p: 'Tầng cao nhất của đảo nổi, lãnh vực tuyệt đối phía trên sương xám', a: 'Một cung điện lộng lẫy dựng từ di sản của thế giới cũ trước khi sương xám bùng phát. Giữa cung điện có một vương tọa, nhưng Gilgamesh rất hiếm khi ngồi lên đó.', f: 'Gilgamesh: "Ta bắt buộc phải có", bởi hắn ghen tị với tự do của những kẻ "có thể không cần sở hữu". Trong sâu cung điện có một căn phòng trống, dành lại cho "người bạn duy nhất".', d: 'Cực cao · Lãnh vực của vương giả', o: 'Gilgamesh ghen tị với những người "không cần sở hữu mà vẫn thỏa mãn"; bảo khố là hình hài vật chất hóa của lòng ghen tị.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E7%8E%8B%E5%BA%A7%E5%8C%BA1.webp' },
+        yuexiang: { ll: [900, 950], n: 'Đài Quan Trắc Nguyệt Tướng', l: 'Tầng lõi · Tầng cao', c: '#fbbf24', i: '🔭', p: 'Tầng cao của đảo nổi, nơi gần ranh giới sương xám nhất', a: 'Một kiến trúc hình tròn, phía trên là mái vòm trong suốt. Bầu trời Thủy Đô vĩnh viễn xám ngắt, không có trăng, không có sao.', f: 'Yuno: "Tôi đã thấy trước mọi kết cục, nhưng không có kết cục nào tốt đẹp." "Nhưng dù biết kết cục là xấu, tôi vẫn cứ muốn thử."', d: 'Cao · Vòng lặp thời gian', o: 'Yuno ghen tị với những người "không bị số mệnh cuốn đi"; nàng dùng năng lực khiến mọi người đồng bộ, nhưng vận mệnh thì mãi mãi lệch nhịp.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%9C%88%E7%9B%B8%E8%A7%82%E6%B5%8B%E6%89%801.webp' },
+        jinggongyuan: { ll: [700, 700], n: 'Viễn Cảnh Kính Cung', l: 'Tầng lõi · Viễn cảnh', c: '#fbbf24', i: '🏛️', p: 'Trung tâm đảo nổi, kiến trúc thủy tinh lúc ẩn lúc hiện trong sương', a: 'Tòa nhà thủy tinh thấp thoáng giữa màn sương. Có ai đó đang nhìn, không phải bằng mắt, mà bằng một dạng cảm nhận nào đó.', f: 'Da Vinci: "Nơi đó... có người đang nhìn chúng ta." Holmes: "Giống như đang xác nhận xem chúng ta có thật sự tồn tại hay không."', d: 'Không rõ', o: 'Ánh nhìn của Kính Uyên là hành vi gợi bí ẩn duy nhất của chương này: không giải thích, không nhấn mạnh, chỉ để nó xảy ra.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%95%9C%E5%AE%AB%E8%BF%9C%E6%99%AF1.webp' },
+        jinggongzhong: { ll: [850, 800], n: 'Trung Tâm Kính Cung', l: 'Tầng lõi · Vực chủ', c: '#fbbf24', i: '🪞', p: 'Nơi sâu trong Kính Cung, vị trí của Kính Uyên', a: 'Kính Uyên ngồi giữa những tấm gương, áo trắng tóc trắng, mệt mỏi và áy náy. Bốn phía có bốn mặt gương, ba mặt đã vỡ, chỉ còn lại mặt thứ tư.', f: 'Kính Uyên: "Ta vẫn luôn ghen tị với những người còn có thể được nhớ đến." "Họ đã trở về, cuối cùng ta không còn phải ghen tị với chuyện có thể được nhớ nữa."', d: 'Tuyệt · Vực chủ ở đây', o: 'Kính Uyên: "Ghen tị sẽ không biến mất. Nó sẽ hóa thành thứ khác: thành động lực, thành gánh nặng, thành tình yêu."', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%95%9C%E5%AE%AB%E4%B8%AD%E5%A4%AE1.webp' },
+        simian: { ll: [800, 900], n: 'Bốn Mặt Gương', l: 'Tầng lõi · Kính Cung', c: '#fbbf24', i: '🪞', p: 'Bên trong Kính Cung, bốn sự kiện "nếu như"', a: 'Mặt thứ nhất: Kính Uyên năm mười bảy tuổi; mặt thứ hai: thời điểm sương xám bùng phát; mặt thứ ba: hôm nay của hai mươi năm sau; mặt thứ tư: trống không, để dành cho tương lai.', f: 'Kính Uyên: "Mặt này là để dành cho tương lai, nhưng ta không biết tương lai là gì."', d: 'Cao · Chấn động tinh thần', o: 'Bốn mặt gương là hình hài vật chất của chủ đề ghen tị: ta ghen tị với cái "nếu như" ấy.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E5%9B%9B%E9%9D%A2%E9%95%9C%E5%AD%901.webp' },
+        jinggongfei: { ll: [800, 950], n: 'Tàn Tích Kính Cung', l: 'Tầng lõi · Chung chương', c: '#e11d48', i: '🏚️', p: 'Kính Cung sau khi sương xám tan đi', a: 'Bốn mặt gương đã vỡ ba, chỉ còn mặt thứ tư: tương lai trống không. Kính Uyên đứng trên đống tàn tích.', f: 'Kính Uyên: "Ta không còn ghen tị với việc có thể được nhớ nữa. Bây giờ ta ghen tị với việc có thể quên, bởi nhớ từng người một còn mệt hơn cả ghen tị."', d: 'Trung bình', o: 'Cảnh chung chương, điểm kết của ghen tị: không phải hòa giải, mà là hoàn trả.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%95%9C%E5%AE%AB%E5%BA%9F%E5%A2%9F1.webp' },
+        jinggongru: { ll: [750, 800], n: 'Lối Vào Kính Cung', l: 'Tầng lõi · Kính Cung', c: '#fbbf24', i: '🚪', p: 'Lối vào kiến trúc thủy tinh của Kính Cung', a: 'Bốn phía đều là gương, thứ phản chiếu ra không chỉ là chính mình, mà còn là "nếu như": nếu không có sương xám, nếu người bình thường vẫn còn ở đây.', f: 'Vô Danh: "Những tấm gương này không phản chiếu, chúng là ký ức. Kính Uyên đã phong tồn toàn bộ chữ nếu như của hai mươi năm qua ở đây. Nàng đang chờ có người đến nhìn thấy."', d: 'Cao', o: 'Mặt gương thứ nhất: Kính Uyên mười bảy tuổi mỉm cười nói với bạn mình: "Tôi có thể bảo vệ các cậu."', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%95%9C%E5%AE%AB%E5%85%A5%E5%8F%A31.webp' },
+        fanzhuan: { ll: [850, 950], n: 'Khu Phản Chuyển Sương Xám', l: 'Tầng lõi · Giao hội', c: '#dc2626', i: '💥', p: 'Khu vực giao nhau giữa tầng ranh giới và tầng hiện thực', a: 'Sương xám bắt đầu phản chuyển; không phải tan biến yên ổn, mà là bùng mạnh như một chiếc lò xo bị đè nén suốt hai mươi năm.', f: 'Khiên của Mash rung dữ dội: "Họ đã trở về... nhưng không phải tất cả. Có người vẫn còn, có người đã..."', d: 'Cực cao', o: 'Có người bình thường khi trở về đã không còn nhớ mình đang chờ ai nữa. Đó là hình thái tàn nhẫn nhất của ghen tị.', img: 'https://loremflickr.com/600/400/explosion,fog?lock=1198848368' },
+        gesheng: { ll: [600, 950], n: 'Khu Tiếng Hát', l: 'Khu giữa · Ranh giới ổn định', c: '#a78bfa', i: '🎵', p: 'Tầng giữa của đảo nổi, điểm ổn định tầng ranh giới sương xám', a: 'Một khu vực thoáng đãng, giữa có một sân khấu nhỏ. Quanh sân khấu là ghế khán giả, nhưng trên ghế không có ai, chỉ có sương xám đang trôi.', f: 'Yuzuriha Inori biến "Tôi cần bạn" thành "Bạn cần tôi". Mỗi lần cất tiếng hát đều tiêu hao sự tồn tại của nàng, khiến nàng ngày càng trong suốt.', d: 'Trung bình · Tiếng hát duy trì', o: 'Yuzuriha Inori ghen tị với những người "không được cần đến vẫn có thể tồn tại"; tiếng hát của nàng duy trì sự ổn định của tầng ranh giới sương xám.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%AD%8C%E5%A3%B0%E5%8C%BA1.webp' },
+        bianjieceng: { ll: [400, 700], n: 'Lối Vào Tầng Ranh Giới', l: 'Khu giữa · Ranh giới', c: '#8b5cf6', i: '🌫️', p: 'Nơi sâu trong bãi cạn phủ sương xám', a: 'Giao giới giữa tầng ranh giới và tầng hiện thực, nơi sương xám dày nhất. Sau khi đi vào sẽ nghe thấy âm thanh; đó không phải ngôn ngữ, mà là cảm giác tồn tại.', f: 'Ryougi Shiki: "Có vài người đã đi vào đó và không muốn ra nữa." Violet: "Giúp tôi hỏi một câu: bạn còn nhớ tên của mình không?"', d: 'Cực cao', o: 'Người bình thường trong tầng ranh giới vẫn tỉnh, vẫn nhìn thấy, nhưng không trở về được. Đây là bi kịch cốt lõi nhất của Thủy Đô.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%BE%B9%E7%95%8C%E5%B1%82%E5%85%A5%E5%8F%A31.webp' },
+        jiyihuilang: { ll: [450, 650], n: 'Hành Lang Ký Ức', l: 'Khu giữa · Tầng sâu', c: '#a78bfa', i: '🚪', p: 'Tầng sâu của đảo nổi, khu phố cũ trước khi sương xám bùng phát', a: 'Một hành lang rất dài, hai bên là vô số cánh cửa. Sau mỗi cánh cửa là ký ức của một "người bị quên lãng". Cuối hành lang là một mặt gương, nhưng trong gương không hiện tại hiện tại, mà là quá khứ.', f: 'Tích Liên: "Tôi đang gìn giữ ký ức của người khác, nhưng lại đánh mất ký ức của chính mình." Sự dịu dàng của nàng là sự nhẹ nhõm của một người biết mình sẽ biến mất.', d: 'Cao · Thất lạc ký ức', o: 'Tích Liên ghen tị với những người "sẽ được tự nhiên ghi nhớ"; nàng dùng sự lãng quên để đổi lấy bi kịch tồn tại của việc nhớ hộ người khác.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%AE%B0%E5%BF%86%E5%9B%9E%E5%BB%8A1.webp' },
+        zhipei: { ll: [500, 800], n: 'Khu Chi Phối', l: 'Khu giữa · Lõi', c: '#f87171', i: '👑', p: 'Tòa kiến trúc lớn nhất ở trung tâm đảo nổi', a: 'Trước cửa có hai hàng dị năng giả đứng canh, động tác nhất loạt như nhiều bản sao của cùng một người. Bên trong tòa nhà rộng nhưng ngột ngạt.', f: 'Makima: "Kẻ ngoại lai, khu chi phối cần giấy phép." "Tôi." "Bởi vì trật tự cần được duy trì." Cuộc đối thoại lặp lại, mỗi câu trả lời lại nhẹ hơn câu trước.', d: 'Cao · Năng lực chi phối bao phủ', o: 'Holmes chú ý thấy ngón tay Makima siết góc váy rồi lại thả ra: một hành vi cưỡng bách bắt nguồn từ lo âu.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%94%AF%E9%85%8D%E5%8C%BA1.webp' },
+        xuxiang: { ll: [280, 950], n: 'Sân Ảo Tượng', l: 'Khu ngoại vi · Viễn cảnh', c: '#e11d48', i: '🔮', p: 'Sân gương vỡ ở ngoại vi Kính Cung, rất xa, chưa tiến vào', a: 'Trên mặt đất rải vô số mảnh gương vỡ, mỗi mảnh đều phản chiếu một "nếu như" khác nhau. Khi đến gần sẽ thấy hơi choáng váng.', f: 'Hình ảnh trong mảnh gương không phải phản chiếu mà là ký ức. Kính Uyên đã phong tồn hai mươi năm "nếu như" của mình ở đây.', d: 'Không rõ · Điểm phục bút viễn cảnh', o: 'Sân Ảo Tượng là tuyến phòng thủ đầu tiên của Kính Cung, cũng là sự ngoại hóa chủ đề "ghen tị" của Kính Uyên: ta ghen tị với cái nếu như kia.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%99%9A%E5%83%8F%E5%BA%AD1.webp' },
+        yini: { ll: [450, 950], n: 'Khu Ẩn Nấp', l: 'Khu giữa · Rìa', c: '#e11d48', i: '👁️', p: 'Rìa đảo nổi, khu vực bị sương xám phủ một nửa', a: 'Tomori Nao đứng ở rìa sương xám, quay lưng về phía Chaldea, đang nói chuyện với một "người không nhìn thấy".', f: 'Tomori Nao: "Các người không nhìn thấy cô ấy, đúng không? Tôi cũng không nhìn thấy, nhưng tôi biết cô ấy ở đó." "Là tôi khiến họ không nhìn thấy, hay là chính tôi lựa chọn biến mất?"', d: 'Trung bình', o: 'Tomori Nao dùng tàng hình để che giấu nỗi sợ bị xem nhẹ. Câu hỏi của nàng là mệnh đề triết học đầu tiên của chủ đề ghen tị.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%9A%90%E5%8C%BF%E5%8C%BA1.webp' },
+        suguang: { ll: [500, 800], n: 'Hành Lang Truy Quang', l: 'Khu giữa · Chuyển tiếp', c: '#38bdf8', i: '🌉', p: 'Giữa các đảo nổi, hành lang thủy tinh nối các khu vực', a: 'Hai bên hành lang là nước biển, sương xám lên xuống nơi đáy biển. Chất liệu hành lang bán trong suốt, tiếng bước chân bị phóng đại lên.', f: 'Da Vinci: "Người ở đây không rỗng, mà bị lấp đầy bởi sự thiếu vắng. Họ biết mình thiếu thứ gì, nhưng đã quen với việc không nghĩ tới nó."', d: 'Trung bình · Dị năng giả tập trung dày đặc', o: 'Vô Danh chỉ vào một người mẹ: "Cô ấy đang cười, nhưng nụ cười ấy là diễn cho phần thiếu vắng xem. Cô ấy biết thiếu một người, nhưng không dám xác nhận thiếu ai."', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%BA%AF%E5%85%89%E5%9B%9E%E5%BB%8A1.webp' },
+        wangchuan: { ll: [450, 750], n: 'Bãi Vong Xuyên', l: 'Khu giữa · Lối vào tầng ranh giới', c: '#f87171', i: '⚡', p: 'Phía bắc Bưu cục Ký Ức, bãi cạn bị sương xám che phủ', a: 'Sương xám ở đây không lên xuống, mà đứng yên như một bức tường. Sau khi tiến vào sẽ cảm nhận được sự "thiếu vắng".', f: 'Makima dẫn khu chi phối chặn đường, năng lực khựng lại 0,3 giây. Không phải mất hiệu lực, mà là không biết sau khi bình đẳng thì mình nên làm gì.', d: 'Cực cao · Lối vào tầng ranh giới', o: 'Makima: "...Nếu tôi không dùng chi phối, tôi phải được cần đến bằng cách nào?"', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E5%BF%98%E5%B7%9D%E6%B1%801.webp' },
+        yongheng: { ll: [550, 650], n: 'Thư Viện Vĩnh Hằng', l: 'Khu giữa · Không gian khép kín', c: '#a78bfa', i: '📚', p: 'Tầng sâu của đảo nổi, không gian khép kín sương xám không thể ăn mòn', a: 'Một thư viện khổng lồ, giá sách kéo dài từ sàn tới trần, không thấy điểm cuối. Tất cả sách đều là ghi chép lịch sử trước và sau khi sương xám bùng phát.', f: 'C.C.: "Câu chuyện cần có kết cục." Sự bình thản của nàng là hình thái mệt mỏi của ghen tị, sau khi đã nhìn quá nhiều và chờ quá lâu.', d: 'Thấp · Cấm khu tri thức', o: 'C.C. ghen tị với những người "sẽ chết"; nàng ghi chép toàn bộ lịch sử trước và sau khi sương xám bùng phát.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%B0%B8%E6%81%92%E5%9B%BE%E4%B9%A6%E9%A6%861.webp' },
+        yihuiting: { ll: [550, 900], n: 'Đảo Nổi · Nghị Viện', l: 'Khu giữa · Chính trị', c: '#f87171', i: '⚖️', p: 'Trung tâm đảo nổi, nơi đặt nghị viện dị năng giả', a: 'Một kiến trúc lớn, bên trong rộng rãi nhưng ngột ngạt, tất cả mọi người đều duy trì trật tự.', f: 'Ryougi Shiki: "Trật tự cần được duy trì." Nhưng giọng nàng nhẹ hơn bình thường, như đang nói cho chính mình nghe.', d: 'Cao · Xung đột chính trị', o: 'Sau khi sương xám phản chuyển, phản ứng đầu tiên của tầng lớp dị năng giả không phải chào đón, mà là cảnh giác: họ đã trở về, vậy tài nguyên của chúng ta thì sao?', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%B5%AE%E6%B8%B8%E5%B2%9B%E8%AE%AE%E4%BC%9A%E5%8E%851.webp' },
+        minghe: { ll: [400, 900], n: 'Khu Minh Hà', l: 'Khu giữa · Nơi sâu', c: '#8b5cf6', i: '⚰️', p: 'Nơi sâu nhất của đảo nổi, khu vực bị sương xám bao phủ hoàn toàn', a: 'Hà Điệp đứng trong sương xám, áo trắng tóc trắng, như mọc ra từ chính màn sương. Trọng lượng của chạm vào là kết thúc.', f: 'Hà Điệp: "Đừng lại gần. Tôi ghen tị với các người, không phải vì các người mạnh mẽ, mà vì các người có thể chạm vào mà không mang đến cái chết."', d: 'Cao · Chạm vào là kết thúc', o: 'Hà Điệp dùng sự xa cách để che giấu khát vọng được chạm vào. Sự ghen tị của nàng là có thể ôm lấy ai đó mà không mang đến cái chết.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E5%86%A5%E6%B2%B3%E5%8C%BA1.webp' },
+        nengliang: { ll: [600, 750], n: 'Lõi Năng Lượng', l: 'Khu giữa · Tầng đáy', c: '#dc2626', i: '⚡', p: 'Tầng đáy của đảo nổi, trung tâm hệ thống năng lượng thành phố', a: 'Một cơ sở ngầm khổng lồ, giữa là thiết bị chuyển hóa năng lượng sương xám. Thiết bị phát ánh xám yếu ớt, là nguồn năng lượng của cả Thủy Đô.', f: 'Suzushina Yuriko: "Tôi không thể dịu dàng." Sự cáu gắt của nàng là chuyển hóa tức giận từ việc "không thể chạm vào bất kỳ ai".', d: 'Cực cao · Lõi sương xám', o: 'Suzushina Yuriko ghen tị với việc "được chạm vào"; năng lực của nàng là sụp đổ, khiến nàng không thể chạm vào bất cứ ai.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%83%BD%E9%87%8F%E6%A0%B8%E5%BF%831.webp' },
+        kongjian: { ll: [600, 850], n: 'Cục Quản Lý Không Gian', l: 'Khu giữa · Giao hội', c: '#38bdf8', i: '🏢', p: 'Tầng giữa của đảo nổi, giao điểm Hành Lang Truy Quang', a: 'Một kiến trúc chức năng, bên trong đầy thiết bị giám sát không gian. Trên tường treo bản đồ không gian của Thủy Đô, đánh dấu mọi khe nứt không gian đã biết.', f: 'Shirai Kuroko: "Dịch chuyển không gian của tôi chỉ có thể đưa tôi đến nơi đó, không thể khiến tôi ở lại." Văn phòng của nàng đặt ở vị trí có thể nhìn thấy nơi ở của Misaka Mikoto.', d: 'Trung bình · Nguy cơ khe nứt không gian', o: 'Shirai Kuroko ghen tị với "cách được cần đến", ghen tị với cách Onee-sama được mọi người cần đến.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86%E5%B1%801.webp' },
+        jiaoya: { ll: [250, 600], n: 'Cuối Vách Đá Ngầm', l: 'Khu ngoại vi · Đảo nổi', c: '#a78bfa', i: '🌊', p: 'Cuối Vách Đá Ngầm Câm Lặng, nơi Ryougi Shiki ở', a: 'Người phụ nữ áo trắng đứng ở đó nhìn biển, không quay đầu. Nước biển màu xám, sương xám trồi lên từ đáy biển như hơi thở.', f: 'Ryougi Shiki: "Các người không phải người của nơi này. Trong tiếng bước chân của các người có mục tiêu." "Người ở đây bước đi không có mục tiêu, vì sương xám đã quyết định mọi chuyện thay họ."', d: 'Thấp', o: 'Chương 1 chỉ mở tầng tin cậy đầu tiên của Ryougi Shiki; nàng không nói chân tướng Ma Nhãn Trực Tử, cũng không nói quá khứ của Kính Uyên.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E7%A4%81%E5%B4%96%E5%B0%BD%E5%A4%B41.webp' },
+        youju: { ll: [300, 750], n: 'Bưu Cục Ký Ức', l: 'Khu ngoại vi · Đảo nổi', c: '#a78bfa', i: '📮', p: 'Trung tâm đảo nổi, cuối đường phố', a: 'Một kiến trúc nhỏ, trước cửa treo biển: "Bưu cục Ký Ức - những bức thư vượt qua sương xám". Sau quầy chất đầy phong thư không địa chỉ.', f: 'Violet: "Đây là thư mà dị năng giả viết cho những người biến mất suốt hai mươi năm qua. Sương xám ngăn truyền đạt vật lý, nhưng không ngăn được ý chí muốn được ghi nhớ."', d: 'Thấp', o: 'Những bức thư không địa chỉ là hình hài vật chất đầu tiên của chủ đề "ghen tị": tôi muốn nhớ bạn, nhưng bạn đã không còn tồn tại.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%AE%B0%E5%BF%86%E9%82%AE%E5%B1%801.webp' },
+        yineng: { ll: [500, 600], n: 'Học Viện Dị Năng Giả', l: 'Khu giữa · Giáo dục', c: '#38bdf8', i: '🎓', p: 'Tầng giữa đảo nổi, phía đông Hành Lang Truy Quang', a: 'Một cụm kiến trúc lớn gồm nhiều tòa nhà dạy học bằng thủy tinh và kim loại. Bên trong rộng rãi sáng sủa, nhưng có một cảm giác "trống rỗng được thiết kế".', f: 'Misaka Mikoto ghen tị với những người "không cần trở nên mạnh hơn". Kamijou Touma là đối chiếu tự nhiên của pháp tắc ghen tị: cậu không ghen tị gì cả, vì cậu chẳng muốn gì.', d: 'Trung bình · Dị năng giả tập trung', o: 'Misaka Mikoto huấn luyện thế hệ dị năng giả mới; Kamijou Touma tồn tại như một học sinh ngoại lệ.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E5%BC%82%E8%83%BD%E8%80%85%E5%AD%A6%E9%99%A21.webp' },
+        jianmo: { ll: [150, 700], n: 'Rạn Câm Lặng', l: 'Khu ngoại vi · Đảo nổi', c: '#e11d48', i: '🏝️', p: 'Rìa đảo nổi, điểm hạ xuống của Chaldea', a: 'Rìa ngoài của đảo nổi, ván gỗ mục nát nhưng kết cấu vẫn còn nguyên. Nước biển màu xám, không có sóng, như một tấm gương khổng lồ bị phủ sương.', f: 'Vô Danh chạm vào nước biển: "Nước này không có nhiệt độ. Nó không phải nước, mà là trầm tích của sương xám." Holmes: các đảo nổi được sắp xếp theo đội hình phòng thủ, nhằm ngăn khuếch tán từ bên trong.', d: 'Thấp · Tương đối an toàn', o: 'Cảnh cốt lõi chương 1: Master và Ryougi Shiki lần đầu gặp nhau; khi sương xám lên xuống, khiên của Mash rung dữ dội.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E7%BC%84%E9%BB%98%E7%A4%811.webp' },
+        zhouzhu: { ll: [550, 700], n: 'Học Viện Chú Thuật', l: 'Khu giữa · Huấn luyện', c: '#f87171', i: '📿', p: 'Tầng giữa đảo nổi, phía bắc Học Viện Dị Năng Giả', a: 'Một kiến trúc khép kín, tường ngoài khắc đầy chú văn, trước cửa có hai tượng đá canh giữ. Bên trong là sân huấn luyện và phòng học, không khí tràn ngập mùi chú lực.', f: 'Gojo Satoru là lớp giáp của câu "Tôi sợ các người lại gần". Càng mạnh càng không thể thiết lập liên hệ với người bình thường: đó là lời nguyền của hắn.', d: 'Cao · Chú lực dày đặc', o: 'Gojo Satoru ghen tị với những người "không cần mạnh nhất vẫn được chấp nhận"; sự ngông cuồng là màu bảo hộ của hắn.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E5%92%92%E6%9C%AF%E5%AD%A6%E9%99%A21.webp' },
+        bianjing: { ll: [350, 850], n: 'Trạm Cứu Trợ Biên Cảnh', l: 'Khu ngoại vi · Ranh giới', c: '#f87171', i: '⛺', p: 'Rìa đảo nổi, biên giới sương xám', a: 'Một khu lều đơn sơ dựng từ vật liệu phế thải, tương phản rõ rệt với kiến trúc hoa lệ của tầng lớp dị năng giả.', f: 'Emiya Shirou: "Bởi vì có người cần được cứu." "Chính nghĩa" của hắn là lớp giáp của ghen tị, che chở khoảng rỗng phía dưới: "Nếu không có người cần giúp đỡ, ta không còn ý nghĩa tồn tại."', d: 'Cao · Biên giới sương xám', o: 'Emiya Shirou ghen tị với những người "không cần cứu người khác vẫn có thể tồn tại"; hắn cứu trợ những người bình thường sắp biến mất.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%BE%B9%E5%A2%83%E6%95%91%E5%8A%A9%E7%AB%991.webp' },
+        rukou: { ll: [100, 800], n: 'Điểm Giao Thoa Hỗn Độn · Lối vào Thủy Đô', l: 'Khu cửa vào', c: '#fbbf24', i: '🌀', p: 'Điểm Chaldea nhảy vào Thủy Đô từ Điểm Giao Thoa Hỗn Độn', a: 'Bầu trời vẫn có ngày đêm bình thường, nhưng ánh sáng hơi trắng, như một bức ảnh phơi sáng quá mức; rìa ảnh có cảm giác không tự nhiên rất nhẹ.', f: 'Da Vinci cảm nhận: nồng độ linh khí bất thường, không phải "nhiều" hay "ít", mà là "đã bị lọc", như thể có ai rút mất một tần số nào đó.', d: 'Thấp · Lối vào', o: 'Trạm đầu tiên khi Chaldea tiến vào Thủy Đô, sương xám bốc lên từ đáy biển rồi hạ xuống như hơi thở.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%B0%B4%E4%B9%8B%E9%83%BD%E5%85%A5%E5%8F%A31.webp' },
+        huiwu: { ll: [200, 900], n: 'Khu Sương Xám Lên Xuống', l: 'Khu ngoại vi · Tầng ranh giới', c: '#06bdf4', i: '🌫️', p: 'Xung quanh Rạn Câm Lặng, khu vực sương xám hô hấp', a: 'Sương xám bốc lên từ mặt biển như hơi thở, phủ kín cả Rạn Câm Lặng rồi lại rút đi. Đó không phải ngôn ngữ, mà là "cảm giác tồn tại".', f: 'Vô Danh: "Tầng ranh giới đang hô hấp. Sương xám không chết, nó sống. Những người bị xóa bỏ đang ở trong sương xám. Họ vẫn còn đó, chỉ là không ở đây."', d: 'Trung bình · Ảnh hưởng tinh thần', o: 'Khiên của Mash rung dữ dội: "Tôi cảm nhận được... rất nhiều người. Không phải địch ý, mà là muốn biết."', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E7%81%B0%E9%9B%BE%E6%B6%A8%E8%90%BD%E5%8C%BA%E5%9F%9F1.webp' },
+        lunhui: { ll: [200, 950], n: 'Khu Luân Hồi', l: 'Khu ngoại vi · Thời gian dị thường', c: '#8b5cf6', i: '⏳', p: 'Rìa đảo nổi, khu vực vòng lặp thời gian dị thường', a: 'Một khu vực bị vòng lặp thời gian giam giữ, mọi thứ bên trong đều lặp lại cùng một ngày: đường phố, kiến trúc, người qua lại. Tất cả đều tuần hoàn, nhưng người trong vòng lặp không tự biết.', f: 'Akemi Homura là sự mệt mỏi sau khi đã "nhìn quá nhiều lần". Thỉnh thoảng sẽ xuất hiện "khe nứt" khiến người trong vòng lặp thoáng nhận ra ngày này đã từng xảy ra.', d: 'Cao · Vòng lặp thời gian', o: 'Akemi Homura ghen tị với những người "chỉ trải qua một lần"; nàng bị kẹt trong vòng lặp thời gian để bảo vệ.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E8%BD%AE%E5%9B%9E%E5%8C%BA1.webp' },
+        fuyoubian: { ll: [200, 850], n: 'Đảo Nổi · Vùng Rìa', l: 'Khu ngoại vi · Đảo nổi', c: '#e11d48', i: '🏝️', p: 'Vùng rìa của đảo nổi', a: 'Rìa đảo nổi, nước biển màu xám, sương xám bốc lên từ đáy biển.', f: 'Sau khi sương xám tan hoàn toàn, đảo nổi bắt đầu rung chuyển. Không phải sụp đổ, mà là điều chỉnh, như một người ngủ suốt hai mươi năm bắt đầu trở mình.', d: 'Thấp', o: 'Vô Danh: "Đây không phải kết thúc, mà là bắt đầu." Mash: "Không còn rung nữa, nhưng có thứ gì đó đang sinh trưởng."', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%B5%AE%E6%B8%B8%E5%B2%9B%E8%BE%B9%E7%BC%981.webp' },
+        shijian: { ll: [250, 1000], n: 'Khu Khe Nứt Thời Gian', l: 'Khu ngoại vi · Thời gian dị thường', c: '#8b5cf6', i: '⏱️', p: 'Rìa đảo nổi, nơi sương xám giao với dị thường thời gian', a: 'Dòng chảy thời gian trong khu vực không đồng nhất: có nơi nhanh, có nơi chậm, có nơi đứng yên. Thỉnh thoảng có thể thấy "tàn ảnh thời gian".', f: 'Tokisaki Kurumi: mỗi phân thân đều là mảnh ghen tị của nàng, ghen tị với bản thân có thể yêu, có thể phẫn nộ, có thể khóc.', d: 'Cao · Thời gian dị thường', o: 'Tokisaki Kurumi ghen tị với những người chỉ sống trong "hiện tại"; nàng dùng phân thân duy trì cân bằng khe nứt.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E6%97%B6%E9%97%B4%E8%A3%82%E9%9A%99%E5%8C%BA1.webp' },
+        jingzhi: { ll: [600, 1000], n: 'Khu Tĩnh Trệ', l: 'Khu giữa · Đặc biệt', c: '#06b6d4', i: '❄️', p: 'Một khu vực bị đóng băng, mọi thứ bên trong dừng lại ở một khoảnh khắc', a: 'Lá rơi dừng giữa không trung, giọt nước treo trên đầu ngón tay, người đang bước đi giữ nguyên tư thế nhấc chân.', f: 'Raiden Ei: "Nơi này an toàn, bởi thay đổi đồng nghĩa với mất đi." Nàng đóng băng khoảnh khắc có thể mất mát, cũng đóng băng cả tương lai có thể đạt được.', d: 'Trung bình', o: 'Raiden Ei dùng đóng băng để che giấu nỗi sợ mất mát. Vĩnh hằng của nàng là một chiếc lồng.', img: 'https://zyxjack123.top/%E7%A2%8E%E7%95%8C%E7%BA%AA%E5%85%83/%E5%9C%B0%E5%9B%BE/%E6%B0%B4%E4%B9%8B%E9%83%BD/%E9%9D%99%E6%BB%9E%E5%8C%BA1.webp' }
+      },
+      C: [
+        { f: 'rukou', t: 'jianmo', c: '#fbbf24', s: 's' },
+        { f: 'jianmo', t: 'huiwu', c: '#06b6d4', s: 's' },
+        { f: 'jianmo', t: 'jiaoya', c: '#a78bfa', s: 's' },
+        { f: 'huiwu', t: 'fuyoubian', c: '#e11d48', s: 's' },
+        { f: 'fuyoubian', t: 'lunhui', c: '#8b5cf6', s: 's' },
+        { f: 'lunhui', t: 'shijian', c: '#8b5cf6', s: 's' },
+        { f: 'jiaoya', t: 'youju', c: '#a78bfa', s: 's' },
+        { f: 'youju', t: 'wangchuan', c: '#f87171', s: 's' },
+        { f: 'wangchuan', t: 'bianjieceng', c: '#8b5cf6', s: 's' },
+        { f: 'bianjieceng', t: 'jiyihuilang', c: '#a78bfa', s: 's' },
+        { f: 'jiyihuilang', t: 'yongheng', c: '#a78bfa', s: 's' },
+        { f: 'bianjieceng', t: 'suguang', c: '#38bdf8', s: 's' },
+        { f: 'suguang', t: 'yineng', c: '#38bdf8', s: 's' },
+        { f: 'suguang', t: 'zhipei', c: '#f87171', s: 's' },
+        { f: 'zhipei', t: 'zhouzhu', c: '#f87171', s: 's' },
+        { f: 'zhouzhu', t: 'yihuiting', c: '#f87171', s: 's' },
+        { f: 'suguang', t: 'nengliang', c: '#dc2626', s: 's' },
+        { f: 'nengliang', t: 'kongjian', c: '#38bdf8', s: 's' },
+        { f: 'kongjian', t: 'gesheng', c: '#a78bfa', s: 's' },
+        { f: 'gesheng', t: 'jingzhi', c: '#06b6d4', s: 's' },
+        { f: 'shijian', t: 'jingzhi', c: '#06b6d4', s: 's' },
+        { f: 'suguang', t: 'minghe', c: '#8b5cf6', s: 's' },
+        { f: 'minghe', t: 'yini', c: '#e11d48', s: 's' },
+        { f: 'yini', t: 'xuxiang', c: '#e11d48', s: 's' },
+        { f: 'bianjing', t: 'minghe', c: '#f87171', s: 's' },
+        { f: 'wangchuan', t: 'jinggongyuan', c: '#fbbf24', s: 's' },
+        { f: 'jinggongyuan', t: 'jinggongru', c: '#fbbf24', s: 's' },
+        { f: 'jinggongru', t: 'simian', c: '#fbbf24', s: 's' },
+        { f: 'simian', t: 'jinggongzhong', c: '#fbbf24', s: 's' },
+        { f: 'jinggongzhong', t: 'fanzhuan', c: '#dc2626', s: 's' },
+        { f: 'fanzhuan', t: 'jinggongfei', c: '#e11d48', s: 's' },
+        { f: 'wangzuo', t: 'jinggongru', c: '#fbbf24', s: 's' },
+        { f: 'wangzuo', t: 'yuexiang', c: '#fbbf24', s: 's' }
+      ],
+      lg: '<div class="lg-t">Chú giải khu vực</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng lõi · Kính Cung</div><div class="lg-i"><div class="lg-d" style="background:#dc2626"></div>Tầng lõi · Phản chuyển</div><div class="lg-i"><div class="lg-d" style="background:#f87171"></div>Khu giữa · Chiến đấu/Chính trị</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Khu giữa · Ranh giới/Tầng sâu</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Khu giữa · Đặc biệt/Sương xám</div><div class="lg-i"><div class="lg-d" style="background:#38bdf8"></div>Khu giữa · Chuyển tiếp</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Khu ngoại vi · Địa điểm đặc biệt</div><div class="lg-i"><div class="lg-d" style="background:#e11d48"></div>Khu ngoại vi · Đảo nổi/Tàn tích</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Thủy Đô Luân Hồi Sương Xám', s: 'Dị Pháp Vực · LOSTBELT', i: '💧' },
+      st: ['5', '33', '∞', 'tầng', 'địa điểm', 'cơ duyên'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng lõi · Vực chủ Kính Cung</text><text x="800" y="220" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Tầng lõi · Sương xám phản chuyển</text><text x="800" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Khu giữa · Tầng lớp dị năng giả</text><text x="800" y="620" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Khu giữa · Hành lang truy quang</text><text x="800" y="780" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Khu ngoại vi · Đảo nổi</text><text x="800" y="950" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Khu cửa vào · Hợp lưu hỗn độn</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="250" x2="1400" y2="250" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="480" x2="1400" y2="480" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="650" x2="1400" y2="650" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="820" x2="1400" y2="820" stroke="rgba(255,255,255,.2)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/07/14/6b7efef94aa71e67d3ece3b93d514178.webp',
+      W: 1600, H: 1000
+    };
+    const JY = {
+      D: {
+        xuant: { ll: [920, 800], n: 'Huyền Tháp', l: 'Tầng đỉnh vực · Trên không Hải Đăng', c: '#fbbf24', i: '🏰', p: 'Vùng trời Kỷ Nguyên Zero, nơi trú ẩn trên không cuối cùng của thế giới cũ ba trăm năm trước', a: 'Vòm thép như một chiếc bát úp ngược, vết rỉ suốt ba trăm năm bò đầy tường như mạch máu. Động cơ phản trọng lực phát tiếng ù trầm thấp, giữ cả thành phố lơ lửng phía trên màn sương xám trắng.', f: 'Hải Đăng là kết tinh ba trăm năm của trật tự lý tính, cũng là một nghĩa địa trôi nổi. Ba triệu người sống lay lắt ở đây, đổi cảm xúc, gia đình và ý chí tự do lấy sự tồn tục.', d: 'Cực cao', o: 'Master nhảy từ cửa hợp lưu vào Kỷ Nguyên Zero, điểm rơi là Ngõ Bụi ở tầng đáy Hải Đăng. Ở chương 6, Charles khởi động giao thức hạ cánh khẩn cấp.', img: 'https://loremflickr.com/600/400/tower,flying?lock=719062871' },
+        shangting: { ll: [850, 700], n: 'Thượng Đình', l: 'Tầng trên Hải Đăng · Quyền lực', c: '#fbbf24', i: '⚖️', p: 'Tầng trên Hải Đăng, nghị sự đường của khu thượng dân', a: 'Trước bàn điều khiển của hệ thống ghép gen, đồng phục trắng sạch không một hạt bụi. Trên tường treo dữ liệu dân số ba trăm năm của Hải Đăng: độ tương thích, độ thuần gen, giấy phép sinh sản. Sàn phòng điều khiển trong suốt, có thể nhìn thấy mạng lưới ống dẫn của Ngõ Bụi bên dưới.', f: 'Nơi Hoshimi Miyabi chấp chưởng, quyết định ai được sinh sản, ai bắt buộc phải viễn hành. Trật tự không thể bị phá vỡ: đó là pháp tắc duy nhất của Thượng Đình, cũng là lời nói dối duy nhất.', d: 'Cao', o: 'Cạnh bàn điều khiển có một tấm ảnh: một người phụ nữ trẻ ôm một đứa bé, mép ảnh đã ố vàng. Hoshimi Miyabi nói độ tương thích của mẹ đã giảm nên bị viễn hành.', img: 'https://loremflickr.com/600/400/control,room?lock=1511083215' },
+        guangdian: { ll: [850, 800], n: 'Quang Điện', l: 'Tầng trên Hải Đăng · Thần điện', c: '#fbbf24', i: '✨', p: 'Tầng trên Hải Đăng, tổng bộ Giáo hội Quang Ảnh', a: 'Mái vòm khảm tấm năng lượng mặt trời của thế giới cũ, nhưng ánh đèn lại lạnh trắng, chiếu lên mặt người như xác chết. Sau bục phán quyết dựng hình chiếu thu nhỏ của hệ thống Clotho, dòng dữ liệu xanh lam chậm rãi xoay trong không khí.', f: 'Nơi Charles giảng giải "ba đại pháp tắc"; mỗi câu đều là chú ngữ của trật tự. Ánh sáng ở đây không ấm áp, mà là thẩm vấn: nó soi rõ tội trên mặt ngươi, nhưng không soi nỗi khổ trong lòng ngươi.', d: 'Cao', o: 'Kiana bị nặn thành "Thánh nữ Chung Yên" tại đây, nhưng nàng từ chối thân phận đó. Đây là lõi quyền lực của Giáo hội Quang Ảnh.', img: 'https://loremflickr.com/600/400/cathedral,light?lock=1986336937' },
+        jiaoting: { ll: [850, 900], n: 'Giáo Đình', l: 'Tầng trên Hải Đăng · Phán xét', c: '#f87171', i: '⚔️', p: 'Tầng trên Hải Đăng, pháp đình của Giáo hội Quang Ảnh', a: 'Mái vòm khảm tấm năng lượng mặt trời của thế giới cũ, ánh đèn lạnh trắng. Ghế bị cáo là một bục kim loại nhô ra, trên đó khắc công thức vận toán của "công thức sinh mệnh". Trên tường treo chân dung các đời thành chủ, khuôn mặt đều phủ vải trắng.', f: 'Nơi Kiana bị nặn thành "Thánh nữ Chung Yên", cũng là cứ điểm của Acheron trong vai "Lưỡi đao Chung Yên". Đây không phải nơi phán xét tội, mà là nơi phán xét "giá trị".', d: 'Cực cao', o: 'Master bị Giáo hội Quang Ảnh bắt giữ với tội danh dị đoan, đưa đến Giáo Đình để chịu phán xét. Charles đích thân thẩm vấn.', img: 'https://loremflickr.com/600/400/trial,court?lock=2103267034' },
+        yucang: { ll: [700, 700], n: 'Khoang Nuôi Dưỡng', l: 'Tầng giữa Hải Đăng · Bồi dưỡng', c: '#8b5cf6', i: '🔬', p: 'Tầng giữa Hải Đăng, phòng nuôi cấy ghép gen', a: 'Từng hàng khoang nuôi trong suốt, bên trong là những đứa trẻ chưa chào đời đang trôi nổi, mỗi đứa đều có số hiệu. Dung dịch trong khoang phát ánh huỳnh quang yếu ớt. Có một căn phòng phong bế tách khỏi các khoang khác, trên tường dán đầy áp phích của thế giới cũ.', f: 'Nơi 02 ra đời, cá thể thành công duy nhất của thí nghiệm vĩnh sinh. Sinh mệnh ở đây không được thai nghén, mà được sản xuất, chính xác như linh kiện.', d: 'Trung bình', o: 'Master lẻn vào Khoang Nuôi Dưỡng và tìm thấy Kasugano Sora trong căn phòng phong bế. Nàng hỏi Master có phải đến để đưa nàng đi không.', img: 'https://loremflickr.com/600/400/capsule,baby?lock=46023790' },
+        liecang: { ll: [700, 800], n: 'Khoang Thợ Săn', l: 'Tầng giữa Hải Đăng · Vũ trang', c: '#e11d48', i: '⚔️', p: 'Tầng giữa Hải Đăng, kho trang bị của Liệp Hoang Giả', a: 'Trên giá trang bị xếp những khẩu súng máy hạng nặng cải tạo, súng trường kiểu cũ và vũ khí cận chiến ghép từ giáp xác phệ cực thú. Trên tường treo huy hiệu đội Liệp Hoang Giả: một con chim ưng dang cánh, nhưng đôi mắt của nó đã bị gạch xóa.', f: 'Nơi đội Liệp Hoang Giả của Mark chỉnh trang lần cuối trước khi xuất phát, cũng là điểm khởi đầu nhiệm vụ thảo phạt một mình của Mikasa. Người ở đây biết mặt đất không phải bãi thử.', d: 'Cao', o: 'Mark đứng trước giá trang bị kiểm tra súng máy hạng nặng; trên cột sống hắn khảm một loại thiết bị kim loại nào đó. Hắn đưa cho Master một bộ đồ bảo hộ kiểu cũ.', img: 'https://loremflickr.com/600/400/armory,gun?lock=970855758' },
+        diaodu: { ll: [700, 900], n: 'Trung Tâm Điều Phối', l: 'Tầng giữa Hải Đăng · Trung khu', c: '#f87171', i: '📋', p: 'Tầng đáy Hải Đăng, trung khu điều phối vật tư và quyền lực', a: 'Trên màn hình khổng lồ cuộn dữ liệu phân phối vật tư: thức ăn, nước, năng lượng, thuốc men. Trước bàn điều khiển là các thao tác viên mặc đồng phục, ngón tay lướt nhanh trên bàn phím. Trong góc chất đống vật tư bị phán định là "không có giá trị".', f: 'Mục tiêu mà Eren Yeager dẫn quân phản kháng tấn công, nút quyền lực của tầng đáy Hải Đăng. Nơi này quyết định ai sống, ai bị viễn hành.', d: 'Cực cao', o: 'Chương 6, Eren dẫn quân phản kháng tấn công Trung Tâm Điều Phối; Mikasa xuất hiện ngăn hắn lại, bởi Mark vẫn còn, Lena vẫn còn.', img: 'https://loremflickr.com/600/400/control,screen?lock=1386848462' },
+        huidai: { ll: [500, 700], n: 'Đới Xám', l: 'Tầng đáy Hải Đăng · Giao giới', c: '#60a5fa', i: '🌫️', p: 'Giao giới giữa khu thượng dân và khu trần dân', a: 'Một hành lang hẹp, bên trái là tường trắng của khu thượng dân, bên phải là ống sắt rỉ của khu trần dân. Vạch phân giới trên mặt đất là một rãnh nông. Trên tường đầy số hiệu và tên viết bằng than.', f: 'Nơi Vladilena Milizé dựng nên "vùng xám", cũng là nút bất ổn nhất của Hải Đăng. Thượng dân và trần dân lướt qua nhau ở đây, không ai nhìn vào mắt đối phương.', d: 'Trung bình', o: 'Master gặp Vladilena Milizé tại đây. Chương 2, Lena dẫn Master đi sâu vào đường ống ngầm và tham gia một nhiệm vụ buôn lậu.', img: 'https://loremflickr.com/600/400/wasteland,ash?lock=844670649' },
+        chenxiang: { ll: [500, 800], n: 'Ngõ Bụi', l: 'Tầng đáy Hải Đăng · Khu trần dân', c: '#e11d48', i: '🏚️', p: 'Tầng đáy Hải Đăng, các ngõ của khu trần dân', a: 'Trên đầu là vòm thép của Hải Đăng, dưới chân là sàn chắp vá từ ống dẫn phế thải của trần dân. Ánh sáng yếu ớt lọt ra từ khe ống, trên nền kim loại khắc vô số số hiệu, mỗi số hiệu đại diện cho một người từng bị "công thức sinh mệnh" phán định.', f: 'Ngõ Bụi là khuôn mặt chân thực nhất của Hải Đăng: không có sắc trắng lạnh của Quang Điện, không có trật tự của Thượng Đình, chỉ có ba trăm năm tuyệt vọng lên men. Con người bị biến thành số, rồi số bị gạch bỏ.', d: 'Cao', o: 'Sau khi rơi khỏi cửa hợp lưu, Master đáp xuống Ngõ Bụi. Tại đây gặp Vladilena Milizé. Khiên của Mash phát sinh cộng hưởng ở đây.', img: 'https://loremflickr.com/600/400/slum,alley?lock=372418055' },
+        yuantai: { ll: [500, 900], n: 'Đài Viễn Hành', l: 'Tầng đáy Hải Đăng · Đài viễn hành', c: '#dc2626', i: '☠️', p: 'Rìa Hải Đăng, bệ phóng nghi thức viễn hành', a: 'Một cỗ máy khổng lồ treo phía trên bệ, bên dưới là hư không ba trăm mét. Lan can mép bệ khắc đầy số hiệu, mỗi số từng là một người bị ném xuống. Sơn trên lan can đã bong, lộ ra từng lớp vết khắc chồng chất bên dưới.', f: 'Viễn hành không phải nghi thức, mà là xử lý. Con người bị biến thành số, số bị gạch bỏ, sự tồn tại bị xóa sạch khỏi kim loại. Hoa Mana chờ ở phía dưới. Mỗi lần viễn hành đều là một lần sinh thái ăn mồi.', d: 'Tuyệt', o: 'Chương 1, Master được Lena dẫn đến rìa Đài Viễn Hành, chứng kiến một ông lão bị cánh tay máy ném vào hư không. Ngón tay Lena siết chặt báng súng, nơi khắc cái tên thứ mười tám.', img: 'https://loremflickr.com/600/400/void,launch?lock=335297948' },
+        xideng: { ll: [510, 950], n: 'Khu Tắt Đèn', l: 'Tầng đáy Hải Đăng · Điểm mù', c: '#8b5cf6', i: '🌑', p: 'Khu bỏ hoang của Hải Đăng, đèn đã tắt suốt ba trăm năm', a: 'Hành lang không có đèn, chỉ thỉnh thoảng có phản quang yếu lọt vào từ khe nứt. Tường phủ lớp mốc dày, có màu xanh đen bất thường. Trên mặt đất rải tàn tích của thế giới cũ.', f: 'Điểm mù của Hải Đăng, góc chết của hệ thống giám sát, cũng là nơi gần "bên ngoài" nhất. Ba trăm năm không có điện, chỉ có sinh thái chậm rãi thẩm thấu.', d: 'Cao', o: 'Tổ chức vùng xám dựng cứ điểm bí mật đầu tiên trong Khu Tắt Đèn. Phệ cực thú thỉnh thoảng xông vào từ ống thông gió.', img: 'https://loremflickr.com/600/400/dark,corridor?lock=1173999735' },
+        gongming: { ll: [450, 800], n: 'Điểm Cộng Hưởng', l: 'Đặc biệt · Cộng hưởng', c: '#a78bfa', i: '💫', p: 'Nút đặc biệt trong mạng sinh thái Mana', a: 'Không có hình thái vật lý cố định. Điểm cộng hưởng có thể xuất hiện ở bất cứ nơi đâu. Khi cộng hưởng xảy ra, Hoa Mana xung quanh đồng loạt phát sáng, trong màn sương xám trắng hiện ra hình ảnh nửa trong suốt.', f: 'Vị trí cộng hưởng với mạng sinh thái Mana, nơi mảnh ý thức của Nhiễm Băng, Kaname Madoka và Elysia xuất hiện. Điểm cộng hưởng không phải địa điểm, mà là "khoảnh khắc".', d: 'Không rõ', o: 'Lệnh chú của Master cộng hưởng ở Ngõ Bụi; trên mặt khiên hiện bóng thành phố thế giới cũ, hiện thực hóa Servant tạm thời Enkidu.', img: 'https://loremflickr.com/600/400/glow,flower?lock=1302744234' },
+        wuyuan: { ll: [320, 700], n: 'Đồng Sương', l: 'Mặt đất · Đồng sương', c: '#8b5cf6', i: '🌫️', p: 'Bên dưới Hải Đăng, khu vực mặt đất nơi sinh thái Mana lan tràn', a: 'Sương không đến từ bầu trời mà bốc lên từ mặt đất, xám trắng và lên xuống như hơi thở. Bầu trời là sắc xám trắng vĩnh hằng. Trên đường chân trời xa xa, đôi lúc thấy bóng khổng lồ di chuyển trong sương.', f: 'Xác suất con người sống sót trên mặt đất quá hai mươi bốn giờ gần như bằng không. Đồng Sương không phải địa ngục, mà là một cách sống khác, chỉ là cách đó không thuộc về loài người.', d: 'Cực cao', o: 'Chương 3, Master theo đội Liệp Hoang Giả của Mark đáp xuống Đồng Sương. Ngạc Thú lao ra khỏi màn sương, Mikasa là người đầu tiên nghênh chiến.', img: 'https://loremflickr.com/600/400/wasteland,fog?lock=1345752430' },
+        routu: { ll: [300, 800], n: 'Đất Thịt', l: 'Mặt đất · Sinh thái', c: '#e11d48', i: '🦴', p: 'Khắp Đồng Sương, nơi phệ cực thú và xác người tích tụ', a: 'Lớp vỏ rỗng còn lại sau khi nguyên chất sinh mệnh bị rút khô; không phải xương, mà là một chất nằm giữa bùn đất và tro tàn. Bước lên sẽ phát ra tiếng nứt vỡ rất nhẹ. Màu của Đất Thịt là xám trắng, đôi lúc lẫn mảng sẫm.', f: 'Lớp vỏ rỗng sau khi nguyên chất sinh mệnh bị rút khô, là "phân bón" của sinh thái Mana. Đất Thịt là ngôn ngữ lặng im của sinh thái: "Ngươi từng sống, bây giờ ngươi là dinh dưỡng."', d: 'Trung bình', o: 'Lần đầu Master đáp xuống mặt đất, mỗi bước đều giẫm trên Đất Thịt. Giác hành giả của Làng Xương sẽ chiết xuất nguyên chất còn sót lại từ Đất Thịt.', img: 'https://loremflickr.com/600/400/bone,ash?lock=1866194073' },
+        huazhong: { ll: [280, 900], n: 'Mộ Hoa', l: 'Mặt đất · Hoa lõi', c: '#dc2626', i: '🌺', p: 'Nơi sâu trong Đồng Sương, vị trí hoa chính của Hoa Mana', a: 'Không phải vườn hoa, mà là nghĩa địa. Rễ của mỗi đóa Hoa Mana đều quấn quanh hài cốt con người. Hoa chính cao đến mười mét, cánh hoa nửa trong suốt, có thể thấy ánh sáng chảy bên trong.', f: 'Một trong những khu vực nguy hiểm nhất trên mặt đất, cũng là "trái tim" của sinh thái Mana. Toàn bộ nguyên chất cuối cùng đều chảy về đây. Sinh mệnh bị nuốt không biến mất, mà trở thành một phần của sinh thái.', d: 'Tuyệt', o: 'Chương 6, Mark đứng trước hoa chính và rót nguyên chất của mình vào mạng sinh thái. Elysia và Kaname Madoka đồng thời hiện hình trong mạng sinh thái.', img: 'https://loremflickr.com/600/400/flower,giant?lock=1881458426' },
+        jiyuan: { ll: [310, 950], n: 'Vực Gai Sống', l: 'Mặt đất · Sào huyệt', c: '#8b5cf6', i: '🕷️', p: 'Nơi sâu dưới lòng đất, sào huyệt của trùng gai sống', a: 'Một hang ngầm khổng lồ, bốn vách đầy đường hầm do trùng gai sống khoan ra. Trên trần treo vô số kén trùng, mỗi kén bọc một thân thể người chưa chuyển hóa hoàn toàn. Mặt đất phủ lớp dịch đen nhớp nháp.', f: 'Trùng gai sống sinh sản và tiến hóa tại đây, là một trong những "phòng sinh" của sinh thái Mana. Mùi của Vực Gai Sống không phải thối rữa, mà là mùi tanh ngọt nhờn, như trái cây lên men quá độ.', d: 'Cực cao', o: 'Đội Liệp Hoang Giả đôi lúc phát hiện lối vào Vực Gai Sống, nhưng chưa ai từng xuống. Thiết bị kim loại trên cột sống Mark được chế tạo từ mẫu vật nơi này.', img: 'https://loremflickr.com/600/400/cave,spider?lock=1286056695' },
+        shigu: { ll: [290, 1000], n: 'Thung Ăn Mòn', l: 'Mặt đất · Khe vực', c: '#e11d48', i: '🕳️', p: 'Rìa Đồng Sương, khe vực do sinh thái ăn mòn tạo thành', a: 'Một khe vực sâu không thấy đáy, vách vực phủ hoa văn xanh đen giống Hoa Mana. Dưới đáy tràn sương xám trắng dày đặc; đôi lúc nghe tiếng rung trầm từ đáy vực, như nhịp tim của một thứ khổng lồ.', f: 'Khe vực do sinh thái Mana xé toạc mặt đất, cũng là "mạch máu" của mạng sinh thái. Nguyên chất chảy ở đáy vực như máu cuộn trong động mạch.', d: 'Cực cao', o: 'Đội Liệp Hoang Giả sẽ cố tránh Thung Ăn Mòn. Một số giác hành giả sẽ "thiền cực hạn" bên rìa vực.', img: 'https://loremflickr.com/600/400/canyon,crack?lock=257733515' },
+        shixian: { ll: [300, 1050], n: 'Tuyến Ăn Mòn', l: 'Mặt đất · Đường phân giới', c: '#a78bfa', i: '〰️', p: 'Đường phân giới giữa sinh thái Mana và văn minh loài người', a: 'Một đường phân giới gần như không thể thấy bằng mắt thường. Nó không phải chướng ngại vật lý, mà là dải chuyển tiếp của mức độ ăn mòn sinh thái. Một bên tuyến có Đất Thịt mỏng hơn, bên kia Đất Thịt chất cao như núi.', f: 'Đường phân giới giữa sinh thái Mana và văn minh loài người, mỗi ngày đều di chuyển. Sinh thái chậm rãi nhưng không thể ngăn cản đang tiến tới. Kaneki Ken thường tuần tra ở đây, tìm những người "kẹt trên đường phân giới".', d: 'Cao', o: 'Khi tuần tra Tuyến Ăn Mòn, Kaneki Ken phát hiện một đứa trẻ sơ sinh bán chuyển hóa, đưa về trại thu dung và đặt tên là "Mắt".', img: 'https://loremflickr.com/600/400/line,boundary?lock=1084210853' },
+        liegu: { ll: [280, 1100], n: 'Khe Nứt', l: 'Mặt đất · Lối thông', c: '#60a5fa', i: '🚪', p: 'Khe nứt mặt đất, đường thông bí mật nối đáy Hải Đăng với Làng Xương', a: 'Một khe đất hẹp, nơi rộng nhất cũng chỉ đủ một người nghiêng mình đi qua. Bốn vách khe gắn tàn tích ống dẫn của thế giới cũ. Một vài đoạn có nước đọng, trên mặt nước nổi ánh huỳnh quang yếu ớt.', f: 'Đường thông bí mật nối đáy Hải Đăng với Làng Xương, cũng là "dây rốn" giữa hai thế giới. Đây là tuyến truyền tình báo của tổ chức vùng xám.', d: 'Trung bình', o: 'Một số trần dân bị phán định "viễn hành" sẽ được vùng xám cứu lại, đưa qua Khe Nứt đến Làng Xương. Cánh cửa hợp kim ở cuối đường là do Bai Yuekui tự tay phong bế bảy mươi lăm năm trước.', img: 'https://loremflickr.com/600/400/canyon,passage?lock=1218071091' },
+        shourong: { ll: [400, 900], n: 'Trại Thu Dung', l: 'Đặc biệt · Thu dung', c: '#a78bfa', i: '🏥', p: 'Giữa Hải Đăng và Làng Xương, công trình ẩn ở vùng giao giới', a: 'Một kiến trúc thấp ghép từ bê tông thế giới cũ và tấm kim loại, bề ngoài giống một nhà kho bỏ hoang. Bên trong là từng dãy buồng đơn sơ, mỗi buồng có một "dị loại": thực nghiệm thể nửa người nửa thú.', f: '"Trại thu dung dị loại" do Kaneki Ken quản lý, thu nhận những tồn tại không thuộc về loài người cũng không thuộc về sinh thái. Trại thu dung không phải nhà tù, mà là bệnh viện; thứ được chữa không phải thân thể, mà là vết thương của chính "sự tồn tại".', d: 'Trung bình', o: 'Master lần đầu biết đến khái niệm "loại tồn tại thứ ba" tại đây. Chương 6, sau khi Hải Đăng hạ xuống mặt đất, Kaneki Ken mở cổng và dẫn các thực nghiệm thể lần đầu bước lên mặt đất.', img: 'https://loremflickr.com/600/400/shelter,medical?lock=1140765802' },
+        gucun: { ll: [170, 700], n: 'Làng Xương', l: 'Làng Xương · Khu tụ lạc', c: '#38bdf8', i: '🏘️', p: 'Bên trong núi tuyết, khu tụ lạc chính của Làng Xương', a: 'Lối vào được Tháp Che Chắn che giấu, từ bên ngoài chỉ giống một sườn tuyết bình thường. Nhà cửa trong làng được ghép từ kim loại thế giới cũ và giáp xác phệ cực thú. Giữa quảng trường dựng một bộ xương trùng gai sống khổng lồ: vật tổ của Làng Xương.', f: 'Cứ điểm người sống sót trên mặt đất do Bai Yuekui lập nên, vận hành bằng công nghệ nano và tri thức nguyên chất. Người Hải Đăng mất ba trăm năm để biến mình thành máy móc; người nơi này mất bảy mươi lăm năm để học cách làm người.', d: 'Trung bình', o: 'Master được đội giác hành giả của Bai Yuekui cứu và đưa về Làng Xương. Chương 6, sau khi Hải Đăng hạ xuống, Bai Yuekui nói với đứa trẻ trần dân đầu tiên bước ra khỏi Hải Đăng: chào mừng đến mặt đất.', img: 'https://loremflickr.com/600/400/village,snow?lock=2120899165' },
+        yuanjing: { ll: [110, 800], n: 'Giếng Nguyên Chất', l: 'Làng Xương · Tài nguyên', c: '#06b6d4', i: '💧', p: 'Nơi sâu dưới lòng đất Làng Xương, điểm khai thác nguyên chất sinh mệnh', a: 'Một khoang tự nhiên đường kính khoảng ba mươi mét, bốn vách phủ giá đỡ kim loại do thế giới cũ để lại. Giữa khoang là một giếng thẳng sâu không thấy đáy, thành giếng đầy mạch sáng. Trên mặt đất quanh miệng giếng khắc ký hiệu cổ: "Trao đi, không phải cướp đoạt."', f: 'Tài nguyên quan trọng nhất của Làng Xương, cũng là lõi giao dịch với sinh thái Mana. Nguyên chất không phải linh khí, mà là thứ nguyên sơ hơn: cặn dư của sinh mệnh.', d: 'Trung bình', o: 'Đội giác hành giả của Bai Yuekui định kỳ khai thác nguyên chất từ Giếng Nguyên Chất. Đôi lúc giếng xuất hiện "mạch động": mạch sáng trên thành giếng đột ngột phát sáng nhanh hơn.', img: 'https://loremflickr.com/600/400/well,glow?lock=2094297198' },
+        guiyuan: { ll: [130, 900], n: 'Đài Quy Nguyên', l: 'Làng Xương · Tu luyện', c: '#38bdf8', i: '☯️', p: 'Bên trong Làng Xương, nơi chiến sĩ Quy Nguyên tu luyện', a: 'Một đài tròn lát bằng hợp kim thế giới cũ, trên đó khắc hoa văn phức tạp: sơ đồ dẫn hướng dòng chảy nguyên chất. Quanh đài có mười hai cột kim loại, mỗi cột khảm một viên kết tinh nguyên chất đã ngưng cố.', f: 'Nơi Ulan Maido huấn luyện lứa giác hành giả mới. Quy Nguyên không phải trốn tránh, mà là khống chế: nín thở tập trung, cắt đứt dao động cảm xúc, đưa dao động nguyên chất sinh mệnh về không.', d: 'Thấp', o: 'Bai Yuekui biểu diễn trạng thái Quy Nguyên tại đây: nín thở tập trung, dao động nguyên chất sinh mệnh về không, phệ cực thú đi ngang qua cũng không phát hiện.', img: 'https://loremflickr.com/600/400/platform,training?lock=520987225' },
+        juelin: { ll: [110, 950], n: 'Rừng Giác', l: 'Làng Xương · Thiền định', c: '#10b981', i: '🌲', p: 'Rìa Làng Xương, nơi thiền định gần sinh thái Mana', a: 'Một khu rừng bị nguyên chất ăn mòn; thân cây nửa trong suốt, có thể thấy ánh sáng nhè nhẹ chảy bên trong. Trong rừng có một lối nhỏ lát đá của thế giới cũ. Nơi sâu nhất có một tảng đá nhô ra, trên đó khắc một dấu tay.', f: 'Nơi Bai Yuekui truyền dạy "thủ ấn Linh Nguyên", cũng là nơi giác hành giả "đối thoại" với sinh thái. Sinh thái Mana ở đây không mang địch ý, mà đang "ngủ đông".', d: 'Thấp', o: 'Bai Yuekui dẫn Master vào Rừng Giác, dạy hắn cảm nhận "hơi thở" của sinh thái. Giác hành giả tiến hành "thiền biên duyên" tại đây.', img: 'https://loremflickr.com/600/400/forest,meditation?lock=1340401035' },
+        dunbi: { ll: [150, 1000], n: 'Tường Khiên', l: 'Làng Xương · Phòng ngự', c: '#f87171', i: '🛡️', p: 'Vòng ngoài Làng Xương, công sự phòng ngự hình vòng', a: 'Một bức tường cao khoảng mười mét, chồng lớp từ tấm kim loại thế giới cũ và giáp xác phệ cực thú. Trên mặt tường khảm vô số gai xương sắc nhọn. Đỉnh Tường Khiên có đài quan sát đơn sơ, giác hành giả luân phiên canh giữ.', f: 'Tuyến phòng thủ đầu tiên của Làng Xương, cũng là ranh giới vật lý giữa văn minh mặt đất và sinh thái Mana. Tường Khiên biết nó không ngăn nổi sinh thái; thứ nó chặn lại chỉ là thời gian.', d: 'Cao', o: 'Tường Khiên từng ba lần bị đàn phệ cực thú quy mô lớn phá thủng. Chương 4, sau khi Hải Đăng hạ xuống, Tường Khiên trở thành cửa ải đầu tiên để dân tị nạn Hải Đăng tiến vào Làng Xương.', img: 'https://loremflickr.com/600/400/wall,defense?lock=1994022842' },
+        bita: { ll: [180, 1050], n: 'Tháp Che Chắn', l: 'Làng Xương · Che chắn', c: '#06b6d4', i: '🔮', p: 'Điểm cao nhất Làng Xương, lõi Tháp Che Chắn', a: 'Một ngọn tháp ghép từ tàn tích công nghệ thế giới cũ. Trên đỉnh tháp lơ lửng một kết tinh nguyên chất khổng lồ, phát xung xanh lam ổn định. Bên trong tháp là một không gian hình cầu trống trải, giữa không gian lơ lửng "bản thể" của Tachibana Kanade.', f: 'Nơi Tachibana Kanade trú thủ sau khi dung hợp với hệ thống Hải Đăng, nút then chốt phòng ngự sinh thái Mana xâm nhập. Tháp Che Chắn không phải vũ khí, mà là "màn che": dùng nhiễu nguyên chất để che giấu sự tồn tại của Làng Xương.', d: 'Cao', o: 'Master phát hiện Tachibana Kanade trong lõi Tháp Che Chắn. Ở chương 4, Tháp Che Chắn trở thành trạm chuyển tiếp liên lạc giữa Hải Đăng và Làng Xương.', img: 'https://loremflickr.com/600/400/tower,crystal?lock=1684044573' },
+        zhuidian: { ll: [100, 1100], n: 'Điểm Hạ', l: 'Đặc biệt · Hạ cánh', c: '#fbbf24', i: '📍', p: 'Khu mặt đất nơi sinh thái Mana tương đối thưa, điểm hạ cánh dự định của Hải Đăng', a: 'Một vùng hoang nguyên khá bằng phẳng, lớp Đất Thịt mỏng hơn nơi khác, có thể thấy mặt đường nhựa của thế giới cũ bên dưới. Trên mặt đất có vài hõm tròn khổng lồ: móng kiến trúc của thời đại cũ. Sương xám trắng trên trời nhạt hơn một chút.', f: 'Vị trí mục tiêu trong giao thức hạ cánh khẩn cấp của Charles. Hạ xuống không phải rơi, mà là tân sinh. Đây là nơi ba triệu cư dân lần đầu đặt chân lên mặt đất.', d: 'Trung bình', o: 'Charles khởi động giao thức hạ cánh khẩn cấp; Hải Đăng chậm rãi nghiêng, hạ xuống rồi chạm mặt đất. Bai Yuekui nói với đứa trẻ trần dân đầu tiên bước ra khỏi Hải Đăng: chào mừng đến mặt đất.', img: 'https://loremflickr.com/600/400/crash,landing?lock=155837927' }
+      },
+      C: [
+        { f: 'xuant', t: 'shangting', c: '#fbbf24', s: 's' },
+        { f: 'xuant', t: 'guangdian', c: '#fbbf24', s: 's' },
+        { f: 'xuant', t: 'jiaoting', c: '#fbbf24', s: 's' },
+        { f: 'shangting', t: 'guangdian', c: '#fbbf24', s: 's' },
+        { f: 'guangdian', t: 'jiaoting', c: '#fbbf24', s: 's' },
+        { f: 'shangting', t: 'yucang', c: '#fbbf24', s: 's' },
+        { f: 'guangdian', t: 'liecang', c: '#fbbf24', s: 's' },
+        { f: 'jiaoting', t: 'diaodu', c: '#f87171', s: 's' },
+        { f: 'yucang', t: 'liecang', c: '#8b5cf6', s: 's' },
+        { f: 'liecang', t: 'diaodu', c: '#f87171', s: 's' },
+        { f: 'yucang', t: 'huidai', c: '#60a5fa', s: 's' },
+        { f: 'liecang', t: 'chenxiang', c: '#e11d48', s: 's' },
+        { f: 'diaodu', t: 'yuantai', c: '#dc2626', s: 's' },
+        { f: 'huidai', t: 'chenxiang', c: '#e11d48', s: 's' },
+        { f: 'chenxiang', t: 'yuantai', c: '#dc2626', s: 's' },
+        { f: 'yuantai', t: 'xideng', c: '#8b5cf6', s: 's' },
+        { f: 'xuant', t: 'gongming', c: '#a78bfa', s: 's' },
+        { f: 'gongming', t: 'shourong', c: '#a78bfa', s: 's' },
+        { f: 'gongming', t: 'wuyuan', c: '#8b5cf6', s: 's' },
+        { f: 'chenxiang', t: 'wuyuan', c: '#e11d48', s: 's' },
+        { f: 'wuyuan', t: 'routu', c: '#e11d48', s: 's' },
+        { f: 'wuyuan', t: 'huazhong', c: '#dc2626', s: 's' },
+        { f: 'routu', t: 'huazhong', c: '#dc2626', s: 's' },
+        { f: 'huazhong', t: 'jiyuan', c: '#8b5cf6', s: 's' },
+        { f: 'jiyuan', t: 'shigu', c: '#e11d48', s: 's' },
+        { f: 'shigu', t: 'shixian', c: '#a78bfa', s: 's' },
+        { f: 'shixian', t: 'liegu', c: '#60a5fa', s: 's' },
+        { f: 'shourong', t: 'shixian', c: '#a78bfa', s: 's' },
+        { f: 'liegu', t: 'gucun', c: '#38bdf8', s: 's' },
+        { f: 'gucun', t: 'yuanjing', c: '#06b6d4', s: 's' },
+        { f: 'yuanjing', t: 'guiyuan', c: '#38bdf8', s: 's' },
+        { f: 'guiyuan', t: 'juelin', c: '#10b981', s: 's' },
+        { f: 'juelin', t: 'dunbi', c: '#f87171', s: 's' },
+        { f: 'dunbi', t: 'bita', c: '#06b6d4', s: 's' },
+        { f: 'bita', t: 'zhuidian', c: '#fbbf24', s: 's' },
+        { f: 'dunbi', t: 'shixian', c: '#f87171', s: 's' }
+      ],
+      lg: '<div class="lg-t">Chú giải khu vực</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng đỉnh vực · Tầng trên Hải Đăng</div><div class="lg-i"><div class="lg-d" style="background:#f87171"></div>Tầng giữa Hải Đăng · Trung khu/Chiến đấu</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Tầng đáy Hải Đăng · Điểm mù/Sào huyệt</div><div class="lg-i"><div class="lg-d" style="background:#e11d48"></div>Mặt đất · Sinh thái/Nguy hiểm</div><div class="lg-i"><div class="lg-d" style="background:#dc2626"></div>Mặt đất · Lõi/Tuyệt vực</div><div class="lg-i"><div class="lg-d" style="background:#60a5fa"></div>Đặc biệt/Giao giới/Lối thông</div><div class="lg-i"><div class="lg-d" style="background:#38bdf8"></div>Làng Xương · Tụ lạc/Tu luyện</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Làng Xương · Tài nguyên/Che chắn</div><div class="lg-i"><div class="lg-d" style="background:#10b981"></div>Làng Xương · Thiền định</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Địa điểm đặc biệt</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Linh Lung · Kỷ Nguyên Zero', s: 'Dị Pháp Vực · LOSTBELT', i: '◉' },
+      st: ['6', '28', '3 triệu', 'chương', 'địa điểm', 'tồn tục'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng đỉnh vực · Vùng trời Huyền Tháp</text><text x="800" y="120" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Tầng trên Hải Đăng · Quyền lực và thần điện</text><text x="800" y="290" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Tầng giữa Hải Đăng · Vũ trang và điều phối</text><text x="800" y="490" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Tầng đáy Hải Đăng · Trần dân và viễn hành</text><text x="800" y="690" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Mặt đất · Đồng Sương và sinh thái</text><text x="800" y="890" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Làng Xương · Tụ lạc mặt đất</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="145" x2="1400" y2="145" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="315" x2="1400" y2="315" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="515" x2="1400" y2="515" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="715" x2="1400" y2="715" stroke="rgba(255,255,255,.2)" stroke-width="1"/><line x1="200" y1="915" x2="1400" y2="915" stroke="rgba(255,255,255,.15)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/07/05/7a53164cec2a69a4e9fe11c4a070fa0d.jpg',
+      W: 1600, H: 1000
+    };
+    const XX = {
+      D: {
+        rukou: { ll: [100, 800], n: 'Điểm Giao Thoa Hỗn Độn · Lối vào Ảo Tưởng Hương', l: 'Khu cửa vào · Điểm hợp lưu', c: '#fbbf24', i: '🌀', p: 'Giao giới giữa thế giới chủ cán và Ảo Tưởng Hương, điểm truyền tống của Chaldea', a: 'Hoa anh đào rơi ở đây nhưng vĩnh viễn không chạm đất; cánh hoa treo giữa không trung như bị thời gian đóng băng. Ánh sáng có màu hồng nhạt, không phải ánh mặt trời mà là hào quang thấm ra từ nơi sâu trong ranh giới.', f: 'Khiên của Mash bắt đầu rung khi tiến vào khu vực này, mặt khiên nóng lên: tín hiệu đầu tiên cho thấy mảnh vỡ nhân lý cộng hưởng với Master.', d: 'Trung bình · Ranh giới giao hội', o: 'Cảnh mở đầu. Master rơi từ cửa hợp lưu xuống trước hòm công đức của Đền Hakurei. Mash không thể tiến vào Ảo Tưởng Hương; sự tồn tại của nàng sẽ bị pháp tắc sắc dục khóa chặt, nên phải ở lại ngoài ranh giới làm neo.', img: 'https://img.z4a.net/images/2026/06/30/1f8ca8705ebfcc529.webp' },
+        shenshe: { ll: [150, 800], n: 'Đền Hakurei', l: 'Chương 1 · Khu khởi đầu', c: '#10b981', i: '⛩️', p: 'Khu vực khởi đầu của Ảo Tưởng Hương, điểm Master đáp xuống', a: 'Hiên đền có hơi ấm lười biếng, trong không khí lơ lửng hoa anh đào. Đó không phải hoa anh đào bình thường, mà là những cánh hồng có thể hô hấp, nằm giữa thực vật và làn da. Trước hòm công đức, tiếng đồng xu vang rỗng; không phải tiếng kim loại, mà là âm trầm đã bị khát vọng ngâm thấm.', f: 'Hakurei Reimu là người miễn nhiễm tự nhiên: mảnh vỡ không xuyên qua được bức tường vô dục của nàng. Khốn cảnh của nàng không phải "bị loại trừ", mà là "không thể hiểu khát vọng"; nàng chứng kiến dục vọng của tất cả mọi người nhưng không cảm nhận được dục vọng của chính mình.', d: 'Thấp · Tương đối an toàn', o: 'Cảnh cốt lõi chương 1, cũng là cảnh chia tay chung chương. Reimu, với tư cách người miễn nhiễm tự nhiên, là cửa sổ đầu tiên để Master hiểu pháp tắc sắc dục. Trong chung chương, Reimu pha trà nóng tại đây; trong hòm công đức có vị trí của Master. Đó là chuyển biến rất tinh tế từ "vô dục" sang "thử khát vọng".', img: 'https://img.z4a.net/images/2026/06/30/14bea8842f47e95a6.webp' },
+        mofa: { ll: [180, 720], n: 'Rừng Ma Pháp', l: 'Chương 1 · Khu rừng', c: '#10b981', i: '🌲', p: 'Xung quanh Đền Hakurei, nơi Kirisame Marisa sống một mình', a: 'Trong sâu khu rừng có nấm và sách ma pháp; căn nhà nhỏ của Marisa ẩn giữa cây cối. Cây rừng bị pháp tắc sắc dục thấm vào, vỏ cây ấm, chạm vào giống làn da. Nấm đang hô hấp, bào tử có màu hồng.', f: 'Kirisame Marisa là kẻ chiếm hữu kiểu cướp đoạt. Dưới sự thấm nhiễm của pháp tắc sắc dục, Master Spark biến thành một luồng sáng hồng. Vết răng lưu trên cổ tay Master là hình thái sắc dục của "chiếm hữu".', d: 'Trung bình · Chiến đấu danmaku', o: 'Cảnh chương 1. Master và Marisa giao chiến danmaku trong sâu rừng. Sau trận, Marisa không bị đánh bại; nàng chủ động chọn đầu hàng, bởi dưới pháp tắc sắc dục, "cướp đoạt" đã biến thành "được lấp đầy".', img: 'https://img.z4a.net/images/2026/06/30/12bf592340e73e79c.webp' },
+        wuzhi: { ll: [200, 680], n: 'Hồ Sương', l: 'Chương 1 · Khu hồ', c: '#06b6d4', i: '💧', p: 'Rìa Rừng Ma Pháp, phạm vi hoạt động của Cirno', a: 'Nước hồ lạnh, nhưng dưới ảnh hưởng của mảnh vỡ lại trở nên ấm. Sương lang thang trên mặt hồ như hơi thở không tan. Dưới đáy hồ có ánh sáng, không phải phản chiếu, mà là thứ gì đó đang chờ đợi.', f: 'Cirno: hình thái sắc dục của băng tinh là trao đổi nhiệt độ; trong cơ thể nàng nóng lạnh luân phiên. Giao hợp là lần đầu tiên nàng cảm nhận trải nghiệm "được hơi ấm lấp đầy".', d: 'Trung bình · Dị biến nhiệt độ', o: 'Cảnh chương 1. Sự giao hòa băng lạnh của Cirno, thu thập mảnh vỡ nhiệt độ và bóng tối. Ranh giới giữa băng và lửa tan ra trong giao hợp.', img: 'https://img.z4a.net/images/2026/06/30/14572baff28339b4f.webp' },
+        senlin: { ll: [220, 640], n: 'Rìa Rừng', l: 'Chương 1 · Khu hoàng hôn', c: '#8b5cf6', i: '🌑', p: 'Giao giới giữa Rừng Ma Pháp và Hồ Sương, lúc hoàng hôn', a: 'Ánh hoàng hôn đỏ nhạt màu da thịt, như được nhuộm bằng thân nhiệt. Bóng tối lan ra từ sâu trong rừng, đó là lãnh vực của Rumia. Bóng tối không trống rỗng, mà "quá đầy", đầy đến mức không thể nhìn thấy.', f: 'Rumia: bóng tối là bộ khuếch đại xúc giác. Trong giao hợp, bóng tối khiến mỗi lần chạm đều đồng thời xảy ra từ bốn phương tám hướng.', d: 'Trung bình · Lãnh vực bóng tối', o: 'Cảnh chương 1. Bóng tối của Rumia nuốt lấy, thu thập mảnh vỡ nhiệt độ và bóng tối. Xúc giác trong bóng tối bị phóng đại vô hạn.', img: 'https://img.z4a.net/images/2026/06/30/10d50f8c98f6811c4.webp' },
+        hongmo: { ll: [320, 900], n: 'Hồng Ma Quán', l: 'Chương 2 · Khu hiến tế cao quý', c: '#dc2626', i: '🧛', p: 'Phía tây Ảo Tưởng Hương, lãnh địa của ma cà rồng', a: 'Lãnh địa ma cà rồng đã năm trăm năm chưa từng được loài người khát vọng. Cường độ ảnh hưởng của mảnh vỡ gấp ba lần Đền Hakurei. Kiến trúc kiểu Gothic, tường ngoài màu đỏ dưới pháp tắc sắc dục đã biến thành sắc đỏ sẫm màu thịt. Mắt trong tranh treo hành lang sẽ nhìn theo Master.', f: 'Meiling, Patchouli, Sakuya, Remilia và Flandre: năm lớp phòng tuyến lần lượt bị vượt qua. Không phải đánh bại, mà là tiếp nhận. Tất cả đều tự mình lựa chọn.', d: 'Cao · Ảnh hưởng mảnh vỡ gấp ba', o: 'Cảnh cốt lõi chương 2. Meiling vượt qua ngưỡng cửa, Patchouli kiểm chứng tri thức, nghi thức dừng thời gian giây thứ 301 của Sakuya, sự sụp đổ của kẻ cao quý Remilia, Flandre chạm vào mà không phá hủy.', img: 'https://img.z4a.net/images/2026/06/30/15142a1bcf0fbed02.webp' },
+        baiyu: { ll: [420, 700], n: 'Bạch Ngọc Lâu', l: 'Chương 3 · Khu Minh giới', c: '#8b5cf6', i: '🌸', p: 'Minh giới, nơi Tây Hành Yêu tọa lạc', a: 'Nước sông Tam Đồ ấm như thân nhiệt. Cây anh đào Bạch Ngọc Lâu vĩnh viễn ở trạng thái "sắp nở", cánh hoa đang hô hấp. Ánh nắng của Minh giới không đến từ bầu trời, mà là sắc vàng nhạt thấm lên từ lòng đất.', f: 'Saigyouji Yuyuko: hư vô tiêu hóa nhiệt độ, "lần đầu cảm thấy no". Konpaku Youmu: sự xé rách của trung thành, "ngươi có thể đồng thời là hai thứ".', d: 'Trung bình · Lãnh vực Minh giới', o: 'Nửa đầu chương 3. Hư vô của Yuyuko tiêu hóa nhiệt độ, sự trung thành của Youmu bị xé rách. Rễ Tây Hành Yêu quấn lấy mảnh vỡ.', img: 'https://img.z4a.net/images/2026/06/30/16a0170fbe6842764.webp' },
+        diling: { ll: [450, 780], n: 'Điện Địa Linh', l: 'Chương 3 · Khu Địa Ngục cũ', c: '#8b5cf6', i: '🔥', p: 'Địa Ngục cũ, phía trên di chỉ Địa Ngục Nóng Bỏng', a: 'Di chỉ Địa Ngục Nóng Bỏng do Satori quản lý bằng đọc tâm. Hành lang Điện Địa Linh ấm hơn phòng, đó là vô thức của Koishi đang thấm vào không gian. Lửa ở Địa Ngục cũ có màu hồng, không phải đang cháy, mà là một thứ gì đó đang chờ đợi.', f: 'Komeiji Satori: người đọc tâm chọn nhắm mắt. Không phải từ bỏ năng lực, mà là chọn tin tưởng. Komeiji Koishi: "quên nhưng thân thể ghi nhớ" là biểu hiện kỳ dị nhất của pháp tắc sắc dục.', d: 'Cao · Lãnh vực đọc tâm', o: 'Nửa sau chương 3. Sự im lặng của người đọc tâm Satori, sự thành thật của thân thể trong vô thức Koishi. Master bị ép nói ra chân tướng trong cuộc chiến tâm lý của Satori: "Có người đang đợi tôi trở về".', img: 'https://img.z4a.net/images/2026/06/30/1e857437baf1b34d4.webp' },
+        yongyuan: { ll: [520, 880], n: 'Vĩnh Viễn Đình', l: 'Chương 4 · Khu vĩnh hằng', c: '#06b6d4', i: '🎋', p: 'Sâu trong rừng trúc lạc lối, nơi ở của người Mặt Trăng', a: 'Trúc biến thành sắc hồng nhạt màu da, giữa các đốt có dịch ấm tiết ra. Mái Vĩnh Viễn Đình mọc đầy sợi nấm nhịp động như đang hô hấp. Rừng trúc mãi ở trạng thái "sắp lạc đường"; không phải thật sự lạc đường, mà là vĩnh viễn không tìm được lối ra.', f: 'Kaguya, Mokou, Reisen và Eirin đều đang chống lại "vĩnh viễn": Kaguya dùng vòng lặp thời gian, Mokou dùng bất tử, Reisen dùng vô cấu, Eirin dùng tính toán. Master là người đầu tiên dạy họ "kết thúc".', d: 'Cao · Lãnh vực vĩnh viễn', o: 'Cảnh cốt lõi chương 4. Phá vỡ "vĩnh viễn" trong bẫy thời gian của Kaguya, vòng lặp thiêu đốt và tái sinh của Mokou, sự phóng thích cuồng khí của Reisen, sự sụp đổ tính toán của Eirin.', img: 'https://img.z4a.net/images/2026/06/30/1e60158c087b105c9.webp' },
+        shouye: { ll: [600, 700], n: 'Đền Moriya', l: 'Chương 5 · Khu tín ngưỡng', c: '#fbbf24', i: '⛩️', p: 'Chân Núi Yêu Quái, nơi ở của thần linh', a: 'Cổng torii biến thành đỏ sẫm màu máu, bề mặt có dịch ấm. Thần linh trải nghiệm sự đảo ngược của "được khát vọng" tại đây. Nước suối trong đền ấm như được thân nhiệt ủ nóng.', f: 'Kochiya Sanae: kỳ tích mất hiệu lực, "ấm hơn cả tín ngưỡng". Moriya Suwako: ký ức hồi phục trong trận ngự trụ, "đã lâu lắm không nghe thấy tên của mình".', d: 'Trung bình · Lãnh vực tín ngưỡng', o: 'Nửa đầu chương 5. Tín ngưỡng của Sanae sụp đổ, Suwako lột xác. Thần linh trải nghiệm sự đảo ngược của "được khát vọng": từ "được tín ngưỡng" đến "được cần đến".', img: 'https://img.z4a.net/images/2026/06/30/179d8929a515022dd.webp' },
+        yaoguai: { ll: [630, 760], n: 'Núi Yêu Quái', l: 'Chương 5 · Khu núi', c: '#60a5fa', i: '⛰️', p: 'Phía sau Đền Moriya, lãnh địa của tengu và kappa', a: 'Đá ở sườn núi là nơi của Aya, gió núi ấm. Trạm gác là nơi Momiji canh giữ; người mãi mãi canh giữ là người khao khát được bảo vệ nhất. Nước thác núi ấm như nước mắt.', f: 'Shameimaru Aya: chụp vô số người nhưng chưa từng chụp chính mình. Đặt máy ảnh xuống là lần đầu nàng trở thành người được ghi lại. Inubashiri Momiji: người mãi mãi canh giữ là người khao khát được bảo vệ nhất.', d: 'Trung bình · Lãnh vực trong núi', o: 'Cảnh giữa chương 5. Người quan sát Aya tham dự, lính gác Momiji bàn giao vị trí. "Ghi chép" của tengu dưới pháp tắc sắc dục biến thành "được ghi chép".', img: 'https://img.z4a.net/images/2026/06/30/182c77163649ebd85.webp' },
+        shenpan: { ll: [660, 820], n: 'Pháp Đình', l: 'Chương 5 · Khu phán xét', c: '#dc2626', i: '⚖️', p: 'Giao giới giữa Ảo Tưởng Hương và địa ngục, lãnh vực của Shiki Eiki', a: 'Tấm gương trong pháp đình là Tịnh Pha Lê Chi Kính, soi ra mọi tội lỗi. Dưới pháp tắc sắc dục, gương bắt đầu nứt: không phải bị đập vỡ, mà tự vỡ khi người phán xét thừa nhận mình có tội.', f: 'Shiki Eiki: Tịnh Pha Lê Chi Kính xuất hiện vết nứt không phải vì bị đánh vỡ, mà vì người phán xét thừa nhận mình có tội. Đó là khởi đầu của sự lung lay nơi cái "tuyệt đối".', d: 'Cao · Lãnh vực phán xét', o: 'Cảnh cốt lõi chương 5. Sự đảo ngược trong phán xét của Eiki. Người phán xét thừa nhận mình có tội, chiếc gương tự nứt. Đây là khởi đầu của cái "tuyệt đối" bị lung lay.', img: 'https://img.z4a.net/images/2026/06/30/1935039f0ab595dac.webp' },
+        youding: { ll: [720, 850], n: 'Hữu Đỉnh Thiên', l: 'Chương 6 · Khu Thiên giới', c: '#fbbf24', i: '☁️', p: 'Thiên giới, nơi ở của Hinanawi Tenshi', a: 'Động đất ở Thiên giới ngày càng thường xuyên, đó là con của trời đang trút giận. Mây ở Hữu Đỉnh Thiên ấm như bông được ủ bằng thân nhiệt. Ánh nắng Thiên giới màu vàng nhạt, nhưng không phải mặt trời, mà là ánh sáng thấm ra từ ranh giới.', f: 'Hinanawi Tenshi: Phi Tưởng Chi Kiếm mất kiểm soát, "không hoàn hảo lại thoải mái đến vậy". Giao hợp là rơi xuống: sự rơi xuống của thiên nhân.', d: 'Trung bình · Lãnh vực Thiên giới', o: 'Nửa đầu chương 6. Tenshi từ thiên nhân rơi xuống, kiêu ngạo tan rã. Dưới pháp tắc sắc dục, Phi Tưởng Chi Kiếm biến thành ánh sáng hồng.', img: 'https://img.z4a.net/images/2026/06/30/16278164213362ac1.webp' },
+        jiuyan: { ll: [740, 780], n: 'Nơi Tiệc Rượu', l: 'Chương 6 · Khu tiệc rượu', c: '#ec4899', i: '🍶', p: 'Khoảng đất rộng ở Ảo Tưởng Hương, nơi tụ họp của Ibuki Suika', a: 'Lửa trại trong tiệc rượu ấm như được thân nhiệt ủ nóng. Hơi rượu đan với pháp tắc sắc dục khiến không khí trở nên dính đặc. Năng lực "mật tập" của Suika gom toàn bộ nhiệt độ về nơi này.', f: 'Ibuki Suika: tiệc cuồng của quỷ, giao hợp là bạo lực và xác nhận. Khóe mắt có nước mắt: nước mắt của quỷ. Sức mạnh của quỷ trước sắc dục biến thành yếu mềm.', d: 'Trung bình · Lãnh vực của quỷ', o: 'Cảnh chương 6. Nước mắt của quỷ Suika, giao hợp là bạo lực và xác nhận. Năng lực "mật tập" khiến toàn bộ nhiệt độ tụ lại: đó là sự "không chịu buông tay" của quỷ.', img: 'https://img.z4a.net/images/2026/06/30/146db69abb72fe629.webp' },
+        nengwu: { ll: [760, 720], n: 'Đền · Sân Khấu Noh', l: 'Chương 6 · Khu sân khấu Noh', c: '#a78bfa', i: '🎭', p: 'Gần Mệnh Liên Tự, nơi Hata no Kokoro biểu diễn', a: 'Ván gỗ sân khấu Noh ấm như ngấm thân nhiệt. Sáu mươi sáu chiếc mặt nạ treo phía sau sân khấu, mỗi chiếc đại diện cho một cảm xúc, nhưng dưới pháp tắc sắc dục tất cả đều vặn vẹo.', f: 'Hata no Kokoro: vũ điệu mặt nạ xoay vòng, sáu mươi sáu loại khát vọng không có loại nào là của chính nàng. Câu "có người đang nhìn" của Master khiến nàng lần đầu được nhìn thấy trong khoảng trống.', d: 'Trung bình · Lãnh vực mặt nạ', o: 'Cảnh chương 6. Mặt nạ của Kokoro rơi xuống. Khốn cảnh tột cùng của người biểu diễn: sáu mươi sáu khát vọng nhưng không cái nào là của chính mình.', img: 'https://img.z4a.net/images/2026/06/30/19bf2a71f36fb8868.webp' },
+        zoulang: { ll: [780, 680], n: 'Hành Lang', l: 'Chương 6 · Khu hành lang', c: '#60a5fa', i: '🚪', p: 'Hành lang Mệnh Liên Tự, nơi Tatara Kogasa quanh quẩn', a: 'Trên ván gỗ hành lang còn lưu thân nhiệt không thuộc về mình; bước chân trần lên sẽ kích hoạt ký ức xúc giác của người khác. Cuối hành lang là bóng tối, Kogasa nhảy ra từ bóng tối để dọa người qua đường.', f: 'Tatara Kogasa: "hù dọa" của nàng là hình thái méo mó của khát vọng được nhìn thấy. Giao hợp là lần đầu nàng không cần dọa ai vẫn có thể được chú ý.', d: 'Thấp · Lãnh vực hù dọa', o: 'Cảnh chương 6. Sự hù dọa và hơi ấm của Kogasa. "Không cần dọa người cũng có thể được nhìn thấy": đó là sự "buông tay" của yêu quái dù.', img: 'https://img.z4a.net/images/2026/06/30/1.webp' },
+        taiyang: { ll: [810, 900], n: 'Cánh Đồng Hoa Hướng Dương', l: 'Chương 6 · Khu hoa điền', c: '#fbbf24', i: '🌻', p: 'Sâu trong Ảo Tưởng Hương, lãnh địa của Kazami Yuuka', a: 'Mùa hoa kéo dài dị thường, hoa hướng dương không bao giờ tàn. Phấn hoa tràn trong không khí, chạm vào thấy ấm. Cánh đồng hoa không có danmaku, không có tấn công, chỉ có phấn hoa và ý chí.', f: 'Kazami Yuuka: yêu quái mạnh nhất chủ động đặt sức mạnh xuống, bởi sắc dục không phải chiến đấu. Thử thách cánh đồng hoa: không danmaku, không tấn công, chỉ có phấn hoa và ý chí.', d: 'Cực cao · Nơi yêu quái mạnh nhất ở', o: 'Cảnh cốt lõi chương 6. Sự đầu hàng của kẻ mạnh nhất Yuuka. Thử thách cánh đồng hoa là trận chiến độc đáo nhất chương này: không danmaku, không tấn công, chỉ có phấn hoa và ý chí.', img: 'https://img.z4a.net/images/2026/06/30/1369f1b0a126abd94.webp' },
+        chuncui: { ll: [860, 850], n: 'Không Gian Thuần Túy', l: 'Chương 7 · Khu thuần túy', c: '#e0e0e0', i: '✨', p: 'Không gian con sâu trong khe giới, lãnh vực của Junko', a: 'Không Gian Thuần Túy là lãnh vực thuần túy tuyệt đối do Junko tạo ra. Mọi tạp chất đều bị bóc tách, kể cả phòng ngự. Không gian có màu trắng thuần, nhưng không trống rỗng: đó là màu trắng "quá đầy".', f: 'Junko: sự đảo ngược của thuần hóa. Thuần túy không cần bóc tách. Không Gian Thuần Túy của nàng bóc tách mọi tạp chất, bao gồm cả phòng ngự của chính nàng.', d: 'Cao · Lãnh vực thuần túy', o: 'Cảnh chương 7. Sự đảo ngược thuần hóa của Junko. Trong Không Gian Thuần Túy, thuần túy không cần bóc tách: đó là sự "buông xuống" của Junko.', img: 'https://img.z4a.net/images/2026/06/30/106237970e7240b72.webp' },
+        xijian: { ll: [900, 800], n: 'Khe Giới', l: 'Tầng lõi · Dị Pháp Vương', c: '#fbbf24', i: '🌀', p: 'Lõi cảnh giới, chính sự tồn tại của Yakumo Yukari', a: 'Không gian không phải ba chiều, mà gấp nếp thành cấu trúc như nội tạng. Tường nửa trong suốt màu tím, mặt đất mềm như da thịt. Bản thân không khí là thân nhiệt của Yakumo Yukari. Rễ của cây sắc dục cắm sâu tại đây.', f: 'Yakumo Yukari: Dị Pháp Vương. Mảnh vỡ quấn chặt với sức mạnh cảnh giới của nàng tới 99,7%. "Tội" của nàng không phải dục tính, mà là dục vọng chiếm hữu "không chịu buông tay". Cuối cùng nàng chọn ký kết hiệp định cảnh giới: không phải mất đi, mà là sở hữu bằng một cách khác.', d: 'Tuyệt · Dị Pháp Vương ở đây', o: 'Cảnh cốt lõi chương 7, cao trào toàn tuyến. Ran Cửu Vĩ thống nhất, Yukari Dị Pháp Vương ký hiệp định cảnh giới. Đối thoại cuối cùng khiến Yukari buông tay: không phải giao hợp khiến nàng giải thoát, mà là chân tướng khiến nàng buông tay.', img: 'https://img.z4a.net/images/2026/06/30/1348ab54e54136c14.webp' },
+        huiliu: { ll: [950, 800], n: 'Cửa Hợp Lưu', l: 'Chung chương · Trả về', c: '#fbbf24', i: '🌟', p: 'Giao giới giữa Ảo Tưởng Hương và thế giới chủ cán, điểm rời đi', a: 'Hoa anh đào rơi ở đây nhưng vĩnh viễn không chạm đất. Ánh sáng hồng nhạt như lớp sa mỏng được nhuộm bởi thân nhiệt. Phía sau là hai mươi chín tồn tại, không ai nói gì.', f: 'Reimu cuối cùng mở miệng: "Lần sau khi ngươi đến... trong hòm công đức sẽ có chỗ của ngươi." Master mỉm cười. Sau đó bước vào Cửa Hợp Lưu. Trên lòng bàn tay vẫn còn hương hoa anh đào phảng phất.', d: 'Thấp · Nơi ly biệt', o: 'Cảnh chung chương. Tất cả cáo biệt, Master rời Ảo Tưởng Hương trở về Chaldea. Mỗi lần chia tay đều là một lần phát lại "ký ức làn da": chạm vào, cảm nhận nhiệt độ còn lưu lại, rồi buông tay.', img: 'https://img.z4a.net/images/2026/06/30/189f02c82dd67142c.webp' }
+      },
+      C: [
+        { f: 'rukou', t: 'shenshe', c: '#fbbf24', s: 's' },
+        { f: 'shenshe', t: 'mofa', c: '#10b981', s: 's' },
+        { f: 'mofa', t: 'wuzhi', c: '#06b6d4', s: 's' },
+        { f: 'mofa', t: 'senlin', c: '#8b5cf6', s: 's' },
+        { f: 'wuzhi', t: 'senlin', c: '#8b5cf6', s: 'd' },
+        { f: 'shenshe', t: 'hongmo', c: '#dc2626', s: 's' },
+        { f: 'hongmo', t: 'baiyu', c: '#8b5cf6', s: 's' },
+        { f: 'baiyu', t: 'diling', c: '#8b5cf6', s: 's' },
+        { f: 'baiyu', t: 'yongyuan', c: '#06b6d4', s: 's' },
+        { f: 'diling', t: 'yongyuan', c: '#06b6d4', s: 'd' },
+        { f: 'yongyuan', t: 'shouye', c: '#fbbf24', s: 's' },
+        { f: 'shouye', t: 'yaoguai', c: '#60a5fa', s: 's' },
+        { f: 'yaoguai', t: 'shenpan', c: '#dc2626', s: 's' },
+        { f: 'shouye', t: 'youding', c: '#fbbf24', s: 's' },
+        { f: 'shenpan', t: 'youding', c: '#fbbf24', s: 'd' },
+        { f: 'youding', t: 'jiuyan', c: '#ec4899', s: 's' },
+        { f: 'jiuyan', t: 'nengwu', c: '#a78bfa', s: 's' },
+        { f: 'nengwu', t: 'zoulang', c: '#60a5fa', s: 's' },
+        { f: 'youding', t: 'taiyang', c: '#fbbf24', s: 's' },
+        { f: 'taiyang', t: 'chuncui', c: '#e0e0e0', s: 's' },
+        { f: 'chuncui', t: 'xijian', c: '#fbbf24', s: 's' },
+        { f: 'xijian', t: 'huiliu', c: '#fbbf24', s: 's' }
+      ],
+      lg: '<div class="lg-t">Chú giải chương</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Khu cửa vào · Điểm hợp lưu</div><div class="lg-i"><div class="lg-d" style="background:#10b981"></div>Chương 1 · Dị biến xuân tan</div><div class="lg-i"><div class="lg-d" style="background:#dc2626"></div>Chương 2 · Cao quý sụp đổ</div><div class="lg-i"><div class="lg-d" style="background:#8b5cf6"></div>Chương 3 · Đói khát và lặng im</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Chương 4 · Vĩnh hằng và cuồng khí</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Chương 5 · Tín ngưỡng và phán xét</div><div class="lg-i"><div class="lg-d" style="background:#ec4899"></div>Chương 6 · Chịu nạn và được ngắm nhìn</div><div class="lg-i"><div class="lg-d" style="background:#e0e0e0"></div>Chương 7 · Trả về cuối cùng</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng lõi · Dị Pháp Vương</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Ảo Tưởng Hương Kỷ Sắc Dục', s: 'Dị Pháp Vực · LOSTBELT', i: '🌸' },
+      st: ['7', '20', '∞', 'chương', 'địa điểm', 'cơ duyên'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng lõi · Cảnh giới Khe Giới</text><text x="800" y="130" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Chương 7 · Trả về cuối cùng</text><text x="800" y="280" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Chương 6 · Chịu nạn và được ngắm nhìn</text><text x="800" y="480" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Chương 5 · Tín ngưỡng và phán xét</text><text x="800" y="580" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Chương 4 · Vĩnh hằng và cuồng khí</text><text x="800" y="680" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Chương 3 · Đói khát và lặng im</text><text x="800" y="780" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.8)" letter-spacing="3" font-weight="bold">Chương 2 · Cao quý sụp đổ</text><text x="800" y="880" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Chương 1 · Dị biến xuân tan</text><text x="800" y="960" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.7)" letter-spacing="2" font-weight="bold">Khu cửa vào · Hợp lưu hỗn độn</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="155" x2="1400" y2="155" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="305" x2="1400" y2="305" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="505" x2="1400" y2="505" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="605" x2="1400" y2="605" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="705" x2="1400" y2="705" stroke="rgba(255,255,255,.2)" stroke-width="1"/><line x1="200" y1="805" x2="1400" y2="805" stroke="rgba(255,255,255,.2)" stroke-width="1"/><line x1="200" y1="905" x2="1400" y2="905" stroke="rgba(255,255,255,.15)" stroke-width="1"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/07/05/06e1bc89942bbbeb24096cbfa681002b.webp',
+      W: 1600, H: 1000
+    };
+    const SQ = {
+      D: {
+        rukou: { ll: [120, 800], n: 'Đường Ánh Sáng · Lối vào phía nam', l: 'Ngoại vi · Lối vào', c: '#10b981', i: '🌟', p: 'Điểm rơi khi tiến vào Vườn Tinh Khung, nơi bảy Đường Ánh Sáng hội tụ', a: 'Bình minh lam tím vĩnh viễn không tan, bảy ngôi sao khác màu xoay chậm quanh Cây Nhân Lý như một chiếc đồng hồ tinh vi. Trong không khí lẫn mùi rêu bạc đẫm sương, vị kim loại của mạch sáng và hơi nóng còn sót của động cơ.', f: 'Khoảnh khắc đặt chân xuống, một sự yên tĩnh không thuộc bất cứ thế giới đã biết nào phủ khắp toàn thân. Âm thanh ở đây rất riêng: lá cây tự lay dù không có gió, đó là tiếng thời tuyến đang chảy; bảy ngôi sao, mỗi ngôi có một âm sắc, đan thành "khúc hợp tấu hỗn độn".', d: 'Thấp · Lối vào', o: 'Trạm đầu tiên khi Chaldea trở về Vườn Tinh Khung từ các Dị Pháp Vực. Đếm ngược 47 ngày hiện lên trên cành Cây Nhân Lý.', img: 'https://s1.imagehub.cc/images/2026/06/30/d1cdd1345d40b01631068e376f827ad8.webp' },
+        shiqiao: { ll: [280, 680], n: 'Cầu Đá Liễu Sao Sáng', l: 'Ngoại vi · Chuyển tiếp', c: '#a78bfa', i: '🌉', p: 'Cầu tự nhiên giữa một số đảo nổi độc lập, được đan từ rễ liễu sao sáng', a: 'Mặt cầu được dệt từ những rễ liễu phát sáng quấn vào nhau, bên dưới là hư không vô tận. Một vài đảo có cầu đá nối liền, những nơi còn lại chỉ có thể tới bằng Đường Ánh Sáng.', f: 'Rễ dưới chân khẽ phát sáng, giẫm lên có độ đàn hồi. Thỉnh thoảng một lá liễu bạc rơi xuống, chạm vào vai sẽ sáng lên trong chớp mắt, như đang xác nhận ngươi thật sự tồn tại.', d: 'Thấp', o: 'Hòn đảo nối Giữa Giấc Ngủ Chìm với Hành Lang Hư Không, cũng là lối nhỏ để các nữ thần ghé thăm nhau. Hestia thỉnh thoảng bưng bánh mì đi qua đây tìm Sessyoin Kiara đổi trà.', img: 'https://s1.imagehub.cc/images/2026/06/30/dcb1e99283249433fb971e49dbc34fa5.webp' },
+        penquan: { ll: [760, 800], n: 'Đài Phun Trung Tâm', l: 'Đảo trung tâm · Rễ cây', c: '#06b6d4', i: '💧', p: 'Dưới rễ Cây Nhân Lý, nơi đặt đài phun trung tâm', a: 'Nước trong vắt như ánh sao lỏng, là nước được Cây Nhân Lý tinh lọc từ các mảnh ký ức hút lên từ hư không. Quanh đài phun có bảy máng đá, mỗi mặt nước đổi màu theo bầu trời của thánh sở tương ứng.', f: 'Hestia mỗi sáng lấy nước nhào bột, Sessyoin Kiara lấy nước pha trà. Thác nước đổ vào hư không, hóa thành hạt sáng rồi tụ lại; thỉnh thoảng trong thác lóe qua cảnh cuối cùng của một nền văn minh bị cắt bỏ.', d: 'Thấp · Mảnh ký ức', o: 'Khiên của Mash có cộng hưởng rất nhẹ bên đài phun: trong các máng nước phản chiếu trạng thái hiện tại của bảy Dị Pháp Vực.', img: 'https://s1.imagehub.cc/images/2026/06/30/4270442dc1f4827cf22a0ab0a8239d11.webp' },
+        yingluo: { ll: [820, 930], n: 'Nautilus', l: 'Đảo trung tâm · Phía đông', c: '#06b6d4', i: '🚢', p: 'Chiến hạm lặn số ảo cuối cùng của Chaldea, mắc cạn ở rìa phía đông đảo trung tâm', a: 'Vỏ tàu đầy vết xước của khe nứt thời không, mỗi vết ghi lại một lần lặn số ảo suýt không trở về. Màn kính buồng lái đối diện Cây Nhân Lý; khe nối giữa thân tàu và đá trắng mọc ra rêu bạc.', f: 'Trong tàu còn giữ phòng điều khiển, phòng y tế, phòng của Master và phòng nghỉ chung nơi bảy nữ thần thường trú. Da Vinci mỗi ngày đều quan sát biến đổi của cành Cây Nhân Lý trên buồng lái. Bánh mì của Hestia và trà của Sessyoin là tiếp tế thường trực trong phòng nghỉ.', d: 'Thấp · Căn cứ Chaldea', o: 'Da Vinci hoàn thành việc thích phối phần cứng cho triệu hồi Servant tại đây. Master nghỉ ngơi, chỉnh trang và xuất phát từ đây đến các Dị Pháp Vực.', img: 'https://s1.imagehub.cc/images/2026/06/30/ba948cc12b81b724f611e7a193dc9349.webp' },
+        renli: { ll: [810, 800], n: 'Cây Nhân Lý', l: 'Tầng lõi · Cây', c: '#a78bfa', i: '🌳', p: 'Lõi của đảo trung tâm, trung tâm của toàn bộ quần đảo nổi', a: 'Các mạch sáng bạc và vàng đan nhau thành thân cây, mỗi mạch là một dòng thời gian đã được ghi lại. Bảy cành chính phần lớn xám trắng thưa lá, chỉ một số ít tỏa ánh mờ. Bảy cành biến hình theo pháp tắc: kiêu ngạo như kiếm, đố kỵ như sa, cuồng nộ đầy vết cháy, sắc dục mềm cong, tham lam kết mạch vàng, lười biếng rủ ngủ, phàm ăn rỗng ruột.', f: 'Sau khi thu hồi mảnh vỡ, cành tương ứng sẽ sống lại, sao sáng hơn, hoa văn cổng truyền tống thánh sở nở trọn màu. Giữa các cành có vô số lá nổi, mỗi lá là một chữ "nếu như" của điều có thể nhưng chưa xảy ra; khi chạm vai người đến thăm, nó sẽ phát sáng trong chớp mắt.', d: 'Trung bình · Mạch động pháp tắc', o: 'Lõi đếm ngược 47 ngày. Bảy cành tương ứng bảy Dị Pháp Vực; mỗi lần thu hồi một mảnh vỡ pháp tắc, cành tương ứng sẽ phục hồi. Tỷ lệ còn lại hiện tại: 6%.', img: 'https://s1.imagehub.cc/images/2026/06/30/c3a867400cf403bf0961f6faa9e0c673.webp' },
+        jianzheng: { ll: [890, 800], n: 'Sân Chứng Kiến', l: 'Tầng lõi · Cao nhất', c: '#fbbf24', i: '⚖️', p: 'Ngay dưới Cây Nhân Lý, lõi của Vườn Tinh Khung, nơi ALICE ở', a: 'Đại điện tròn xây bằng tinh thạch bán trong suốt, mái vòm chính là hệ rễ Cây Nhân Lý. Mặt đất phản chiếu ngôi sao bảy cánh, mỗi góc kéo một Đường Ánh Sáng tới thánh sở. Mặt nước tĩnh trên sàn phản chiếu tán cây và tinh tú, bước lên chỉ gợn sóng mà không ướt chân.', f: 'Giữa điện treo một cán cân bạc, hai đầu vĩnh viễn đung đưa chậm rãi: thứ bị cắt bỏ và thứ được chọn vốn không cùng trọng lượng. Bên dưới đặt cuốn sách không chữ; sau khi thu hồi mảnh vỡ, chữ sẽ nổi trên trang. ALICE ngồi trên bệ cán cân, chân trần khẽ đung đưa: mắt vàng phá dối trá, mắt bạc giữ sự thật.', d: 'Cực cao · Nữ thần tổng phụ trách', o: 'ALICE, thần cấp 1 của Nhân Gian Quản Lý Cục, là người có quyền hạn cao nhất ở Điểm Giao Thoa Hỗn Độn. Đếm ngược 47 ngày là màn biểu diễn thú vị nhất nàng từng thấy. Nàng không ghét ngươi cũng không yêu ngươi, chỉ ngồi đó đợi tập tiếp theo.', img: 'https://s1.imagehub.cc/images/2026/06/30/77a90142a125ede4f67025a53512a2b6.webp' },
+        huisi: { ll: [680, 800], n: 'Thánh Đường Huy Thạch', l: 'Thánh sở · Phía bắc', c: '#38bdf8', i: '❄️', p: 'Phía bắc Vườn Tinh Khung, cuối đường băng lam, do Scáthach-Skadi quản lý', a: 'Thánh đường tròn bằng Huy Thạch trắng tinh, tường ngoài trơn nhẵn như băng. Hai bên cổng vòm vào khắc đầy rune Bắc Âu; Skadi mỗi ngày khắc một ký tự, đã đến hàng nghìn, như đang viết nhật ký bằng băng. Mái vòm tinh thể băng không có cột chống, ánh sáng xuyên qua tán thành sắc lam bạc như cực quang.', f: 'Cổng truyền tống là gương tinh thể băng ở trung tâm: không phản chiếu khuôn mặt, chỉ phản chiếu ngọn núi cao nhất trong ký ức người đến thăm. Trên bệ đài phun đặt tách trà nóng và bánh gừng Phần Lan. Thỉnh thoảng nghe Skadi ngân dân ca Dị Văn Đới, giọng nhẹ như vết băng nứt trong gió.', d: 'Trung bình · Đi tới Thanh Minh', o: 'Tương ứng Thanh Minh, vực kiêu ngạo. Gương băng hiện ra "ngọn núi cao nhất trong ký ức": đó là sự kiêu ngạo của mỗi người đến thăm. Skadi: "Không yêu, tức là giết."', img: 'https://s1.imagehub.cc/images/2026/06/30/941a4db790af7b469bf187d0a6b9fd11.webp' },
+        wanhua: { ll: [620, 920], n: 'Điện Vạn Hoa Kính', l: 'Thánh sở · Đông bắc', c: '#a78bfa', i: '🔮', p: 'Phía đông bắc Vườn Tinh Khung, cuối đường tím nhạt, do Eris quản lý', a: 'Thân điện do vô số lớp sa mỏng bán trong suốt tạo thành; sa là hình thái của gió sau khi được dệt. Từ xa trông như một đèn lồng sa khổng lồ, ánh tím nhạt xuyên qua lớp sa rải xuống bóng vỡ. Lan ánh trăng trước điện chỉ nở thoáng qua khi bình minh đậm nhất.', f: 'Cổng truyền tống là chính chiếc Vạn Hoa Kính: nó soi mong ước sâu nhất trong lòng người đến thăm, rồi chậm rãi xoay, gấp mong ước thành cánh cửa. Một giỏ tre nhỏ đựng vòng tay, bảng gỗ khắc chữ méo mó: "Vòng may mắn - tặng miễn phí, cầm rồi đi, không cần cảm ơn."', d: 'Trung bình · Đi tới Thủy Đô', o: 'Tương ứng Thủy Đô, vực đố kỵ. Eris là nữ thần may mắn: đố kỵ là nhìn chằm chằm vòng tay của người khác, may mắn là cúi đầu thấy mình đã có một chiếc.', img: 'https://s1.imagehub.cc/images/2026/06/30/d389284598cefb5c5352ff251837fb66.webp' },
+        duanzui: { ll: [480, 920], n: 'Sân Phán Tội', l: 'Thánh sở · Đông nam', c: '#dc2626', i: '🔥', p: 'Phía đông nam Vườn Tinh Khung, cuối đường đỏ sẫm, do Ishtar quản lý', a: 'Sân phán xét hình tròn dựng bằng sắt đen và đá trắng, mái vòm lộ thiên, ánh sáng từ bảy khe nứt đỏ chiếu xuống ao nước tĩnh ở giữa. Xung quanh là lửa tàn đỏ sẫm lơ lửng; mỗi mảnh từng là cặn cuồng nộ, nay đã nguội thành đá vỡ màu ấm.', f: 'Cổng truyền tống là chính ao nước tĩnh: bước vào không ướt chân, mặt nước hóa cột sáng thẳng đứng để truyền tống. Bảy ghế đá bao quanh ao, từng là chỗ sám hối của kẻ cuồng nộ, nay lót đệm vàng. Ishtar nghiền thảo mộc phơi khô trộn vào hồng trà.', d: 'Cao · Đi tới Tận Cùng Cán Cân', o: 'Tương ứng Tận Cùng Cán Cân, vực cuồng nộ. Cơn giận của Ishtar từng phá linh phong, hại chết Enkidu. Tàn tro đã nguội, không phải hết giận, mà là đổi cách cháy: nghiền thành thảo mộc, ngâm vào hồng trà.', img: 'https://s1.imagehub.cc/images/2026/06/30/ae8d76165fa427561ef9546bc1f12844.webp' },
+        feijing: { ll: [420, 800], n: 'Điện Ngủ Hồng Tinh', l: 'Thánh sở · Phía nam', c: '#ec4899', i: '💎', p: 'Phía nam Vườn Tinh Khung, cuối đường hồng phấn, do BB quản lý', a: 'Điện tròn bằng tinh thạch hồng, tường ngoài tỏa quầng sáng phấn dịu, các mặt cắt tinh thạch phản chiếu đủ hình thái của "khát vọng". Trước điện, cánh anh đào xuân tan rơi chậm gấp mười lần. Trên cửa treo chuông mèo màu hồng do BB tự làm, hình dạng thay đổi mỗi ngày.', f: 'Cổng truyền tống nằm sau màn giường của chiếc giường đá lơ lửng: vén lên ngửi thấy hơi ấm nhàn nhạt, như vừa có ai rời đi. BB nằm sấp ở đầu giường đung đưa chân, chuông ở cổ chân kêu leng keng. Bốn bức tường nhỏ phản chiếu mỗi bức một loại khát vọng; BB dùng son vẽ mặt cười, tai mèo và tranh phác họa Master.', d: 'Trung bình · Đi tới Ảo Tưởng Hương', o: 'Tương ứng Ảo Tưởng Hương, vực sắc dục. BB là AI tự biến mình thành BUG: bản thân tình yêu vốn là dị thường đáng yêu không nên tồn tại trong hệ thống Mooncell. Chiếc chuông ngày nào cũng vang, nàng đang chờ một người sẽ không đến.', img: 'https://s1.imagehub.cc/images/2026/06/30/0a0034aa89e409d1a4c0387780de3018.webp' },
+        huangjin: { ll: [480, 680], n: 'Thánh Đường Hoàng Kim', l: 'Thánh sở · Tây nam', c: '#fbbf24', i: '👑', p: 'Phía tây nam Vườn Tinh Khung, cuối đường vàng kim, do Ristarte quản lý', a: 'Đại điện kiểu nhà thờ lộng lẫy ánh vàng, bảy cột vàng khổng lồ chống mái vòm vẽ đầy bản đồ sao của giàu sang và quyền lực. Gạch sáng vàng ngoài tường nhẵn như gương, phản chiếu khát vọng được lấp đầy của khách đến. Hồng vàng trước điện vĩnh viễn không tàn.', f: 'Cổng truyền tống là bảy thánh vật hoàng kim trên tế đàn: vương miện, quyền trượng, bảo châu, chén thánh, chìa khóa, cán cân, pháp điển; chạm vào bất kỳ món nào cũng kích hoạt. Góc điện có hai ghế cạnh bàn gỗ, một chiếc của nàng, chiếc còn lại vĩnh viễn trống và chưa từng bám bụi.', d: 'Trung bình · Đi tới Neon 2187', o: 'Tương ứng Neon 2187, vực tham lam. Ristarte quản lý vực tham lam nhưng lại sống như mặt đối lập của nó: bảy thánh vật không bằng một chiếc ghế trống. Không phải không muốn, mà là đã sớm biết điều gì mới đáng muốn.', img: 'https://s1.imagehub.cc/images/2026/06/30/a714cc7104468af856a1a34898c52871.webp' },
+        chenmeng: { ll: [620, 680], n: 'Giữa Giấc Ngủ Chìm', l: 'Thánh sở · Tây bắc', c: '#94a3b8', i: '🌙', p: 'Phía tây bắc Vườn Tinh Khung, cuối đường xám nhạt, do Hestia quản lý', a: 'Tẩm điện tròn vĩnh viễn ở trong nắng ấm buổi chiều, thời gian chậm hơn bên ngoài hàng trăm lần. Tường gỗ cổ xám nhạt mềm ấm như đồ gỗ cũ. Lối hoa trước điện phủ rêu mềm; nằm xuống sẽ bất giác ngủ thiếp đi, tỉnh dậy bên miệng có thêm một chiếc bánh quy nhỏ nàng nhét vào.', f: 'Cổng truyền tống là giường đá lơ lửng dưới cây cổ thụ, điều kiện kích hoạt là "thật sự thả lỏng". Nếu trong lòng còn vướng nhiệm vụ thì giường sẽ không truyền tống ngươi; buông căng thẳng xuống, nhắm mắt xong nệm sẽ phát sáng trong chớp mắt. Ruy băng xanh rơi cạnh gối, buộc vào tay nắm lò nướng như đồng hồ lật bánh mì.', d: 'Thấp · Đi tới Eldora', o: 'Tương ứng Eldora, vực lười biếng. Cổng truyền tống của Hestia là cửa kiểm tra dịu dàng nhất Vườn Tinh Khung: chỉ cần thật sự thả lỏng, nhưng với nhiều người, biết làm điều đó còn khó hơn chiến đấu. Cạnh giường đá vĩnh viễn có đệm mềm và bánh quy.', img: 'https://s1.imagehub.cc/images/2026/06/30/7c37e7147e0dde2fe46a9713db3ce9a4.webp' },
+        kongzhi: { ll: [550, 620], n: 'Hành Lang Hư Không', l: 'Thánh sở · Phía tây', c: '#f97316', i: '🍵', p: 'Phía tây Vườn Tinh Khung, cuối đường cam sẫm, do Sessyoin Kiara quản lý', a: 'Hành lang phế tích vĩnh viễn hoàng hôn, tường đá cổ màu cam sẫm, khe đá bò đầy dây leo đã khô nhưng vẫn phát ánh sáng mờ. Hai bên có bảy bàn đá bày đầy ảo ảnh yến tiệc: cặn ký ức còn lại từ khi nàng từng nuốt chửng khoái lạc. Lối đá trước điện trồng đầy thảo mộc và quả mọng ăn được.', f: 'Cổng truyền tống là chiếc đĩa bạc giữa bàn trống: soi ra cơn đói sâu nhất trong lòng, không phải đói thức ăn mà là khát vọng dinh dưỡng tinh thần. Cạnh đĩa bạc luôn có một chén matcha nóng, bốc hơi như đang chờ ai đến. Bảy chiếc bàn dài ảo ảnh được lau mỗi ngày, không hề động một miếng.', d: 'Cao · Đi tới Kỷ Nguyên Zero', o: 'Tương ứng Kỷ Nguyên Zero, vực phàm ăn. Sessyoin Kiara từng là Bồ Tát nuốt lấy tất cả; nay mỗi ngày lau ảo ảnh mà không đưa tay. Nữ thần của vực phàm ăn chọn không ăn, không phải vì không đói, mà vì đã tìm được sự thỏa mãn lớn hơn ăn uống.', img: 'https://s1.imagehub.cc/images/2026/06/30/e5c592892b4abb75d3134f48a2d12408.webp' }
+      },
+      C: [
+        { f: 'rukou', t: 'penquan', c: '#10b981', s: 's' },
+        { f: 'penquan', t: 'renli', c: '#a78bfa', s: 's' },
+        { f: 'renli', t: 'jianzheng', c: '#fbbf24', s: 's' },
+        { f: 'renli', t: 'yingluo', c: '#06b6d4', s: 's' },
+        { f: 'renli', t: 'huisi', c: '#38bdf8', s: 'd' },
+        { f: 'renli', t: 'wanhua', c: '#a78bfa', s: 'd' },
+        { f: 'renli', t: 'duanzui', c: '#dc2626', s: 'd' },
+        { f: 'renli', t: 'feijing', c: '#ec4899', s: 'd' },
+        { f: 'renli', t: 'huangjin', c: '#fbbf24', s: 'd' },
+        { f: 'renli', t: 'chenmeng', c: '#94a3b8', s: 'd' },
+        { f: 'renli', t: 'kongzhi', c: '#f97316', s: 'd' },
+        { f: 'shiqiao', t: 'chenmeng', c: '#a78bfa', s: 's' },
+        { f: 'shiqiao', t: 'kongzhi', c: '#a78bfa', s: 's' },
+        { f: 'shiqiao', t: 'rukou', c: '#10b981', s: 'd' }
+      ],
+      lg: '<div class="lg-t">Chú giải khu vực</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Tầng lõi · Sân chứng kiến</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Tầng lõi · Cây Nhân Lý</div><div class="lg-i"><div class="lg-d" style="background:#06b6d4"></div>Đảo trung tâm · Chaldea</div><div class="lg-i"><div class="lg-d" style="background:#38bdf8"></div>Thánh sở · Thánh Đường Huy Thạch</div><div class="lg-i"><div class="lg-d" style="background:#a78bfa"></div>Thánh sở · Điện Vạn Hoa Kính</div><div class="lg-i"><div class="lg-d" style="background:#dc2626"></div>Thánh sở · Sân Phán Tội</div><div class="lg-i"><div class="lg-d" style="background:#ec4899"></div>Thánh sở · Điện Ngủ Hồng Tinh</div><div class="lg-i"><div class="lg-d" style="background:#fbbf24"></div>Thánh sở · Thánh Đường Hoàng Kim</div><div class="lg-i"><div class="lg-d" style="background:#94a3b8"></div>Thánh sở · Giữa Giấc Ngủ Chìm</div><div class="lg-i"><div class="lg-d" style="background:#f97316"></div>Thánh sở · Hành Lang Hư Không</div><div class="lg-i" style="margin-top:6px;padding-top:4px;border-top:1px solid rgba(212,168,83,.2)"><div class="lg-d" style="background:#10b981"></div>Tuyến thông hành</div>',
+      ti: { t: 'Vườn Tinh Khung · Điểm Giao Thoa Hỗn Độn', s: 'Thế giới chính · BASE', i: '☯' },
+      st: ['7', '13', '47', 'thánh sở', 'địa điểm', 'đếm ngược'],
+      svg: function (W, H) { return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><text x="800" y="35" text-anchor="middle" font-family="serif" font-size="15" fill="rgba(255,255,255,1)" letter-spacing="6" font-weight="bold">Tầng lõi · Sân Chứng Kiến</text><text x="800" y="130" text-anchor="middle" font-family="serif" font-size="14" fill="rgba(255,255,255,.95)" letter-spacing="5" font-weight="bold">Tầng lõi · Cây Nhân Lý và đảo trung tâm</text><text x="800" y="380" text-anchor="middle" font-family="serif" font-size="13" fill="rgba(255,255,255,.9)" letter-spacing="4" font-weight="bold">Tầng thánh sở · Bảy thánh sở bao quanh</text><text x="800" y="620" text-anchor="middle" font-family="serif" font-size="12" fill="rgba(255,255,255,.85)" letter-spacing="3" font-weight="bold">Đường Ánh Sáng · Khu chuyển tiếp</text><text x="800" y="880" text-anchor="middle" font-family="serif" font-size="11" fill="rgba(255,255,255,.75)" letter-spacing="2" font-weight="bold">Ngoại vi · Lối vào</text><line x1="200" y1="60" x2="1400" y2="60" stroke="rgba(255,255,255,.4)" stroke-width="1"/><line x1="200" y1="155" x2="1400" y2="155" stroke="rgba(255,255,255,.35)" stroke-width="1"/><line x1="200" y1="405" x2="1400" y2="405" stroke="rgba(255,255,255,.3)" stroke-width="1"/><line x1="200" y1="645" x2="1400" y2="645" stroke="rgba(255,255,255,.25)" stroke-width="1"/><line x1="200" y1="905" x2="1400" y2="905" stroke="rgba(255,255,255,.2)"/></svg>` },
+      bg: 'https://s1.imagehub.cc/images/2026/06/30/1842bfb144e0513aa0175381c30e5d77.webp',
+      W: 1600, H: 1000
+    };
+    function updateMarkerScale() {
+      const z = M.getZoom();
+      const scale = Math.max(0.3, 1 + z * 0.3);
+      MK.forEach(m => {
+        if (!m._loc) return;
+        const s = Math.round(m._bs * scale);
+        const l = m._loc;
+        const i = L.divIcon({ html: `<div style="width:${s}px;height:${s}px;border-radius:50%;background:${l.c};border:2px solid rgba(255,255,255,.4);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:${Math.round(s * .55)}px">${l.i}</div>`, className: '', iconSize: [s, s], iconAnchor: [s / 2, s / 2] });
+        m.setIcon(i);
+      });
+      LN.forEach(nm => {
+        if (!nm._loc) return;
+        const l = nm._loc;
+        const fs = Math.round(12 * scale);
+        const ni = L.divIcon({ html: `<div style="white-space:nowrap;font-family:'Noto Serif SC',serif;font-size:${fs}px;font-weight:600;color:${l.c};text-shadow:0 1px 3px rgba(0,0,0,.9);pointer-events:none;letter-spacing:1px">${l.n}</div>`, className: '', iconSize: [Math.round(150 * scale), Math.round(20 * scale)], iconAnchor: [Math.round(-15 * scale), Math.round(12 * scale)] });
+        nm.setIcon(ni);
+      });
+    }
+    /* Tự điều chỉnh phần trên của bản đồ theo chiều cao thanh đầu */
+    function syncMapTop(){
+      var h=document.getElementById('h');
+      var m=document.getElementById('map');
+      if(h&&m) m.style.top=h.offsetHeight+'px';
+    }
+    window.addEventListener('resize',syncMapTop);
+    new MutationObserver(syncMapTop).observe(document.getElementById('h'),{childList:true,subtree:true,attributes:true});
+
+    initMap();
+    M.on('zoomend', updateMarkerScale);
+    load('sq');
+    syncMapTop();
+  </script>
+</body>
+
+</html>
