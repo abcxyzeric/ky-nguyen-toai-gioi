@@ -5,8 +5,8 @@
     "scriptName": "Mẫu thanh trạng thái ERA",
     "disabled": false,
     "findRegex": "/<StatusPlaceHolderImpl\\/>/gsi",
-    "replaceLength": 257429,
-    "replaceSha256": "9ae0f5c70a9da4e7e12a3a4423055c9bed8fa236ac75554f05ee5b41b0fcadac",
+    "replaceLength": 257871,
+    "replaceSha256": "efd62c0d8f509a5cf6b0bb8878b770470e7b5253bae9fa78fb1e60c9f129ec91",
     "placement": [
       2
     ],

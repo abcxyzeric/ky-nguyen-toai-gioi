@@ -3216,12 +3216,13 @@ function charGrid(items){
   return '<div class="char-grid">'+items.map(function(it){
     var locked=it.locked?' locked':'';
     var rarityCls=it.rarity?(it.rarity==='SSR'?' ssr':(it.rarity==='SR'?' sr':'')):'';
+    var displayName=displayCgCharName(it.name||'');
     return '<div class="char-card'+locked+'">'+
       (it.rarity?'<span class="char-rarity'+rarityCls+'">'+it.rarity+'</span>':'')+
       '<div class="char-art" style="background-image:url(\''+it.img+'\')" onerror="this.style.background=\'linear-gradient(135deg,'+(it.bg||'rgba(157,108,255,0.3)')+',rgba(8,5,15,0.6))\'"></div>'+
       (it.locked?'<div class="char-lock"><i class="ri-lock-fill"></i></div>':'')+
       '<div class="char-overlay">'+
-        '<div class="char-name">'+it.name+'</div>'+
+        '<div class="char-name">'+displayName+'</div>'+
         '<div class="char-sub">'+it.sub+'</div>'+
       '</div>'+
     '</div>';
@@ -3390,6 +3391,14 @@ const CHAR_NAME_AV=(function(){
   m['达芬奇']=IMGS.av.davinci; m['姬子']=IMGS.av.himeko; m['爱丽丝']=IMGS.av.alice2;
   return m;
 })();
+
+/* Key ảnh tiếng Việt: cho phép dùng luôn nhãn hiển thị đã Việt hóa làm alias ảnh */
+Object.keys(CG_CHAR_LABEL_TO_ASSET).forEach(function(label){
+  var asset=CG_CHAR_LABEL_TO_ASSET[label];
+  if(asset&&CHAR_NAME_AV[asset]&&!CHAR_NAME_AV[label]){
+    CHAR_NAME_AV[label]=CHAR_NAME_AV[asset];
+  }
+});
 
 const CG_DOMAIN_LABEL={
   '星穹花园':'Vườn Tinh Khung',
@@ -3608,9 +3617,10 @@ function resolveCharAssetKey(name){
 
 function resolveCharAvatar(name){
   var key=resolveCharAssetKey(name);
-  return (typeof CHAR_NAME_AV!=='undefined' && CHAR_NAME_AV[key])
-    || (typeof charImgMap!=='undefined' && charImgMap[key])
-    || (typeof IMGS!=='undefined' && IMGS.av && IMGS.av[key])
+  var label=displayCgCharName(key);
+  return (typeof CHAR_NAME_AV!=='undefined' && (CHAR_NAME_AV[key]||CHAR_NAME_AV[label]))
+    || (typeof charImgMap!=='undefined' && (charImgMap[key]||charImgMap[label]))
+    || (typeof IMGS!=='undefined' && IMGS.av && (IMGS.av[key]||IMGS.av[label]))
     || '';
 }
 
